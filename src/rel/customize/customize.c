@@ -1063,19 +1063,33 @@ void fn_3_B984(void *entries, u8 *table) {
 }
 /* fzgx:end fn_3_B984 */
 
-/* fzgx:begin fn_3_BA74 pool noprologue */
-#include "rel/customize/customize.h"
-
+/* fzgx:begin fn_3_BA74 */
 extern u8 lbl_3_bss_6DE20[64832];
-extern void *lbl_801A6410;
 extern void *fn_1_45D0(void *, u32, void *, u32);
-extern void fn_80008BEC(void *, int, u32);
 extern void fn_80008BA8(void *, void *, u32);
 extern void *fn_1_7F254(void *, s32);
 extern void fn_1_FDC00(void);
 extern void fn_1_FE014(void);
 extern void fn_1_FD324(void);
 extern int fn_1_FD844(void *, void *);
+extern u32 lbl_3_bss_7EBA4;
+extern u32 lbl_3_bss_7EBA8;
+extern u8 lbl_3_data_11DC[84];
+extern u32 lbl_801A6410;
+extern u32 lbl_3_bss_2C7C0[66624];
+extern void fn_80008BEC(void *, s32, s32);
+
+/* the 0x440-byte object allocated into lbl_3_bss_7EBA4 */
+typedef struct {
+    u8 pad_0[0x390];
+    u32 unk_390;
+    u8 pad_394[0xC];
+    u32 unk_3A0;
+    u32 unk_3A4;
+    u8 pad_3A8[0x12];
+    u16 unk_3BA;
+} fn_3_BA74_Obj;
+#define OBJ ((fn_3_BA74_Obj *)lbl_3_bss_7EBA4)
 
 /* 0x10440-byte per-slot context in lbl_3_bss_2C7C0 */
 typedef struct {
@@ -1113,20 +1127,20 @@ typedef struct lbl_3_bss_F0_t {
 
 /* file-scope objects of the retail TU, in retail order: MWCC addresses them off one section base */
 lbl_3_bss_F0_t fzgx_obj_lbl_3_bss_F0;
-u32 lbl_3_bss_120[8];
+u32 fzgx_obj_lbl_3_bss_120[8];
 u32 fzgx_obj_lbl_3_bss_140[33217];
-u16 lbl_3_bss_20844;
-u16 lbl_3_bss_F0_gap_20846;
+u16 fzgx_obj_lbl_3_bss_20844;
+u16 fzgx_pool_gap_bss_20846;
 u32 fzgx_obj_lbl_3_bss_20848;
 
 #pragma section code_type ".fzgxpool"
 static void fzgx_bss_layout(void) {
     volatile u8 s;  /* fzgx-allow: S2 layout primer sink: MWCC emits .bss objects in first-access order */
     s = *(u8 *)&fzgx_obj_lbl_3_bss_F0;
-    s = *(u8 *)&lbl_3_bss_120;
+    s = *(u8 *)&fzgx_obj_lbl_3_bss_120;
     s = *(u8 *)&fzgx_obj_lbl_3_bss_140;
-    s = *(u8 *)&lbl_3_bss_20844;
-    s = *(u8 *)&lbl_3_bss_F0_gap_20846;
+    s = *(u8 *)&fzgx_obj_lbl_3_bss_20844;
+    s = *(u8 *)&fzgx_pool_gap_bss_20846;
     s = *(u8 *)&fzgx_obj_lbl_3_bss_20848;
 }
 #pragma section code_type ".text"
@@ -1142,12 +1156,12 @@ void fn_3_BA74(void)
     u32 off;
 
     idx = fzgx_obj_lbl_3_bss_F0.unk_8;
-    lbl_3_bss_7EBA4 = fn_1_45D0(lbl_801A6410, 0x440, lbl_3_data_11DC, 0x1281);
-    lbl_3_bss_7EBA8 = (u32)fn_1_45D0(lbl_801A6410, 0xA20, lbl_3_data_11DC, 0x1282);
-    fn_80008BEC(lbl_3_bss_7EBA4, 0, 0x440);
+    lbl_3_bss_7EBA4 = (u32)fn_1_45D0((void *)lbl_801A6410, 0x440, lbl_3_data_11DC, 0x1281);
+    lbl_3_bss_7EBA8 = (u32)fn_1_45D0((void *)lbl_801A6410, 0xA20, lbl_3_data_11DC, 0x1282);
+    fn_80008BEC((void *)lbl_3_bss_7EBA4, 0, 0x440);
     fn_80008BEC((void *)lbl_3_bss_7EBA8, 0, 0xA20);
     buf = &lbl_3_bss_7EBA8;
-    lbl_3_bss_7EBA4->unk_3A0 = *buf;
+    OBJ->unk_3A0 = *buf;
     base = (u8 *)&fzgx_obj_lbl_3_bss_140 + idx * 0x81C0;
     for (i = 0; i < 3; i++) {
         tmp_cse1 = i * 0x360;
@@ -1155,13 +1169,13 @@ void fn_3_BA74(void)
                     lbl_3_bss_6DE20 + ((*((0x81A4 + i * 8) + (base))) - i * 25) * 0xA20 + tmp_cse1,
                     0x360);
     }
-    lbl_3_bss_7EBA4->unk_390 = 0x4000000;
-    lbl_3_bss_7EBA4->unk_3A4 = (u32)fn_1_7F254(base, 2);
+    OBJ->unk_390 = 0x4000000;
+    OBJ->unk_3A4 = (u32)fn_1_7F254(base, 2);
     off = idx * sizeof(CtxSlot);
     ctx = (CtxSlot *)((u8 *)&lbl_3_bss_2C7C0 + off);
     ctx->unk_4 = 4;
-    lbl_3_bss_7EBA4->unk_3BA = 1;
-    ctx->obj = lbl_3_bss_7EBA4;
+    OBJ->unk_3BA = 1;
+    ctx->obj = (void *)lbl_3_bss_7EBA4;
     ((CtxSlotHi *)((u8 *)HI + off))->unk_8 = fn_1_FDC00;
     ((CtxSlotHi *)((u8 *)HI + off))->unk_C = fn_1_FE014;
     ((CtxSlotHi *)((u8 *)HI + off))->unk_4 = fn_1_FD324;

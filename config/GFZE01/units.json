@@ -1534,11 +1534,17 @@
     "symbols": [
       "fn_3_BA74"
     ],
-    "status": "nonmatching",
+    "status": "matching",
     "mw_version": "GC/1.3.2",
     "extra_cflags": [],
     "tu": "rel/customize/customize.c",
-    "pool": true
+    "pool": {
+      "fzgx_obj_lbl_3_bss_F0": "lbl_3_bss_F0",
+      "fzgx_obj_lbl_3_bss_120": "lbl_3_bss_120",
+      "fzgx_obj_lbl_3_bss_140": "lbl_3_bss_140",
+      "fzgx_obj_lbl_3_bss_20844": "lbl_3_bss_20844",
+      "fzgx_obj_lbl_3_bss_20848": "lbl_3_bss_20848"
+    }
   },
   {
     "module": "customize",
