@@ -8906,3 +8906,6 @@ rel/main_rel/stcoli/fn_1_3A330.c:
 
 rel/main_rel/game/fn_1_3DE80.c:
 	.text       start:0x0003DE80 end:0x0003E5D0 align:4
+
+rel/main_rel/game/fn_1_3B7D4.c:
+	.text       start:0x0003B7D4 end:0x0003C880 align:4
