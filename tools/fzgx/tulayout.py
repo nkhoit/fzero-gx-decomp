@@ -56,6 +56,7 @@ class Ref:
     op: str               # mnemonic, or 'addr' for a materialized address
     at: int               # instruction address
     root: str = ''        # the symbol whose address the base register was built from
+    direct: bool = False  # `lis r, S@ha; lwz r, S@l(r)`: addressed by name, no base register
 
 
 @dataclass
@@ -87,10 +88,10 @@ def references(p, fn) -> List[Ref]:
     pending: Dict[str, dict] = {}
     last: dict = {}
 
-    def note(st, sym: str, off: int, op: str, at: int):
+    def note(st, sym: str, off: int, op: str, at: int, direct=False):
         s = syms.get(sym)
         if s is not None and s.section in SECTIONS and s.kind == 'object':
-            out.append(Ref(s.section, s.addr + off, op, at, sym))
+            out.append(Ref(s.section, s.addr + off, op, at, sym, direct))
 
     def meet(x, y):
         if x is None:
@@ -165,7 +166,7 @@ def references(p, fn) -> List[Ref]:
             if mm:
                 rb = _reg(mm.group(4))
                 if mm.group(3) and hi.get(rb) == mm.group(3):
-                    note(state, mm.group(3), 0, base_op, at)
+                    note(state, mm.group(3), 0, base_op, at, direct=True)
                 elif rb in addr and not mm.group(3):
                     base, off = addr[rb]
                     note(state, base, off + int(mm.group(2), 0), base_op, at)
@@ -260,10 +261,18 @@ def layout(p, symbol: str) -> Dict[str, object]:
     result = dict(ok=True, symbol=sym.name, module=sym.module, sections={}, notes=[])
     for section in SECTIONS:
         srefs = [r for r in refs if r.section == section]
-        if not srefs:
-            continue
         ordered = sorted((s for s in syms.values() if s.section == section and s.kind == 'object'),
                          key=lambda s: s.addr)
+        # A symbol only ever addressed by name (its own lis/@l pair) needs no section base: it is
+        # an extern of this TU or another, and pulling it in would stretch the span across
+        # unrelated objects.
+        based = {_containing(ordered, r.addr).name for r in srefs if not r.direct}
+        named = sorted({r.root for r in srefs if r.direct and _containing(ordered, r.addr).name not in based})
+        if named:
+            result['notes'].append(f'{section}: addressed by name only, left extern: ' + ', '.join(named))
+        srefs = [r for r in srefs if not (r.direct and r.root in named)]
+        if not srefs:
+            continue
         start = min(r.addr for r in srefs)
         first = _containing(ordered, start)
         if first is None:
