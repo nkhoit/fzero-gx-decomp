@@ -639,6 +639,13 @@ Rules that hold for everyone:
   when retail hoists a base the dtk symbol hides several objects: the split-per-field variant.
   MWCC gives a named global r31 before an anonymous section base; that order is not reachable from
   C. Per-block definitions still collide at `tu-check`; the TU pass must hoist them once.
+  `fzgx tulayout SYMBOL [--output FILE]` writes that layout for a body to be written against
+  (2026-10-26): it follows the retail base registers, cuts .data/.rodata at every referenced word
+  with retail bytes and .bss at dtk symbols, names every object the way the oracle binds it, and
+  lists each retail access with its C spelling. Its output reproduces the hand layouts of
+  memcard.c's fn_1_C062C, fn_1_C0E00 and fn_1_B9DE8 (full matches, not pool-only). Initialized
+  aggregates are word-aligned and initialized scalars go after all of them, so data objects
+  are u8 arrays; .bss is emitted first (data first swapped the two base registers).
 - Paired-single vector kernels (2026-09-15): retail's `psq_l/psq_st` displacement forms come
   only from inline-assembly helpers; `include/psvec.h` carries the validated set, the lifter
   substitutes recognised kernels (`psvec.kernels`) and `fixup` rewrites statement triples

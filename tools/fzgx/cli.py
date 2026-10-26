@@ -230,6 +230,23 @@ def cmd_structmap(a, p):
     return 0 if r['ok'] else 2
 
 
+def cmd_tulayout(a, p):
+    from . import tulayout
+    r = tulayout.layout(p, a.symbol)
+    if a.json:
+        print(json.dumps({**r, 'sections': {k: {**v, 'data': None, 'pieces': [
+            {'name': x.name, 'addr': x.addr, 'size': x.size, 'type': x.ctype, 'scalar': x.scalar,
+             'refs': [{'at': f'{q.at:08X}', 'op': q.op, 'addr': q.addr} for q in x.refs]} for x in v['pieces']]}
+            for k, v in r.get('sections', {}).items()}}, indent=2))
+    else:
+        text = tulayout.render(r)
+        if a.output:
+            Path(a.output).write_text(text)
+        else:
+            print(text, end='')
+    return 0 if r['ok'] else 2
+
+
 def cmd_flagcell(a, p):
     from . import flagcell, api as _api
     body = Path(a.body).read_text() if a.body else _api._attempt_text(p, a.symbol)
@@ -677,6 +694,8 @@ def build_parser() -> argparse.ArgumentParser:
     s = sub.add_parser('structmap', help='retail struct fingerprint: which field offsets each base register touches'); s.set_defaults(fn=cmd_structmap)
     s.add_argument('symbol'); s.add_argument('--body', help='compare retail offsets against this candidate body instead of printing the retail fingerprint'); s.add_argument('--mw-version', default=None)
     s.add_argument('--skeleton', action='store_true', help='infer a struct layout for one base register from the widths retail touches (provisional)'); s.add_argument('--base', default=None, help='base register for --skeleton (default: the most-accessed)')
+    s = sub.add_parser('tulayout', help="the retail TU section layout a function addresses off section bases, as C definitions (retail bytes, oracle-bound names, primers) to write its body against"); s.set_defaults(fn=cmd_tulayout)
+    s.add_argument('symbol'); s.add_argument('--output', default=None, help='write the C definitions to this file instead of stdout')
     s = sub.add_parser('flagcell', help='name what a compiler setting did, by diffing our own two objects'); s.set_defaults(fn=cmd_flagcell)
     s.add_argument('symbol')
     s.add_argument('--body', help='source to probe (default: the saved body)')
