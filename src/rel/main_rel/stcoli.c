@@ -16422,6 +16422,213 @@ void fn_1_2DB50(Obj_1_bss_5138 *obj) {
 }
 /* fzgx:end fn_1_2DB50 */
 
+/* fzgx:begin fn_1_2DE00 noprologue */
+#include "types.h"
+#include "rel/main_rel/globals.h"
+#include "rel/main_rel/game.h"
+
+typedef u32 (*GameStepFn)(void);
+typedef s32 (*GameModeFn)(void);
+typedef struct {
+    u32 unk_0;
+    u8 pad_4[2];
+    u16 unk_6;
+    u8 unk_8;
+    u8 unk_9;
+    u8 pad_A[0x9];
+    u8 unk_13[5];
+    u8 pad_18[0x68];
+    u8 unk_80;
+    u8 unk_81;
+    u8 unk_82;
+    u8 unk_83;
+    u8 pad_84[0x1C];
+} GamePlayer;
+typedef struct {
+    u32 unk_0;
+    u8 pad_4;
+    u8 unk_5;
+    u8 unk_6;
+    u8 unk_7;
+    u8 unk_8;
+    u8 unk_9;
+    u8 unk_A;
+    u8 unk_B;
+    u8 unk_C;
+    u8 unk_D;
+    u8 unk_E[4];
+    u8 pad_12[0xA4 - 0x12];
+    u16 unk_A4;
+    u8 unk_A6;
+    u8 unk_A7;
+    u8 pad_A8[4];
+    GameStepFn unk_AC;
+    GameStepFn unk_B0;
+    GameStepFn unk_B4;
+    GameStepFn unk_B8;
+    GameStepFn unk_BC;
+    GameStepFn unk_C0;
+    u32 unk_C4;
+    GameStepFn unk_C8;
+    GameModeFn unk_CC;
+    u8 pad_D0[0x4];
+    GamePlayer players[4];
+    u8 pad_354[0x13F6 - 0x354];
+    u8 unk_13F6;
+    u8 pad_13F7[0x1474 - 0x13F7];
+    u32 unk_1474;
+    u16 unk_1478[4];
+    u32 unk_1480[4];
+    u8 pad_1490[0x14B8 - 0x1490];
+} GameState;
+typedef struct {
+    void *unk_0;
+    u8 unk_4;
+    u8 unk_5;
+    u8 unk_6;
+    u8 pad_7;
+} GameSlotEntry;
+typedef struct {
+    GameSlotEntry entries[30];
+    GamePlayer player;
+    u8 unk_190;
+    u8 unk_191;
+    u8 unk_192;
+    u8 pad_193;
+    u8 unk_194[4];
+} GameSlotTable;
+typedef struct {
+    u8 pad_0[3];
+    u8 unk_3;
+    u8 pad_4[0x2C];
+} GameObj5108;
+typedef struct {
+    u8 pad_0[0xD8];
+    f32 unk_D8;
+    u8 pad_DC[0x475 - 0xDC];
+    u8 unk_475;
+    u8 pad_476[0x482 - 0x476];
+    u8 unk_482;
+    u8 pad_483[0x49C - 0x483];
+    void *unk_49C;
+} GameRacer;
+typedef struct {
+    u8 pad_0[0x1FC];
+} GameRaceRecord;
+typedef struct {
+    u8 pad_0[0x328];
+    s8 unk_328;
+} GameCar;
+u32 fzgx_obj_lbl_1_bss_3C00;
+u32 fzgx_obj_lbl_1_bss_3C04;
+u32 fzgx_obj_lbl_1_bss_3C08;
+s32 lbl_1_bss_3C08__fzgx_offset_4;
+u8 fzgx_obj_lbl_1_bss_3C10;
+u8 fzgx_obj_lbl_1_bss_3C11;
+u8 fzgx_obj_lbl_1_bss_3C12;
+u8 lbl_1_bss_3C12__fzgx_offset_1;
+u8 lbl_1_bss_3C12__fzgx_offset_2[0x8];
+u8 fzgx_obj_lbl_1_bss_3C1C[0xE];
+s16 fzgx_obj_lbl_1_bss_3C2A;
+u32 lbl_1_bss_3C2A__fzgx_offset_2;
+GameState fzgx_obj_lbl_1_bss_3C30;
+s16 lbl_1_bss_3C30__fzgx_offset_14B8[2];
+u16 fzgx_obj_lbl_1_bss_50EC[0x8];
+s16 lbl_1_bss_50EC__fzgx_offset_10;
+u16 lbl_1_bss_50EC__fzgx_offset_12;
+u32 fzgx_obj_lbl_1_bss_5100;
+u8 fzgx_obj_lbl_1_bss_5104[0x4];
+GameObj5108 lbl_1_bss_5104__fzgx_offset_4;
+u8 fzgx_obj_lbl_1_bss_5138[0x104];
+u8 fzgx_obj_lbl_1_bss_523C[0x20];
+GameSlotTable fzgx_obj_lbl_1_bss_525C;
+u16 fzgx_obj_lbl_1_bss_53F4;
+u8 fzgx_pool_gap_bss_53F6;
+u8 fzgx_pool_gap_bss_53F7;
+u32 fzgx_obj_lbl_1_bss_53F8[0x22];
+#pragma section code_type ".fzgxpool"
+static void fzgx_bss_layout(void) {
+    volatile u8 s;  /* fzgx-allow: S2 layout primer sink: MWCC emits .bss objects in first-access order */
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C00;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C04;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C08;
+    s = *(u8 *)&lbl_1_bss_3C08__fzgx_offset_4;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C10;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C11;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C12;
+    s = *(u8 *)&lbl_1_bss_3C12__fzgx_offset_1;
+    s = *(u8 *)&lbl_1_bss_3C12__fzgx_offset_2;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C1C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C2A;
+    s = *(u8 *)&lbl_1_bss_3C2A__fzgx_offset_2;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C30;
+    s = *(u8 *)&lbl_1_bss_3C30__fzgx_offset_14B8;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_50EC;
+    s = *(u8 *)&lbl_1_bss_50EC__fzgx_offset_10;
+    s = *(u8 *)&lbl_1_bss_50EC__fzgx_offset_12;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5100;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5104;
+    s = *(u8 *)&lbl_1_bss_5104__fzgx_offset_4;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5138;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_523C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_525C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_53F4;
+    s = *(u8 *)&fzgx_pool_gap_bss_53F6;
+    s = *(u8 *)&fzgx_pool_gap_bss_53F7;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_53F8;
+}
+#pragma section code_type ".text"
+typedef struct {
+    u8 pad_0[0x81C0];
+} GameRaceBuf;
+extern void fn_1_3F2A0(void);
+extern s32 fn_1_8623C(void);
+extern void fn_80008BA8(void *, void *, u32);
+
+#pragma opt_loop_invariants off
+void fn_1_2DE00(s32 arg0)
+{
+    s32 i;
+    GameRaceBuf *buf;
+    s32 j;
+    GameSlotEntry *e;
+    GamePlayer *p;
+
+    if (fzgx_obj_lbl_1_bss_3C30.unk_0 & 0x00400000) {
+        return;
+    }
+    fn_1_3F2A0();
+    buf = (GameRaceBuf *)lbl_1_bss_5480;
+    fzgx_obj_lbl_1_bss_525C.unk_192 = 0;
+    for (i = 0, j = 0; j < 30 && i < fzgx_obj_lbl_1_bss_3C30.unk_9; i++, j++) {
+        p = &fzgx_obj_lbl_1_bss_3C30.players[i];
+        e = &fzgx_obj_lbl_1_bss_525C.entries[p->unk_8];
+        e->unk_4 = p->unk_80;
+        e->unk_5 = p->unk_82;
+        e->unk_6 = fzgx_obj_lbl_1_bss_523C[i];
+        if (fzgx_obj_lbl_1_bss_53F8[i] != 0) {
+            e->unk_0 = &buf[i];
+        } else {
+            e->unk_0 = NULL;
+        }
+    }
+    p = &fzgx_obj_lbl_1_bss_3C30.players[fn_1_8623C()];
+    p->unk_6 = 0;
+    p->unk_6 += p->unk_13[0];
+    p->unk_6 += p->unk_13[1];
+    p->unk_6 += p->unk_13[2];
+    p->unk_6 += p->unk_13[3];
+    p->unk_6 += p->unk_13[4];
+    fn_80008BA8(&fzgx_obj_lbl_1_bss_525C.player, p, sizeof(GamePlayer));
+    fzgx_obj_lbl_1_bss_525C.unk_191 = 0;
+    if (arg0 != 0) {
+        fzgx_obj_lbl_1_bss_525C.unk_190 = fzgx_obj_lbl_1_bss_3C30.unk_7;
+        fzgx_obj_lbl_1_bss_3C30.unk_0 |= 0x00400000;
+    }
+}
+#pragma opt_loop_invariants reset
+/* fzgx:end fn_1_2DE00 */
+
 /* fzgx:begin fn_1_2DF98 noprologue */
 #include "types.h"
 #include "dolphin/types.h"
