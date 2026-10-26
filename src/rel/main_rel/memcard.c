@@ -8238,6 +8238,202 @@ u32 fn_1_B8170(s32 card) {
 }
 /* fzgx:end fn_1_B8170 */
 
+/* fzgx:begin fn_1_B8338 noprologue */
+#include "types.h"
+#include "dolphin/card.h"
+
+typedef struct {
+    u8 pad_0;
+    s8 state;
+    u8 pad_2[0xA];
+    void *work;
+    u8 pad_10[0x2C];
+    s32 freeBytes;
+    s32 freeFiles;
+    u8 pad_44[0x5C];
+} MemcardChan;
+/* .bss: lbl_1_bss_716C0 +[0, 0x5CC0) */
+u32 fzgx_obj_lbl_1_bss_716C0[0x2];
+MemcardChan fzgx_obj_lbl_1_bss_716C8[2];
+u32 fzgx_obj_lbl_1_bss_71808;
+u32 fzgx_obj_lbl_1_bss_7180C;
+u8 fzgx_obj_lbl_1_bss_71810[0xA1];
+u8 fzgx_obj_lbl_1_bss_718B1;
+u8 fzgx_obj_lbl_1_bss_718B2;
+u8 fzgx_pool_gap_bss_718B3;
+u32 fzgx_obj_lbl_1_bss_718B4;
+u8 fzgx_obj_lbl_1_bss_718B8;
+u8 fzgx_obj_lbl_1_bss_718B9;
+u8 lbl_1_bss_718B9__fzgx_offset_1;
+u8 lbl_1_bss_718B9__fzgx_offset_2;
+u32 lbl_1_bss_718B9__fzgx_offset_3;
+u32 fzgx_obj_lbl_1_bss_718C0[0x8];
+u8 fzgx_obj_lbl_1_bss_718E0[0x59E8];
+u8 fzgx_obj_lbl_1_bss_772C8[0x42];
+u8 fzgx_obj_lbl_1_bss_7730A;
+u8 fzgx_pool_gap_bss_7730B;
+u32 fzgx_obj_lbl_1_bss_7730C;
+u32 fzgx_obj_lbl_1_bss_77310[0x9];
+s32 lbl_1_bss_77310__fzgx_offset_24;
+u8 lbl_1_bss_77310__fzgx_offset_28;
+u8 lbl_1_bss_77310__fzgx_offset_29;
+u8 lbl_1_bss_77310__fzgx_offset_2A;
+u8 lbl_1_bss_77310__fzgx_offset_2B;
+u32 lbl_1_bss_77310__fzgx_offset_2C[2];
+s32 lbl_1_bss_77310__fzgx_offset_34[2][6];
+u8 lbl_1_bss_77310__fzgx_offset_64[0xC];
+#pragma section code_type ".fzgxpool"
+static void fzgx_bss_layout(void) {
+    volatile u8 s;  /* fzgx-allow: S2 layout primer sink: MWCC emits .bss objects in first-access order */
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_716C0;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_716C8;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_71808;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_7180C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_71810;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718B1;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718B2;
+    s = *(u8 *)&fzgx_pool_gap_bss_718B3;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718B4;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718B8;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718B9;
+    s = *(u8 *)&lbl_1_bss_718B9__fzgx_offset_1;
+    s = *(u8 *)&lbl_1_bss_718B9__fzgx_offset_2;
+    s = *(u8 *)&lbl_1_bss_718B9__fzgx_offset_3;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718C0;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_718E0;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_772C8;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_7730A;
+    s = *(u8 *)&fzgx_pool_gap_bss_7730B;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_7730C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_77310;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_24;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_28;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_29;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_2A;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_2B;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_2C;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_34;
+    s = *(u8 *)&lbl_1_bss_77310__fzgx_offset_64;
+}
+#pragma section code_type ".text"
+
+typedef struct {
+    u8 pad_0[0x1F];
+    u8 type;
+    u8 pad_20[0x20];
+    u32 size;
+    u8 pad_44[8];
+} MemcardFile;
+extern const MemcardFile lbl_1_rodata_4AE0[];
+extern char lbl_1_data_3C7B8[];
+extern s16 lbl_1_bss_962;
+extern u32 lbl_801A6410;
+extern void *fn_1_45D0(u32, u32, const char *, int);
+extern void fn_1_46B4(u32, void *, const char *, int);
+extern s32 fn_8002DFE0(s32, void *, CARDCallback);
+extern u32 fn_1_B8170(s32);
+
+static inline s32 fileBlocks(MemcardChan *c, s32 i)
+{
+    s32 freeBytes = c->freeBytes;
+    s32 n = (lbl_1_rodata_4AE0[i].size + 0x405F) & ~0x1FFF;
+    n /= 0x2000;
+    if (lbl_1_rodata_4AE0[i].size == 0) {
+        if (lbl_1_rodata_4AE0[i].type == 4) {
+            n = 3;
+        } else if (lbl_1_rodata_4AE0[i].type == 5) {
+            n = 13;
+        } else if (lbl_1_rodata_4AE0[i].type == 2) {
+            n = 3;
+        }
+    }
+    if (c->freeFiles <= 0) {
+        return -n;
+    }
+    if (freeBytes - n >= 0) {
+        return n;
+    }
+    return -n;
+}
+
+s32 fn_1_B8338(s32 chan)
+{
+    MemcardChan *c;
+    s32 result;
+    BOOL ok;
+
+    lbl_1_bss_77310__fzgx_offset_24 = 0;
+    lbl_1_bss_77310__fzgx_offset_28 = 1;
+    lbl_1_bss_77310__fzgx_offset_29 = chan;
+    ok = FALSE;
+    if (fzgx_obj_lbl_1_bss_716C8[chan].state != -1 && fzgx_obj_lbl_1_bss_716C8[chan].state != -3) {
+        ok = TRUE;
+    }
+    if (!ok) {
+        return 0;
+    }
+    c = &fzgx_obj_lbl_1_bss_716C8[chan];
+    c->work = fn_1_45D0(lbl_801A6410, 0xA000, lbl_1_data_3C7B8, 0x256D);
+    while ((result = fn_8002DFE0(chan, c->work, NULL)) == -1) {
+    }
+    if (result != 0 && result != -6) {
+        if (c->work != NULL) {
+            fn_1_46B4(lbl_801A6410, c->work, lbl_1_data_3C7B8, 0x2573);
+            c->work = NULL;
+        }
+    } else {
+        s32 r;
+        while ((r = CARDCheck(chan)) == -1) {
+        }
+        result = r;
+    }
+    if (result != 0) {
+        while (CARDUnmount(chan) == -1) {
+        }
+        if (c->work != NULL) {
+            fn_1_46B4(lbl_801A6410, c->work, lbl_1_data_3C7B8, 0x258C);
+            c->work = NULL;
+        }
+        return 0;
+    }
+    while ((result = CARDFreeBlocks(chan, &c->freeBytes, &c->freeFiles)) == -1) {
+    }
+    if (result != 0) {
+        c->freeBytes = -1;
+        c->freeFiles = -1;
+    } else {
+        c->freeBytes /= 0x2000;
+    }
+    lbl_1_bss_77310__fzgx_offset_2C[chan] = fn_1_B8170(chan);
+    lbl_1_bss_77310__fzgx_offset_34[chan][1] = fileBlocks(c, 1);
+    lbl_1_bss_77310__fzgx_offset_34[chan][3] = fileBlocks(c, 3);
+    lbl_1_bss_77310__fzgx_offset_34[chan][2] = fileBlocks(c, 2);
+    lbl_1_bss_77310__fzgx_offset_34[chan][4] = fileBlocks(c, 4);
+    lbl_1_bss_77310__fzgx_offset_34[chan][5] = fileBlocks(c, 5);
+    while (CARDUnmount(chan) == -1) {
+    }
+    if (c->work != NULL) {
+        fn_1_46B4(lbl_801A6410, c->work, lbl_1_data_3C7B8, 0x258C);
+        c->work = NULL;
+    }
+    if (lbl_1_bss_962 == 100) {
+        if ((lbl_1_bss_77310__fzgx_offset_34[chan][4] < 0 && !(lbl_1_bss_77310__fzgx_offset_2C[chan] & 0x10)) || c->freeFiles <= 0) {
+            return 1;
+        }
+        return 0;
+    }
+    if ((lbl_1_bss_77310__fzgx_offset_34[chan][1] < 0 && !(lbl_1_bss_77310__fzgx_offset_2C[chan] & 0x2)) ||
+        (lbl_1_bss_77310__fzgx_offset_34[chan][3] < 0 && !(lbl_1_bss_77310__fzgx_offset_2C[chan] & 0x8)) ||
+        (lbl_1_bss_77310__fzgx_offset_34[chan][2] < 0 && !(lbl_1_bss_77310__fzgx_offset_2C[chan] & 0x4)) ||
+        (lbl_1_bss_77310__fzgx_offset_34[chan][4] < 0 && !(lbl_1_bss_77310__fzgx_offset_2C[chan] & 0x10)) ||
+        (lbl_1_bss_77310__fzgx_offset_34[chan][5] < 0 && !(lbl_1_bss_77310__fzgx_offset_2C[chan] & 0x20)) ||
+        c->freeFiles <= 0) {
+        return 1;
+    }
+    return 0;
+}
+/* fzgx:end fn_1_B8338 */
+
 /* fzgx:begin fn_1_B88C4 noprologue */
 #include "dolphin/types.h"
 #include "dolphin/card.h"
