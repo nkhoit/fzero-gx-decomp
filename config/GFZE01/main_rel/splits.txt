@@ -8900,3 +8900,6 @@ rel/main_rel/memcard/fn_1_B8338.c:
 
 rel/main_rel/memcard/fn_1_B9DE8.c:
 	.text       start:0x000B9DE8 end:0x000BA144 align:4
+
+rel/main_rel/game/fn_1_33A20.c:
+	.text       start:0x00033A20 end:0x00034924 align:4
