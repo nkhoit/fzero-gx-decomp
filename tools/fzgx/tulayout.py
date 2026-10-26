@@ -57,6 +57,7 @@ class Ref:
     at: int               # instruction address
     root: str = ''        # the symbol whose address the base register was built from
     direct: bool = False  # `lis r, S@ha; lwz r, S@l(r)`: addressed by name, no base register
+    obj: int = -1         # start of the object when reached through a pointer to it (a field)
 
 
 @dataclass
@@ -74,6 +75,43 @@ def _reg(text: str) -> Optional[int]:
     return int(m.group(1)) if m else None
 
 
+def _loop_writes(asm) -> Dict[str, set]:
+    """Registers written inside each loop, keyed by the label a backward branch returns to: a
+    pointer stepped through an array (`addi r25, r25, 0xa0`) is a variable, not a section base."""
+    labels: Dict[str, int] = {}
+    writes: Dict[str, set] = {}
+    lines = list(asm)
+    for i, line in enumerate(lines):
+        t = line.strip()
+        if t.endswith(':') and not _LINE.match(line):
+            labels[t[:-1]] = i
+            continue
+        m = _LINE.match(line)
+        if not m or not m.group(1).startswith('b'):
+            continue
+        target = re.search(r'(\.L_[0-9A-Fa-f]+)$', m.group(2) or '')
+        if not target or target.group(1) not in labels:
+            continue
+        regs = writes.setdefault(target.group(1), set())
+        for body in lines[labels[target.group(1)]:i]:
+            mm = _LINE.match(body)
+            if not mm:
+                continue
+            op = mm.group(1).rstrip('.+-')
+            parts = [x.strip() for x in mm.group(2).split(',')] if mm.group(2) else []
+            if op in ('bl', 'bctrl', 'blrl'):
+                regs |= VOLATILE
+            elif parts and not op.startswith(('cmp', 'st', 'mt', 'tw', 'dcb', 'icb', 'b')):
+                r = _reg(parts[0])
+                if r is not None:
+                    regs.add(r)
+            if op.endswith('u') and len(parts) >= 2:
+                mem = _MEM.match(', '.join(parts[:2]))
+                if mem:
+                    regs.add(_reg(mem.group(4)))
+    return writes
+
+
 def references(p, fn) -> List[Ref]:
     """Every same-module data/rodata/bss address the function loads, stores or materializes.
 
@@ -81,17 +119,19 @@ def references(p, fn) -> List[Ref]:
     `addi`/`mr` carry it, a displacement access through it is a reference. Any other write kills
     the register, a call kills the volatile ones, and a label keeps only what every forward
     branch into it agrees on (a pointer chosen on two paths is a variable, not a base). A label
-    reached only by a backward branch or a jump table keeps the callee-saved registers."""
+    reached only by a backward branch or a jump table keeps the callee-saved registers, less
+    the ones its loop body writes."""
     syms = p.symbols(fn.symbol.module)
     out: List[Ref] = []
     state: Optional[dict] = {}
     pending: Dict[str, dict] = {}
     last: dict = {}
 
-    def note(st, sym: str, off: int, op: str, at: int, direct=False):
+    def note(st, sym: str, off: int, op: str, at: int, direct=False, obj=None):
         s = syms.get(sym)
         if s is not None and s.section in SECTIONS and s.kind == 'object':
-            out.append(Ref(s.section, s.addr + off, op, at, sym, direct))
+            out.append(Ref(s.section, s.addr + off, op, at, sym, direct,
+                           -1 if obj is None else s.addr + obj))
 
     def meet(x, y):
         if x is None:
@@ -100,13 +140,14 @@ def references(p, fn) -> List[Ref]:
             return dict(x)
         return {k: v for k, v in x.items() if y.get(k) == v}
 
+    loop_writes = _loop_writes(fn.asm)
     for line in fn.asm:
         label = line.strip()
         if label.endswith(':') and not _LINE.match(line):
             merged = meet(state, pending.pop(label[:-1], None))
             if merged is None:
                 merged = {k: v for k, v in last.items() if k[1] >= 13}
-            state = merged
+            state = {k: v for k, v in merged.items() if k[1] not in loop_writes.get(label[:-1], ())}
             continue
         m = _LINE.match(line)
         if not m or state is None:
@@ -135,11 +176,11 @@ def references(p, fn) -> List[Ref]:
             continue
         if op in ('addis', 'subi') and len(parts) == 3 and _reg(parts[1]) in addr \
                 and re.fullmatch(r'-?(0x[0-9A-Fa-f]+|\d+)', parts[2]):
-            base, off = addr[_reg(parts[1])]
+            base, off, obj = addr[_reg(parts[1])]
             imm = int(parts[2], 0)
             off += (imm << 16) if op == 'addis' else -imm
             kill(dest)
-            state[('addr', dest)] = (base, off)
+            state[('addr', dest)] = (base, off, obj)
             if op == 'subi':
                 note(state, base, off, 'addr', at)
             continue
@@ -147,13 +188,15 @@ def references(p, fn) -> List[Ref]:
             src = _reg(parts[1])
             if parts[2].endswith('@l') and hi.get(src) == parts[2][:-2]:
                 kill(dest)
-                state[('addr', dest)] = (parts[2][:-2], 0)
+                state[('addr', dest)] = (parts[2][:-2], 0, None)
                 note(state, parts[2][:-2], 0, 'addr', at)
                 continue
             if src in addr and src != dest and re.fullmatch(r'-?(0x[0-9A-Fa-f]+|\d+)', parts[2]):
-                base, off = addr[src]
+                base, off, obj = addr[src]
                 kill(dest)
-                state[('addr', dest)] = (base, off + int(parts[2], 0))
+                # a pointer formed off the section base is the address of an object: what it
+                # then reaches by displacement are that object's fields
+                state[('addr', dest)] = (base, off + int(parts[2], 0), off + int(parts[2], 0) if obj is None else obj)
                 note(state, base, off + int(parts[2], 0), 'addr', at)
                 continue
         if op == 'mr' and len(parts) == 2 and _reg(parts[1]) in addr:
@@ -168,8 +211,8 @@ def references(p, fn) -> List[Ref]:
                 if mm.group(3) and hi.get(rb) == mm.group(3):
                     note(state, mm.group(3), 0, base_op, at, direct=True)
                 elif rb in addr and not mm.group(3):
-                    base, off = addr[rb]
-                    note(state, base, off + int(mm.group(2), 0), base_op, at)
+                    base, off, obj = addr[rb]
+                    note(state, base, off + int(mm.group(2), 0), base_op, at, obj=obj)
                 if op != base_op:
                     kill(rb)  # update forms move the base
             if op.startswith(('l', 'psq_l')) and dest is not None and parts[0].startswith('r'):
@@ -298,6 +341,10 @@ def layout(p, symbol: str) -> Dict[str, object]:
         if section == '.bss':
             cuts |= {s.addr for s in ordered if start <= s.addr < end}
             cuts |= {s.addr + s.size for s in ordered if start < s.addr + s.size < end}
+        # A field reached through an object pointer belongs to that object, however small dtk
+        # sized the symbol at its start.
+        fields = [(r.obj, r.addr + WIDTH.get(r.op, 1)) for r in srefs if r.obj >= 0 and r.addr > r.obj]
+        cuts = {c for c in cuts if not any(o < c < z for o, z in fields)}
         cuts = sorted(c for c in cuts if start <= c <= end)
         if section != '.bss':
             # MWCC places every initialized aggregate on a word boundary and emits initialized
