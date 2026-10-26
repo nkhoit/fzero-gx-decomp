@@ -59883,6 +59883,20 @@
   },
   {
     "module": "main_rel",
+    "source": "rel/main_rel/memcard/fn_1_B9DE8.c",
+    "symbols": [
+      "fn_1_B9DE8"
+    ],
+    "status": "matching",
+    "mw_version": "GC/1.3.2",
+    "extra_cflags": [],
+    "tu": "rel/main_rel/memcard.c",
+    "pool": {
+      "...data.0": "lbl_1_data_35AC8"
+    }
+  },
+  {
+    "module": "main_rel",
     "source": "rel/main_rel/memcard/fn_1_BA144.c",
     "symbols": [
       "fn_1_BA144"

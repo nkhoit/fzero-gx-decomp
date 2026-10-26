@@ -9074,3 +9074,6 @@ rel/main_rel/stcoli/fn_1_1FDB0.c:
 
 rel/main_rel/screen_effect/fn_1_7B2E8.c:
 	.text       start:0x0007B2E8 end:0x0007B4C0 align:4
+
+rel/main_rel/memcard/fn_1_B9DE8.c:
+	.text       start:0x000B9DE8 end:0x000BA144 align:4
