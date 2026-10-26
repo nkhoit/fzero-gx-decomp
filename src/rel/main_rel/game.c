@@ -819,6 +819,335 @@ void fn_1_2FDBC(struct fn_1_2FDBC_arg *arg0) {
 }
 /* fzgx:end fn_1_2FDBC */
 
+/* fzgx:begin fn_1_3181C noprologue */
+#include "types.h"
+#include "rel/main_rel/globals.h"
+#include "rel/main_rel/game.h"
+
+typedef struct {
+    u8 pad_0[6];
+    s16 unk_6;
+    u8 pad_8[0x34];
+    u8 unk_3C[0x438];
+    u8 unk_474;
+    s8 unk_475;
+    u8 pad_476[0x26];
+    u32 unk_49C;
+    u8 pad_4A0[0x180];
+} GameResult;
+typedef struct {
+    u32 unk_0;
+    u8 pad_4[0x1E];
+    u16 unk_22;
+    u8 pad_24[0x58];
+    u8 unk_7C;
+    u8 unk_7D;
+    u8 unk_7E;
+    u8 pad_7F;
+    u8 unk_80;
+    u8 unk_81;
+    u8 unk_82;
+    u8 pad_83;
+    u16 unk_84;
+    u16 unk_86;
+    u16 unk_88;
+    u16 unk_8A;
+    u16 unk_8C;
+    u16 unk_8E;
+    u32 unk_90;
+    u32 unk_94;
+    u16 unk_98;
+    u16 unk_9A;
+    u16 unk_9C;
+    u8 pad_9E[2];
+} GamePlayer;
+typedef struct {
+    u8 pad_0[5];
+    u8 unk_5;
+    u8 pad_6[2];
+    u8 unk_8;
+    u8 unk_9;
+    u8 pad_A[0x22];
+    u32 unk_2C[4];
+    u8 pad_3C[0x98];
+    GamePlayer players[4];
+    u8 pad_354[0x1394 - 0x354];
+    u8 unk_1394[4];
+    u8 pad_1398[0x14BC - 0x1398];
+} GameState;
+typedef struct {
+    u8 unk_0;
+    u8 unk_1;
+    u8 pad_2[9];
+    u8 unk_B;
+} GameSub;
+typedef struct {
+    u8 pad_0[5];
+    u8 unk_5;
+    u8 pad_6[0x819A];
+    u8 unk_81A0;
+    u8 pad_81A1[3];
+    u8 unk_81A4;
+    u8 pad_81A5[7];
+    u8 unk_81AC;
+    u8 pad_81AD[7];
+    u8 unk_81B4;
+    u8 pad_81B5[0xB];
+} GameRacer;
+typedef struct {
+    u16 unk_0;
+    u8 pad_2[2];
+    u32 unk_4;
+    u8 unk_8;
+    u8 pad_9[3];
+    u32 unk_C;
+    u8 pad_10[0x10];
+} GameEntry;
+/* .bss: lbl_1_bss_3C00 +[0, 0x22702) */
+u32 fzgx_obj_lbl_1_bss_3C00;
+u32 fzgx_obj_lbl_1_bss_3C04;
+u32 fzgx_obj_lbl_1_bss_3C08[0x2];
+u8 fzgx_obj_lbl_1_bss_3C10;
+u8 fzgx_obj_lbl_1_bss_3C11;
+u8 fzgx_obj_lbl_1_bss_3C12;
+u8 lbl_1_bss_3C12__fzgx_offset_1;
+u8 lbl_1_bss_3C12__fzgx_offset_2[0x8];
+u8 fzgx_obj_lbl_1_bss_3C1C[0xE];
+u8 fzgx_obj_lbl_1_bss_3C2A;
+u8 lbl_1_bss_3C2A__fzgx_offset_1;
+u32 lbl_1_bss_3C2A__fzgx_offset_2;
+GameState fzgx_obj_lbl_1_bss_3C30;
+u16 fzgx_obj_lbl_1_bss_50EC[0xA];
+u32 fzgx_obj_lbl_1_bss_5100;
+u8 fzgx_obj_lbl_1_bss_5104[0x34];
+u8 fzgx_obj_lbl_1_bss_5138[0x104];
+u8 fzgx_obj_lbl_1_bss_523C[0x20];
+u8 fzgx_obj_lbl_1_bss_525C[0x198];
+u16 fzgx_obj_lbl_1_bss_53F4;
+u8 fzgx_pool_gap_bss_53F6;
+u8 fzgx_pool_gap_bss_53F7;
+GameSub *fzgx_obj_lbl_1_bss_53F8[0x22];
+GameRacer fzgx_obj_lbl_1_bss_5480[4];
+u16 fzgx_obj_lbl_1_bss_25B80;
+u8 fzgx_pool_gap_bss_25B82;
+u8 fzgx_pool_gap_bss_25B83;
+u32 fzgx_obj_lbl_1_bss_25B84;
+u32 fzgx_obj_lbl_1_bss_25B88[0x4];
+u16 fzgx_obj_lbl_1_bss_25B98;
+u8 fzgx_pool_gap_bss_25B9A;
+u8 fzgx_pool_gap_bss_25B9B;
+u32 fzgx_obj_lbl_1_bss_25B9C;
+u32 fzgx_obj_lbl_1_bss_25BA0[0x2A];
+s16 fzgx_obj_lbl_1_bss_25C48[0x2E];
+u32 fzgx_obj_lbl_1_bss_25CA4[0xB];
+u32 fzgx_obj_lbl_1_bss_25CD0[0x69];
+u32 fzgx_obj_lbl_1_bss_25E74[0x7];
+u8 fzgx_obj_lbl_1_bss_25E90[0x8];
+u32 fzgx_obj_lbl_1_bss_25E98;
+GameEntry fzgx_obj_lbl_1_bss_25E9C[0x1E];
+u8 fzgx_obj_lbl_1_bss_2625C[0x20];
+u32 fzgx_obj_lbl_1_bss_2627C[0x1E];
+u8 fzgx_obj_lbl_1_bss_262F4;
+u8 fzgx_pool_gap_bss_262F5;
+u8 fzgx_pool_gap_bss_262F6;
+u8 fzgx_pool_gap_bss_262F7;
+u32 fzgx_obj_lbl_1_bss_262F8;
+u8 lbl_1_bss_262F8__fzgx_offset_4[4];
+u16 fzgx_obj_lbl_1_bss_26300;
+#pragma section code_type ".fzgxpool"
+static void fzgx_bss_layout(void) {
+    volatile u8 s;  /* fzgx-allow: S2 layout primer sink: MWCC emits .bss objects in first-access order */
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C00;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C04;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C08;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C10;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C11;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C12;
+    s = *(u8 *)&lbl_1_bss_3C12__fzgx_offset_1;
+    s = *(u8 *)&lbl_1_bss_3C12__fzgx_offset_2;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C1C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C2A;
+    s = *(u8 *)&lbl_1_bss_3C2A__fzgx_offset_1;
+    s = *(u8 *)&lbl_1_bss_3C2A__fzgx_offset_2;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_3C30;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_50EC;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5100;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5104;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5138;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_523C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_525C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_53F4;
+    s = *(u8 *)&fzgx_pool_gap_bss_53F6;
+    s = *(u8 *)&fzgx_pool_gap_bss_53F7;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_53F8;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_5480;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25B80;
+    s = *(u8 *)&fzgx_pool_gap_bss_25B82;
+    s = *(u8 *)&fzgx_pool_gap_bss_25B83;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25B84;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25B88;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25B98;
+    s = *(u8 *)&fzgx_pool_gap_bss_25B9A;
+    s = *(u8 *)&fzgx_pool_gap_bss_25B9B;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25B9C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25BA0;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25C48;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25CA4;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25CD0;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25E74;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25E90;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25E98;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_25E9C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_2625C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_2627C;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_262F4;
+    s = *(u8 *)&fzgx_pool_gap_bss_262F5;
+    s = *(u8 *)&fzgx_pool_gap_bss_262F6;
+    s = *(u8 *)&fzgx_pool_gap_bss_262F7;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_262F8;
+    s = *(u8 *)&lbl_1_bss_262F8__fzgx_offset_4;
+    s = *(u8 *)&fzgx_obj_lbl_1_bss_26300;
+}
+#pragma section code_type ".text"
+
+static u8 fzgx_pool_lbl_1_data_6400[0x11] = {  /* fzgx-allow: A1 retail data bytes: lbl_1_data_6400 +0x0 */
+    0x63, 0x61, 0x72, 0x5F, 0x73, 0x74, 0x61, 0x74, 0x75, 0x73, 0x5F, 0x63, 0x68, 0x65, 0x63, 0x6B,
+    0x00,
+};
+
+extern u32 lbl_801A6410;
+extern void fn_1_81808(s8 *);
+extern void fn_1_80058(u8, GameEntry *);
+extern u32 fn_1_8171C(s32);
+extern GameRacer *fn_1_36AD0(void);
+extern void fn_1_14F38C(GameEntry *, GameRacer *);
+extern u32 fn_80008E84(u32);
+extern GameResult *fn_1_83070(u32, u32, GameEntry *, u8);
+extern void fn_1_2FDBC();
+extern u32 fn_1_435C(u32 value);
+extern u16 fn_1_3F8C(void *, void *, void *, int);
+
+void fn_1_3181C(void)
+{
+    s8 slots[4];
+    u32 bits[4] = { 0x80000000, 0x40000000, 0x20000000, 0x10000000 };
+    GameEntry *e;
+    GameResult *res;
+    GameSub *sub;
+    GameRacer *racer;
+    u32 heap;
+    s32 i;
+    s16 slot;
+    GamePlayer *pl;
+    s8 t;
+    s32 k;
+
+    fn_1_81808(slots);
+    for (i = 0; i < fzgx_obj_lbl_1_bss_3C30.unk_9; i++) {
+        e = &fzgx_obj_lbl_1_bss_25E9C[i];
+        fn_1_80058(fzgx_obj_lbl_1_bss_2625C[i], e);
+        e->unk_0 = i;
+        e->unk_8 = fzgx_obj_lbl_1_bss_523C[i];
+        e->unk_C = fzgx_obj_lbl_1_bss_2627C[i];
+        e->unk_4 = fn_1_8171C(1);
+        slot = -1;
+        for (k = 0; k < 4; k++) {
+            if (slots[k] == i) {
+                slots[k] = -1;
+                slot = k;
+            }
+        }
+        if (i < fzgx_obj_lbl_1_bss_3C30.unk_8) {
+            if (fzgx_obj_lbl_1_bss_3C30.unk_8 > 1) {
+                e->unk_4 = fn_1_8171C(2);
+                switch (e->unk_8) {
+                case 1:
+                    e->unk_8 = 0x10;
+                    break;
+                case 2:
+                    e->unk_8 = 0x20;
+                    break;
+                case 4:
+                    e->unk_8 = 0x40;
+                    break;
+                case 8:
+                    e->unk_8 = 0x80;
+                    break;
+                }
+            } else {
+                e->unk_4 = fn_1_8171C(0);
+                e->unk_C |= bits[i];
+            }
+            if (slot != -1) {
+                racer = fn_1_36AD0() + slot;
+                fn_1_14F38C(e, racer);
+            }
+        }
+        if (fzgx_obj_lbl_1_bss_3C30.unk_8 == 0) {
+            if (i < fzgx_obj_lbl_1_bss_262F4 || i == 0) {
+                e->unk_4 = fn_1_8171C(0);
+                e->unk_C |= 0x80000000;
+                e->unk_8 = 1;
+            }
+        }
+    }
+    heap = fn_80008E84(fzgx_obj_lbl_1_bss_262F8);
+    res = fn_1_83070(fzgx_obj_lbl_1_bss_25B88[0], fzgx_obj_lbl_1_bss_25CA4[0], fzgx_obj_lbl_1_bss_25E9C,
+                     fzgx_obj_lbl_1_bss_3C30.unk_9);
+    *(volatile u32 *)&lbl_801A6410;  /* fzgx-allow: S2 retail loads the heap handle here and discards it */
+    fn_80008E84(heap);
+    for (i = 0; i < fzgx_obj_lbl_1_bss_3C30.unk_9; i++) {
+        pl = &fzgx_obj_lbl_1_bss_3C30.players[i];
+        pl->unk_0 = (u32)res[i].unk_3C;
+        t = res[i].unk_475;
+        if (t != -1) {
+            lbl_1_bss_262F8__fzgx_offset_4[t] = res[i].unk_474;
+        }
+        fzgx_obj_lbl_1_bss_3C30.unk_1394[i] = i;
+        fzgx_obj_lbl_1_bss_3C30.unk_2C[i] = res[i].unk_49C;
+        pl->unk_7C = 0xFF;
+        pl->unk_7D = 0xFF;
+        pl->unk_7E = 0xFF;
+        pl->unk_80 = res[i].unk_6;
+        pl->unk_82 = res[i].unk_6;
+        pl->unk_81 = fzgx_obj_lbl_1_bss_25C48[i];
+        pl->unk_22 = 0;
+        pl->unk_84 = 0;
+        pl->unk_8A = 0;
+        pl->unk_86 = 0;
+        pl->unk_88 = 0;
+        pl->unk_8C = 0;
+        pl->unk_8E = 0;
+        pl->unk_98 = 0;
+        pl->unk_90 = 0;
+        pl->unk_94 = 0;
+        pl->unk_9A = 0;
+        pl->unk_9C = 0;
+        if (fzgx_obj_lbl_1_bss_3C30.unk_5 == 2 && i == 0) {
+            fn_1_435C(fzgx_obj_lbl_1_bss_25B88[0]);
+            fzgx_obj_lbl_1_bss_26300 = fn_1_3F8C(fzgx_pool_lbl_1_data_6400, fn_1_2FDBC, res, 0x1E);
+        }
+        sub = fzgx_obj_lbl_1_bss_53F8[i];
+        if (sub != NULL) {
+            pl->unk_81 = sub->unk_B;
+            if (sub->unk_1 >= 0x29) {
+                t = res[i].unk_474;
+                if (t != -1) {
+                    racer = &fzgx_obj_lbl_1_bss_5480[t];
+                    pl->unk_80 = racer->unk_81A0;
+                    pl->unk_82 = racer->unk_5;
+                    pl->unk_7C = racer->unk_81A4;
+                    pl->unk_7D = racer->unk_81AC;
+                    pl->unk_7E = racer->unk_81B4;
+                }
+            } else {
+                pl->unk_80 = pl->unk_82 = sub->unk_1;
+            }
+        }
+    }
+}
+/* fzgx:end fn_1_3181C */
+
 /* fzgx:begin fn_1_31C3C noprologue */
 #include "types.h"
 
