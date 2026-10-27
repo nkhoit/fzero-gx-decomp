@@ -1,5 +1,3 @@
-/* Non-matching: best partial attempt (97.66% in the project ledger). Scored for the
- * fuzzy match only; never linked. Refresh with tools/fuzzy_report.py export. */
 #include "types.h"
 
 typedef struct {
@@ -41,7 +39,7 @@ typedef struct {
 } SndState;
 
 extern SndState *lbl_801A6C80;
-extern u16 lbl_80092C38[];
+extern const u16 lbl_80092C38[];
 extern u8 lbl_801A6608[8];
 extern void fn_800692A4(u32);
 extern void fn_80068EB4(void);
@@ -56,16 +54,28 @@ static inline void fn_8006953C_loop1(u32 cmd) {
             }
 }
 
+static inline void fn_8006953C_loop2(u32 cmd) {
+    u8 i;
+    for (i = 0; i < 16; i++) {
+        if ((s32)lbl_801A6C80->bank[i].b0 != 0 && (lbl_801A6C80->bank[i].b1 & 0x80) &&
+            (cmd & 0xF) == lbl_801A6C80->bank[i].b2) {
+            lbl_801A6C80->bank[i].b0 |= 6;
+            lbl_801A6C80->bank[i].w24 = lbl_80092C38[(cmd >> 8) & 0x7F];
+            lbl_801A6C80->bank[i].w24 = (lbl_801A6C80->bank[i].w24 ^ 0xFFFFFFFF) + 1;
+        }
+    }
+}
+
 void fn_8006953C(u32 cmd) {
     SndChan * fzgx_live;
     u8 idx;
     u8 *d;
     s8 found;
     struct { u8 value; } i;
-    u32 ofs;
     u8 j;
     u8 hit;
     u32 *p;
+    u32 ofs;
     u32 off;
     u8 *rec;
     u32 sub;
@@ -101,14 +111,7 @@ void fn_8006953C(u32 cmd) {
             lbl_801A6C80->w448 = lbl_80092C38[((0x7F) & ((cmd >> 8)))];
             break;
         case 0xA0000:
-            for (i.value = 0; i.value < 16; i.value++) {
-                if ((s32)lbl_801A6C80->bank[i.value].b0 != 0 && (lbl_801A6C80->bank[i.value].b1 & 0x80) &&
-                    (cmd & 0xF) == lbl_801A6C80->bank[i.value].b2) {
-                    lbl_801A6C80->bank[i.value].b0 |= 6;
-                    lbl_801A6C80->bank[i.value].w24 = lbl_80092C38[(cmd >> 8) & 0x7F];
-                    lbl_801A6C80->bank[i.value].w24 = (lbl_801A6C80->bank[i.value].w24 ^ 0xFFFFFFFF) + 1;
-                }
-            }
+            fn_8006953C_loop2(cmd);
             break;
         }
         return;
@@ -122,18 +125,15 @@ void fn_8006953C(u32 cmd) {
             continue;
         }
         p = (u32 *)(d + 0x24);
-        tbl = d + *p;
-        {
-    u8 fzgx_loop_j_3025;
-for (fzgx_loop_j_3025 = 0, ofs = 0; fzgx_loop_j_3025 <= tbl[0]; fzgx_loop_j_3025++, ofs += 1) {
+        ofs = 4;
+        tbl = (u8 *)(*p + (u32)d);
+        for (j = 0; j <= tbl[0]; ofs += 4, j++) {
             p = (u32 *)(tbl + ofs);
             if ((*p >> 16) == (cmd >> 16)) {
                 hit = 1;
                 break;
             }
         }
-    j = fzgx_loop_j_3025;
-}
         if (hit) {
             found = i.value;
             break;
@@ -146,7 +146,7 @@ for (fzgx_loop_j_3025 = 0, ofs = 0; fzgx_loop_j_3025 <= tbl[0]; fzgx_loop_j_3025
     if (sub > rec[0]) {
         return;
     }
-    off = ((u32 *)(rec + 4))[sub];
+    rec = (u8 *)((sub << 2) + (u32)rec); off = *(u32 *)(rec + 4);
     if (off == 0) {
         return;
     }
