@@ -3805,7 +3805,7 @@ void fn_3_679C(void) {
 }
 /* fzgx:end fn_3_679C */
 
-/* fzgx:begin fn_3_6AC4 pool noprologue */
+/* fzgx:begin fn_3_6AC4 noprologue */
 #include "dolphin/types.h"
 #include "rel/customize/globals.h"
 
@@ -3851,12 +3851,12 @@ typedef struct {
 Obj_3_bss_0 lbl_3_bss_0;
 u32 lbl_3_bss_8;
 u32 lbl_3_bss_C;
-static u8 cust_head_padding[0x10];
+static u8 fzgx_pool_cust_head_padding[0x10];
 CustList lbl_3_bss_20;
 Obj_3_bss_F0 lbl_3_bss_F0;
 CustEntry lbl_3_bss_7E084[44];
 s16 lbl_3_bss_7E23C;
-static u8 cust_work_padding[0x7E084 - 0x120];
+static u8 fzgx_pool_cust_work_padding[0x7E084 - 0x120];
 
 #pragma section code_type ".fzgxpool"
 extern void __fzgx_pool_sink(void *);
@@ -3865,10 +3865,10 @@ void fzgx___fzgx_pool_prime(void)
     __fzgx_pool_sink(&lbl_3_bss_0);
     __fzgx_pool_sink(&lbl_3_bss_8);
     __fzgx_pool_sink(&lbl_3_bss_C);
-    __fzgx_pool_sink(cust_head_padding);
+    __fzgx_pool_sink(fzgx_pool_cust_head_padding);
     __fzgx_pool_sink(&lbl_3_bss_20);
     __fzgx_pool_sink(&lbl_3_bss_F0);
-    __fzgx_pool_sink(cust_work_padding);
+    __fzgx_pool_sink(fzgx_pool_cust_work_padding);
     __fzgx_pool_sink(lbl_3_bss_7E084);
     __fzgx_pool_sink(&lbl_3_bss_7E23C);
 }
