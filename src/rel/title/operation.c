@@ -1948,7 +1948,7 @@ void fn_8_8C80(void) {
 }
 /* fzgx:end fn_8_8C80 */
 
-/* fzgx:begin fn_8_8E00 pool noprologue */
+/* fzgx:begin fn_8_8E00 noprologue */
 #include "types.h"
 #include "rel/main_rel/game.h"
 #include "types.h"
@@ -2383,7 +2383,7 @@ void fn_8_8E00(void) {
     scale=RF(0xb4)/(RF(0xb8)/lbl_8006D21C(0x1000));
     fn_1_A71CC();
     fn_1_A7024(RF(0xbc),fn_1_A6FE8(),RF(0xc0),RF(0xc4));
-    { static const u32 u0[1]={0},u1[1]={0},u2[1]={0x3f800000}; u32 uz,uy,ux; ux=u0[0]; uy=u1[0]; uz=u2[0]; *(u32 *)&up.x=ux; *(u32 *)&up.y=uy; *(u32 *)&up.z=uz; { Vec3 temp={0.0f,0.0f,0.01f}; x=RF(0xc8)*scale; temp.x=x; temp.y=RF(0xcc)*scale; eye=temp; } }
+    { static const u32 fzgx_pool_u0[1]={0},fzgx_pool_u1[1]={0},fzgx_pool_u2[1]={0x3f800000}; u32 uz,uy,ux; ux=fzgx_pool_u0[0]; uy=fzgx_pool_u1[0]; uz=fzgx_pool_u2[0]; *(u32 *)&up.x=ux; *(u32 *)&up.y=uy; *(u32 *)&up.z=uz; { Vec3 temp={0.0f,0.0f,0.01f}; x=RF(0xc8)*scale; temp.x=x; temp.y=RF(0xcc)*scale; eye=temp; } }
     lbl_8006D668(&eye);
     fn_8006E978(quat,&up,&eye);
     mathutil_mtxA_from_quat(quat);
@@ -2410,7 +2410,7 @@ void fn_8_8E00(void) {
     fn_80072558();
     if (model4) fn_1_556B8(model4);
     v=RF(0x38); fn_1_5621C(v,v,v,v);
-    { static const u32 u0[1]={0},u1[1]={0},u2[1]={0x3f800000}; u32 uz,uy,ux; ux=u0[0]; uy=u1[0]; uz=u2[0]; *(u32 *)&up.x=ux; *(u32 *)&up.y=uy; *(u32 *)&up.z=uz; { Vec3 temp={0.0f,0.0f,0.01f}; temp.x=x; temp.y=RF(0xec)*scale; eye=temp; } }
+    { static const u32 fzgx_pool_u0[1]={0},fzgx_pool_u1[1]={0},fzgx_pool_u2[1]={0x3f800000}; u32 uz,uy,ux; ux=fzgx_pool_u0[0]; uy=fzgx_pool_u1[0]; uz=fzgx_pool_u2[0]; *(u32 *)&up.x=ux; *(u32 *)&up.y=uy; *(u32 *)&up.z=uz; { Vec3 temp={0.0f,0.0f,0.01f}; temp.x=x; temp.y=RF(0xec)*scale; eye=temp; } }
     lbl_8006D668(&eye);
     fn_8006E978(quat,&up,&eye);
     mathutil_mtxA_from_quat(quat);
