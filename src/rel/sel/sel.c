@@ -1703,7 +1703,7 @@ void fn_10_3268(void) {
 }
 /* fzgx:end fn_10_3268 */
 
-/* fzgx:begin fn_10_3350 pool */
+/* fzgx:begin fn_10_3350 */
 typedef signed short s16;
 typedef signed long s32;
 
@@ -1753,14 +1753,14 @@ u8 lbl_10_bss_493A0[0x5B20];
 u8 lbl_10_bss_4EEC0[0x2880];
 s32 lbl_10_bss_51740;
 u32 lbl_10_bss_51744;
-u8 lbl_10_bss_51748[0x10];
-s32 lbl_10_bss_51758[4];
-Pair lbl_10_bss_51768[4];
+u8 fzgx_pool_lbl_10_bss_51748[0x10];
+s32 lbl_10_bss_51752__fzgx_offset_6[4];
+Pair lbl_10_bss_51752__fzgx_offset_16[4];
 u8 lbl_10_bss_51788[0x64];
 u8 lbl_10_bss_517EC[0x190];
 u8 lbl_10_bss_5197C[0x190];
-s32 lbl_10_bss_51B0C;
-s32 lbl_10_bss_51B10;
+s32 lbl_10_bss_5197C__fzgx_offset_190;
+s32 lbl_10_bss_5197C__fzgx_offset_194;
 extern void fzgx_sink(u32);
 
 #pragma section code_type ".fzgxpool"
@@ -1783,14 +1783,14 @@ fzgx_sink(lbl_10_bss_493A0[0]);
 fzgx_sink(lbl_10_bss_4EEC0[0]);
 fzgx_sink(lbl_10_bss_51740);
 fzgx_sink(lbl_10_bss_51744);
-fzgx_sink(lbl_10_bss_51748[0]);
-fzgx_sink(lbl_10_bss_51758[0]);
-fzgx_sink(lbl_10_bss_51768[0].a);
+fzgx_sink(fzgx_pool_lbl_10_bss_51748[0]);
+fzgx_sink(lbl_10_bss_51752__fzgx_offset_6[0]);
+fzgx_sink(lbl_10_bss_51752__fzgx_offset_16[0].a);
 fzgx_sink(lbl_10_bss_51788[0]);
 fzgx_sink(lbl_10_bss_517EC[0]);
 fzgx_sink(lbl_10_bss_5197C[0]);
-fzgx_sink(lbl_10_bss_51B0C);
-fzgx_sink(lbl_10_bss_51B10);
+fzgx_sink(lbl_10_bss_5197C__fzgx_offset_190);
+fzgx_sink(lbl_10_bss_5197C__fzgx_offset_194);
 }
 
 #pragma section code_type ".text"
@@ -2049,9 +2049,9 @@ tmp_call7 = fn_10_3C14();
 tmp_call7;
 fn_1_12F10C(lbl_10_bss_3C0 );
 for (i = 0; i < 4; i++) {
-lbl_10_bss_51758[i] = -1;
-lbl_10_bss_51768[i].a = -1;
-lbl_10_bss_51768[i].b = -1;
+lbl_10_bss_51752__fzgx_offset_6[i] = -1;
+lbl_10_bss_51752__fzgx_offset_16[i].a = -1;
+lbl_10_bss_51752__fzgx_offset_16[i].b = -1;
 }
 {
 u32 table[5] = {0x80000000, 0x80000000, 0x40000000, 0x20000000, 0x20000000};
@@ -2100,8 +2100,8 @@ lbl_10_bss_51740 = fn_1_3F8C(fzgx_pool_init_fzgx_obj_lbl_10_data_66C.v, fn_10_FF
 fn_1_4A00(1, (u8)lbl_10_bss_4938C, lbl_10_bss_49388);
 lbl_10_bss_51744 = 0;
 lbl_10_bss_14 = -1;
-lbl_10_bss_51B0C = -1;
-lbl_10_bss_51B10 = 90;
+lbl_10_bss_5197C__fzgx_offset_190 = -1;
+lbl_10_bss_5197C__fzgx_offset_194 = 90;
 if (lbl_1_bss_966 != 16) {
 fn_1_12F1E8(720);
 }
