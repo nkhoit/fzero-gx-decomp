@@ -7470,9 +7470,6 @@ rel/main_rel/font/fn_1_4B6D4.c:
 rel/main_rel/font/fn_1_4B788.c:
 	.text       start:0x0004B788 end:0x0004B83C align:4
 
-rel/main_rel/sel_static_disp/fn_1_14BD94.c:
-	.text       start:0x0014BD94 end:0x0014BE30 align:4
-
 rel/main_rel/car/fn_1_892CC.c:
 	.text       start:0x000892CC end:0x000892E8 align:4
 
@@ -9207,20 +9204,23 @@ rel/main_rel/bg_cas/fn_1_FFE7C.c:
 rel/main_rel/phys/fn_1_E8938.c:
 	.text       start:0x000E8938 end:0x000E95B4 align:4
 
-rel/main_rel/bg_win/fn_1_15BBC4.c:
-	.text       start:0x0015BBC4 end:0x0015BCDC align:4
-
 rel/main_rel/car/fn_1_8DBB0.c:
 	.text       start:0x0008DBB0 end:0x0008DD54 align:4
 
-rel/main_rel/ghost/fn_1_F0E00.c:
-	.text       start:0x000F0E00 end:0x000F1300 align:4
+rel/main_rel/bg_win/fn_1_15BBC4.c:
+	.text       start:0x0015BBC4 end:0x0015BCDC align:4
 
 rel/main_rel/effect/fn_1_5CA00.c:
 	.text       start:0x0005CA00 end:0x0005D010 align:4
 
+rel/main_rel/ghost/fn_1_EB8F4.c:
+	.text       start:0x000EB8F4 end:0x000EC900 align:4
+
+rel/main_rel/ghost/fn_1_F0E00.c:
+	.text       start:0x000F0E00 end:0x000F1300 align:4
+
 rel/main_rel/memcard/fn_1_B8EDC.c:
 	.text       start:0x000B8EDC end:0x000B9904 align:4
 
-rel/main_rel/ghost/fn_1_EB8F4.c:
-	.text       start:0x000EB8F4 end:0x000EC900 align:4
+rel/main_rel/sel_static_disp/fn_1_14BD94.c:
+	.text       start:0x0014BD94 end:0x0014BE30 align:4

@@ -296,7 +296,7 @@ void fn_1_15BB34(void *value) {
 }
 /* fzgx:end fn_1_15BB34 */
 
-/* fzgx:begin fn_1_15BBC4 pool noprologue */
+/* fzgx:begin fn_1_15BBC4 noprologue */
 #include "types.h"
 #include "types.h"
 
@@ -316,12 +316,12 @@ typedef struct { u8 pad[4]; u16 val; u16 pad2; } Ent;
 
 /* file-scope objects of the retail TU, in retail order: MWCC addresses them off one section base */
 u32 fzgx_obj_lbl_1_bss_8F8E0[8];
-Ent lbl_1_bss_8F8E0_20[16];
+Ent lbl_1_bss_8F8E0__fzgx_offset_20[16];
 u16 lbl_1_bss_8F980[16];
 u16 lbl_1_bss_8F9A0[15][32];
 u32 lbl_1_bss_8FD60;
-u16 lbl_1_bss_8FD60_4;
-u16 lbl_1_bss_8FD60_6;
+u16 lbl_1_bss_8FD60__fzgx_offset_4;
+u16 lbl_1_bss_8FD60__fzgx_offset_6;
 u32 fzgx_obj_lbl_1_bss_8FD68[16];
 u32 fzgx_obj_lbl_1_bss_8FDA8[53];
 
@@ -329,12 +329,12 @@ u32 fzgx_obj_lbl_1_bss_8FDA8[53];
 static void fzgx_bss_layout(void) {
     volatile u8 s;  /* fzgx-allow: S2 layout primer sink: MWCC emits .bss objects in first-access order */
     s = *(u8 *)&fzgx_obj_lbl_1_bss_8F8E0;
-    s = *(u8 *)&lbl_1_bss_8F8E0_20;
+    s = *(u8 *)&lbl_1_bss_8F8E0__fzgx_offset_20;
     s = *(u8 *)&lbl_1_bss_8F980;
     s = *(u8 *)&lbl_1_bss_8F9A0;
     s = *(u8 *)&lbl_1_bss_8FD60;
-    s = *(u8 *)&lbl_1_bss_8FD60_4;
-    s = *(u8 *)&lbl_1_bss_8FD60_6;
+    s = *(u8 *)&lbl_1_bss_8FD60__fzgx_offset_4;
+    s = *(u8 *)&lbl_1_bss_8FD60__fzgx_offset_6;
     s = *(u8 *)&fzgx_obj_lbl_1_bss_8FD68;
     s = *(u8 *)&fzgx_obj_lbl_1_bss_8FDA8;
 }
@@ -369,12 +369,12 @@ static inline u16 poll_win_input(void) {
     s32 i;
     u16 *ip;
     Ent *ep;
-    if (lbl_1_bss_8FD60_6 != 0) {
-        lbl_1_bss_8FD60_6 = lbl_1_bss_8FD60_6 - 1;
-        return lbl_1_bss_8FD60_4;
+    if (lbl_1_bss_8FD60__fzgx_offset_6 != 0) {
+        lbl_1_bss_8FD60__fzgx_offset_6 = lbl_1_bss_8FD60__fzgx_offset_6 - 1;
+        return lbl_1_bss_8FD60__fzgx_offset_4;
     }
     fn_1_15C0AC();
-    ep = &lbl_1_bss_8F8E0_20[1];
+    ep = &lbl_1_bss_8F8E0__fzgx_offset_20[1];
     ip = &lbl_1_bss_8F980[1];
     for (i = 1; i < 16; i++) {
         update_row(i, ep, ip);
@@ -383,13 +383,13 @@ static inline u16 poll_win_input(void) {
     }
     {
         u32 r = fn_1_15BE38();
-        lbl_1_bss_8FD60_4 = r;
+        lbl_1_bss_8FD60__fzgx_offset_4 = r;
         if ((u16)r != 0xffff) {
-            lbl_1_bss_8FD60_6 = 0x78;
+            lbl_1_bss_8FD60__fzgx_offset_6 = 0x78;
             fn_80008BEC(lbl_1_bss_8F9A0, 0, 0x3c0);
         }
     }
-    return lbl_1_bss_8FD60_4;
+    return lbl_1_bss_8FD60__fzgx_offset_4;
 }
 
 u16 fn_1_15BBC4(void) {
