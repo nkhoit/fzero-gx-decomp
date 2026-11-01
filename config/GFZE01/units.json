@@ -3835,11 +3835,26 @@
     "symbols": [
       "fn_3_225F8"
     ],
-    "status": "nonmatching",
+    "status": "matching",
     "mw_version": "GC/1.3.2",
     "extra_cflags": [],
     "tu": "rel/customize/toolkit.c",
-    "pool": true
+    "pool": {
+      "...rodata.0": "lbl_3_rodata_768",
+      "@80": "lbl_3_rodata_960",
+      "@5": "lbl_3_rodata_768+0x28",
+      "@30": "lbl_3_rodata_800",
+      "@20": "lbl_3_rodata_768+0x78",
+      "@85": "lbl_3_rodata_990",
+      "@40": "lbl_3_rodata_8F0",
+      "@10": "lbl_3_rodata_768+0x4C",
+      "@15": "lbl_3_rodata_768+0x74",
+      "@25": "lbl_3_rodata_768+0x8C",
+      "lbl_3_rodata_990__fzgx_offset_158": "lbl_3_rodata_990+0x158",
+      "lbl_3_rodata_990__fzgx_offset_15C": "lbl_3_rodata_990+0x15C",
+      "lbl_3_rodata_990__fzgx_offset_160": "lbl_3_rodata_990+0x160",
+      "lbl_3_rodata_990__fzgx_offset_164": "lbl_3_rodata_990+0x164"
+    }
   },
   {
     "module": "customize",
