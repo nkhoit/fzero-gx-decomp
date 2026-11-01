@@ -68583,11 +68583,20 @@
     "symbols": [
       "fn_1_147A04"
     ],
-    "status": "nonmatching",
+    "status": "matching",
     "mw_version": null,
     "extra_cflags": [],
     "tu": "rel/main_rel/sel_static_disp.c",
-    "pool": true
+    "pool": {
+      "...rodata.0": "lbl_1_rodata_92C0",
+      "@33": "lbl_1_rodata_93E8",
+      "@62": "lbl_1_rodata_946C",
+      "@195": "lbl_1_rodata_970C",
+      "@322": "lbl_1_data_425C8",
+      "@323": "lbl_1_data_425D8",
+      "...data.0": "lbl_1_data_42198",
+      "fzgx_obj_lbl_1_data_42198": "lbl_1_data_42198"
+    }
   },
   {
     "module": "main_rel",

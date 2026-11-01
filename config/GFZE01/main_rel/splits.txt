@@ -9093,9 +9093,6 @@ rel/main_rel/live_camera/fn_1_F3D0.c:
 rel/main_rel/memcard/fn_1_B6B28.c:
 	.text       start:0x000B6B28 end:0x000B7C00 align:4
 
-rel/main_rel/sel_static_disp/fn_1_147A04.c:
-	.text       start:0x00147A04 end:0x00148444 align:4
-
 rel/main_rel/burner/fn_1_9A0A8.c:
 	.text       start:0x0009A0A8 end:0x0009A1E8 align:4
 
@@ -9140,3 +9137,6 @@ rel/main_rel/effect_car/fn_1_7099C.c:
 
 rel/main_rel/driver/fn_1_C24A4.c:
 	.text       start:0x000C24A4 end:0x000C3378 align:4
+
+rel/main_rel/sel_static_disp/fn_1_147A04.c:
+	.text       start:0x00147A04 end:0x00148444 align:4
