@@ -3498,7 +3498,7 @@ void fn_3_61B8(void) {
 }
 /* fzgx:end fn_3_61B8 */
 
-/* fzgx:begin fn_3_6270 pool */
+/* fzgx:begin fn_3_6270 */
 typedef struct {
     u32 flags;      /* 0x00 */
     u16 unk_4;
@@ -3518,19 +3518,19 @@ typedef struct {
 /* this TU's .bss objects, in retail address order (base lbl_3_bss_0) */
 static u8 lbl_3_bss_0[8];
 static s32 lbl_3_bss_8;
-static u8 lbl_3_bss_C[0xE4];
+static u8 fzgx_pool_lbl_3_bss_C[0xE4];
 static fn_3_6270_Sub lbl_3_bss_F0;
-static u8 lbl_3_bss_118[0x8];
+static u8 fzgx_pool_lbl_3_bss_118[0x8];
 static s32 lbl_3_bss_120;
-static u8 lbl_3_bss_124[0x20844 - 0x124];
+static u8 fzgx_pool_lbl_3_bss_124[0x20844 - 0x124];
 static s16 lbl_3_bss_20844;
-static s16 lbl_3_bss_20846;
+static s16 fzgx_pool_lbl_3_bss_20846;
 static s16 lbl_3_bss_20848;
-static s16 lbl_3_bss_2084A;
+static s16 fzgx_pool_lbl_3_bss_2084A;
 static s16 lbl_3_bss_2084C;
-static s16 lbl_3_bss_2084E;
+static s16 fzgx_pool_lbl_3_bss_2084E;
 static u32 lbl_3_bss_20850;
-static u8 lbl_3_bss_20854[0x243A8 - 0x20854];
+static u8 fzgx_pool_lbl_3_bss_20854[0x243A8 - 0x20854];
 static u32 lbl_3_bss_243A8;
 
 extern s16 lbl_1_bss_96A;
@@ -3549,19 +3549,19 @@ extern void fn_3_679C(void);
 __declspec(section ".fzgxpool") void fzgx_primer_fn_3_6270(void) {
     fn_1_A2D84((u32)lbl_3_bss_0);
     fn_1_A2D84((u32)&lbl_3_bss_8);
-    fn_1_A2D84((u32)lbl_3_bss_C);
+    fn_1_A2D84((u32)fzgx_pool_lbl_3_bss_C);
     fn_1_A2D84((u32)&lbl_3_bss_F0);
-    fn_1_A2D84((u32)lbl_3_bss_118);
+    fn_1_A2D84((u32)fzgx_pool_lbl_3_bss_118);
     fn_1_A2D84((u32)&lbl_3_bss_120);
-    fn_1_A2D84((u32)lbl_3_bss_124);
+    fn_1_A2D84((u32)fzgx_pool_lbl_3_bss_124);
     fn_1_A2D84((u32)&lbl_3_bss_20844);
-    fn_1_A2D84((u32)&lbl_3_bss_20846);
+    fn_1_A2D84((u32)&fzgx_pool_lbl_3_bss_20846);
     fn_1_A2D84((u32)&lbl_3_bss_20848);
-    fn_1_A2D84((u32)&lbl_3_bss_2084A);
+    fn_1_A2D84((u32)&fzgx_pool_lbl_3_bss_2084A);
     fn_1_A2D84((u32)&lbl_3_bss_2084C);
-    fn_1_A2D84((u32)&lbl_3_bss_2084E);
+    fn_1_A2D84((u32)&fzgx_pool_lbl_3_bss_2084E);
     fn_1_A2D84((u32)&lbl_3_bss_20850);
-    fn_1_A2D84((u32)lbl_3_bss_20854);
+    fn_1_A2D84((u32)fzgx_pool_lbl_3_bss_20854);
     fn_1_A2D84((u32)&lbl_3_bss_243A8);
 }
 #pragma section code_type ".text"
