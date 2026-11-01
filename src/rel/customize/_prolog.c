@@ -203,7 +203,7 @@ void fn_3_8F8(void) {
 }
 /* fzgx:end fn_3_8F8 */
 
-/* fzgx:begin _epilog pool */
+/* fzgx:begin _epilog */
 #include "rel/customize/globals.h"
 
 extern void fn_3_11FA0(void);
@@ -232,16 +232,16 @@ typedef struct {
 } EpilogSlot;
 
 Obj_3_bss_0 lbl_3_bss_0;
-u8 epilog_bss_8[8];
-u32 epilog_obj;
-u8 epilog_bss_14[0x12C];
+u8 fzgx_pool_epilog_bss_8[8];
+u32 lbl_3_bss_C__fzgx_offset_4;
+u8 fzgx_pool_epilog_bss_14[0x12C];
 Obj_3_bss_140 lbl_3_bss_140;
-u8 epilog_bss_20844[8];
-u32 epilog_camA;
-u32 epilog_camB;
-u32 epilog_heapObj;
-u8 epilog_bss_20858[0x241E0 - 0x20858];
-EpilogSlot epilog_slots[4];
+u8 fzgx_pool_epilog_bss_20844[8];
+u32 fzgx_obj_lbl_3_bss_2084C;
+u32 fzgx_obj_lbl_3_bss_20850;
+u32 lbl_3_bss_20854__fzgx_offset_0;
+u8 fzgx_pool_epilog_bss_20858[0x241E0 - 0x20858];
+EpilogSlot fzgx_obj_lbl_3_bss_241E0[4];
 
 typedef struct {
     u8 pad0[0x1164];
@@ -254,16 +254,16 @@ typedef struct {
 #pragma section RX ".fzgxpool"
 __declspec(section ".fzgxpool") void fzgx_bss_layout__epilog(void) {
     fn_80008BEC(&lbl_3_bss_0, 0, sizeof(lbl_3_bss_0));
-    fn_80008BEC(epilog_bss_8, 0, sizeof(epilog_bss_8));
-    fn_80008BEC(&epilog_obj, 0, sizeof(epilog_obj));
-    fn_80008BEC(epilog_bss_14, 0, sizeof(epilog_bss_14));
+    fn_80008BEC(fzgx_pool_epilog_bss_8, 0, sizeof(fzgx_pool_epilog_bss_8));
+    fn_80008BEC(&lbl_3_bss_C__fzgx_offset_4, 0, sizeof(lbl_3_bss_C__fzgx_offset_4));
+    fn_80008BEC(fzgx_pool_epilog_bss_14, 0, sizeof(fzgx_pool_epilog_bss_14));
     fn_80008BEC(&lbl_3_bss_140, 0, sizeof(lbl_3_bss_140));
-    fn_80008BEC(epilog_bss_20844, 0, sizeof(epilog_bss_20844));
-    fn_80008BEC(&epilog_camA, 0, sizeof(epilog_camA));
-    fn_80008BEC(&epilog_camB, 0, sizeof(epilog_camB));
-    fn_80008BEC(&epilog_heapObj, 0, sizeof(epilog_heapObj));
-    fn_80008BEC(epilog_bss_20858, 0, sizeof(epilog_bss_20858));
-    fn_80008BEC(epilog_slots, 0, sizeof(epilog_slots));
+    fn_80008BEC(fzgx_pool_epilog_bss_20844, 0, sizeof(fzgx_pool_epilog_bss_20844));
+    fn_80008BEC(&fzgx_obj_lbl_3_bss_2084C, 0, sizeof(fzgx_obj_lbl_3_bss_2084C));
+    fn_80008BEC(&fzgx_obj_lbl_3_bss_20850, 0, sizeof(fzgx_obj_lbl_3_bss_20850));
+    fn_80008BEC(&lbl_3_bss_20854__fzgx_offset_0, 0, sizeof(lbl_3_bss_20854__fzgx_offset_0));
+    fn_80008BEC(fzgx_pool_epilog_bss_20858, 0, sizeof(fzgx_pool_epilog_bss_20858));
+    fn_80008BEC(fzgx_obj_lbl_3_bss_241E0, 0, sizeof(fzgx_obj_lbl_3_bss_241E0));
 }
 
 void _epilog(void) {
@@ -273,20 +273,20 @@ void _epilog(void) {
     data = (EpilogData *)&lbl_3_data_0;
     fn_8006CE1C(0.0f);
     fn_1_3C78();
-    fn_1_435C(epilog_camA);
+    fn_1_435C(fzgx_obj_lbl_3_bss_2084C);
     fn_1_41A8();
-    fn_1_435C(epilog_camB);
+    fn_1_435C(fzgx_obj_lbl_3_bss_20850);
     fn_1_41A8();
     fn_1_6400();
-    fn_1_46B4(lbl_801A6410[0], epilog_obj, data->file, 0x45E);
-    epilog_obj = 0;
-    fn_1_46B4(lbl_801A6410[0], epilog_camA, data->file, 0x461);
-    fn_1_46B4(lbl_801A6410[0], epilog_camB, data->file, 0x462);
+    fn_1_46B4(lbl_801A6410[0], lbl_3_bss_C__fzgx_offset_4, data->file, 0x45E);
+    lbl_3_bss_C__fzgx_offset_4 = 0;
+    fn_1_46B4(lbl_801A6410[0], fzgx_obj_lbl_3_bss_2084C, data->file, 0x461);
+    fn_1_46B4(lbl_801A6410[0], fzgx_obj_lbl_3_bss_20850, data->file, 0x462);
     OSReport(data->fmt, lbl_801A66C8[0]);
-    fn_1_46B4(lbl_801A6410[0], epilog_heapObj, data->file, 0x465);
-    epilog_heapObj = 0;
+    fn_1_46B4(lbl_801A6410[0], lbl_3_bss_20854__fzgx_offset_0, data->file, 0x465);
+    lbl_3_bss_20854__fzgx_offset_0 = 0;
     for (i = 0; i < 4; i++) {
-        fn_1_8D168(&epilog_slots[i]);
+        fn_1_8D168(&fzgx_obj_lbl_3_bss_241E0[i]);
     }
     fn_1_48140(0x9A);
     fn_1_48140(0x89);
