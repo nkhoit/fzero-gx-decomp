@@ -362,3 +362,6 @@ rel/title/operation/fn_8_8E00.c:
 
 rel/title/operation/fn_8_D034.c:
 	.text       start:0x0000D034 end:0x0000D5F4 align:4
+
+rel/title/operation/fn_8_C038.c:
+	.text       start:0x0000C038 end:0x0000C7B0 align:4
