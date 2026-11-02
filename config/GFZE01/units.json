@@ -96181,6 +96181,46 @@
   },
   {
     "module": "title",
+    "source": "rel/title/operation/fn_8_D034.c",
+    "symbols": [
+      "fn_8_D034"
+    ],
+    "status": "matching",
+    "mw_version": "GC/1.3.2",
+    "extra_cflags": [],
+    "tu": "rel/title/operation.c",
+    "pool": {
+      "@32": "lbl_8_rodata_368+0x98",
+      "@13": "lbl_8_rodata_368+0x20",
+      "@14": "lbl_8_rodata_368+0x28",
+      "@15": "lbl_8_rodata_368+0x30",
+      "@16": "lbl_8_rodata_368+0x38",
+      "@17": "lbl_8_rodata_368+0x40",
+      "@19": "lbl_8_rodata_368+0x50",
+      "@18": "lbl_8_rodata_368+0x48",
+      "@21": "lbl_8_rodata_368+0x60",
+      "@22": "lbl_8_rodata_368+0x68",
+      "@20": "lbl_8_rodata_368+0x58",
+      "@23": "lbl_8_rodata_368+0x70",
+      "@24": "lbl_8_rodata_368+0x74",
+      "@25": "lbl_8_rodata_368+0x78",
+      "@26": "lbl_8_rodata_368+0x7C",
+      "@27": "lbl_8_rodata_368+0x80",
+      "@28": "lbl_8_rodata_368+0x84",
+      "@29": "lbl_8_rodata_368+0x88",
+      "@30": "lbl_8_rodata_368+0x8C",
+      "@31": "lbl_8_rodata_368+0x90",
+      "...rodata.0": "lbl_8_rodata_368",
+      "fzgx_pool_msgs": "lbl_8_rodata_368",
+      "...bss.0": "lbl_8_bss_540",
+      "lbl_8_bss_540": "lbl_8_bss_540",
+      "lbl_8_bss_544": "lbl_8_bss_544",
+      "lbl_8_bss_544__fzgx_offset_4": "lbl_8_bss_544+0x4",
+      "lbl_8_bss_544__fzgx_offset_8": "lbl_8_bss_544+0x8"
+    }
+  },
+  {
+    "module": "title",
     "source": "rel/title/operation/fn_8_D5F4.c",
     "symbols": [
       "fn_8_D5F4"
