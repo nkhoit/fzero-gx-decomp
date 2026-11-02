@@ -65,3 +65,6 @@ rel/movie/_prolog/fn_5_20FC.c:
 
 rel/movie/_prolog/fn_5_169C.c:
 	.text       start:0x0000169C end:0x000020FC align:4
+
+rel/movie/_prolog/fn_5_7A0.c:
+	.text       start:0x000007A0 end:0x000013B0 align:4
