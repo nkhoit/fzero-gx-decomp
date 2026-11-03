@@ -3411,6 +3411,267 @@ s32 fn_14_4460(void) {
 #pragma opt_lifetimes reset
 /* fzgx:end fn_14_4460 */
 
+/* fzgx:begin fn_14_46D4 */
+#include "font.h"
+#include "rel/pilotpoint/pilotpoint.h"
+
+typedef struct {
+    u8 r, g, b, a;
+} PPColor;
+
+extern const FontDrawPacket lbl_1_rodata_26F8;
+
+#pragma section code_type ".fzgxpool"
+static const u32 fzgx_pool_table_0[24] = {
+    0x00000000, 0x43270000, 0x42180000, 0x42B40000, 0x43A00000, 0x43580000, /* fzgx-allow: A1 float bits */
+    0x41000000, 0x42C00000, 0x43A80000, 0x43BE0000, 0x40280000, 0x00000000, /* fzgx-allow: A1 float bits */
+    0x3F800000, 0x42C60000, 0x41F00000, 0x430C0000, 0x43320000, 0x437E0000, /* fzgx-allow: A1 float bits */
+    0x43920000, 0x44074000, 0x440FC000, 0x42C40000, 0x42280000, 0x00000000, /* fzgx-allow: A1 float bits */
+};
+__declspec(section ".fzgxpool") u32 fzgx_pool_0(void) { return fzgx_pool_table_0[0]; }
+__declspec(section ".fzgxpool") f32 fzgx_pool_conv(s32 x) { return (f32)x; }
+static const u32 fzgx_pool_table_68[72] = {
+    0x404E0000, 0x00000000, 0x40390000, 0x00000000, 0x403D0000, 0x00000000, /* fzgx-allow: A1 float bits */
+    0xA0FF00FF, 0xFFFFFF00, 0xA0FF00FF, 0xFFFFFF00, 0xA0FF00FF, 0xFFFFFF00, /* fzgx-allow: A1 float bits */
+    0xA0FF00FF, 0xFF8080FF, 0xA0FF00FF, 0xFFFFFF00, 0x43C60000, 0x433E0000, /* fzgx-allow: A1 float bits */
+    0x3F000000, 0x00000000, 0x00000000, 0x00000000, 0x3FF00000, 0x00000000, /* fzgx-allow: A1 float bits */
+    0x40320000, 0x00000000, 0x43080000, 0x3F0CCCCD, 0x42D80000, 0x43960000, /* fzgx-allow: A1 float bits */
+    0x42A00000, 0x43C80000, 0x43C20000, 0x42C20000, 0x3D4CCCCD, 0x00000000, /* fzgx-allow: A1 float bits */
+    0x40568000, 0x00000000, 0x403E0000, 0x00000000, 0x40000000, 0x00000000, /* fzgx-allow: A1 float bits */
+    0x43300000, 0x00000000, 0x4341525F, 0x53454C00, 0x41200000, 0x41A00000, /* fzgx-allow: A1 float bits */
+    0x00000000, 0x40AD2D2D, 0xC04FCFD0, 0x00000000, 0x40A00000, 0xC0400000, /* fzgx-allow: A1 float bits */
+    0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, /* fzgx-allow: A1 float bits */
+    0x3F333333, 0x43360B61, 0x3FE19999, 0x9999999A, 0x3F547AE1, 0x3D888889, /* fzgx-allow: A1 float bits */
+    0x00000000, 0x41200000, 0xC0A00000, 0x00000000, 0x00000000, 0x00000000, /* fzgx-allow: A1 float bits */
+};
+__declspec(section ".fzgxpool") u32 fzgx_pool_68(void) { return fzgx_pool_table_68[0]; }
+#pragma section code_type ".text"
+void fn_14_46D4(s16 x, s16 y, s16 z, s32 mode) {
+    FontDrawPacket pkt;
+    PPColor white = {255, 255, 255, 255};
+    PPColor magenta = {255, 0, 255, 255};
+
+    if (mode == 0) {
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x5;
+        pkt.x = x - 52;
+        pkt.y = y - 43;
+        pkt.z = z;
+        pkt.image = 0x8403;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x5;
+        pkt.x = x - 52;
+        pkt.y = y - 43;
+        pkt.z = z - 1;
+        pkt.image = 0x8402;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt.flags = 0x80007;
+        pkt.x = x + 52;
+        pkt.y = y - 43;
+        pkt.z = z;
+        pkt.image = 0x8403;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x80007;
+        pkt.x = x + 52;
+        pkt.y = y - 43;
+        pkt.z = z - 1;
+        pkt.image = 0x8402;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x10000D;
+        pkt.x = x - 52;
+        pkt.y = y + 43;
+        pkt.z = z;
+        pkt.image = 0x8403;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x10000D;
+        pkt.x = x - 52;
+        pkt.y = y + 43;
+        pkt.z = z - 1;
+        pkt.image = 0x8402;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x18000F;
+        pkt.x = x + 52;
+        pkt.y = y + 43;
+        pkt.z = z;
+        pkt.image = 0x8403;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.flags = 0x18000F;
+        pkt.x = x + 52;
+        pkt.y = y + 43;
+        pkt.z = z - 1;
+        pkt.image = 0x8402;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        return;
+    }
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x5;
+        pkt.x = x - 111;
+        pkt.y = y - 27;
+        pkt.z = z;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x5;
+        pkt.x = x - 87;
+        pkt.y = y - 27;
+        pkt.z = z;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x5;
+        pkt.x = x - 87;
+        pkt.y = y - 27;
+        pkt.z = z - 1;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x5;
+        pkt.x = x - 111;
+        pkt.y = y - 27;
+        pkt.z = z - 1;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x80007;
+        pkt.x = x + 111;
+        pkt.y = y - 27;
+        pkt.z = z;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x80007;
+        pkt.x = x + 87;
+        pkt.y = y - 27;
+        pkt.z = z;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x80007;
+        pkt.x = x + 87;
+        pkt.y = y - 27;
+        pkt.z = z - 1;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x80007;
+        pkt.x = x + 111;
+        pkt.y = y - 27;
+        pkt.z = z - 1;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x10000D;
+        pkt.x = x - 111;
+        pkt.y = y + 27;
+        pkt.z = z;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x10000D;
+        pkt.x = x - 87;
+        pkt.y = y + 27;
+        pkt.z = z;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x10000D;
+        pkt.x = x - 87;
+        pkt.y = y + 27;
+        pkt.z = z - 1;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x10000D;
+        pkt.x = x - 111;
+        pkt.y = y + 27;
+        pkt.z = z - 1;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x18000F;
+        pkt.x = x + 111;
+        pkt.y = y + 27;
+        pkt.z = z;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8403;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x18000F;
+        pkt.x = x + 87;
+        pkt.y = y + 27;
+        pkt.z = z;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = magenta;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 24, 0, 8, 20);
+        pkt.flags = 0x18000F;
+        pkt.x = x + 87;
+        pkt.y = y + 27;
+        pkt.z = z - 1;
+        pkt.scale_x *= 9.625f;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+        pkt = lbl_1_rodata_26F8;
+        pkt.image = 0x8402;
+        fn_1_51678(&pkt, pkt.image, 0, 0, 24, 20);
+        pkt.flags = 0x18000F;
+        pkt.x = x + 111;
+        pkt.y = y + 27;
+        pkt.z = z - 1;
+        *(PPColor *)pkt.color = white;
+        fn_1_4F734(&pkt);
+}
+/* fzgx:end fn_14_46D4 */
+
 /* fzgx:begin fn_14_58C4 */
 #include "rel/pilotpoint/pilotpoint.h"
 
