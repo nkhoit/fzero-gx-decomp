@@ -1126,8 +1126,18 @@ def _install(p, records, scratch):
                                       lambda m: m[0] if 'force_active' in m[0] else m[0] + ' force_active', text, flags=re.M)
                     symbols.write_text(text)
                 order_labels_after_functions(symbols)
-                units.append(dict(module=r['module'], source=r['source'], symbols=[member['symbol'] for member in group],
-                                  status='matching', data=True, mw_version=None, extra_cflags=[]))
+                record = dict(module=r['module'], source=r['source'], symbols=[member['symbol'] for member in group],
+                              status='matching', data=True, mw_version=None, extra_cflags=[])
+                # other versions: kept only where every unit it replaces was matching there
+                members = {member['symbol'] for member in group}
+                replaced = [u for u in old_units if members & set(u.get('symbols') or [])]
+                if replaced:
+                    shared = set.intersection(*(set(u.get('versions') or {}) for u in replaced))
+                    versions = {v: 'matching' for v in sorted(shared)
+                                if all((u.get('versions') or {}).get(v) == 'matching' for u in replaced)}
+                    if versions:
+                        record['versions'] = versions
+                units.append(record)
             for unit in old_units:
                 if unit['source'] not in groups:
                     (ROOT / 'src' / unit['source']).unlink()

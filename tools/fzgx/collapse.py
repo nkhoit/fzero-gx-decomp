@@ -202,6 +202,12 @@ def collapse(p: Project, tu_source: str, keep_on_failure: bool = False) -> Dict[
                "status": "matching", "mw_version": mw, "extra_cflags": extra, "collapsed": True}
         if pl.get("pool"):
             rec["pool"] = dict(pl["pool"])  # ninja retargets the literals after compiling
+        # other versions: the TU unit matches where every member matched
+        shared = set.intersection(*(set((u.get("versions") or {})) for u in old)) if old else set()
+        versions = {v: "matching" for v in sorted(shared)
+                    if all((u.get("versions") or {}).get(v) == "matching" for u in old)}
+        if versions:
+            rec["versions"] = versions
         units.append(rec)
         p.save_units(units)
         for src in old_sources:  # the generated per-function units are gone
