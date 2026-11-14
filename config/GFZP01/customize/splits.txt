@@ -1,0 +1,340 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:16
+	.rodata     type:rodata align:8
+	.data       type:data align:16
+	.bss        type:bss align:32
+
+rel/customize/_prolog/fn_3_0.c:
+	.text       start:0x00000000 end:0x0000042C
+
+rel/customize/_prolog/fn_3_844.c:
+	.text       start:0x00000844 end:0x000008F8
+
+rel/customize/_prolog/fn_3_8F8.c:
+	.text       start:0x000008F8 end:0x00000944
+
+rel/customize/_prolog/fn_3_AF8.c:
+	.text       start:0x00000AF8 end:0x00000B30
+
+rel/customize/_prolog/fn_3_B30.c:
+	.text       start:0x00000B30 end:0x00000B68
+
+rel/customize/_prolog/fn_3_B68.c:
+	.text       start:0x00000B68 end:0x00000BA0
+
+rel/customize/_prolog/fn_3_BA0.c:
+	.text       start:0x00000BA0 end:0x00000BFC
+
+rel/customize/_prolog/fn_3_BFC.c:
+	.text       start:0x00000BFC end:0x00000CB4
+
+rel/customize/_prolog/fn_3_33A0.c:
+	.text       start:0x000033A0 end:0x00003438
+
+rel/customize/_prolog/fn_3_3438.c:
+	.text       start:0x00003438 end:0x0000368C
+
+rel/customize/_prolog/fn_3_3F20.c:
+	.text       start:0x00003F20 end:0x000041B0
+
+rel/customize/_prolog/fn_3_41B0.c:
+	.text       start:0x000041B0 end:0x00004218
+
+rel/customize/_prolog/fn_3_4538.c:
+	.text       start:0x00004538 end:0x000048E0
+
+rel/customize/_prolog/fn_3_4BEC.c:
+	.text       start:0x00004BEC end:0x00004C58
+
+rel/customize/_prolog/fn_3_4C58.c:
+	.text       start:0x00004C58 end:0x00004F08
+
+rel/customize/_prolog/fn_3_5A50.c:
+	.text       start:0x00005A50 end:0x00005B9C
+
+rel/customize/_prolog/fn_3_5B9C.c:
+	.text       start:0x00005B9C end:0x00005C4C
+
+rel/customize/_prolog/fn_3_5C4C.c:
+	.text       start:0x00005C4C end:0x00005C8C
+
+rel/customize/_prolog/fn_3_5C8C.c:
+	.text       start:0x00005C8C end:0x00005CBC
+
+rel/customize/_prolog/fn_3_5CBC.c:
+	.text       start:0x00005CBC end:0x00005CE4
+
+rel/customize/_prolog/fn_3_5CE4.c:
+	.text       start:0x00005CE4 end:0x00005D84
+
+rel/customize/_prolog/fn_3_5E88.c:
+	.text       start:0x00005E88 end:0x00005F28
+
+rel/customize/_prolog/fn_3_60C8.c:
+	.text       start:0x000060C8 end:0x000061B8
+
+rel/customize/_prolog/fn_3_6540.c:
+	.text       start:0x00006540 end:0x000065B0
+
+rel/customize/_prolog/fn_3_65B0.c:
+	.text       start:0x000065B0 end:0x0000679C
+
+rel/customize/_prolog/fn_3_679C.c:
+	.text       start:0x0000679C end:0x0000680C
+
+rel/customize/_prolog/fn_3_6F90.c:
+	.text       start:0x00006F90 end:0x00007038
+
+rel/customize/_prolog/fn_3_7594.c:
+	.text       start:0x00007594 end:0x00007688
+
+rel/customize/_prolog/fn_3_7688.c:
+	.text       start:0x00007688 end:0x00007770
+
+rel/customize/_prolog/fn_3_7770.c:
+	.text       start:0x00007770 end:0x000077B0
+
+rel/customize/_prolog/fn_3_77B0.c:
+	.text       start:0x000077B0 end:0x00007864
+
+rel/customize/_prolog/fn_3_7870.c:
+	.text       start:0x00007870 end:0x000078C8
+
+rel/customize/_prolog/fn_3_78C8.c:
+	.text       start:0x000078C8 end:0x00007A08
+
+rel/customize/_prolog/fn_3_7A08.c:
+	.text       start:0x00007A08 end:0x00007A30
+
+rel/customize/_prolog/fn_3_837C.c:
+	.text       start:0x0000837C end:0x000083CC
+
+rel/customize/_prolog/fn_3_968C.c:
+	.text       start:0x0000968C end:0x00009710
+
+rel/customize/_prolog/fn_3_9710.c:
+	.text       start:0x00009710 end:0x00009800
+
+rel/customize/_prolog/fn_3_AC4C.c:
+	.text       start:0x0000AC4C end:0x0000ACF4
+
+rel/customize/customize/fn_3_B6E4.c:
+	.text       start:0x0000B6E4 end:0x0000B984
+
+rel/customize/customize/fn_3_B984.c:
+	.text       start:0x0000B984 end:0x0000BA74
+
+rel/customize/customize/fn_3_BD00.c:
+	.text       start:0x0000BD00 end:0x0000BD30
+
+rel/customize/customize/fn_3_BD30.c:
+	.text       start:0x0000BD30 end:0x0000BD98
+
+rel/customize/customize/fn_3_BEF0.c:
+	.text       start:0x0000BEF0 end:0x0000BF1C
+
+rel/customize/customize/fn_3_C128.c:
+	.text       start:0x0000C128 end:0x0000C188
+
+rel/customize/customize/fn_3_C188.c:
+	.text       start:0x0000C188 end:0x0000C234
+
+rel/customize/customize/fn_3_C234.c:
+	.text       start:0x0000C234 end:0x0000C28C
+
+rel/customize/customize/fn_3_C28C.c:
+	.text       start:0x0000C28C end:0x0000C328
+
+rel/customize/emb_memcard/fn_3_C328.c:
+	.text       start:0x0000C328 end:0x0000C3B4
+
+rel/customize/emb_memcard/fn_3_C3B4.c:
+	.text       start:0x0000C3B4 end:0x0000C400
+
+rel/customize/emb_memcard/fn_3_F948.c:
+	.text       start:0x0000FA30 end:0x0000FA6C
+
+rel/customize/emb_paste_editor/fn_3_104C4.c:
+	.text       start:0x000105AC end:0x000107E4
+
+rel/customize/emb_paste_editor/fn_3_10B68.c:
+	.text       start:0x00010C50 end:0x00010DA0
+
+rel/customize/emb_paste_editor/fn_3_1180C.c:
+	.text       start:0x000118F4 end:0x000119A4
+
+rel/customize/emb_paste_editor/fn_3_118BC.c:
+	.text       start:0x000119A4 end:0x00011A18
+
+rel/customize/emb_paste_editor/fn_3_11930.c:
+	.text       start:0x00011A18 end:0x00011A5C
+
+rel/customize/emb_paste_editor/fn_3_11994.c:
+	.text       start:0x00011A7C end:0x00011B20
+
+rel/customize/emb_paste_editor/fn_3_11F60.c:
+	.text       start:0x00012048 end:0x00012088
+
+rel/customize/emb_paste_editor/fn_3_11FA0.c:
+	.text       start:0x00012088 end:0x0001209C
+
+rel/customize/emb_paste_editor/fn_3_11FB4.c:
+	.text       start:0x0001209C end:0x000120B8
+
+rel/customize/emb_paste_editor/fn_3_11FD0.c:
+	.text       start:0x000120B8 end:0x000120D8
+
+rel/customize/emb_paste_editor/fn_3_12910.c:
+	.text       start:0x000129F8 end:0x00012BFC
+
+rel/customize/emb_paste_editor/fn_3_12E4C.c:
+	.text       start:0x00012F34 end:0x000130BC
+
+rel/customize/emb_paste_editor/fn_3_12FD4.c:
+	.text       start:0x000130BC end:0x00013134
+
+rel/customize/emb_paste_editor/fn_3_1308C.c:
+	.text       start:0x00013174 end:0x00013190
+
+rel/customize/emblem/fn_3_1349C.c:
+	.text       start:0x00013584 end:0x000135F0
+
+rel/customize/emblem/fn_3_14008.c:
+	.text       start:0x00014118 end:0x0001412C
+
+rel/customize/emblem/fn_3_1402C.c:
+	.text       start:0x0001413C end:0x00014174
+
+rel/customize/emblem/fn_3_14064.c:
+	.text       start:0x00014174 end:0x00014184
+
+rel/customize/emblem/fn_3_141A8.c:
+	.text       start:0x000142B8 end:0x000143D4
+
+rel/customize/emblem/fn_3_1445C.c:
+	.text       start:0x0001456C end:0x00014710
+
+rel/customize/emblem/fn_3_14600.c:
+	.text       start:0x00014710 end:0x000147CC
+
+rel/customize/emblem/fn_3_14794.c:
+	.text       start:0x000148A4 end:0x00014ABC
+
+rel/customize/emblem/fn_3_149AC.c:
+	.text       start:0x00014ABC end:0x00014CCC
+
+rel/customize/emblem/fn_3_14BBC.c:
+	.text       start:0x00014CCC end:0x00014F28
+
+rel/customize/emblem/fn_3_14E18.c:
+	.text       start:0x00014F28 end:0x00015350
+
+rel/customize/emblem/fn_3_15240.c:
+	.text       start:0x00015350 end:0x000153CC
+
+rel/customize/emblem/fn_3_152BC.c:
+	.text       start:0x000153CC end:0x0001563C
+
+rel/customize/editor/fn_3_1552C.c:
+	.text       start:0x0001563C end:0x0001571C
+
+rel/customize/editor/fn_3_15620.c:
+	.text       start:0x00015730 end:0x0001574C
+
+rel/customize/editor/fn_3_1563C.c:
+	.text       start:0x0001574C end:0x000157B8
+
+rel/customize/editor/fn_3_156A8.c:
+	.text       start:0x000157B8 end:0x000157E0
+
+rel/customize/editor/fn_3_156D0.c:
+	.text       start:0x000157E0 end:0x00016054
+
+rel/customize/editor/fn_3_1683C.c:
+	.text       start:0x0001694C end:0x00016AC8
+
+rel/customize/editor/fn_3_16FD0.c:
+	.text       start:0x000170E0 end:0x000171A8
+
+rel/customize/editor/fn_3_17098.c:
+	.text       start:0x000171A8 end:0x000171F0
+
+rel/customize/editor/fn_3_17100.c:
+	.text       start:0x00017210 end:0x000178BC
+
+rel/customize/editor/fn_3_177AC.c:
+	.text       start:0x000178BC end:0x00017930
+
+rel/customize/editor/fn_3_17830.c:
+	.text       start:0x00017940 end:0x00017964
+
+rel/customize/toolkit/fn_3_18614.c:
+	.text       start:0x00018778 end:0x00018AC4
+
+rel/customize/toolkit/fn_3_19CE0.c:
+	.text       start:0x00019DCC end:0x00019E00
+
+rel/customize/toolkit/fn_3_19D50.c:
+	.text       start:0x00019E3C end:0x00019E74
+
+rel/customize/toolkit/fn_3_19D88.c:
+	.text       start:0x00019E74 end:0x00019EB4
+
+rel/customize/toolkit/fn_3_19DC8.c:
+	.text       start:0x00019EB4 end:0x00019F2C
+
+rel/customize/toolkit/fn_3_19E40.c:
+	.text       start:0x00019F2C end:0x00019FA4
+
+rel/customize/toolkit/fn_3_1A1D8.c:
+	.text       start:0x0001A2C4 end:0x0001A350
+
+rel/customize/toolkit/fn_3_1A264.c:
+	.text       start:0x0001A350 end:0x0001A3D8
+
+rel/customize/toolkit/fn_3_1A2EC.c:
+	.text       start:0x0001A3D8 end:0x0001A574
+
+rel/customize/toolkit/fn_3_1A488.c:
+	.text       start:0x0001A574 end:0x0001A734
+
+rel/customize/toolkit/fn_3_1A648.c:
+	.text       start:0x0001A734 end:0x0001AC20
+
+rel/customize/toolkit/fn_3_1AB34.c:
+	.text       start:0x0001AC20 end:0x0001ACC4
+
+rel/customize/toolkit/fn_3_1ABD8.c:
+	.text       start:0x0001ACC4 end:0x0001ADD0
+
+rel/customize/toolkit/fn_3_1ACE4.c:
+	.text       start:0x0001ADD0 end:0x0001AE90
+
+rel/customize/toolkit/fn_3_1ADA4.c:
+	.text       start:0x0001AE90 end:0x0001AF2C
+
+rel/customize/toolkit/fn_3_1AE40.c:
+	.text       start:0x0001AF2C end:0x0001AFD0
+
+rel/customize/toolkit/fn_3_1AEE4.c:
+	.text       start:0x0001AFD0 end:0x0001B0F4
+
+rel/customize/toolkit/fn_3_1B008.c:
+	.text       start:0x0001B0F4 end:0x0001B21C
+
+rel/customize/toolkit/fn_3_1B130.c:
+	.text       start:0x0001B21C end:0x0001B5A8
+
+rel/customize/toolkit/fn_3_240DC.c:
+	.text       start:0x00024444 end:0x000244A0
+
+rel/customize/toolkit/fn_3_28378.c:
+	.text       start:0x000286F8 end:0x00028A3C
+
+rel/customize/toolkit/fn_3_2A2F8.c:
+	.text       start:0x0002A678 end:0x0002AE74
+
+rel/customize/toolkit/fn_3_2B750.c:
+	.text       start:0x0002BADC end:0x0002BB00

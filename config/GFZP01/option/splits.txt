@@ -1,0 +1,85 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:16
+	.rodata     type:rodata align:8
+	.data       type:data align:16
+	.bss        type:bss align:8
+
+rel/option/_prolog/fn_4_0.c:
+	.text       start:0x00000000 end:0x00000250
+
+rel/option/_prolog/fn_4_250.c:
+	.text       start:0x00000250 end:0x000002D4
+
+rel/option/_prolog/fn_4_800.c:
+	.text       start:0x00000B78 end:0x00000C0C
+
+rel/option/_prolog/fn_4_894.c:
+	.text       start:0x00000C0C end:0x00000C54
+
+rel/option/_prolog/fn_4_9B0.c:
+	.text       start:0x00000D28 end:0x00000D84
+
+rel/option/_prolog/fn_4_347C.c:
+	.text       start:0x0000386C end:0x00003958
+
+rel/option/_prolog/fn_4_4784.c:
+	.text       start:0x00004EC4 end:0x00004F74
+
+rel/option/_prolog/fn_4_4834.c:
+	.text       start:0x00004F74 end:0x00005250
+
+rel/option/_prolog/fn_4_4B10.c:
+	.text       start:0x00005250 end:0x000052B4
+
+rel/option/_prolog/fn_4_4B74.c:
+	.text       start:0x000052B4 end:0x000053F8
+
+rel/option/_prolog/fn_4_4CB8.c:
+	.text       start:0x000053F8 end:0x00005538
+
+rel/option/_prolog/fn_4_6678.c:
+	.text       start:0x00006F14 end:0x00006FBC
+
+rel/option/_prolog/fn_4_869C.c:
+	.text       start:0x00008F88 end:0x0000900C
+
+rel/option/_prolog/fn_4_8720.c:
+	.text       start:0x0000900C end:0x00009278
+
+rel/option/_prolog/fn_4_89E4.c:
+	.text       start:0x000092D0 end:0x00009340
+
+rel/option/_prolog/fn_4_8A54.c:
+	.text       start:0x00009340 end:0x000093CC
+
+rel/option/_prolog/fn_4_8AE0.c:
+	.text       start:0x000093CC end:0x00009428
+
+rel/option/_prolog/fn_4_8DC0.c:
+	.text       start:0x000096EC end:0x00009764
+
+rel/option/_prolog/fn_4_9AD0.c:
+	.text       start:0x0000A3FC end:0x0000A44C
+
+rel/option/_prolog/fn_4_9B20.c:
+	.text       start:0x0000A44C end:0x0000A540
+
+rel/option/_prolog/fn_4_AB30.c:
+	.text       start:0x0000B934 end:0x0000B994
+
+rel/option/_prolog/fn_4_AB90.c:
+	.text       start:0x0000B994 end:0x0000B9B4
+
+rel/option/_prolog/fn_4_ACF0.c:
+	.text       start:0x0000BAF4 end:0x0000BB48
+
+rel/option/_prolog/fn_4_AD44.c:
+	.text       start:0x0000BB48 end:0x0000BB7C
+
+rel/option/_prolog/fn_4_AD78.c:
+	.text       start:0x0000BB7C end:0x0000BBB0
+
+rel/option/_prolog/fn_4_ADB0.c:
+	.text       start:0x0000BBB4 end:0x0000BBF4

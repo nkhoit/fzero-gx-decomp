@@ -1,0 +1,28 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:8
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:32
+	.data       type:data align:32
+	.bss        type:bss align:8
+
+rel/replay/_prolog/fn_13_A48.c:
+	.text       start:0x00000A40 end:0x00000A64
+
+rel/replay/_prolog/fn_13_A6C.c:
+	.text       start:0x00000A64 end:0x00000A8C
+
+rel/replay/_prolog/fn_13_B08.c:
+	.text       start:0x00000B00 end:0x00000B5C
+
+rel/replay/_prolog/fn_13_B64.c:
+	.text       start:0x00000B5C end:0x00000B70
+
+rel/replay/_prolog/fn_13_B7C.c:
+	.text       start:0x00000B74 end:0x00000BC4
+
+rel/replay/replay_mode/fn_13_E8C.c:
+	.text       start:0x00000E84 end:0x00000EE8
+
+rel/replay/replay_mode/fn_13_EF0.c:
+	.text       start:0x00000EE8 end:0x00000EF8

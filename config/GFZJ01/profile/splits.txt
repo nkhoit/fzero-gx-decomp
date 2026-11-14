@@ -1,0 +1,67 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:8
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:32
+	.data       type:data align:16
+	.bss        type:bss align:32
+
+rel/profile/fn_16_910.c:
+	.text       start:0x00000910 end:0x0000096C
+
+rel/profile/fn_16_96C.c:
+	.text       start:0x0000096C end:0x000009EC
+
+rel/profile/fn_16_9EC.c:
+	.text       start:0x000009EC end:0x00000A34
+
+rel/profile/fn_16_A38.c:
+	.text       start:0x00000A38 end:0x00000AA8
+
+rel/profile/fn_16_AA8.c:
+	.text       start:0x00000AA8 end:0x00000B10
+
+rel/profile/fn_16_B10.c:
+	.text       start:0x00000B10 end:0x00000B24
+
+rel/profile/fn_16_B24.c:
+	.text       start:0x00000B24 end:0x00000CAC
+
+rel/profile/fn_16_CAC.c:
+	.text       start:0x00000CAC end:0x00000DC8
+
+rel/profile/fn_16_E20.c:
+	.text       start:0x00000E20 end:0x00001038
+
+rel/profile/fn_16_18CC.c:
+	.text       start:0x00001890 end:0x000019E8
+
+rel/profile/fn_16_1A24.c:
+	.text       start:0x000019E8 end:0x00001CDC
+
+rel/profile/fn_16_1D18.c:
+	.text       start:0x00001CDC end:0x00001EE0
+
+rel/profile/fn_16_1F1C.c:
+	.text       start:0x00001EE0 end:0x00002018
+
+rel/profile/fn_16_2054.c:
+	.text       start:0x00002018 end:0x000020B8
+
+rel/profile/fn_16_20F4.c:
+	.text       start:0x000020B8 end:0x000022EC
+
+rel/profile/fn_16_2328.c:
+	.text       start:0x000022EC end:0x0000236C
+
+rel/profile/fn_16_23A8.c:
+	.text       start:0x0000236C end:0x00002468
+
+rel/profile/fn_16_24FC.c:
+	.text       start:0x000024C0 end:0x000024EC
+
+rel/profile/fn_16_2528.c:
+	.text       start:0x000024EC end:0x00002524
+
+rel/profile/fn_16_6CD8.c:
+	.text       start:0x000069D4 end:0x00006A44

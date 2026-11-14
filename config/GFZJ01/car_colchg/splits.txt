@@ -1,0 +1,73 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:16
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+rel/car_colchg/_prolog/fn_9_298.c:
+	.text       start:0x00000298 end:0x000002E0
+
+rel/car_colchg/_prolog/fn_9_2E0.c:
+	.text       start:0x000002E0 end:0x00000328
+
+rel/car_colchg/car_colchg/colchg_menu_init.c:
+	.text       start:0x000003F0 end:0x00000454
+
+rel/car_colchg/car_colchg/fn_9_454.c:
+	.text       start:0x00000454 end:0x00000534
+
+rel/car_colchg/car_colchg/colchg_selcar_init.c:
+	.text       start:0x00000570 end:0x000005D8
+
+rel/car_colchg/car_colchg/fn_9_5D8.c:
+	.text       start:0x000005D8 end:0x000006F0
+
+rel/car_colchg/car_colchg/fn_9_7DC.c:
+	.text       start:0x000007DC end:0x00000A18
+
+rel/car_colchg/car_colchg/fn_9_A18.c:
+	.text       start:0x00000A18 end:0x00000A8C
+
+rel/car_colchg/car_colchg/colchg_chgcol_init.c:
+	.text       start:0x00000A8C end:0x00000AF0
+
+rel/car_colchg/car_colchg/colchg_ezsel_init.c:
+	.text       start:0x00000DFC end:0x00000E4C
+
+rel/car_colchg/car_colchg/fn_9_E4C.c:
+	.text       start:0x00000E4C end:0x00000F38
+
+rel/car_colchg/car_colchg/colchg_save_init.c:
+	.text       start:0x00000F74 end:0x00000FD0
+
+rel/car_colchg/car_colchg/fn_9_FD0.c:
+	.text       start:0x00000FD0 end:0x00001018
+
+rel/car_colchg/car_colchg/fn_9_1054.c:
+	.text       start:0x00001054 end:0x000010BC
+
+rel/car_colchg/car_colchg/fn_9_10BC.c:
+	.text       start:0x000010BC end:0x00001124
+
+rel/car_colchg/car_colchg/colchg_menu_disp.c:
+	.text       start:0x00001160 end:0x0000120C
+
+rel/car_colchg/car_colchg/colchg_selcar_disp.c:
+	.text       start:0x00001410 end:0x000016B8
+
+rel/car_colchg/car_colchg/colchg_selmate_disp.c:
+	.text       start:0x000016B8 end:0x00001890
+
+rel/car_colchg/car_colchg/colchg_chgcol_disp.c:
+	.text       start:0x00001890 end:0x00001A20
+
+rel/car_colchg/car_colchg/colchg_ezsel_disp.c:
+	.text       start:0x00001A20 end:0x00001A8C
+
+rel/car_colchg/car_colchg/fn_9_1BCC.c:
+	.text       start:0x00001BCC end:0x00001C54
+
+rel/car_colchg/car_colchg/fn_9_1C54.c:
+	.text       start:0x00001C54 end:0x00001CB0

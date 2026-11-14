@@ -1,0 +1,70 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:16
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+rel/story/story_mode/fn_7_244.c:
+	.text       start:0x00000244 end:0x0000025C
+
+rel/story/story_mode/fn_7_25C.c:
+	.text       start:0x0000025C end:0x00000318
+
+rel/story/story_mode/fn_7_388.c:
+	.text       start:0x00000388 end:0x000003E4
+
+rel/story/story_mode/fn_7_3E4.c:
+	.text       start:0x000003E4 end:0x0000050C
+
+rel/story/story_mode/fn_7_E50.c:
+	.text       start:0x00000E5C end:0x00000E90
+
+rel/story/story_mode/fn_7_12FC.c:
+	.text       start:0x00001304 end:0x000013A0
+
+rel/story/story_mode/fn_7_1398.c:
+	.text       start:0x000013A0 end:0x000013D4
+
+rel/story/story_mode/fn_7_13CC.c:
+	.text       start:0x000013D4 end:0x00001404
+
+rel/story/story_mode/fn_7_15BC.c:
+	.text       start:0x000015C4 end:0x00001704
+
+rel/story/story_mode/fn_7_1BA8.c:
+	.text       start:0x00001BB0 end:0x00001C14
+
+rel/story/story_mode/fn_7_1C0C.c:
+	.text       start:0x00001C14 end:0x00001C38
+
+rel/story/story_mode/fn_7_2114.c:
+	.text       start:0x0000211C end:0x00002178
+
+rel/story/story_mode/fn_7_235C.c:
+	.text       start:0x00002364 end:0x0000238C
+
+rel/story/story_mode/fn_7_2384.c:
+	.text       start:0x0000238C end:0x000023B0
+
+rel/story/story_mode/fn_7_23A8.c:
+	.text       start:0x000023B0 end:0x000024E0
+
+rel/story/story_mode/fn_7_24D8.c:
+	.text       start:0x000024E0 end:0x0000251C
+
+rel/story/story_mode/fn_7_2514.c:
+	.text       start:0x0000251C end:0x00002540
+
+rel/story/story_mode/fn_7_3FCC.c:
+	.text       start:0x00003F5C end:0x00003FE0
+
+rel/story/story_mode/fn_7_4050.c:
+	.text       start:0x00003FE0 end:0x00004024
+
+rel/story/story_mode/fn_7_4E28.c:
+	.text       start:0x00004CF0 end:0x00004DC0
+
+rel/story/story_mode/fn_7_4EF8.c:
+	.text       start:0x00004DC0 end:0x00004E98

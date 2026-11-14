@@ -1,7 +1,4555 @@
 Sections:
 	.text       type:code align:4
-	.ctors      type:rodata align:4
+	.ctors      type:rodata align:8
 	.dtors      type:rodata align:4
-	.rodata     type:rodata align:8
+	.rodata     type:rodata align:32
 	.data       type:data align:32
 	.bss        type:bss align:32
+
+rel/main_rel/_prolog/fn_1_634.c:
+	.text       start:0x00000634 end:0x00000668
+
+rel/main_rel/_prolog/fn_1_668.c:
+	.text       start:0x00000668 end:0x000006D4
+
+rel/main_rel/_prolog/fn_1_6D4.c:
+	.text       start:0x000006D4 end:0x00000798
+
+rel/main_rel/_prolog/fn_1_798.c:
+	.text       start:0x00000798 end:0x00000814
+
+rel/main_rel/_prolog/fn_1_8D4.c:
+	.text       start:0x000008D4 end:0x00000904
+
+rel/main_rel/_prolog/fn_1_924.c:
+	.text       start:0x00000924 end:0x00000950
+
+rel/main_rel/_prolog/fn_1_95C.c:
+	.text       start:0x0000095C end:0x00000E34
+
+rel/main_rel/_prolog/fn_1_E34.c:
+	.text       start:0x00000E34 end:0x00000E78
+
+rel/main_rel/_prolog/fn_1_E9C.c:
+	.text       start:0x00000E9C end:0x00000ECC
+
+rel/main_rel/_prolog/fn_1_12B4.c:
+	.text       start:0x000012B4 end:0x000012FC
+
+rel/main_rel/_prolog/fn_1_17C8.c:
+	.text       start:0x000017C8 end:0x00001ACC
+
+rel/main_rel/_prolog/fn_1_1ACC.c:
+	.text       start:0x00001ACC end:0x00001C00
+
+rel/main_rel/_prolog/fn_1_1C00.c:
+	.text       start:0x00001C00 end:0x00001DF0
+
+rel/main_rel/_prolog/fn_1_1DF0.c:
+	.text       start:0x00001DF0 end:0x00001FE8
+
+rel/main_rel/_prolog/fn_1_1FE8.c:
+	.text       start:0x00001FE8 end:0x000021E4
+
+rel/main_rel/_prolog/fn_1_3238.c:
+	.text       start:0x00003238 end:0x00003308
+
+rel/main_rel/_prolog/fn_1_3B34.c:
+	.text       start:0x00003B34 end:0x00003BB0
+
+rel/main_rel/_prolog/fn_1_3BDC.c:
+	.text       start:0x00003BDC end:0x00003C18
+
+rel/main_rel/_prolog/fn_1_3C18.c:
+	.text       start:0x00003C18 end:0x00003C78
+
+rel/main_rel/_prolog/fn_1_3C78.c:
+	.text       start:0x00003C78 end:0x00003C98
+
+rel/main_rel/_prolog/fn_1_3CF0.c:
+	.text       start:0x00003CF0 end:0x00003F8C
+
+rel/main_rel/_prolog/fn_1_3F8C.c:
+	.text       start:0x00003F8C end:0x00004010
+
+rel/main_rel/_prolog/fn_1_4010.c:
+	.text       start:0x00004010 end:0x00004030
+
+rel/main_rel/_prolog/fn_1_4030.c:
+	.text       start:0x00004030 end:0x00004060
+
+rel/main_rel/_prolog/fn_1_4060.c:
+	.text       start:0x00004060 end:0x0000407C
+
+rel/main_rel/_prolog/fn_1_407C.c:
+	.text       start:0x0000407C end:0x000041A8
+
+rel/main_rel/_prolog/fn_1_41A8.c:
+	.text       start:0x000041A8 end:0x0000426C
+
+rel/main_rel/_prolog/fn_1_426C.c:
+	.text       start:0x0000426C end:0x00004310
+
+rel/main_rel/_prolog/fn_1_4374.c:
+	.text       start:0x00004374 end:0x000043A4
+
+rel/main_rel/_prolog/fn_1_43A4.c:
+	.text       start:0x000043A4 end:0x000043E8
+
+rel/main_rel/_prolog/fn_1_446C.c:
+	.text       start:0x0000446C end:0x000044A4
+
+rel/main_rel/_prolog/fn_1_44B4.c:
+	.text       start:0x000044B4 end:0x0000451C
+
+rel/main_rel/_prolog/fn_1_451C.c:
+	.text       start:0x0000451C end:0x000045D0
+
+rel/main_rel/_prolog/fn_1_45D0.c:
+	.text       start:0x000045D0 end:0x00004630
+
+rel/main_rel/_prolog/fn_1_4630.c:
+	.text       start:0x00004630 end:0x000046B4
+
+rel/main_rel/_prolog/fn_1_46B4.c:
+	.text       start:0x000046B4 end:0x00004730
+
+rel/main_rel/_prolog/fn_1_4730.c:
+	.text       start:0x00004730 end:0x000048B0
+
+rel/main_rel/_prolog/fn_1_48B0.c:
+	.text       start:0x000048B0 end:0x000048E8
+
+rel/main_rel/_prolog/fn_1_48E8.c:
+	.text       start:0x000048E8 end:0x00004928
+
+rel/main_rel/alloc/fn_1_4928.c:
+	.text       start:0x00004928 end:0x000049F0
+
+rel/main_rel/alloc/fn_1_49F0.c:
+	.text       start:0x000049F0 end:0x00004A00
+
+rel/main_rel/alloc/fn_1_4A00.c:
+	.text       start:0x00004A00 end:0x00004BB0
+
+rel/main_rel/alloc/fn_1_4BB0.c:
+	.text       start:0x00004BB0 end:0x00004C10
+
+rel/main_rel/alloc/fn_1_4C10.c:
+	.text       start:0x00004C10 end:0x00004C24
+
+rel/main_rel/alloc/fn_1_4C24.c:
+	.text       start:0x00004C24 end:0x00004CAC
+
+rel/main_rel/alloc/fn_1_4CAC.c:
+	.text       start:0x00004CAC end:0x00004CC0
+
+rel/main_rel/alloc/fn_1_4CC0.c:
+	.text       start:0x00004CC0 end:0x00004CD8
+
+rel/main_rel/alloc/fn_1_4CD8.c:
+	.text       start:0x00004CD8 end:0x00004D14
+
+rel/main_rel/alloc/fn_1_4D14.c:
+	.text       start:0x00004D14 end:0x00004DE0
+
+rel/main_rel/alloc/fn_1_4DE0.c:
+	.text       start:0x00004DE0 end:0x00004E60
+
+rel/main_rel/alloc/fn_1_4E60.c:
+	.text       start:0x00004E60 end:0x00004FEC
+
+rel/main_rel/alloc/fn_1_4FFC.c:
+	.text       start:0x00004FFC end:0x0000509C
+
+rel/main_rel/alloc/fn_1_509C.c:
+	.text       start:0x0000509C end:0x00005104
+
+rel/main_rel/alloc/fn_1_5104.c:
+	.text       start:0x00005104 end:0x00005124
+
+rel/main_rel/alloc/fn_1_5124.c:
+	.text       start:0x00005124 end:0x000052E0
+
+rel/main_rel/alloc/fn_1_5370.c:
+	.text       start:0x00005370 end:0x000056B8
+
+rel/main_rel/alloc/fn_1_56B8.c:
+	.text       start:0x000056B8 end:0x000058C4
+
+rel/main_rel/alloc/fn_1_58C4.c:
+	.text       start:0x000058C4 end:0x00005910
+
+rel/main_rel/alloc/fn_1_5910.c:
+	.text       start:0x00005910 end:0x00005948
+
+rel/main_rel/alloc/fn_1_5948.c:
+	.text       start:0x00005948 end:0x0000627C
+
+rel/main_rel/alloc/fn_1_627C.c:
+	.text       start:0x0000627C end:0x00006394
+
+rel/main_rel/alloc/fn_1_6394.c:
+	.text       start:0x00006394 end:0x000063D4
+
+rel/main_rel/camera/fn_1_6400.c:
+	.text       start:0x00006400 end:0x0000649C
+
+rel/main_rel/camera/camera_get_state.c:
+	.text       start:0x0000649C end:0x000064C0
+
+rel/main_rel/camera/fn_1_6514.c:
+	.text       start:0x00006514 end:0x0000660C
+
+rel/main_rel/camera/camera_get_flags.c:
+	.text       start:0x0000660C end:0x00006634
+
+rel/main_rel/camera/camera_update.c:
+	.text       start:0x00006634 end:0x0000666C
+
+rel/main_rel/camera/camera_update_state.c:
+	.text       start:0x0000666C end:0x000066B8
+
+rel/main_rel/camera/fn_1_66B8.c:
+	.text       start:0x000066B8 end:0x0000681C
+
+rel/main_rel/camera/camera_get_mode.c:
+	.text       start:0x00006A80 end:0x00006AE4
+
+rel/main_rel/camera/camera_get_output.c:
+	.text       start:0x00006AE4 end:0x00006B48
+
+rel/main_rel/camera/fn_1_6BC0.c:
+	.text       start:0x00006BC0 end:0x00006CB4
+
+rel/main_rel/camera/camera_set_result.c:
+	.text       start:0x00006CB4 end:0x00006CD8
+
+rel/main_rel/camera/fn_1_6DD0.c:
+	.text       start:0x00006DD0 end:0x00006EC0
+
+rel/main_rel/camera/fn_1_6EC0.c:
+	.text       start:0x00006EC0 end:0x00006F3C
+
+rel/main_rel/camera/camera_is_mode_0x0b.c:
+	.text       start:0x00006F3C end:0x00006F84
+
+rel/main_rel/camera/fn_1_6F84.c:
+	.text       start:0x00006F84 end:0x00007000
+
+rel/main_rel/camera/fn_1_7000.c:
+	.text       start:0x00007000 end:0x0000707C
+
+rel/main_rel/camera/camera_set_entry_field_0xa8.c:
+	.text       start:0x0000713C end:0x0000715C
+
+rel/main_rel/camera/fn_1_715C.c:
+	.text       start:0x0000715C end:0x0000723C
+
+rel/main_rel/camera/camera_compare_values.c:
+	.text       start:0x000081DC end:0x00008224
+
+rel/main_rel/camera/fn_1_847C.c:
+	.text       start:0x00008430 end:0x00008530
+
+rel/main_rel/camera/fn_1_857C.c:
+	.text       start:0x00008530 end:0x000085DC
+
+rel/main_rel/camera/camera_get_values.c:
+	.text       start:0x00008614 end:0x000086BC
+
+rel/main_rel/camera/fn_1_8708.c:
+	.text       start:0x000086BC end:0x00008724
+
+rel/main_rel/camera/camera_init.c:
+	.text       start:0x00008A74 end:0x00008AA4
+
+rel/main_rel/camera/fn_1_8B10.c:
+	.text       start:0x00008AC4 end:0x00008CBC
+
+rel/main_rel/camera/fn_1_A888.c:
+	.text       start:0x0000A83C end:0x0000AA08
+
+rel/main_rel/camera/fn_1_AA54.c:
+	.text       start:0x0000AA08 end:0x0000AB60
+
+rel/main_rel/camera/fn_1_ABAC.c:
+	.text       start:0x0000AB60 end:0x0000AD48
+
+rel/main_rel/camera/camera_get_position_delta.c:
+	.text       start:0x0000AD48 end:0x0000ADC4
+
+rel/main_rel/camera/camera_reset_transition.c:
+	.text       start:0x0000ADC4 end:0x0000ADEC
+
+rel/main_rel/camera/camera_update_transition.c:
+	.text       start:0x0000ADEC end:0x0000AE6C
+
+rel/main_rel/camera/fn_1_AEB8.c:
+	.text       start:0x0000AE6C end:0x0000AF7C
+
+rel/main_rel/camera/fn_1_AFC8.c:
+	.text       start:0x0000AF7C end:0x0000B3E0
+
+rel/main_rel/camera/camera_get_target_orientation.c:
+	.text       start:0x0000B3E0 end:0x0000B488
+
+rel/main_rel/camera/fn_1_B4D4.c:
+	.text       start:0x0000B488 end:0x0000B6D8
+
+rel/main_rel/camera/fn_1_B81C.c:
+	.text       start:0x0000B7D0 end:0x0000B810
+
+rel/main_rel/camera/camera_save_parameters.c:
+	.text       start:0x0000B810 end:0x0000B824
+
+rel/main_rel/camera/fn_1_C038.c:
+	.text       start:0x0000BFEC end:0x0000C058
+
+rel/main_rel/camera/camera_save_slot.c:
+	.text       start:0x0000C058 end:0x0000C0C0
+
+rel/main_rel/camera/fn_1_C178.c:
+	.text       start:0x0000C12C end:0x0000C1DC
+
+rel/main_rel/camera/camera_report_position.c:
+	.text       start:0x0000C1DC end:0x0000C21C
+
+rel/main_rel/camera/fn_1_C268.c:
+	.text       start:0x0000C21C end:0x0000C2B8
+
+rel/main_rel/camera/fn_1_C304.c:
+	.text       start:0x0000C2B8 end:0x0000C310
+
+rel/main_rel/camera/camera_snapshot.c:
+	.text       start:0x0000C310 end:0x0000C36C
+
+rel/main_rel/live_camera/fn_1_DA34.c:
+	.text       start:0x0000D9E8 end:0x0000DA20
+
+rel/main_rel/live_camera/fn_1_DA6C.c:
+	.text       start:0x0000DA20 end:0x0000DDC8
+
+rel/main_rel/live_camera/fn_1_DE14.c:
+	.text       start:0x0000DDC8 end:0x0000DF28
+
+rel/main_rel/live_camera/fn_1_E174.c:
+	.text       start:0x0000E128 end:0x0000E63C
+
+rel/main_rel/live_camera/fn_1_EBE4.c:
+	.text       start:0x0000EB98 end:0x0000EDB8
+
+rel/main_rel/live_camera/fn_1_EE04.c:
+	.text       start:0x0000EDB8 end:0x0000EDF8
+
+rel/main_rel/live_camera/fn_1_EE44.c:
+	.text       start:0x0000EDF8 end:0x0000F384
+
+rel/main_rel/live_camera/fn_1_FA84.c:
+	.text       start:0x0000FA38 end:0x0000FB04
+
+rel/main_rel/live_camera/fn_1_FB50.c:
+	.text       start:0x0000FB04 end:0x0000FC64
+
+rel/main_rel/live_camera/fn_1_FCB0.c:
+	.text       start:0x0000FC64 end:0x000100EC
+
+rel/main_rel/live_camera/fn_1_1138C.c:
+	.text       start:0x00011330 end:0x000114E8
+
+rel/main_rel/live_camera/fn_1_11544.c:
+	.text       start:0x000114E8 end:0x000116EC
+
+rel/main_rel/live_camera/fn_1_11748.c:
+	.text       start:0x000116EC end:0x00011840
+
+rel/main_rel/live_camera/fn_1_11C08.c:
+	.text       start:0x00011BAC end:0x00011E3C
+
+rel/main_rel/live_camera/fn_1_11E98.c:
+	.text       start:0x00011E3C end:0x000120D0
+
+rel/main_rel/live_camera/fn_1_1212C.c:
+	.text       start:0x000120D0 end:0x000125C4
+
+rel/main_rel/live_camera/fn_1_12860.c:
+	.text       start:0x00012804 end:0x00012840
+
+rel/main_rel/live_camera/fn_1_1289C.c:
+	.text       start:0x00012840 end:0x00012B2C
+
+rel/main_rel/live_camera/fn_1_12B88.c:
+	.text       start:0x00012B2C end:0x00012F1C
+
+rel/main_rel/live_camera/fn_1_12F78.c:
+	.text       start:0x00012F1C end:0x00012F78
+
+rel/main_rel/live_camera/fn_1_12FD4.c:
+	.text       start:0x00012F78 end:0x00012FBC
+
+rel/main_rel/live_camera/fn_1_13018.c:
+	.text       start:0x00012FBC end:0x00012FF0
+
+rel/main_rel/som/fn_1_1304C.c:
+	.text       start:0x00012FF0 end:0x000134B0
+
+rel/main_rel/som/fn_1_1350C.c:
+	.text       start:0x000134B0 end:0x000135C0
+
+rel/main_rel/som/fn_1_1361C.c:
+	.text       start:0x000135C0 end:0x000137E0
+
+rel/main_rel/som/fn_1_1384C.c:
+	.text       start:0x000137F0 end:0x000139CC
+
+rel/main_rel/som/fn_1_13A28.c:
+	.text       start:0x000139CC end:0x00013B3C
+
+rel/main_rel/stcoli/fn_1_14CB4.c:
+	.text       start:0x00014C58 end:0x00014D00
+
+rel/main_rel/stcoli/fn_1_14D5C.c:
+	.text       start:0x00014D00 end:0x00014D68
+
+rel/main_rel/stcoli/fn_1_14DC4.c:
+	.text       start:0x00014D68 end:0x00014D8C
+
+rel/main_rel/stcoli/fn_1_14DE8.c:
+	.text       start:0x00014D8C end:0x00014EA8
+
+rel/main_rel/stcoli/fn_1_14F18.c:
+	.text       start:0x00014EBC end:0x000151EC
+
+rel/main_rel/stcoli/fn_1_15248.c:
+	.text       start:0x000151EC end:0x0001551C
+
+rel/main_rel/stcoli/fn_1_16BA0.c:
+	.text       start:0x00016B44 end:0x00016E0C
+
+rel/main_rel/stcoli/fn_1_16E68.c:
+	.text       start:0x00016E0C end:0x0001703C
+
+rel/main_rel/stcoli/fn_1_17098.c:
+	.text       start:0x0001703C end:0x000178C4
+
+rel/main_rel/stcoli/fn_1_17920.c:
+	.text       start:0x000178C4 end:0x00017A40
+
+rel/main_rel/stcoli/fn_1_17A9C.c:
+	.text       start:0x00017A40 end:0x00017B00
+
+rel/main_rel/stcoli/fn_1_17B5C.c:
+	.text       start:0x00017B00 end:0x00017C10
+
+rel/main_rel/stcoli/fn_1_17D5C.c:
+	.text       start:0x00017C38 end:0x00017EA8
+
+rel/main_rel/stcoli/fn_1_17FCC.c:
+	.text       start:0x00017EA8 end:0x00017FD0
+
+rel/main_rel/stcoli/fn_1_180F4.c:
+	.text       start:0x00017FD0 end:0x000180A8
+
+rel/main_rel/stcoli/fn_1_18784.c:
+	.text       start:0x00018660 end:0x00018A1C
+
+rel/main_rel/stcoli/fn_1_18B40.c:
+	.text       start:0x00018A1C end:0x00018E04
+
+rel/main_rel/stcoli/fn_1_18F28.c:
+	.text       start:0x00018E04 end:0x00018ED8
+
+rel/main_rel/stcoli/fn_1_18FFC.c:
+	.text       start:0x00018ED8 end:0x00018F08
+
+rel/main_rel/stcoli/fn_1_1902C.c:
+	.text       start:0x00018F08 end:0x000191C4
+
+rel/main_rel/stcoli/fn_1_1B010.c:
+	.text       start:0x0001AEEC end:0x0001B180
+
+rel/main_rel/stcoli/fn_1_1B2A4.c:
+	.text       start:0x0001B180 end:0x0001BFAC
+
+rel/main_rel/stcoli/fn_1_1FDB0.c:
+	.text       start:0x0001FC8C end:0x0001FE7C
+
+rel/main_rel/stcoli/fn_1_1FFA0.c:
+	.text       start:0x0001FE7C end:0x00020134
+
+rel/main_rel/stcoli/fn_1_20994.c:
+	.text       start:0x00020870 end:0x00020938
+
+rel/main_rel/stcoli/fn_1_20A5C.c:
+	.text       start:0x00020938 end:0x00020F84
+
+rel/main_rel/stcoli/fn_1_210A8.c:
+	.text       start:0x00020F84 end:0x000213A0
+
+rel/main_rel/stcoli/fn_1_214C4.c:
+	.text       start:0x000213A0 end:0x00021520
+
+rel/main_rel/stcoli/fn_1_21644.c:
+	.text       start:0x00021520 end:0x0002159C
+
+rel/main_rel/stcoli/fn_1_216C0.c:
+	.text       start:0x0002159C end:0x000215CC
+
+rel/main_rel/stcoli/fn_1_216F0.c:
+	.text       start:0x000215CC end:0x00021808
+
+rel/main_rel/stcoli/fn_1_21950.c:
+	.text       start:0x0002182C end:0x00021AC0
+
+rel/main_rel/stcoli/fn_1_21BE4.c:
+	.text       start:0x00021AC0 end:0x00021B38
+
+rel/main_rel/stcoli/fn_1_21C5C.c:
+	.text       start:0x00021B38 end:0x00021B7C
+
+rel/main_rel/stcoli/fn_1_21CA0.c:
+	.text       start:0x00021B7C end:0x00021BD8
+
+rel/main_rel/stcoli/fn_1_21CFC.c:
+	.text       start:0x00021BD8 end:0x00021DF4
+
+rel/main_rel/stcoli/fn_1_21F18.c:
+	.text       start:0x00021DF4 end:0x000220F8
+
+rel/main_rel/stcoli/fn_1_2221C.c:
+	.text       start:0x000220F8 end:0x000223D4
+
+rel/main_rel/stcoli/fn_1_229EC.c:
+	.text       start:0x000228C8 end:0x000229EC
+
+rel/main_rel/stcoli/fn_1_22B10.c:
+	.text       start:0x000229EC end:0x00022D68
+
+rel/main_rel/stcoli/fn_1_22E8C.c:
+	.text       start:0x00022D68 end:0x00022E6C
+
+rel/main_rel/stcoli/fn_1_235C8.c:
+	.text       start:0x000234A4 end:0x000234EC
+
+rel/main_rel/stcoli/fn_1_23610.c:
+	.text       start:0x000234EC end:0x0002351C
+
+rel/main_rel/stcoli/fn_1_23640.c:
+	.text       start:0x0002351C end:0x000235A8
+
+rel/main_rel/stcoli/fn_1_236CC.c:
+	.text       start:0x000235A8 end:0x000238A0
+
+rel/main_rel/stcoli/fn_1_24F10.c:
+	.text       start:0x00024DDC end:0x00024ED0
+
+rel/main_rel/stcoli/fn_1_25004.c:
+	.text       start:0x00024ED0 end:0x00024FC4
+
+rel/main_rel/stcoli/fn_1_250F8.c:
+	.text       start:0x00024FC4 end:0x000250C4
+
+rel/main_rel/stcoli/fn_1_253A4.c:
+	.text       start:0x00025270 end:0x0002534C
+
+rel/main_rel/stcoli/fn_1_25870.c:
+	.text       start:0x0002573C end:0x000258E0
+
+rel/main_rel/stcoli/fn_1_27DE4.c:
+	.text       start:0x00027CB0 end:0x00027D00
+
+rel/main_rel/stcoli/fn_1_28660.c:
+	.text       start:0x0002852C end:0x000286B4
+
+rel/main_rel/stcoli/fn_1_287E8.c:
+	.text       start:0x000286B4 end:0x00028880
+
+rel/main_rel/stcoli/fn_1_28F08.c:
+	.text       start:0x00028DD4 end:0x00028F10
+
+rel/main_rel/stcoli/fn_1_29800.c:
+	.text       start:0x000296CC end:0x00029834
+
+rel/main_rel/stcoli/fn_1_29968.c:
+	.text       start:0x00029834 end:0x000298D8
+
+rel/main_rel/stcoli/fn_1_2A214.c:
+	.text       start:0x0002A0E0 end:0x0002A170
+
+rel/main_rel/stcoli/fn_1_2A318.c:
+	.text       start:0x0002A1E4 end:0x0002A2B0
+
+rel/main_rel/stcoli/fn_1_2A3E4.c:
+	.text       start:0x0002A2B0 end:0x0002A2E8
+
+rel/main_rel/stcoli/fn_1_2A41C.c:
+	.text       start:0x0002A2E8 end:0x0002A3CC
+
+rel/main_rel/stcoli/fn_1_2A500.c:
+	.text       start:0x0002A3CC end:0x0002A504
+
+rel/main_rel/stcoli/fn_1_2A678.c:
+	.text       start:0x0002A544 end:0x0002A560
+
+rel/main_rel/stcoli/fn_1_2A694.c:
+	.text       start:0x0002A560 end:0x0002A79C
+
+rel/main_rel/stcoli/fn_1_2A8D0.c:
+	.text       start:0x0002A79C end:0x0002AAA0
+
+rel/main_rel/stcoli/fn_1_2AF0C.c:
+	.text       start:0x0002ADD8 end:0x0002B344
+
+rel/main_rel/stcoli/fn_1_2B478.c:
+	.text       start:0x0002B344 end:0x0002B3F0
+
+rel/main_rel/stcoli/fn_1_2BBD0.c:
+	.text       start:0x0002BA78 end:0x0002BBD8
+
+rel/main_rel/stcoli/fn_1_2C688.c:
+	.text       start:0x0002C530 end:0x0002C610
+
+rel/main_rel/stcoli/fn_1_2C7C4.c:
+	.text       start:0x0002C644 end:0x0002C788
+
+rel/main_rel/stcoli/fn_1_2C908.c:
+	.text       start:0x0002C788 end:0x0002C7FC
+
+rel/main_rel/stcoli/fn_1_2E268.c:
+	.text       start:0x0002E0D0 end:0x0002E21C
+
+rel/main_rel/stcoli/fn_1_2E928.c:
+	.text       start:0x0002E790 end:0x0002EA20
+
+rel/main_rel/game/fn_1_33890.c:
+	.text       start:0x000334C8 end:0x00033658
+
+rel/main_rel/game/fn_1_34AC0.c:
+	.text       start:0x000346F8 end:0x00034A40
+
+rel/main_rel/game/fn_1_35124.c:
+	.text       start:0x00034D5C end:0x00034D84
+
+rel/main_rel/game/fn_1_3514C.c:
+	.text       start:0x00034D84 end:0x00034DAC
+
+rel/main_rel/game/fn_1_36A94.c:
+	.text       start:0x000366A0 end:0x000366DC
+
+rel/main_rel/game/fn_1_36ADC.c:
+	.text       start:0x000366E8 end:0x0003671C
+
+rel/main_rel/game/fn_1_3908C.c:
+	.text       start:0x00038D18 end:0x00038E7C
+
+rel/main_rel/game/fn_1_3A2C4.c:
+	.text       start:0x00039F50 end:0x00039FBC
+
+rel/main_rel/game/fn_1_3DDAC.c:
+	.text       start:0x0003D9F4 end:0x0003DAC8
+
+rel/main_rel/game/fn_1_3E5D0.c:
+	.text       start:0x0003E1FC end:0x0003E254
+
+rel/main_rel/game/fn_1_3E62C.c:
+	.text       start:0x0003E258 end:0x0003E298
+
+rel/main_rel/game/fn_1_3E670.c:
+	.text       start:0x0003E29C end:0x0003E304
+
+rel/main_rel/game/fn_1_3F0D8.c:
+	.text       start:0x0003ECFC end:0x0003ED38
+
+rel/main_rel/game/fn_1_3F1D4.c:
+	.text       start:0x0003EDF8 end:0x0003EE1C
+
+rel/main_rel/game/fn_1_3F1F8.c:
+	.text       start:0x0003EE1C end:0x0003EE60
+
+rel/main_rel/game/fn_1_3F264.c:
+	.text       start:0x0003EE88 end:0x0003EEC4
+
+rel/main_rel/game/fn_1_3F2A0.c:
+	.text       start:0x0003EEC4 end:0x0003F064
+
+rel/main_rel/game/fn_1_3F5F8.c:
+	.text       start:0x0003F21C end:0x0003F380
+
+rel/main_rel/game/fn_1_3F75C.c:
+	.text       start:0x0003F380 end:0x0003F3C4
+
+rel/main_rel/game/fn_1_3F7A0.c:
+	.text       start:0x0003F3C4 end:0x0003F3F4
+
+rel/main_rel/game/fn_1_3F7E0.c:
+	.text       start:0x0003F404 end:0x0003F424
+
+rel/main_rel/game/fn_1_3F810.c:
+	.text       start:0x0003F434 end:0x0003F458
+
+rel/main_rel/game/fn_1_3F864.c:
+	.text       start:0x0003F488 end:0x0003F4B8
+
+rel/main_rel/game/fn_1_3F894.c:
+	.text       start:0x0003F4B8 end:0x0003F4E4
+
+rel/main_rel/game/fn_1_3FBF4.c:
+	.text       start:0x0003F818 end:0x0003F83C
+
+rel/main_rel/game/fn_1_3FC18.c:
+	.text       start:0x0003F83C end:0x0003F84C
+
+rel/main_rel/game/fn_1_3FC28.c:
+	.text       start:0x0003F84C end:0x0003F85C
+
+rel/main_rel/game/fn_1_3FC48.c:
+	.text       start:0x0003F86C end:0x0003F87C
+
+rel/main_rel/game/fn_1_3FC58.c:
+	.text       start:0x0003F87C end:0x0003F88C
+
+rel/main_rel/game/fn_1_3FC68.c:
+	.text       start:0x0003F88C end:0x0003F8B0
+
+rel/main_rel/game/fn_1_3FC8C.c:
+	.text       start:0x0003F8B0 end:0x0003F8C0
+
+rel/main_rel/game/fn_1_3FC9C.c:
+	.text       start:0x0003F8C0 end:0x0003F8D4
+
+rel/main_rel/game/fn_1_3FCB0.c:
+	.text       start:0x0003F8D4 end:0x0003F8F8
+
+rel/main_rel/game/fn_1_3FCD4.c:
+	.text       start:0x0003F8F8 end:0x0003F91C
+
+rel/main_rel/game/fn_1_3FCF8.c:
+	.text       start:0x0003F91C end:0x0003F9CC
+
+rel/main_rel/game/fn_1_3FDA8.c:
+	.text       start:0x0003F9CC end:0x0003FBB4
+
+rel/main_rel/game/fn_1_3FF90.c:
+	.text       start:0x0003FBB4 end:0x0003FDA0
+
+rel/main_rel/game/fn_1_4017C.c:
+	.text       start:0x0003FDA0 end:0x0003FE48
+
+rel/main_rel/game/fn_1_40224.c:
+	.text       start:0x0003FE48 end:0x0003FEC8
+
+rel/main_rel/game/fn_1_402A4.c:
+	.text       start:0x0003FEC8 end:0x0003FEF8
+
+rel/main_rel/game/fn_1_402D4.c:
+	.text       start:0x0003FEF8 end:0x0003FF78
+
+rel/main_rel/game/fn_1_40354.c:
+	.text       start:0x0003FF78 end:0x0003FFF8
+
+rel/main_rel/game/fn_1_40B20.c:
+	.text       start:0x00040754 end:0x000407E8
+
+rel/main_rel/game/fn_1_40BB4.c:
+	.text       start:0x000407E8 end:0x00040808
+
+rel/main_rel/game/fn_1_40D44.c:
+	.text       start:0x00040978 end:0x00040A3C
+
+rel/main_rel/game/fn_1_40E08.c:
+	.text       start:0x00040A3C end:0x00040B08
+
+rel/main_rel/game/fn_1_40EE4.c:
+	.text       start:0x00040B18 end:0x00040B68
+
+rel/main_rel/game/fn_1_40F78.c:
+	.text       start:0x00040B9C end:0x00040C30
+
+rel/main_rel/game/fn_1_41048.c:
+	.text       start:0x00040C6C end:0x00040CC4
+
+rel/main_rel/game/fn_1_410A0.c:
+	.text       start:0x00040CC4 end:0x00040D28
+
+rel/main_rel/game/fn_1_41134.c:
+	.text       start:0x00040D58 end:0x00040DC8
+
+rel/main_rel/game/fn_1_41328.c:
+	.text       start:0x00040F4C end:0x0004103C
+
+rel/main_rel/game/fn_1_41418.c:
+	.text       start:0x0004103C end:0x000410AC
+
+rel/main_rel/game/fn_1_41488.c:
+	.text       start:0x000410AC end:0x0004113C
+
+rel/main_rel/motasglist/fn_1_41518.c:
+	.text       start:0x0004113C end:0x00041474
+
+rel/main_rel/motasglist/fn_1_41850.c:
+	.text       start:0x00041474 end:0x0004173C
+
+rel/main_rel/motasglist/fn_1_41B18.c:
+	.text       start:0x0004173C end:0x00041800
+
+rel/main_rel/motasglist/fn_1_41BDC.c:
+	.text       start:0x00041800 end:0x0004183C
+
+rel/main_rel/motasglist/fn_1_41C18.c:
+	.text       start:0x0004183C end:0x000418DC
+
+rel/main_rel/motasglist/fn_1_41CB8.c:
+	.text       start:0x000418DC end:0x00041A58
+
+rel/main_rel/motasglist/fn_1_41E34.c:
+	.text       start:0x00041A58 end:0x00041B7C
+
+rel/main_rel/motasglist/fn_1_41F58.c:
+	.text       start:0x00041B7C end:0x00041C68
+
+rel/main_rel/motasglist/fn_1_42044.c:
+	.text       start:0x00041C68 end:0x00041E78
+
+rel/main_rel/motasglist/fn_1_42254.c:
+	.text       start:0x00041E78 end:0x0004207C
+
+rel/main_rel/motasglist/fn_1_42458.c:
+	.text       start:0x0004207C end:0x000420A0
+
+rel/main_rel/motasglist/fn_1_4247C.c:
+	.text       start:0x000420A0 end:0x000422D0
+
+rel/main_rel/motasglist/fn_1_426AC.c:
+	.text       start:0x000422D0 end:0x00042308
+
+rel/main_rel/motasglist/fn_1_426E4.c:
+	.text       start:0x00042308 end:0x00042330
+
+rel/main_rel/motasglist/fn_1_4270C.c:
+	.text       start:0x00042330 end:0x000426F4
+
+rel/main_rel/motasglist/fn_1_42AD0.c:
+	.text       start:0x000426F4 end:0x00042A98
+
+rel/main_rel/motasglist/fn_1_42E74.c:
+	.text       start:0x00042A98 end:0x00042C30
+
+rel/main_rel/motasglist/fn_1_4300C.c:
+	.text       start:0x00042C30 end:0x00042C7C
+
+rel/main_rel/motasglist/fn_1_43058.c:
+	.text       start:0x00042C7C end:0x00042D44
+
+rel/main_rel/motasglist/fn_1_43120.c:
+	.text       start:0x00042D44 end:0x00042DDC
+
+rel/main_rel/motasglist/fn_1_431B8.c:
+	.text       start:0x00042DDC end:0x00042E50
+
+rel/main_rel/motasglist/fn_1_4322C.c:
+	.text       start:0x00042E50 end:0x00042E88
+
+rel/main_rel/motasglist/fn_1_43264.c:
+	.text       start:0x00042E88 end:0x00042FC8
+
+rel/main_rel/motasglist/fn_1_433A4.c:
+	.text       start:0x00042FC8 end:0x00043004
+
+rel/main_rel/motasglist/fn_1_438AC.c:
+	.text       start:0x000434D0 end:0x00043A2C
+
+rel/main_rel/motasglist/fn_1_43E08.c:
+	.text       start:0x00043A2C end:0x00043EFC
+
+rel/main_rel/motasglist/fn_1_442D8.c:
+	.text       start:0x00043EFC end:0x000444A8
+
+rel/main_rel/motasglist/fn_1_44884.c:
+	.text       start:0x000444A8 end:0x000445CC
+
+rel/main_rel/motasglist/fn_1_449A8.c:
+	.text       start:0x000445CC end:0x00044698
+
+rel/main_rel/load/fn_1_45730.c:
+	.text       start:0x00045354 end:0x00045474
+
+rel/main_rel/load/fn_1_45850.c:
+	.text       start:0x00045474 end:0x000454B4
+
+rel/main_rel/load/fn_1_458A0.c:
+	.text       start:0x000454C4 end:0x00045588
+
+rel/main_rel/load/fn_1_45AD4.c:
+	.text       start:0x000456F8 end:0x00045750
+
+rel/main_rel/load/fn_1_45BA4.c:
+	.text       start:0x000457C8 end:0x00045804
+
+rel/main_rel/load/fn_1_45CD8.c:
+	.text       start:0x000458FC end:0x0004599C
+
+rel/main_rel/load/fn_1_45D78.c:
+	.text       start:0x0004599C end:0x00045AA8
+
+rel/main_rel/load/fn_1_45E84.c:
+	.text       start:0x00045AA8 end:0x00045ABC
+
+rel/main_rel/load/fn_1_45E98.c:
+	.text       start:0x00045ABC end:0x00045D68
+
+rel/main_rel/load/fn_1_464BC.c:
+	.text       start:0x000460E0 end:0x000461F4
+
+rel/main_rel/load/fn_1_465D0.c:
+	.text       start:0x000461F4 end:0x000462D4
+
+rel/main_rel/load/fn_1_466B0.c:
+	.text       start:0x000462D4 end:0x00046418
+
+rel/main_rel/load/fn_1_467F4.c:
+	.text       start:0x00046418 end:0x0004645C
+
+rel/main_rel/load/fn_1_469BC.c:
+	.text       start:0x000465E0 end:0x00046684
+
+rel/main_rel/load/fn_1_46A8C.c:
+	.text       start:0x000466B0 end:0x00046768
+
+rel/main_rel/load/fn_1_46C70.c:
+	.text       start:0x00046894 end:0x000469E8
+
+rel/main_rel/load/fn_1_46DC4.c:
+	.text       start:0x000469E8 end:0x00046ACC
+
+rel/main_rel/load/fn_1_47184.c:
+	.text       start:0x00046DA8 end:0x00046DC4
+
+rel/main_rel/load/fn_1_471A0.c:
+	.text       start:0x00046DC4 end:0x00046E8C
+
+rel/main_rel/load/fn_1_47268.c:
+	.text       start:0x00046E8C end:0x00046F54
+
+rel/main_rel/load/fn_1_479B0.c:
+	.text       start:0x000475D4 end:0x00047614
+
+rel/main_rel/load/fn_1_479F0.c:
+	.text       start:0x00047614 end:0x00047684
+
+rel/main_rel/load/fn_1_47A60.c:
+	.text       start:0x00047684 end:0x000476F8
+
+rel/main_rel/bitmap/fn_1_47AD4.c:
+	.text       start:0x000476F8 end:0x00047A78
+
+rel/main_rel/bitmap/fn_1_47E54.c:
+	.text       start:0x00047A78 end:0x00047B08
+
+rel/main_rel/bitmap/fn_1_48004.c:
+	.text       start:0x00047C28 end:0x00047D40
+
+rel/main_rel/bitmap/fn_1_48164.c:
+	.text       start:0x00047D88 end:0x00047E0C
+
+rel/main_rel/bitmap/fn_1_481E8.c:
+	.text       start:0x00047E0C end:0x00047E38
+
+rel/main_rel/bitmap/fn_1_48214.c:
+	.text       start:0x00047E38 end:0x0004803C
+
+rel/main_rel/bitmap/fn_1_48418.c:
+	.text       start:0x0004803C end:0x000480F0
+
+rel/main_rel/bitmap/fn_1_484CC.c:
+	.text       start:0x000480F0 end:0x000481CC
+
+rel/main_rel/bitmap/fn_1_485A8.c:
+	.text       start:0x000481CC end:0x000481EC
+
+rel/main_rel/bitmap/fn_1_485C8.c:
+	.text       start:0x000481EC end:0x0004820C
+
+rel/main_rel/bitmap/fn_1_485E8.c:
+	.text       start:0x0004820C end:0x000482B4
+
+rel/main_rel/bitmap/fn_1_486F8.c:
+	.text       start:0x0004831C end:0x00048354
+
+rel/main_rel/bitmap/fn_1_48730.c:
+	.text       start:0x00048354 end:0x000483A0
+
+rel/main_rel/bitmap/fn_1_48780.c:
+	.text       start:0x000483A4 end:0x00048410
+
+rel/main_rel/font/fn_1_49410.c:
+	.text       start:0x00049034 end:0x000490F0
+
+rel/main_rel/font/fn_1_494DC.c:
+	.text       start:0x00049100 end:0x00049138
+
+rel/main_rel/font/fn_1_4955C.c:
+	.text       start:0x00049180 end:0x000491B4
+
+rel/main_rel/font/fn_1_495B0.c:
+	.text       start:0x000491D4 end:0x000491EC
+
+rel/main_rel/font/fn_1_495D8.c:
+	.text       start:0x000491FC end:0x00049220
+
+rel/main_rel/font/fn_1_49614.c:
+	.text       start:0x00049238 end:0x00049250
+
+rel/main_rel/font/fn_1_49644.c:
+	.text       start:0x00049268 end:0x00049280
+
+rel/main_rel/font/fn_1_4966C.c:
+	.text       start:0x00049290 end:0x000492A4
+
+rel/main_rel/font/fn_1_49680.c:
+	.text       start:0x000492A4 end:0x00049320
+
+rel/main_rel/font/fn_1_496FC.c:
+	.text       start:0x00049320 end:0x00049338
+
+rel/main_rel/font/fn_1_49714.c:
+	.text       start:0x00049338 end:0x0004934C
+
+rel/main_rel/font/fn_1_49778.c:
+	.text       start:0x0004939C end:0x000493B8
+
+rel/main_rel/font/fn_1_49794.c:
+	.text       start:0x000493B8 end:0x000495E0
+
+rel/main_rel/font/fn_1_499BC.c:
+	.text       start:0x000495E0 end:0x00049794
+
+rel/main_rel/font/fn_1_49B70.c:
+	.text       start:0x00049794 end:0x00049B2C
+
+rel/main_rel/font/fn_1_4AC20.c:
+	.text       start:0x0004A81C end:0x0004AA08
+
+rel/main_rel/font/fn_1_4AE0C.c:
+	.text       start:0x0004AA08 end:0x0004AAB0
+
+rel/main_rel/font/fn_1_4AF10.c:
+	.text       start:0x0004AB0C end:0x0004AB60
+
+rel/main_rel/font/fn_1_4AF64.c:
+	.text       start:0x0004AB60 end:0x0004AC3C
+
+rel/main_rel/font/fn_1_4B090.c:
+	.text       start:0x0004AC8C end:0x0004AD68
+
+rel/main_rel/font/fn_1_4B1D4.c:
+	.text       start:0x0004ADD0 end:0x0004B2D0
+
+rel/main_rel/font/fn_1_4B83C.c:
+	.text       start:0x0004B438 end:0x0004B4B8
+
+rel/main_rel/font/fn_1_4BB5C.c:
+	.text       start:0x0004B758 end:0x0004B944
+
+rel/main_rel/font/fn_1_4BD4C.c:
+	.text       start:0x0004B948 end:0x0004BD68
+
+rel/main_rel/font/fn_1_4CDE4.c:
+	.text       start:0x0004C9E0 end:0x0004CA44
+
+rel/main_rel/font/fn_1_4CE48.c:
+	.text       start:0x0004CA44 end:0x0004CB38
+
+rel/main_rel/font/fn_1_4CF3C.c:
+	.text       start:0x0004CB38 end:0x0004CC9C
+
+rel/main_rel/font/fn_1_4DCB8.c:
+	.text       start:0x0004D76C end:0x0004D784
+
+rel/main_rel/font/fn_1_4DE04.c:
+	.text       start:0x0004D8B8 end:0x0004D8F8
+
+rel/main_rel/font/fn_1_4DE44.c:
+	.text       start:0x0004D8F8 end:0x0004D974
+
+rel/main_rel/font/fn_1_4DEC0.c:
+	.text       start:0x0004D974 end:0x0004DA14
+
+rel/main_rel/font/fn_1_4DF60.c:
+	.text       start:0x0004DA14 end:0x0004DB14
+
+rel/main_rel/font/fn_1_4E0A4.c:
+	.text       start:0x0004DB58 end:0x0004DBA8
+
+rel/main_rel/font/fn_1_4E0F4.c:
+	.text       start:0x0004DBA8 end:0x0004DCD4
+
+rel/main_rel/font/fn_1_4E500.c:
+	.text       start:0x0004DFB4 end:0x0004E0EC
+
+rel/main_rel/font/fn_1_4E638.c:
+	.text       start:0x0004E0EC end:0x0004E1A8
+
+rel/main_rel/font/fn_1_4E6F4.c:
+	.text       start:0x0004E1A8 end:0x0004E1D8
+
+rel/main_rel/font/fn_1_4E724.c:
+	.text       start:0x0004E1D8 end:0x0004E3E0
+
+rel/main_rel/font/fn_1_4E92C.c:
+	.text       start:0x0004E3E0 end:0x0004E628
+
+rel/main_rel/font/fn_1_4EB74.c:
+	.text       start:0x0004E628 end:0x0004E728
+
+rel/main_rel/font/fn_1_4EC74.c:
+	.text       start:0x0004E728 end:0x0004E860
+
+rel/main_rel/font/fn_1_50164.c:
+	.text       start:0x0004FC18 end:0x0004FC44
+
+rel/main_rel/font/fn_1_50190.c:
+	.text       start:0x0004FC44 end:0x00050378
+
+rel/main_rel/font/fn_1_508C4.c:
+	.text       start:0x00050378 end:0x00050544
+
+rel/main_rel/font/fn_1_50A90.c:
+	.text       start:0x00050544 end:0x00051018
+
+rel/main_rel/font/fn_1_51564.c:
+	.text       start:0x00051018 end:0x00051040
+
+rel/main_rel/font/fn_1_5158C.c:
+	.text       start:0x00051040 end:0x0005112C
+
+rel/main_rel/font/fn_1_51678.c:
+	.text       start:0x0005112C end:0x000512A0
+
+rel/main_rel/font/fn_1_517EC.c:
+	.text       start:0x000512A0 end:0x000513C8
+
+rel/main_rel/font/fn_1_51990.c:
+	.text       start:0x00051444 end:0x00051460
+
+rel/main_rel/font/fn_1_519AC.c:
+	.text       start:0x00051460 end:0x000514B0
+
+rel/main_rel/font/fn_1_51C74.c:
+	.text       start:0x00051728 end:0x00051914
+
+rel/main_rel/font/fn_1_51E60.c:
+	.text       start:0x00051914 end:0x00051B24
+
+rel/main_rel/font/fn_1_52070.c:
+	.text       start:0x00051B24 end:0x00051B3C
+
+rel/main_rel/font/fn_1_52088.c:
+	.text       start:0x00051B3C end:0x00051B54
+
+rel/main_rel/font/fn_1_520F8.c:
+	.text       start:0x00051BAC end:0x00051C6C
+
+rel/main_rel/font/fn_1_521B8.c:
+	.text       start:0x00051C6C end:0x00051D04
+
+rel/main_rel/font/fn_1_52270.c:
+	.text       start:0x00051D24 end:0x00051DF0
+
+rel/main_rel/font/fn_1_5233C.c:
+	.text       start:0x00051DF0 end:0x00052144
+
+rel/main_rel/font/fn_1_52690.c:
+	.text       start:0x00052144 end:0x000521CC
+
+rel/main_rel/font/fn_1_52718.c:
+	.text       start:0x000521CC end:0x00052268
+
+rel/main_rel/font/fn_1_535A0.c:
+	.text       start:0x00052BA0 end:0x00052E30
+
+rel/main_rel/font/fn_1_53830.c:
+	.text       start:0x00052E30 end:0x00052FCC
+
+rel/main_rel/font/fn_1_539CC.c:
+	.text       start:0x00052FCC end:0x00053114
+
+rel/main_rel/font/fn_1_53B14.c:
+	.text       start:0x00053114 end:0x000531D8
+
+rel/main_rel/font/fn_1_53BD8.c:
+	.text       start:0x000531D8 end:0x0005329C
+
+rel/main_rel/font/fn_1_53C9C.c:
+	.text       start:0x0005329C end:0x00053440
+
+rel/main_rel/font/fn_1_53E40.c:
+	.text       start:0x00053440 end:0x000535E4
+
+rel/main_rel/font/fn_1_53FE4.c:
+	.text       start:0x000535E4 end:0x0005375C
+
+rel/main_rel/font/fn_1_5417C.c:
+	.text       start:0x0005377C end:0x000537A8
+
+rel/main_rel/font/fn_1_541A8.c:
+	.text       start:0x000537A8 end:0x00053878
+
+rel/main_rel/font/fn_1_542C4.c:
+	.text       start:0x000538C4 end:0x00053920
+
+rel/main_rel/font/fn_1_54320.c:
+	.text       start:0x00053920 end:0x00053984
+
+rel/main_rel/font/fn_1_54384.c:
+	.text       start:0x00053984 end:0x00053A48
+
+rel/main_rel/font/fn_1_54448.c:
+	.text       start:0x00053A48 end:0x00053A8C
+
+rel/main_rel/font/fn_1_5448C.c:
+	.text       start:0x00053A8C end:0x00053BB8
+
+rel/main_rel/font/fn_1_545B8.c:
+	.text       start:0x00053BB8 end:0x00053C68
+
+rel/main_rel/font/fn_1_54668.c:
+	.text       start:0x00053C68 end:0x00053DF8
+
+rel/main_rel/font/fn_1_547F8.c:
+	.text       start:0x00053DF8 end:0x00053E48
+
+rel/main_rel/font/fn_1_54848.c:
+	.text       start:0x00053E48 end:0x00053E68
+
+rel/main_rel/font/fn_1_54868.c:
+	.text       start:0x00053E68 end:0x00053E9C
+
+rel/main_rel/font/fn_1_5489C.c:
+	.text       start:0x00053E9C end:0x00053EAC
+
+rel/main_rel/font/fn_1_548AC.c:
+	.text       start:0x00053EAC end:0x00053EEC
+
+rel/main_rel/font/fn_1_548EC.c:
+	.text       start:0x00053EEC end:0x00053FF4
+
+rel/main_rel/font/fn_1_54DCC.c:
+	.text       start:0x000543CC end:0x00054400
+
+rel/main_rel/font/fn_1_54E00.c:
+	.text       start:0x00054400 end:0x00054434
+
+rel/main_rel/font/fn_1_54E34.c:
+	.text       start:0x00054434 end:0x0005455C
+
+rel/main_rel/font/fn_1_54F5C.c:
+	.text       start:0x0005455C end:0x000546A8
+
+rel/main_rel/font/fn_1_550A8.c:
+	.text       start:0x000546A8 end:0x000546E0
+
+rel/main_rel/font/fn_1_550E0.c:
+	.text       start:0x000546E0 end:0x00054718
+
+rel/main_rel/font/fn_1_55210.c:
+	.text       start:0x00054810 end:0x000549C4
+
+rel/main_rel/font/fn_1_553C4.c:
+	.text       start:0x000549C4 end:0x00054B7C
+
+rel/main_rel/font/fn_1_5557C.c:
+	.text       start:0x00054B7C end:0x00054BD0
+
+rel/main_rel/font/fn_1_555D0.c:
+	.text       start:0x00054BD0 end:0x00054C28
+
+rel/main_rel/font/fn_1_55628.c:
+	.text       start:0x00054C28 end:0x00054C78
+
+rel/main_rel/font/fn_1_556F8.c:
+	.text       start:0x00054CF8 end:0x00054D5C
+
+rel/main_rel/font/fn_1_5575C.c:
+	.text       start:0x00054D5C end:0x00054DC4
+
+rel/main_rel/font/fn_1_557C4.c:
+	.text       start:0x00054DC4 end:0x00054F24
+
+rel/main_rel/font/fn_1_55924.c:
+	.text       start:0x00054F24 end:0x00055084
+
+rel/main_rel/font/fn_1_55A84.c:
+	.text       start:0x00055084 end:0x00055248
+
+rel/main_rel/font/fn_1_55D6C.c:
+	.text       start:0x0005536C end:0x000554A0
+
+rel/main_rel/font/fn_1_56018.c:
+	.text       start:0x00055618 end:0x000556F0
+
+rel/main_rel/font/fn_1_560F0.c:
+	.text       start:0x000556F0 end:0x0005576C
+
+rel/main_rel/font/fn_1_5616C.c:
+	.text       start:0x0005576C end:0x0005581C
+
+rel/main_rel/font/fn_1_5621C.c:
+	.text       start:0x0005581C end:0x00055898
+
+rel/main_rel/font/fn_1_56298.c:
+	.text       start:0x00055898 end:0x0005591C
+
+rel/main_rel/font/fn_1_5631C.c:
+	.text       start:0x0005591C end:0x0005594C
+
+rel/main_rel/font/fn_1_5635C.c:
+	.text       start:0x0005595C end:0x00055974
+
+rel/main_rel/font/fn_1_563E4.c:
+	.text       start:0x000559E4 end:0x00055A70
+
+rel/main_rel/font/fn_1_56470.c:
+	.text       start:0x00055A70 end:0x00055B30
+
+rel/main_rel/font/fn_1_56530.c:
+	.text       start:0x00055B30 end:0x00055B54
+
+rel/main_rel/font/fn_1_56554.c:
+	.text       start:0x00055B54 end:0x00055BE8
+
+rel/main_rel/font/fn_1_565F8.c:
+	.text       start:0x00055BF8 end:0x00055C64
+
+rel/main_rel/shadowmap/fn_1_5672C.c:
+	.text       start:0x00055D2C end:0x00055E58
+
+rel/main_rel/shadowmap/fn_1_56858.c:
+	.text       start:0x00055E58 end:0x00055EEC
+
+rel/main_rel/shadowmap/fn_1_571E8.c:
+	.text       start:0x000567E8 end:0x00056A5C
+
+rel/main_rel/shadowmap/fn_1_57720.c:
+	.text       start:0x00056D20 end:0x00056D3C
+
+rel/main_rel/shadowmap/fn_1_5773C.c:
+	.text       start:0x00056D3C end:0x00056E10
+
+rel/main_rel/shadowmap/fn_1_57810.c:
+	.text       start:0x00056E10 end:0x00056FA0
+
+rel/main_rel/shadowmap/fn_1_579A0.c:
+	.text       start:0x00056FA0 end:0x00057070
+
+rel/main_rel/shadowmap/fn_1_57A70.c:
+	.text       start:0x00057070 end:0x000571BC
+
+rel/main_rel/shadowmap/fn_1_57BBC.c:
+	.text       start:0x000571BC end:0x000572D0
+
+rel/main_rel/shadowmap/fn_1_57CD0.c:
+	.text       start:0x000572D0 end:0x000573C0
+
+rel/main_rel/shadowmap/fn_1_57DC0.c:
+	.text       start:0x000573C0 end:0x00057484
+
+rel/main_rel/shadowmap/fn_1_57E84.c:
+	.text       start:0x00057484 end:0x00057714
+
+rel/main_rel/effect/fn_1_584D4.c:
+	.text       start:0x00057AD4 end:0x00057C94
+
+rel/main_rel/effect/fn_1_58694.c:
+	.text       start:0x00057C94 end:0x00057E54
+
+rel/main_rel/effect/fn_1_58854.c:
+	.text       start:0x00057E54 end:0x00057F94
+
+rel/main_rel/effect/fn_1_58994.c:
+	.text       start:0x00057F94 end:0x0005826C
+
+rel/main_rel/effect/fn_1_58C6C.c:
+	.text       start:0x0005826C end:0x00058338
+
+rel/main_rel/effect/fn_1_58D38.c:
+	.text       start:0x00058338 end:0x0005843C
+
+rel/main_rel/effect/fn_1_58E3C.c:
+	.text       start:0x0005843C end:0x00058550
+
+rel/main_rel/effect/fn_1_591A0.c:
+	.text       start:0x000587A0 end:0x00058890
+
+rel/main_rel/effect/fn_1_59290.c:
+	.text       start:0x00058890 end:0x00058A2C
+
+rel/main_rel/effect/fn_1_59A74.c:
+	.text       start:0x00059074 end:0x00059100
+
+rel/main_rel/effect/fn_1_59B00.c:
+	.text       start:0x00059100 end:0x00059190
+
+rel/main_rel/effect/fn_1_5ABCC.c:
+	.text       start:0x0005A1CC end:0x0005A248
+
+rel/main_rel/effect/fn_1_5B078.c:
+	.text       start:0x0005A678 end:0x0005A788
+
+rel/main_rel/effect/fn_1_5B3D0.c:
+	.text       start:0x0005A9D0 end:0x0005AA50
+
+rel/main_rel/effect/fn_1_5B450.c:
+	.text       start:0x0005AA50 end:0x0005AB78
+
+rel/main_rel/effect/fn_1_5B6F4.c:
+	.text       start:0x0005ACF4 end:0x0005AD80
+
+rel/main_rel/effect/fn_1_5B780.c:
+	.text       start:0x0005AD80 end:0x0005ADF8
+
+rel/main_rel/effect/fn_1_5BF70.c:
+	.text       start:0x0005B570 end:0x0005B5F0
+
+rel/main_rel/effect/fn_1_5BFF0.c:
+	.text       start:0x0005B5F0 end:0x0005B658
+
+rel/main_rel/effect/fn_1_5C784.c:
+	.text       start:0x0005BD84 end:0x0005BE3C
+
+rel/main_rel/effect/fn_1_5D1B8.c:
+	.text       start:0x0005C7B8 end:0x0005C974
+
+rel/main_rel/effect/fn_1_5D378.c:
+	.text       start:0x0005C978 end:0x0005CAFC
+
+rel/main_rel/effect/fn_1_5D88C.c:
+	.text       start:0x0005CE8C end:0x0005CF18
+
+rel/main_rel/effect/fn_1_5DFA4.c:
+	.text       start:0x0005D5A4 end:0x0005D9C4
+
+rel/main_rel/effect/fn_1_5E3C4.c:
+	.text       start:0x0005D9C4 end:0x0005DAD8
+
+rel/main_rel/effect/fn_1_5EB08.c:
+	.text       start:0x0005E108 end:0x0005E198
+
+rel/main_rel/effect/fn_1_5F654.c:
+	.text       start:0x0005EC54 end:0x0005EFB8
+
+rel/main_rel/effect/fn_1_5FEBC.c:
+	.text       start:0x0005F4BC end:0x0005F5AC
+
+rel/main_rel/effect/fn_1_5FFB0.c:
+	.text       start:0x0005F5B0 end:0x0005F770
+
+rel/main_rel/effect/fn_1_601B4.c:
+	.text       start:0x0005F7B4 end:0x0005F88C
+
+rel/main_rel/effect/fn_1_60734.c:
+	.text       start:0x0005FD34 end:0x0005FE80
+
+rel/main_rel/effect/fn_1_60C88.c:
+	.text       start:0x00060288 end:0x00060354
+
+rel/main_rel/effect/fn_1_60F84.c:
+	.text       start:0x00060584 end:0x00060670
+
+rel/main_rel/effect/fn_1_611EC.c:
+	.text       start:0x000607EC end:0x00060970
+
+rel/main_rel/effect/fn_1_617A4.c:
+	.text       start:0x00060DA4 end:0x00060EB8
+
+rel/main_rel/effect/fn_1_61E60.c:
+	.text       start:0x00061460 end:0x000614F4
+
+rel/main_rel/effect/fn_1_61EF4.c:
+	.text       start:0x000614F4 end:0x000616C4
+
+rel/main_rel/effect/fn_1_62E9C.c:
+	.text       start:0x00062474 end:0x00062704
+
+rel/main_rel/effect/fn_1_632D4.c:
+	.text       start:0x000628AC end:0x00062994
+
+rel/main_rel/effect/fn_1_63518.c:
+	.text       start:0x00062AF0 end:0x00062B94
+
+rel/main_rel/effect/fn_1_63858.c:
+	.text       start:0x00062E30 end:0x00062EC0
+
+rel/main_rel/effect/fn_1_656C8.c:
+	.text       start:0x00064CA0 end:0x00064D20
+
+rel/main_rel/effect/fn_1_65E58.c:
+	.text       start:0x00065430 end:0x00065460
+
+rel/main_rel/effect/fn_1_66254.c:
+	.text       start:0x0006582C end:0x000658AC
+
+rel/main_rel/effect/fn_1_67414.c:
+	.text       start:0x000669EC end:0x00066A04
+
+rel/main_rel/effect/fn_1_67E94.c:
+	.text       start:0x0006746C end:0x000674F8
+
+rel/main_rel/effect_car/fn_1_680F8.c:
+	.text       start:0x000676D0 end:0x00067820
+
+rel/main_rel/effect_car/fn_1_68248.c:
+	.text       start:0x00067820 end:0x0006785C
+
+rel/main_rel/effect_car/fn_1_69BBC.c:
+	.text       start:0x00069188 end:0x00069198
+
+rel/main_rel/effect_car/fn_1_6F288.c:
+	.text       start:0x0006E854 end:0x0006E9D0
+
+rel/main_rel/effect_car/fn_1_71CA0.c:
+	.text       start:0x0007127C end:0x000712E8
+
+rel/main_rel/effect_car/fn_1_72318.c:
+	.text       start:0x000718F4 end:0x000719BC
+
+rel/main_rel/screen_effect/fn_1_7269C.c:
+	.text       start:0x00071C78 end:0x00071CF0
+
+rel/main_rel/screen_effect/fn_1_72714.c:
+	.text       start:0x00071CF0 end:0x00071D44
+
+rel/main_rel/screen_effect/fn_1_72768.c:
+	.text       start:0x00071D44 end:0x00071D98
+
+rel/main_rel/screen_effect/fn_1_727BC.c:
+	.text       start:0x00071D98 end:0x00071E24
+
+rel/main_rel/screen_effect/fn_1_72848.c:
+	.text       start:0x00071E24 end:0x00071E8C
+
+rel/main_rel/screen_effect/fn_1_728B0.c:
+	.text       start:0x00071E8C end:0x00071F5C
+
+rel/main_rel/screen_effect/fn_1_72980.c:
+	.text       start:0x00071F5C end:0x00071FD4
+
+rel/main_rel/screen_effect/fn_1_761B8.c:
+	.text       start:0x00075754 end:0x000757B4
+
+rel/main_rel/screen_effect/fn_1_76218.c:
+	.text       start:0x000757B4 end:0x000759E4
+
+rel/main_rel/screen_effect/fn_1_76448.c:
+	.text       start:0x000759E4 end:0x00075AA0
+
+rel/main_rel/screen_effect/fn_1_76650.c:
+	.text       start:0x00075BEC end:0x00075CA0
+
+rel/main_rel/screen_effect/fn_1_76964.c:
+	.text       start:0x00075F00 end:0x00075F98
+
+rel/main_rel/screen_effect/fn_1_76A94.c:
+	.text       start:0x00076030 end:0x0007616C
+
+rel/main_rel/screen_effect/fn_1_76BD0.c:
+	.text       start:0x0007616C end:0x00076194
+
+rel/main_rel/screen_effect/fn_1_76BF8.c:
+	.text       start:0x00076194 end:0x000761FC
+
+rel/main_rel/screen_effect/fn_1_76DC0.c:
+	.text       start:0x0007635C end:0x00076454
+
+rel/main_rel/screen_effect/fn_1_77200.c:
+	.text       start:0x0007679C end:0x000767D4
+
+rel/main_rel/screen_effect/fn_1_77238.c:
+	.text       start:0x000767D4 end:0x0007687C
+
+rel/main_rel/screen_effect/fn_1_772E0.c:
+	.text       start:0x0007687C end:0x00076920
+
+rel/main_rel/screen_effect/fn_1_77B80.c:
+	.text       start:0x0007711C end:0x000771F8
+
+rel/main_rel/screen_effect/fn_1_7879C.c:
+	.text       start:0x00077D38 end:0x00077DA8
+
+rel/main_rel/screen_effect/fn_1_7880C.c:
+	.text       start:0x00077DA8 end:0x00077E4C
+
+rel/main_rel/screen_effect/fn_1_788B0.c:
+	.text       start:0x00077E4C end:0x00077EEC
+
+rel/main_rel/screen_effect/fn_1_78950.c:
+	.text       start:0x00077EEC end:0x00077F38
+
+rel/main_rel/screen_effect/fn_1_789AC.c:
+	.text       start:0x00077F48 end:0x00077F84
+
+rel/main_rel/screen_effect/fn_1_79100.c:
+	.text       start:0x0007869C end:0x0007874C
+
+rel/main_rel/screen_effect/fn_1_791B0.c:
+	.text       start:0x0007874C end:0x00078808
+
+rel/main_rel/screen_effect/fn_1_79654.c:
+	.text       start:0x00078BF0 end:0x00078DAC
+
+rel/main_rel/screen_effect/fn_1_79C88.c:
+	.text       start:0x00079224 end:0x000793F0
+
+rel/main_rel/screen_effect/fn_1_79E54.c:
+	.text       start:0x000793F0 end:0x000797DC
+
+rel/main_rel/screen_effect/fn_1_7A240.c:
+	.text       start:0x000797DC end:0x00079BE4
+
+rel/main_rel/screen_effect/fn_1_7A648.c:
+	.text       start:0x00079BE4 end:0x00079C18
+
+rel/main_rel/screen_effect/fn_1_7A67C.c:
+	.text       start:0x00079C18 end:0x00079C50
+
+rel/main_rel/screen_effect/fn_1_7A9B8.c:
+	.text       start:0x00079F54 end:0x00079FEC
+
+rel/main_rel/screen_effect/fn_1_7B084.c:
+	.text       start:0x0007A620 end:0x0007A720
+
+rel/main_rel/screen_effect/fn_1_7B184.c:
+	.text       start:0x0007A720 end:0x0007A7B4
+
+rel/main_rel/screen_effect/fn_1_7B218.c:
+	.text       start:0x0007A7B4 end:0x0007A884
+
+rel/main_rel/screen_effect/fn_1_7B4C0.c:
+	.text       start:0x0007AA5C end:0x0007AAF4
+
+rel/main_rel/screen_effect/fn_1_7BA08.c:
+	.text       start:0x0007AF30 end:0x0007AF70
+
+rel/main_rel/screen_effect/fn_1_7BB80.c:
+	.text       start:0x0007B0A8 end:0x0007B1F4
+
+rel/main_rel/light/fn_1_7BCCC.c:
+	.text       start:0x0007B1F4 end:0x0007B294
+
+rel/main_rel/light/fn_1_7BD6C.c:
+	.text       start:0x0007B294 end:0x0007B3BC
+
+rel/main_rel/light/fn_1_7BE94.c:
+	.text       start:0x0007B3BC end:0x0007B3D4
+
+rel/main_rel/light/fn_1_7BEAC.c:
+	.text       start:0x0007B3D4 end:0x0007B4C4
+
+rel/main_rel/light/fn_1_7BF9C.c:
+	.text       start:0x0007B4C4 end:0x0007B664
+
+rel/main_rel/car_test/fn_1_7C13C.c:
+	.text       start:0x0007B664 end:0x0007B710
+
+rel/main_rel/car_test/fn_1_7C1E8.c:
+	.text       start:0x0007B710 end:0x0007B7C8
+
+rel/main_rel/car_test/fn_1_7C2A0.c:
+	.text       start:0x0007B7C8 end:0x0007BCF4
+
+rel/main_rel/car_test/fn_1_7D694.c:
+	.text       start:0x0007CBBC end:0x0007CBE0
+
+rel/main_rel/car_test/fn_1_7D6B8.c:
+	.text       start:0x0007CBE0 end:0x0007D704
+
+rel/main_rel/car_test/fn_1_7E1DC.c:
+	.text       start:0x0007D704 end:0x0007DCCC
+
+rel/main_rel/car_test/fn_1_7E7A4.c:
+	.text       start:0x0007DCCC end:0x0007DE1C
+
+rel/main_rel/car_test/fn_1_7E8F4.c:
+	.text       start:0x0007DE1C end:0x0007DEEC
+
+rel/main_rel/car_test/fn_1_7E9C4.c:
+	.text       start:0x0007DEEC end:0x0007E010
+
+rel/main_rel/car_test/fn_1_7EB0C.c:
+	.text       start:0x0007E034 end:0x0007E0B4
+
+rel/main_rel/car_test/fn_1_7F254.c:
+	.text       start:0x0007E77C end:0x0007E8D4
+
+rel/main_rel/car/fn_1_7F3AC.c:
+	.text       start:0x0007E8D4 end:0x0007E950
+
+rel/main_rel/car/fn_1_7F428.c:
+	.text       start:0x0007E950 end:0x0007E9C4
+
+rel/main_rel/car/fn_1_7F49C.c:
+	.text       start:0x0007E9C4 end:0x0007EA40
+
+rel/main_rel/car/fn_1_7F518.c:
+	.text       start:0x0007EA40 end:0x0007EAB4
+
+rel/main_rel/car/fn_1_7F658.c:
+	.text       start:0x0007EB80 end:0x0007EE5C
+
+rel/main_rel/car/fn_1_7F954.c:
+	.text       start:0x0007EE7C end:0x0007EF2C
+
+rel/main_rel/car/fn_1_7FA04.c:
+	.text       start:0x0007EF2C end:0x0007EFD0
+
+rel/main_rel/car/fn_1_7FAA8.c:
+	.text       start:0x0007EFD0 end:0x0007F2A4
+
+rel/main_rel/car/fn_1_7FD7C.c:
+	.text       start:0x0007F2A4 end:0x0007F518
+
+rel/main_rel/car/fn_1_7FFF0.c:
+	.text       start:0x0007F518 end:0x0007F544
+
+rel/main_rel/car/fn_1_80058.c:
+	.text       start:0x0007F580 end:0x0007F5EC
+
+rel/main_rel/car/fn_1_8019C.c:
+	.text       start:0x0007F6C4 end:0x0007F720
+
+rel/main_rel/car/fn_1_801F8.c:
+	.text       start:0x0007F720 end:0x0007F798
+
+rel/main_rel/car/fn_1_80C18.c:
+	.text       start:0x00080140 end:0x000801EC
+
+rel/main_rel/car/fn_1_80F1C.c:
+	.text       start:0x00080444 end:0x000804A8
+
+rel/main_rel/car/fn_1_810E4.c:
+	.text       start:0x0008060C end:0x0008068C
+
+rel/main_rel/car/fn_1_816E8.c:
+	.text       start:0x00080C10 end:0x00080C44
+
+rel/main_rel/car/fn_1_8171C.c:
+	.text       start:0x00080C44 end:0x00080C94
+
+rel/main_rel/car/fn_1_81808.c:
+	.text       start:0x00080D30 end:0x00080D5C
+
+rel/main_rel/car/fn_1_81834.c:
+	.text       start:0x00080D5C end:0x00080D88
+
+rel/main_rel/car/fn_1_81860.c:
+	.text       start:0x00080D88 end:0x00080DD4
+
+rel/main_rel/car/fn_1_82C70.c:
+	.text       start:0x00082198 end:0x00082404
+
+rel/main_rel/car/fn_1_82EDC.c:
+	.text       start:0x00082404 end:0x00082598
+
+rel/main_rel/car/fn_1_835E0.c:
+	.text       start:0x00082B00 end:0x00082B7C
+
+rel/main_rel/car/fn_1_8365C.c:
+	.text       start:0x00082B7C end:0x00082BB4
+
+rel/main_rel/car/fn_1_83694.c:
+	.text       start:0x00082BB4 end:0x00082D78
+
+rel/main_rel/car/fn_1_83CB0.c:
+	.text       start:0x000831D0 end:0x00083248
+
+rel/main_rel/car/fn_1_84124.c:
+	.text       start:0x00083644 end:0x0008373C
+
+rel/main_rel/car/fn_1_8421C.c:
+	.text       start:0x0008373C end:0x000838DC
+
+rel/main_rel/car/fn_1_843BC.c:
+	.text       start:0x000838DC end:0x00083928
+
+rel/main_rel/car/fn_1_84408.c:
+	.text       start:0x00083928 end:0x00083B64
+
+rel/main_rel/car/fn_1_84644.c:
+	.text       start:0x00083B64 end:0x00083C4C
+
+rel/main_rel/car/fn_1_8472C.c:
+	.text       start:0x00083C4C end:0x00083CB4
+
+rel/main_rel/car/fn_1_84794.c:
+	.text       start:0x00083CB4 end:0x00083CC8
+
+rel/main_rel/car/fn_1_847A8.c:
+	.text       start:0x00083CC8 end:0x00083D80
+
+rel/main_rel/car/fn_1_850C4.c:
+	.text       start:0x000845E4 end:0x000849F4
+
+rel/main_rel/car/fn_1_858A8.c:
+	.text       start:0x00084DC8 end:0x00084E54
+
+rel/main_rel/car/fn_1_8616C.c:
+	.text       start:0x0008568C end:0x000856B4
+
+rel/main_rel/car/fn_1_86254.c:
+	.text       start:0x00085764 end:0x0008578C
+
+rel/main_rel/car/fn_1_8627C.c:
+	.text       start:0x0008578C end:0x000857B8
+
+rel/main_rel/car/fn_1_8645C.c:
+	.text       start:0x0008596C end:0x000859F8
+
+rel/main_rel/car/fn_1_864E8.c:
+	.text       start:0x000859F8 end:0x00085A0C
+
+rel/main_rel/car/fn_1_8664C.c:
+	.text       start:0x00085B5C end:0x00085B88
+
+rel/main_rel/car/fn_1_86690.c:
+	.text       start:0x00085BA0 end:0x00085BC4
+
+rel/main_rel/car/fn_1_866B4.c:
+	.text       start:0x00085BC4 end:0x00085C8C
+
+rel/main_rel/car/fn_1_8677C.c:
+	.text       start:0x00085C8C end:0x00085CDC
+
+rel/main_rel/car/fn_1_86810.c:
+	.text       start:0x00085D20 end:0x00085D3C
+
+rel/main_rel/car/fn_1_8683C.c:
+	.text       start:0x00085D4C end:0x00085D64
+
+rel/main_rel/car/fn_1_86A10.c:
+	.text       start:0x00085F20 end:0x00085F3C
+
+rel/main_rel/car/fn_1_87074.c:
+	.text       start:0x00086584 end:0x000865CC
+
+rel/main_rel/car/fn_1_870BC.c:
+	.text       start:0x000865CC end:0x00086748
+
+rel/main_rel/car/fn_1_87238.c:
+	.text       start:0x00086748 end:0x00086958
+
+rel/main_rel/car/fn_1_875B4.c:
+	.text       start:0x00086AC4 end:0x00086AFC
+
+rel/main_rel/car/fn_1_87610.c:
+	.text       start:0x00086B20 end:0x00086C60
+
+rel/main_rel/car/fn_1_879B0.c:
+	.text       start:0x00086EC0 end:0x00086FE8
+
+rel/main_rel/car/fn_1_88458.c:
+	.text       start:0x00087968 end:0x00087A7C
+
+rel/main_rel/car/fn_1_8901C.c:
+	.text       start:0x0008852C end:0x000887DC
+
+rel/main_rel/car/fn_1_892CC.c:
+	.text       start:0x000887DC end:0x000887F8
+
+rel/main_rel/car/fn_1_892E8.c:
+	.text       start:0x000887F8 end:0x0008880C
+
+rel/main_rel/car/fn_1_8A1B4.c:
+	.text       start:0x000896A0 end:0x0008AD6C
+
+rel/main_rel/car/fn_1_8C66C.c:
+	.text       start:0x0008BB68 end:0x0008BB9C
+
+rel/main_rel/car/fn_1_8C6A0.c:
+	.text       start:0x0008BB9C end:0x0008BBD0
+
+rel/main_rel/car/fn_1_8C824.c:
+	.text       start:0x0008BD20 end:0x0008BD50
+
+rel/main_rel/car/fn_1_8C884.c:
+	.text       start:0x0008BD80 end:0x0008BDC0
+
+rel/main_rel/car/fn_1_8C93C.c:
+	.text       start:0x0008BE38 end:0x0008BE64
+
+rel/main_rel/car/fn_1_8C968.c:
+	.text       start:0x0008BE64 end:0x0008BE90
+
+rel/main_rel/car/fn_1_8CB78.c:
+	.text       start:0x0008C074 end:0x0008C100
+
+rel/main_rel/car/fn_1_8CED0.c:
+	.text       start:0x0008C3CC end:0x0008C5A0
+
+rel/main_rel/car/fn_1_8D210.c:
+	.text       start:0x0008C70C end:0x0008C8F4
+
+rel/main_rel/car/fn_1_8D3F8.c:
+	.text       start:0x0008C8F4 end:0x0008CAEC
+
+rel/main_rel/car/fn_1_8D640.c:
+	.text       start:0x0008CB3C end:0x0008CB8C
+
+rel/main_rel/car/fn_1_8D690.c:
+	.text       start:0x0008CB8C end:0x0008CC28
+
+rel/main_rel/car/fn_1_8D72C.c:
+	.text       start:0x0008CC28 end:0x0008CCC4
+
+rel/main_rel/car/fn_1_8D7C8.c:
+	.text       start:0x0008CCC4 end:0x0008CD90
+
+rel/main_rel/car/fn_1_8DD54.c:
+	.text       start:0x0008D250 end:0x0008D580
+
+rel/main_rel/car/fn_1_8E084.c:
+	.text       start:0x0008D580 end:0x0008D684
+
+rel/main_rel/car/fn_1_8E188.c:
+	.text       start:0x0008D684 end:0x0008D6E4
+
+rel/main_rel/car/fn_1_8E1E8.c:
+	.text       start:0x0008D6E4 end:0x0008D740
+
+rel/main_rel/car/fn_1_8E3A4.c:
+	.text       start:0x0008D8A0 end:0x0008D944
+
+rel/main_rel/car/fn_1_8E450.c:
+	.text       start:0x0008D94C end:0x0008D97C
+
+rel/main_rel/car/fn_1_8E728.c:
+	.text       start:0x0008DC24 end:0x0008DCCC
+
+rel/main_rel/car/fn_1_8F45C.c:
+	.text       start:0x0008E958 end:0x0008E990
+
+rel/main_rel/car/fn_1_8F494.c:
+	.text       start:0x0008E990 end:0x0008EAA0
+
+rel/main_rel/car/fn_1_8F5A4.c:
+	.text       start:0x0008EAA0 end:0x0008EB28
+
+rel/main_rel/car/fn_1_8FE74.c:
+	.text       start:0x0008F370 end:0x0008F5B0
+
+rel/main_rel/car/fn_1_900C4.c:
+	.text       start:0x0008F5C0 end:0x0008F628
+
+rel/main_rel/car/fn_1_924CC.c:
+	.text       start:0x000919C8 end:0x00091A08
+
+rel/main_rel/car/fn_1_933D8.c:
+	.text       start:0x000928D4 end:0x000929C8
+
+rel/main_rel/car/fn_1_934CC.c:
+	.text       start:0x000929C8 end:0x00092AE0
+
+rel/main_rel/car/fn_1_935E4.c:
+	.text       start:0x00092AE0 end:0x00092C30
+
+rel/main_rel/car/fn_1_950E8.c:
+	.text       start:0x000945E4 end:0x0009461C
+
+rel/main_rel/car/fn_1_95120.c:
+	.text       start:0x0009461C end:0x00094654
+
+rel/main_rel/car/fn_1_9550C.c:
+	.text       start:0x00094A08 end:0x00094BB4
+
+rel/main_rel/car/fn_1_956B8.c:
+	.text       start:0x00094BB4 end:0x00094BE8
+
+rel/main_rel/car/fn_1_95950.c:
+	.text       start:0x00094E4C end:0x000953EC
+
+rel/main_rel/rob/fn_1_95EF0.c:
+	.text       start:0x000953EC end:0x0009562C
+
+rel/main_rel/rob/fn_1_96130.c:
+	.text       start:0x0009562C end:0x00095678
+
+rel/main_rel/rob/fn_1_9617C.c:
+	.text       start:0x00095678 end:0x000956EC
+
+rel/main_rel/rob/fn_1_961F0.c:
+	.text       start:0x000956EC end:0x0009572C
+
+rel/main_rel/rob/fn_1_96630.c:
+	.text       start:0x00095B2C end:0x00095B60
+
+rel/main_rel/rob/fn_1_96664.c:
+	.text       start:0x00095B60 end:0x00095B9C
+
+rel/main_rel/rob/fn_1_966A0.c:
+	.text       start:0x00095B9C end:0x00095CA4
+
+rel/main_rel/rob/fn_1_967A8.c:
+	.text       start:0x00095CA4 end:0x00095DF8
+
+rel/main_rel/rob/fn_1_968FC.c:
+	.text       start:0x00095DF8 end:0x00095E64
+
+rel/main_rel/rob/fn_1_96AE8.c:
+	.text       start:0x00095FE4 end:0x00096010
+
+rel/main_rel/rob/fn_1_96B14.c:
+	.text       start:0x00096010 end:0x000960BC
+
+rel/main_rel/rob/fn_1_97174.c:
+	.text       start:0x00096670 end:0x00096700
+
+rel/main_rel/rob/fn_1_97204.c:
+	.text       start:0x00096700 end:0x00096748
+
+rel/main_rel/rob/fn_1_9724C.c:
+	.text       start:0x00096748 end:0x00096784
+
+rel/main_rel/rob/fn_1_97F1C.c:
+	.text       start:0x00097418 end:0x0009747C
+
+rel/main_rel/rob/fn_1_97F80.c:
+	.text       start:0x0009747C end:0x00097600
+
+rel/main_rel/rob/fn_1_98104.c:
+	.text       start:0x00097600 end:0x00097688
+
+rel/main_rel/rob/fn_1_9818C.c:
+	.text       start:0x00097688 end:0x000976C0
+
+rel/main_rel/burner/fn_1_981C4.c:
+	.text       start:0x000976C0 end:0x0009772C
+
+rel/main_rel/burner/fn_1_98230.c:
+	.text       start:0x0009772C end:0x000977C0
+
+rel/main_rel/burner/fn_1_982C4.c:
+	.text       start:0x000977C0 end:0x00097858
+
+rel/main_rel/burner/fn_1_9835C.c:
+	.text       start:0x00097858 end:0x000978C8
+
+rel/main_rel/burner/fn_1_983CC.c:
+	.text       start:0x000978C8 end:0x000979EC
+
+rel/main_rel/burner/fn_1_984F0.c:
+	.text       start:0x000979EC end:0x00097A8C
+
+rel/main_rel/burner/fn_1_98590.c:
+	.text       start:0x00097A8C end:0x00097AE8
+
+rel/main_rel/burner/fn_1_985EC.c:
+	.text       start:0x00097AE8 end:0x00097B30
+
+rel/main_rel/burner/fn_1_98640.c:
+	.text       start:0x00097B3C end:0x00097BA0
+
+rel/main_rel/burner/fn_1_986A4.c:
+	.text       start:0x00097BA0 end:0x00097CCC
+
+rel/main_rel/burner/fn_1_987D0.c:
+	.text       start:0x00097CCC end:0x00097D00
+
+rel/main_rel/burner/fn_1_98804.c:
+	.text       start:0x00097D00 end:0x00097D3C
+
+rel/main_rel/burner/fn_1_98840.c:
+	.text       start:0x00097D3C end:0x00097D58
+
+rel/main_rel/burner/fn_1_9885C.c:
+	.text       start:0x00097D58 end:0x00097DD4
+
+rel/main_rel/burner/fn_1_98E18.c:
+	.text       start:0x00098314 end:0x00098424
+
+rel/main_rel/burner/fn_1_9A0A8.c:
+	.text       start:0x00099594 end:0x000996D4
+
+rel/main_rel/burner/fn_1_9A578.c:
+	.text       start:0x00099A64 end:0x00099AB8
+
+rel/main_rel/burner/fn_1_9A770.c:
+	.text       start:0x00099C5C end:0x00099C94
+
+rel/main_rel/burner/fn_1_9A958.c:
+	.text       start:0x00099E44 end:0x00099F18
+
+rel/main_rel/burner/fn_1_9AA2C.c:
+	.text       start:0x00099F18 end:0x00099FA8
+
+rel/main_rel/burner/fn_1_9AD88.c:
+	.text       start:0x0009A274 end:0x0009A2B8
+
+rel/main_rel/burner/fn_1_9ADCC.c:
+	.text       start:0x0009A2B8 end:0x0009A46C
+
+rel/main_rel/burner/fn_1_9AF80.c:
+	.text       start:0x0009A46C end:0x0009B0D0
+
+rel/main_rel/burner/fn_1_9CC40.c:
+	.text       start:0x0009C12C end:0x0009C158
+
+rel/main_rel/burner/fn_1_9CC6C.c:
+	.text       start:0x0009C158 end:0x0009C1D4
+
+rel/main_rel/burner/fn_1_9CE1C.c:
+	.text       start:0x0009C308 end:0x0009C464
+
+rel/main_rel/burner/fn_1_9CF78.c:
+	.text       start:0x0009C464 end:0x0009C5D8
+
+rel/main_rel/burner/fn_1_9D0EC.c:
+	.text       start:0x0009C5D8 end:0x0009C71C
+
+rel/main_rel/burner/fn_1_9D230.c:
+	.text       start:0x0009C71C end:0x0009C74C
+
+rel/main_rel/burner/fn_1_9D260.c:
+	.text       start:0x0009C74C end:0x0009C7D8
+
+rel/main_rel/burner/fn_1_9D2EC.c:
+	.text       start:0x0009C7D8 end:0x0009C84C
+
+rel/main_rel/burner/fn_1_9D360.c:
+	.text       start:0x0009C84C end:0x0009C8D4
+
+rel/main_rel/burner/fn_1_9D3E8.c:
+	.text       start:0x0009C8D4 end:0x0009C90C
+
+rel/main_rel/background/fn_1_9D77C.c:
+	.text       start:0x0009CC68 end:0x0009CE28
+
+rel/main_rel/background/fn_1_9D93C.c:
+	.text       start:0x0009CE28 end:0x0009CE80
+
+rel/main_rel/background/fn_1_9D9E4.c:
+	.text       start:0x0009CED0 end:0x0009CFF0
+
+rel/main_rel/background/fn_1_9E1B8.c:
+	.text       start:0x0009D698 end:0x0009D6B0
+
+rel/main_rel/background/fn_1_9E1D0.c:
+	.text       start:0x0009D6B0 end:0x0009D77C
+
+rel/main_rel/background/fn_1_9E514.c:
+	.text       start:0x0009D9F4 end:0x0009DA78
+
+rel/main_rel/background/fn_1_9E598.c:
+	.text       start:0x0009DA78 end:0x0009DA98
+
+rel/main_rel/background/fn_1_9E5B8.c:
+	.text       start:0x0009DA98 end:0x0009DAE8
+
+rel/main_rel/ptclput/fn_1_9F7DC.c:
+	.text       start:0x0009ECBC end:0x0009ED50
+
+rel/main_rel/ptclput/fn_1_9F870.c:
+	.text       start:0x0009ED50 end:0x0009EDDC
+
+rel/main_rel/ptclput/fn_1_9F8FC.c:
+	.text       start:0x0009EDDC end:0x0009EDF4
+
+rel/main_rel/ptclput/fn_1_9F914.c:
+	.text       start:0x0009EDF4 end:0x0009EE84
+
+rel/main_rel/ptclput/fn_1_9F9A4.c:
+	.text       start:0x0009EE84 end:0x0009EEF8
+
+rel/main_rel/sound/fn_1_9FF58.c:
+	.text       start:0x0009F438 end:0x0009F47C
+
+rel/main_rel/sound/fn_1_9FF9C.c:
+	.text       start:0x0009F47C end:0x0009F4B8
+
+rel/main_rel/sound/fn_1_A0C68.c:
+	.text       start:0x000A010C end:0x000A01C4
+
+rel/main_rel/sound/fn_1_A116C.c:
+	.text       start:0x000A0610 end:0x000A0690
+
+rel/main_rel/sound/fn_1_A1CE8.c:
+	.text       start:0x000A1170 end:0x000A1254
+
+rel/main_rel/sound/fn_1_A2D84.c:
+	.text       start:0x000A220C end:0x000A224C
+
+rel/main_rel/sound/fn_1_A2DC4.c:
+	.text       start:0x000A224C end:0x000A227C
+
+rel/main_rel/sound/fn_1_A2E5C.c:
+	.text       start:0x000A22E4 end:0x000A2450
+
+rel/main_rel/sound/fn_1_A31E4.c:
+	.text       start:0x000A266C end:0x000A2878
+
+rel/main_rel/sound/fn_1_A33F0.c:
+	.text       start:0x000A2878 end:0x000A2A14
+
+rel/main_rel/sound/fn_1_A358C.c:
+	.text       start:0x000A2A14 end:0x000A2ADC
+
+rel/main_rel/sound/fn_1_A3A1C.c:
+	.text       start:0x000A2EA4 end:0x000A3060
+
+rel/main_rel/sound/fn_1_A3C78.c:
+	.text       start:0x000A3100 end:0x000A31E4
+
+rel/main_rel/sound/fn_1_A3D5C.c:
+	.text       start:0x000A31E4 end:0x000A36F0
+
+rel/main_rel/sound/fn_1_A47F4.c:
+	.text       start:0x000A3C74 end:0x000A4048
+
+rel/main_rel/sound/fn_1_A4BC8.c:
+	.text       start:0x000A4048 end:0x000A411C
+
+rel/main_rel/sound/fn_1_A4C9C.c:
+	.text       start:0x000A411C end:0x000A4274
+
+rel/main_rel/sound/fn_1_A4DF4.c:
+	.text       start:0x000A4274 end:0x000A4398
+
+rel/main_rel/sound/fn_1_A4F18.c:
+	.text       start:0x000A4398 end:0x000A4548
+
+rel/main_rel/sound/fn_1_A50C8.c:
+	.text       start:0x000A4548 end:0x000A45CC
+
+rel/main_rel/sound/fn_1_A514C.c:
+	.text       start:0x000A45CC end:0x000A4648
+
+rel/main_rel/sound/fn_1_A51C8.c:
+	.text       start:0x000A4648 end:0x000A46C4
+
+rel/main_rel/sound/fn_1_A5244.c:
+	.text       start:0x000A46C4 end:0x000A4730
+
+rel/main_rel/sound/fn_1_A52B0.c:
+	.text       start:0x000A4730 end:0x000A47B0
+
+rel/main_rel/sound/fn_1_A5330.c:
+	.text       start:0x000A47B0 end:0x000A47C4
+
+rel/main_rel/sound/fn_1_A5344.c:
+	.text       start:0x000A47C4 end:0x000A48F0
+
+rel/main_rel/sound/fn_1_A5470.c:
+	.text       start:0x000A48F0 end:0x000A497C
+
+rel/main_rel/sound/fn_1_A5594.c:
+	.text       start:0x000A4A08 end:0x000A4CBC
+
+rel/main_rel/sound/fn_1_A59AC.c:
+	.text       start:0x000A4E20 end:0x000A4F14
+
+rel/main_rel/sound/fn_1_A5AA0.c:
+	.text       start:0x000A4F14 end:0x000A510C
+
+rel/main_rel/relocation/fn_1_A5C98.c:
+	.text       start:0x000A510C end:0x000A51FC
+
+rel/main_rel/relocation/fn_1_A5DC4.c:
+	.text       start:0x000A5238 end:0x000A5260
+
+rel/main_rel/relocation/fn_1_A5DEC.c:
+	.text       start:0x000A5260 end:0x000A5370
+
+rel/main_rel/relocation/fn_1_A5EFC.c:
+	.text       start:0x000A5370 end:0x000A53B8
+
+rel/main_rel/relocation/fn_1_A67E8.c:
+	.text       start:0x000A5864 end:0x000A58BC
+
+rel/main_rel/relocation/fn_1_A6840.c:
+	.text       start:0x000A58BC end:0x000A58EC
+
+rel/main_rel/prog/fn_1_A6FE8.c:
+	.text       start:0x000A5FA8 end:0x000A5FE4
+
+rel/main_rel/prog/fn_1_A714C.c:
+	.text       start:0x000A610C end:0x000A616C
+
+rel/main_rel/driver/fn_1_A7294.c:
+	.text       start:0x000A6254 end:0x000A640C
+
+rel/main_rel/driver/fn_1_A744C.c:
+	.text       start:0x000A640C end:0x000A659C
+
+rel/main_rel/driver/fn_1_A7728.c:
+	.text       start:0x000A66E8 end:0x000A679C
+
+rel/main_rel/driver/fn_1_A77DC.c:
+	.text       start:0x000A679C end:0x000A6814
+
+rel/main_rel/driver/fn_1_A7854.c:
+	.text       start:0x000A6814 end:0x000A688C
+
+rel/main_rel/driver/fn_1_A78CC.c:
+	.text       start:0x000A688C end:0x000A6928
+
+rel/main_rel/driver/fn_1_A7968.c:
+	.text       start:0x000A6928 end:0x000A6998
+
+rel/main_rel/driver/fn_1_A79D8.c:
+	.text       start:0x000A6998 end:0x000A6A30
+
+rel/main_rel/driver/fn_1_A7A70.c:
+	.text       start:0x000A6A30 end:0x000A6AF0
+
+rel/main_rel/driver/fn_1_A7B30.c:
+	.text       start:0x000A6AF0 end:0x000A6B1C
+
+rel/main_rel/driver/fn_1_A7E60.c:
+	.text       start:0x000A6E20 end:0x000A6F44
+
+rel/main_rel/driver/fn_1_A7F84.c:
+	.text       start:0x000A6F44 end:0x000A7230
+
+rel/main_rel/driver/fn_1_A8528.c:
+	.text       start:0x000A74E8 end:0x000A75DC
+
+rel/main_rel/driver/fn_1_A861C.c:
+	.text       start:0x000A75DC end:0x000A77F4
+
+rel/main_rel/driver/fn_1_A8D4C.c:
+	.text       start:0x000A7D0C end:0x000A7D24
+
+rel/main_rel/driver/fn_1_A8D84.c:
+	.text       start:0x000A7D44 end:0x000A7D84
+
+rel/main_rel/driver/fn_1_A8DD4.c:
+	.text       start:0x000A7D94 end:0x000A7E38
+
+rel/main_rel/driver/fn_1_A9250.c:
+	.text       start:0x000A8210 end:0x000A8384
+
+rel/main_rel/driver/fn_1_A93C4.c:
+	.text       start:0x000A8384 end:0x000A83E0
+
+rel/main_rel/driver/fn_1_A943C.c:
+	.text       start:0x000A83FC end:0x000A8424
+
+rel/main_rel/driver/fn_1_A9464.c:
+	.text       start:0x000A8424 end:0x000A844C
+
+rel/main_rel/driver/fn_1_A96FC.c:
+	.text       start:0x000A86BC end:0x000A8724
+
+rel/main_rel/driver/fn_1_A97BC.c:
+	.text       start:0x000A877C end:0x000A87A4
+
+rel/main_rel/driver/fn_1_A9868.c:
+	.text       start:0x000A8828 end:0x000A89E8
+
+rel/main_rel/driver/fn_1_A9A28.c:
+	.text       start:0x000A89E8 end:0x000A8B30
+
+rel/main_rel/driver/fn_1_A9B70.c:
+	.text       start:0x000A8B30 end:0x000A8FBC
+
+rel/main_rel/driver/fn_1_A9FFC.c:
+	.text       start:0x000A8FBC end:0x000A9148
+
+rel/main_rel/driver/fn_1_AA188.c:
+	.text       start:0x000A9148 end:0x000A9310
+
+rel/main_rel/driver/fn_1_AA350.c:
+	.text       start:0x000A9310 end:0x000A94F8
+
+rel/main_rel/driver/fn_1_AA538.c:
+	.text       start:0x000A94F8 end:0x000A9550
+
+rel/main_rel/memcard/fn_1_AB598.c:
+	.text       start:0x000AA528 end:0x000AA55C
+
+rel/main_rel/memcard/fn_1_AB75C.c:
+	.text       start:0x000AA6E4 end:0x000AA74C
+
+rel/main_rel/memcard/fn_1_AB7C4.c:
+	.text       start:0x000AA74C end:0x000AA7F8
+
+rel/main_rel/memcard/fn_1_AB880.c:
+	.text       start:0x000AA808 end:0x000AA860
+
+rel/main_rel/memcard/fn_1_ABAAC.c:
+	.text       start:0x000AAA34 end:0x000AAAAC
+
+rel/main_rel/memcard/fn_1_ABC5C.c:
+	.text       start:0x000AABE4 end:0x000AAC20
+
+rel/main_rel/memcard/fn_1_ABCE8.c:
+	.text       start:0x000AAC70 end:0x000AACE0
+
+rel/main_rel/memcard/fn_1_ABDB8.c:
+	.text       start:0x000AAD40 end:0x000AAD9C
+
+rel/main_rel/memcard/fn_1_ABE14.c:
+	.text       start:0x000AAD9C end:0x000AAE10
+
+rel/main_rel/memcard/fn_1_ABE88.c:
+	.text       start:0x000AAE10 end:0x000AAECC
+
+rel/main_rel/memcard/fn_1_ABF44.c:
+	.text       start:0x000AAECC end:0x000AAF88
+
+rel/main_rel/memcard/fn_1_AC000.c:
+	.text       start:0x000AAF88 end:0x000AB0B4
+
+rel/main_rel/memcard/fn_1_AC12C.c:
+	.text       start:0x000AB0B4 end:0x000AB110
+
+rel/main_rel/memcard/fn_1_AC188.c:
+	.text       start:0x000AB110 end:0x000AB21C
+
+rel/main_rel/memcard/fn_1_AC294.c:
+	.text       start:0x000AB21C end:0x000AB260
+
+rel/main_rel/memcard/fn_1_AC3DC.c:
+	.text       start:0x000AB364 end:0x000AB3EC
+
+rel/main_rel/memcard/fn_1_AC704.c:
+	.text       start:0x000AB68C end:0x000AB6D4
+
+rel/main_rel/memcard/fn_1_AC92C.c:
+	.text       start:0x000AB8B4 end:0x000AB8E8
+
+rel/main_rel/memcard/fn_1_AC960.c:
+	.text       start:0x000AB8E8 end:0x000AB988
+
+rel/main_rel/memcard/fn_1_ACA00.c:
+	.text       start:0x000AB988 end:0x000AB9A4
+
+rel/main_rel/memcard/fn_1_ACA1C.c:
+	.text       start:0x000AB9A4 end:0x000ABA00
+
+rel/main_rel/memcard/fn_1_ACE80.c:
+	.text       start:0x000ABD50 end:0x000ABD8C
+
+rel/main_rel/memcard/fn_1_AD0A0.c:
+	.text       start:0x000ABF70 end:0x000AC010
+
+rel/main_rel/memcard/fn_1_AD140.c:
+	.text       start:0x000AC010 end:0x000AC034
+
+rel/main_rel/memcard/fn_1_AD168.c:
+	.text       start:0x000AC038 end:0x000AC07C
+
+rel/main_rel/memcard/fn_1_AD1AC.c:
+	.text       start:0x000AC07C end:0x000AC0B4
+
+rel/main_rel/memcard/fn_1_AD1E4.c:
+	.text       start:0x000AC0B4 end:0x000AC134
+
+rel/main_rel/memcard/fn_1_AEC34.c:
+	.text       start:0x000ADAC4 end:0x000ADB5C
+
+rel/main_rel/memcard/fn_1_B03A8.c:
+	.text       start:0x000AF1AC end:0x000AF1D0
+
+rel/main_rel/memcard/fn_1_B5258.c:
+	.text       start:0x000B3D98 end:0x000B3E50
+
+rel/main_rel/memcard/fn_1_B7E14.c:
+	.text       start:0x000B673C end:0x000B6770
+
+rel/main_rel/memcard/fn_1_B7F08.c:
+	.text       start:0x000B6830 end:0x000B684C
+
+rel/main_rel/memcard/fn_1_B7FDC.c:
+	.text       start:0x000B6904 end:0x000B6934
+
+rel/main_rel/memcard/fn_1_BF520.c:
+	.text       start:0x000BCD10 end:0x000BCDF0
+
+rel/main_rel/memcard/fn_1_C0510.c:
+	.text       start:0x000BDC64 end:0x000BDD80
+
+rel/main_rel/memcard/fn_1_C23CC.c:
+	.text       start:0x000BFB20 end:0x000BFBA8
+
+rel/main_rel/memcard/fn_1_C3688.c:
+	.text       start:0x000C0D60 end:0x000C0DC4
+
+rel/main_rel/memcard/fn_1_C40A0.c:
+	.text       start:0x000C1778 end:0x000C19CC
+
+rel/main_rel/enemy_ctrl/fn_1_C47B4.c:
+	.text       start:0x000C1E8C end:0x000C1F54
+
+rel/main_rel/enemy_ctrl/fn_1_C489C.c:
+	.text       start:0x000C1F74 end:0x000C2194
+
+rel/main_rel/enemy_ctrl/fn_1_C6ED4.c:
+	.text       start:0x000C45AC end:0x000C4648
+
+rel/main_rel/enemy_ctrl/fn_1_C7224.c:
+	.text       start:0x000C48FC end:0x000C49AC
+
+rel/main_rel/enemy_ctrl/fn_1_C72D4.c:
+	.text       start:0x000C49AC end:0x000C4B04
+
+rel/main_rel/enemy_ctrl/fn_1_C742C.c:
+	.text       start:0x000C4B04 end:0x000C4DF4
+
+rel/main_rel/enemy_ctrl/fn_1_C771C.c:
+	.text       start:0x000C4DF4 end:0x000C4F4C
+
+rel/main_rel/enemy_ctrl/fn_1_CA218.c:
+	.text       start:0x000C78F0 end:0x000C797C
+
+rel/main_rel/enemy_ctrl/fn_1_CA440.c:
+	.text       start:0x000C7B18 end:0x000C7D68
+
+rel/main_rel/enemy_ctrl/fn_1_CAB38.c:
+	.text       start:0x000C8210 end:0x000C849C
+
+rel/main_rel/enemy_ctrl/fn_1_CADC4.c:
+	.text       start:0x000C849C end:0x000C8594
+
+rel/main_rel/enemy_ctrl/fn_1_CAEBC.c:
+	.text       start:0x000C8594 end:0x000C8700
+
+rel/main_rel/enemy_ctrl/fn_1_CB028.c:
+	.text       start:0x000C8700 end:0x000C8ADC
+
+rel/main_rel/enemy_ctrl/fn_1_CB404.c:
+	.text       start:0x000C8ADC end:0x000C8AFC
+
+rel/main_rel/enemy_ctrl/fn_1_CB424.c:
+	.text       start:0x000C8AFC end:0x000C8DB0
+
+rel/main_rel/enemy_ctrl/fn_1_CD6C0.c:
+	.text       start:0x000CAD98 end:0x000CAE94
+
+rel/main_rel/enemy_ctrl/fn_1_CD7BC.c:
+	.text       start:0x000CAE94 end:0x000CB364
+
+rel/main_rel/enemy_ctrl/fn_1_CDC8C.c:
+	.text       start:0x000CB364 end:0x000CC210
+
+rel/main_rel/enemy_ctrl/fn_1_CF5B0.c:
+	.text       start:0x000CCBAC end:0x000CD008
+
+rel/main_rel/enemy_ctrl/fn_1_CFA0C.c:
+	.text       start:0x000CD008 end:0x000CD048
+
+rel/main_rel/enemy_ctrl/fn_1_CFA4C.c:
+	.text       start:0x000CD048 end:0x000CD124
+
+rel/main_rel/enemy_ctrl/fn_1_CFB28.c:
+	.text       start:0x000CD124 end:0x000CD2A0
+
+rel/main_rel/enemy_ctrl/fn_1_D01B0.c:
+	.text       start:0x000CD524 end:0x000CD79C
+
+rel/main_rel/enemy_ctrl/fn_1_D0728.c:
+	.text       start:0x000CDC14 end:0x000CDC7C
+
+rel/main_rel/enemy_ctrl/fn_1_D07AC.c:
+	.text       start:0x000CDC98 end:0x000CDCB0
+
+rel/main_rel/enemy_ctrl/fn_1_D07C4.c:
+	.text       start:0x000CDCB0 end:0x000CDCCC
+
+rel/main_rel/enemy_ctrl/fn_1_D0E74.c:
+	.text       start:0x000CE360 end:0x000CE44C
+
+rel/main_rel/enemy_ctrl/fn_1_D123C.c:
+	.text       start:0x000CE728 end:0x000CEC6C
+
+rel/main_rel/face/fn_1_D1780.c:
+	.text       start:0x000CEC6C end:0x000CECD4
+
+rel/main_rel/face/fn_1_D17E8.c:
+	.text       start:0x000CECD4 end:0x000CED34
+
+rel/main_rel/face/fn_1_D19B8.c:
+	.text       start:0x000CEEA4 end:0x000CF180
+
+rel/main_rel/face/fn_1_D1C94.c:
+	.text       start:0x000CF180 end:0x000CF474
+
+rel/main_rel/face/fn_1_D1F88.c:
+	.text       start:0x000CF474 end:0x000CF5FC
+
+rel/main_rel/face/fn_1_D2404.c:
+	.text       start:0x000CF8F0 end:0x000CFCA4
+
+rel/main_rel/face/fn_1_D2D24.c:
+	.text       start:0x000D0210 end:0x000D0224
+
+rel/main_rel/face/fn_1_D2D58.c:
+	.text       start:0x000D0244 end:0x000D0304
+
+rel/main_rel/face/fn_1_D2E18.c:
+	.text       start:0x000D0304 end:0x000D0330
+
+rel/main_rel/face/fn_1_D2E44.c:
+	.text       start:0x000D0330 end:0x000D043C
+
+rel/main_rel/face/fn_1_D3020.c:
+	.text       start:0x000D050C end:0x000D0630
+
+rel/main_rel/mdlload/fn_1_D35D4.c:
+	.text       start:0x000D0A7C end:0x000D0C10
+
+rel/main_rel/mdlload/fn_1_D3768.c:
+	.text       start:0x000D0C10 end:0x000D0D2C
+
+rel/main_rel/mdlload/fn_1_D38C4.c:
+	.text       start:0x000D0D6C end:0x000D0EF4
+
+rel/main_rel/mdlload/fn_1_D3A4C.c:
+	.text       start:0x000D0EF4 end:0x000D1014
+
+rel/main_rel/mdlload/fn_1_D3BE8.c:
+	.text       start:0x000D1090 end:0x000D10A8
+
+rel/main_rel/mdlload/fn_1_D3C04.c:
+	.text       start:0x000D10AC end:0x000D1100
+
+rel/main_rel/mdlload/fn_1_D3C58.c:
+	.text       start:0x000D1100 end:0x000D119C
+
+rel/main_rel/mdlload/fn_1_D3CF4.c:
+	.text       start:0x000D119C end:0x000D1284
+
+rel/main_rel/mdlload/fn_1_D3E08.c:
+	.text       start:0x000D12B0 end:0x000D1334
+
+rel/main_rel/mdlload/fn_1_D3E90.c:
+	.text       start:0x000D1338 end:0x000D13CC
+
+rel/main_rel/mdlload/fn_1_D3F24.c:
+	.text       start:0x000D13CC end:0x000D1430
+
+rel/main_rel/mdlload/fn_1_D3F88.c:
+	.text       start:0x000D1430 end:0x000D1484
+
+rel/main_rel/mdlload/fn_1_D4174.c:
+	.text       start:0x000D161C end:0x000D1680
+
+rel/main_rel/mdlload/fn_1_D41D8.c:
+	.text       start:0x000D1680 end:0x000D1750
+
+rel/main_rel/mdlload/fn_1_D42A8.c:
+	.text       start:0x000D1750 end:0x000D1808
+
+rel/main_rel/mdlload/fn_1_D4360.c:
+	.text       start:0x000D1808 end:0x000D1818
+
+rel/main_rel/mdlload/fn_1_D47D8.c:
+	.text       start:0x000D1C80 end:0x000D1C98
+
+rel/main_rel/mdlload/fn_1_D4964.c:
+	.text       start:0x000D1E0C end:0x000D24A4
+
+rel/main_rel/mdlload/fn_1_D5958.c:
+	.text       start:0x000D2E00 end:0x000D2E50
+
+rel/main_rel/bg_lig/fn_1_D5C70.c:
+	.text       start:0x000D3118 end:0x000D3450
+
+rel/main_rel/bg_lig/fn_1_D66BC.c:
+	.text       start:0x000D3B64 end:0x000D3B9C
+
+rel/main_rel/bg_lig/fn_1_D66F8.c:
+	.text       start:0x000D3BA0 end:0x000D3BE8
+
+rel/main_rel/bg_lig/fn_1_D720C.c:
+	.text       start:0x000D46B4 end:0x000D471C
+
+rel/main_rel/bg_lig/fn_1_D7274.c:
+	.text       start:0x000D471C end:0x000D48F4
+
+rel/main_rel/bg_lig/fn_1_D744C.c:
+	.text       start:0x000D48F4 end:0x000D496C
+
+rel/main_rel/bg_lig/fn_1_D74C4.c:
+	.text       start:0x000D496C end:0x000D4A74
+
+rel/main_rel/bg_lig/fn_1_D75CC.c:
+	.text       start:0x000D4A74 end:0x000D4B30
+
+rel/main_rel/bg_lig/fn_1_D7688.c:
+	.text       start:0x000D4B30 end:0x000D4B94
+
+rel/main_rel/bg_lig/fn_1_D76F0.c:
+	.text       start:0x000D4B98 end:0x000D4BCC
+
+rel/main_rel/bg_lig/fn_1_D7724.c:
+	.text       start:0x000D4BCC end:0x000D4C00
+
+rel/main_rel/bg_lig/fn_1_D7A10.c:
+	.text       start:0x000D4EB8 end:0x000D5024
+
+rel/main_rel/bg_lig/fn_1_D7B7C.c:
+	.text       start:0x000D5024 end:0x000D50EC
+
+rel/main_rel/bg_lig/fn_1_D8388.c:
+	.text       start:0x000D5830 end:0x000D588C
+
+rel/main_rel/bg_lig/fn_1_D83E4.c:
+	.text       start:0x000D588C end:0x000D5C2C
+
+rel/main_rel/bg_lig/fn_1_D8784.c:
+	.text       start:0x000D5C2C end:0x000D5D20
+
+rel/main_rel/bg_lig/fn_1_D8F4C.c:
+	.text       start:0x000D63F4 end:0x000D646C
+
+rel/main_rel/bg_san/fn_1_D8FC4.c:
+	.text       start:0x000D646C end:0x000D66CC
+
+rel/main_rel/bg_san/fn_1_D9224.c:
+	.text       start:0x000D66CC end:0x000D7234
+
+rel/main_rel/bg_san/fn_1_D9D8C.c:
+	.text       start:0x000D7234 end:0x000D7848
+
+rel/main_rel/bg_san/fn_1_DA3A0.c:
+	.text       start:0x000D7848 end:0x000D7B50
+
+rel/main_rel/bg_san/fn_1_DA6A8.c:
+	.text       start:0x000D7B50 end:0x000D7C60
+
+rel/main_rel/bg_san/fn_1_DA7E4.c:
+	.text       start:0x000D7C8C end:0x000D7E98
+
+rel/main_rel/bg_san/fn_1_DA9F0.c:
+	.text       start:0x000D7E98 end:0x000D7EDC
+
+rel/main_rel/bg_san/fn_1_DAA58.c:
+	.text       start:0x000D7F00 end:0x000D7F6C
+
+rel/main_rel/bg_san/fn_1_DAAC4.c:
+	.text       start:0x000D7F6C end:0x000D7FA0
+
+rel/main_rel/bg_san/fn_1_DAB5C.c:
+	.text       start:0x000D8004 end:0x000D805C
+
+rel/main_rel/bg_san/fn_1_DADA8.c:
+	.text       start:0x000D8250 end:0x000D82CC
+
+rel/main_rel/bg_san/fn_1_DAE24.c:
+	.text       start:0x000D82CC end:0x000D83A0
+
+rel/main_rel/bg_san/fn_1_DAEFC.c:
+	.text       start:0x000D83A4 end:0x000D8438
+
+rel/main_rel/bg_san/fn_1_DAF94.c:
+	.text       start:0x000D843C end:0x000D85E0
+
+rel/main_rel/bg_san/fn_1_DB138.c:
+	.text       start:0x000D85E0 end:0x000D8640
+
+rel/main_rel/bg_san/fn_1_DB198.c:
+	.text       start:0x000D8640 end:0x000D8710
+
+rel/main_rel/bg_san/fn_1_DB268.c:
+	.text       start:0x000D8710 end:0x000D89E4
+
+rel/main_rel/bg_san/fn_1_DC084.c:
+	.text       start:0x000D952C end:0x000D9660
+
+rel/main_rel/bg_san/fn_1_DC1C0.c:
+	.text       start:0x000D9668 end:0x000D96AC
+
+rel/main_rel/bg_san/fn_1_DC208.c:
+	.text       start:0x000D96B0 end:0x000D970C
+
+rel/main_rel/bg_san/fn_1_DC268.c:
+	.text       start:0x000D9710 end:0x000D97A0
+
+rel/main_rel/bg_san/fn_1_DC2F8.c:
+	.text       start:0x000D97A0 end:0x000D97E4
+
+rel/main_rel/bg_san/fn_1_DC33C.c:
+	.text       start:0x000D97E4 end:0x000D9848
+
+rel/main_rel/bg_san/fn_1_DC648.c:
+	.text       start:0x000D9AF0 end:0x000D9BA4
+
+rel/main_rel/bg_san/fn_1_DC6FC.c:
+	.text       start:0x000D9BA4 end:0x000D9C0C
+
+rel/main_rel/bg_san/fn_1_DCB10.c:
+	.text       start:0x000D9FB8 end:0x000DA044
+
+rel/main_rel/bg_for/fn_1_DCBF4.c:
+	.text       start:0x000DA09C end:0x000DA308
+
+rel/main_rel/bg_for/fn_1_DCE60.c:
+	.text       start:0x000DA308 end:0x000DA378
+
+rel/main_rel/bg_for/fn_1_DCED0.c:
+	.text       start:0x000DA378 end:0x000DA3FC
+
+rel/main_rel/bg_for/fn_1_DCF54.c:
+	.text       start:0x000DA3FC end:0x000DA44C
+
+rel/main_rel/bg_for/fn_1_DDF80.c:
+	.text       start:0x000DB428 end:0x000DB628
+
+rel/main_rel/bg_for/fn_1_DE180.c:
+	.text       start:0x000DB628 end:0x000DB958
+
+rel/main_rel/bg_for/fn_1_E1408.c:
+	.text       start:0x000DE8B0 end:0x000DEDDC
+
+rel/main_rel/bg_for/fn_1_E1934.c:
+	.text       start:0x000DEDDC end:0x000DEEA8
+
+rel/main_rel/bg_for/fn_1_E1A00.c:
+	.text       start:0x000DEEA8 end:0x000DF0B8
+
+rel/main_rel/phys/fn_1_E1C10.c:
+	.text       start:0x000DF0B8 end:0x000DF344
+
+rel/main_rel/phys/fn_1_E1E9C.c:
+	.text       start:0x000DF344 end:0x000DF9D4
+
+rel/main_rel/phys/fn_1_E252C.c:
+	.text       start:0x000DF9D4 end:0x000DFF90
+
+rel/main_rel/phys/fn_1_E2AE8.c:
+	.text       start:0x000DFF90 end:0x000E0274
+
+rel/main_rel/phys/fn_1_E3778.c:
+	.text       start:0x000E0C20 end:0x000E0D7C
+
+rel/main_rel/phys/fn_1_E38D4.c:
+	.text       start:0x000E0D7C end:0x000E0E98
+
+rel/main_rel/phys/fn_1_E39F0.c:
+	.text       start:0x000E0E98 end:0x000E10E0
+
+rel/main_rel/phys/fn_1_E49D4.c:
+	.text       start:0x000E1E7C end:0x000E1EE0
+
+rel/main_rel/phys/fn_1_E4A38.c:
+	.text       start:0x000E1EE0 end:0x000E2598
+
+rel/main_rel/phys/fn_1_E50F0.c:
+	.text       start:0x000E2598 end:0x000E260C
+
+rel/main_rel/phys/fn_1_E5164.c:
+	.text       start:0x000E260C end:0x000E27A0
+
+rel/main_rel/phys/fn_1_E5430.c:
+	.text       start:0x000E28D8 end:0x000E2950
+
+rel/main_rel/phys/fn_1_E54A8.c:
+	.text       start:0x000E2950 end:0x000E2A10
+
+rel/main_rel/phys/fn_1_E5568.c:
+	.text       start:0x000E2A10 end:0x000E2BCC
+
+rel/main_rel/phys/fn_1_E5770.c:
+	.text       start:0x000E2C18 end:0x000E2C4C
+
+rel/main_rel/phys/fn_1_E5884.c:
+	.text       start:0x000E2D2C end:0x000E2D74
+
+rel/main_rel/phys/fn_1_E58CC.c:
+	.text       start:0x000E2D74 end:0x000E2DD8
+
+rel/main_rel/phys/fn_1_E5930.c:
+	.text       start:0x000E2DD8 end:0x000E2DF4
+
+rel/main_rel/phys/fn_1_E594C.c:
+	.text       start:0x000E2DF4 end:0x000E2E18
+
+rel/main_rel/phys/fn_1_E5988.c:
+	.text       start:0x000E2E30 end:0x000E2EB4
+
+rel/main_rel/phys/fn_1_E5AE0.c:
+	.text       start:0x000E2F88 end:0x000E316C
+
+rel/main_rel/phys/fn_1_E86FC.c:
+	.text       start:0x000E5BA4 end:0x000E5C4C
+
+rel/main_rel/phys/fn_1_E87A4.c:
+	.text       start:0x000E5C4C end:0x000E5CA4
+
+rel/main_rel/phys/fn_1_E95B4.c:
+	.text       start:0x000E6A5C end:0x000E6B28
+
+rel/main_rel/phys/fn_1_E9680.c:
+	.text       start:0x000E6B48 end:0x000E6C38
+
+rel/main_rel/phys/fn_1_E9C68.c:
+	.text       start:0x000E7130 end:0x000E71C4
+
+rel/main_rel/phys/fn_1_EB200.c:
+	.text       start:0x000E8650 end:0x000E8698
+
+rel/main_rel/phys/fn_1_EB248.c:
+	.text       start:0x000E8698 end:0x000E86EC
+
+rel/main_rel/ghost/fn_1_EB85C.c:
+	.text       start:0x000E8C18 end:0x000E8CB0
+
+rel/main_rel/ghost/fn_1_EF488.c:
+	.text       start:0x000EC798 end:0x000EC804
+
+rel/main_rel/ghost/fn_1_EF924.c:
+	.text       start:0x000ECC34 end:0x000ECC88
+
+rel/main_rel/ghost/fn_1_EFA1C.c:
+	.text       start:0x000ECD2C end:0x000ECD5C
+
+rel/main_rel/ghost/fn_1_F1300.c:
+	.text       start:0x000EE610 end:0x000EE74C
+
+rel/main_rel/ghost/fn_1_F143C.c:
+	.text       start:0x000EE74C end:0x000EE898
+
+rel/main_rel/ghost/fn_1_F1588.c:
+	.text       start:0x000EE898 end:0x000EE960
+
+rel/main_rel/ghost/fn_1_F1650.c:
+	.text       start:0x000EE960 end:0x000EEAC4
+
+rel/main_rel/ghost/fn_1_F17B4.c:
+	.text       start:0x000EEAC4 end:0x000EEB74
+
+rel/main_rel/ghost/ghost_pack_bits.c:
+	.text       start:0x000EEB74 end:0x000EEBD0
+
+rel/main_rel/ghost/fn_1_F18C0.c:
+	.text       start:0x000EEBD0 end:0x000EEC1C
+
+rel/main_rel/ghost/fn_1_F190C.c:
+	.text       start:0x000EEC1C end:0x000EEC60
+
+rel/main_rel/ghost/fn_1_F1960.c:
+	.text       start:0x000EEC70 end:0x000EED34
+
+rel/main_rel/ghost/fn_1_F1B94.c:
+	.text       start:0x000EEEA4 end:0x000EEF64
+
+rel/main_rel/ghost/fn_1_F1D8C.c:
+	.text       start:0x000EF09C end:0x000EF140
+
+rel/main_rel/ghost/fn_1_F1E30.c:
+	.text       start:0x000EF140 end:0x000EF1E0
+
+rel/main_rel/ghost/fn_1_F1ED0.c:
+	.text       start:0x000EF1E0 end:0x000EF284
+
+rel/main_rel/ghost/ghost_test_flag.c:
+	.text       start:0x000EF284 end:0x000EF318
+
+rel/main_rel/ghost/ghost_test_record_flag0.c:
+	.text       start:0x000EF370 end:0x000EF3C4
+
+rel/main_rel/ghost/fn_1_F210C.c:
+	.text       start:0x000EF41C end:0x000EF470
+
+rel/main_rel/ghost/fn_1_F21B8.c:
+	.text       start:0x000EF4C8 end:0x000EF51C
+
+rel/main_rel/ghost/fn_1_F220C.c:
+	.text       start:0x000EF51C end:0x000EF590
+
+rel/main_rel/ghost/fn_1_F2280.c:
+	.text       start:0x000EF590 end:0x000EF5E4
+
+rel/main_rel/ghost/fn_1_F22E4.c:
+	.text       start:0x000EF5F4 end:0x000EF648
+
+rel/main_rel/ghost/fn_1_F2338.c:
+	.text       start:0x000EF648 end:0x000EF6E8
+
+rel/main_rel/ghost/fn_1_F2740.c:
+	.text       start:0x000EFA50 end:0x000EFA90
+
+rel/main_rel/replay/fn_1_F2CD8.c:
+	.text       start:0x000EFFE8 end:0x000F0040
+
+rel/main_rel/replay/fn_1_F2D30.c:
+	.text       start:0x000F0040 end:0x000F00EC
+
+rel/main_rel/replay/fn_1_F2EB8.c:
+	.text       start:0x000F01C8 end:0x000F01EC
+
+rel/main_rel/replay/fn_1_F2EDC.c:
+	.text       start:0x000F01EC end:0x000F020C
+
+rel/main_rel/replay/fn_1_F2EFC.c:
+	.text       start:0x000F020C end:0x000F0244
+
+rel/main_rel/replay/fn_1_F2F34.c:
+	.text       start:0x000F0244 end:0x000F0268
+
+rel/main_rel/replay/fn_1_F2F58.c:
+	.text       start:0x000F0268 end:0x000F0294
+
+rel/main_rel/replay/fn_1_F2F84.c:
+	.text       start:0x000F0294 end:0x000F057C
+
+rel/main_rel/replay/fn_1_F326C.c:
+	.text       start:0x000F057C end:0x000F0884
+
+rel/main_rel/replay/fn_1_F3574.c:
+	.text       start:0x000F0884 end:0x000F0B04
+
+rel/main_rel/replay/fn_1_F37F4.c:
+	.text       start:0x000F0B04 end:0x000F0BD0
+
+rel/main_rel/replay/fn_1_F38C0.c:
+	.text       start:0x000F0BD0 end:0x000F0DC0
+
+rel/main_rel/replay/fn_1_F3AB0.c:
+	.text       start:0x000F0DC0 end:0x000F0ED0
+
+rel/main_rel/replay/fn_1_F43F0.c:
+	.text       start:0x000F1700 end:0x000F175C
+
+rel/main_rel/replay/fn_1_F444C.c:
+	.text       start:0x000F175C end:0x000F184C
+
+rel/main_rel/replay/fn_1_F453C.c:
+	.text       start:0x000F184C end:0x000F18A4
+
+rel/main_rel/replay/fn_1_F45B4.c:
+	.text       start:0x000F18C4 end:0x000F18DC
+
+rel/main_rel/replay/fn_1_F45CC.c:
+	.text       start:0x000F18DC end:0x000F1AA4
+
+rel/main_rel/replay/fn_1_F47AC.c:
+	.text       start:0x000F1ABC end:0x000F1B20
+
+rel/main_rel/replay/fn_1_F4810.c:
+	.text       start:0x000F1B20 end:0x000F214C
+
+rel/main_rel/replay/fn_1_F4E3C.c:
+	.text       start:0x000F214C end:0x000F2218
+
+rel/main_rel/spline/fn_1_F4F08.c:
+	.text       start:0x000F2218 end:0x000F2768
+
+rel/main_rel/spline/fn_1_F5458.c:
+	.text       start:0x000F2768 end:0x000F28D4
+
+rel/main_rel/spline/fn_1_F55C4.c:
+	.text       start:0x000F28D4 end:0x000F2A08
+
+rel/main_rel/spline/fn_1_F56F8.c:
+	.text       start:0x000F2A08 end:0x000F2AB8
+
+rel/main_rel/spline/fn_1_F57A8.c:
+	.text       start:0x000F2AB8 end:0x000F2B9C
+
+rel/main_rel/spline/fn_1_F588C.c:
+	.text       start:0x000F2B9C end:0x000F2D3C
+
+rel/main_rel/spline/fn_1_F5A2C.c:
+	.text       start:0x000F2D3C end:0x000F2DBC
+
+rel/main_rel/spline/fn_1_F7128.c:
+	.text       start:0x000F4438 end:0x000F4618
+
+rel/main_rel/spline/fn_1_F7308.c:
+	.text       start:0x000F4618 end:0x000F4648
+
+rel/main_rel/spline/fn_1_F7338.c:
+	.text       start:0x000F4648 end:0x000F46B8
+
+rel/main_rel/spline/fn_1_F73A8.c:
+	.text       start:0x000F46B8 end:0x000F486C
+
+rel/main_rel/spline/fn_1_F7578.c:
+	.text       start:0x000F4888 end:0x000F48E8
+
+rel/main_rel/spline/fn_1_F7870.c:
+	.text       start:0x000F4B80 end:0x000F4BBC
+
+rel/main_rel/spline/fn_1_F7904.c:
+	.text       start:0x000F4C14 end:0x000F4C64
+
+rel/main_rel/spline/fn_1_F7954.c:
+	.text       start:0x000F4C64 end:0x000F4CD8
+
+rel/main_rel/spline/fn_1_F79C8.c:
+	.text       start:0x000F4CD8 end:0x000F4D30
+
+rel/main_rel/spline/fn_1_F7B2C.c:
+	.text       start:0x000F4E38 end:0x000F4E8C
+
+rel/main_rel/spline/fn_1_F7B80.c:
+	.text       start:0x000F4E8C end:0x000F4EF0
+
+rel/main_rel/spline/fn_1_F7CAC.c:
+	.text       start:0x000F4FB8 end:0x000F5024
+
+rel/main_rel/spline/fn_1_F7D18.c:
+	.text       start:0x000F5024 end:0x000F5078
+
+rel/main_rel/spline/fn_1_F7D6C.c:
+	.text       start:0x000F5078 end:0x000F50CC
+
+rel/main_rel/spline/fn_1_F7DC0.c:
+	.text       start:0x000F50CC end:0x000F5130
+
+rel/main_rel/spline/fn_1_F7E24.c:
+	.text       start:0x000F5130 end:0x000F5194
+
+rel/main_rel/spline/fn_1_F7E88.c:
+	.text       start:0x000F5194 end:0x000F51E8
+
+rel/main_rel/spline/fn_1_F7EDC.c:
+	.text       start:0x000F51E8 end:0x000F5254
+
+rel/main_rel/spline/fn_1_F7F48.c:
+	.text       start:0x000F5254 end:0x000F533C
+
+rel/main_rel/spline/fn_1_F8048.c:
+	.text       start:0x000F5354 end:0x000F53A8
+
+rel/main_rel/spline/fn_1_F8214.c:
+	.text       start:0x000F5520 end:0x000F55EC
+
+rel/main_rel/spline/fn_1_F82E0.c:
+	.text       start:0x000F55EC end:0x000F5640
+
+rel/main_rel/spline/fn_1_F83F0.c:
+	.text       start:0x000F56FC end:0x000F588C
+
+rel/main_rel/spline/fn_1_F8580.c:
+	.text       start:0x000F588C end:0x000F58AC
+
+rel/main_rel/spline/fn_1_F85A0.c:
+	.text       start:0x000F58AC end:0x000F5C24
+
+rel/main_rel/spline/fn_1_F8918.c:
+	.text       start:0x000F5C24 end:0x000F5CCC
+
+rel/main_rel/spline/fn_1_F8A58.c:
+	.text       start:0x000F5D64 end:0x000F5D88
+
+rel/main_rel/spline/fn_1_F8A90.c:
+	.text       start:0x000F5D9C end:0x000F5DE0
+
+rel/main_rel/spline/fn_1_F8AD4.c:
+	.text       start:0x000F5DE0 end:0x000F5E08
+
+rel/main_rel/spline/fn_1_F8AFC.c:
+	.text       start:0x000F5E08 end:0x000F5E30
+
+rel/main_rel/spline/fn_1_F8B24.c:
+	.text       start:0x000F5E30 end:0x000F5E5C
+
+rel/main_rel/spline/fn_1_F8C00.c:
+	.text       start:0x000F5F0C end:0x000F5F34
+
+rel/main_rel/spline/fn_1_F8C28.c:
+	.text       start:0x000F5F34 end:0x000F5F5C
+
+rel/main_rel/spline/fn_1_F8C50.c:
+	.text       start:0x000F5F5C end:0x000F5F80
+
+rel/main_rel/spline/fn_1_F8C74.c:
+	.text       start:0x000F5F80 end:0x000F5FAC
+
+rel/main_rel/spline/fn_1_F8CA0.c:
+	.text       start:0x000F5FAC end:0x000F5FD8
+
+rel/main_rel/spline/fn_1_F8CCC.c:
+	.text       start:0x000F5FD8 end:0x000F5FFC
+
+rel/main_rel/spline/fn_1_F8CF0.c:
+	.text       start:0x000F5FFC end:0x000F601C
+
+rel/main_rel/spline/fn_1_F8D10.c:
+	.text       start:0x000F601C end:0x000F6044
+
+rel/main_rel/spline/fn_1_F8D38.c:
+	.text       start:0x000F6044 end:0x000F6068
+
+rel/main_rel/spline/fn_1_F8D5C.c:
+	.text       start:0x000F6068 end:0x000F60D0
+
+rel/main_rel/spline/fn_1_F8DC4.c:
+	.text       start:0x000F60D0 end:0x000F613C
+
+rel/main_rel/spline/fn_1_F8E30.c:
+	.text       start:0x000F613C end:0x000F6334
+
+rel/main_rel/spline/fn_1_F9028.c:
+	.text       start:0x000F6334 end:0x000F6550
+
+rel/main_rel/spline/fn_1_F9244.c:
+	.text       start:0x000F6550 end:0x000F6778
+
+rel/main_rel/spline/fn_1_F946C.c:
+	.text       start:0x000F6778 end:0x000F6968
+
+rel/main_rel/spline/fn_1_F9888.c:
+	.text       start:0x000F6B94 end:0x000F6D8C
+
+rel/main_rel/spline/fn_1_F9A80.c:
+	.text       start:0x000F6D8C end:0x000F6F78
+
+rel/main_rel/spline/fn_1_F9E10.c:
+	.text       start:0x000F711C end:0x000F7144
+
+rel/main_rel/spline/fn_1_FA0BC.c:
+	.text       start:0x000F737C end:0x000F7414
+
+rel/main_rel/spline/fn_1_FA154.c:
+	.text       start:0x000F7414 end:0x000F7440
+
+rel/main_rel/spline/fn_1_FA180.c:
+	.text       start:0x000F7440 end:0x000F7468
+
+rel/main_rel/spline/fn_1_FA450.c:
+	.text       start:0x000F76D4 end:0x000F7744
+
+rel/main_rel/spline/fn_1_FA4C0.c:
+	.text       start:0x000F7744 end:0x000F7758
+
+rel/main_rel/spline/fn_1_FA4D4.c:
+	.text       start:0x000F7758 end:0x000F782C
+
+rel/main_rel/spline/fn_1_FA5A8.c:
+	.text       start:0x000F782C end:0x000F7864
+
+rel/main_rel/spline/fn_1_FA5E0.c:
+	.text       start:0x000F7864 end:0x000F78A0
+
+rel/main_rel/spline/fn_1_FA67C.c:
+	.text       start:0x000F78A0 end:0x000F78C0
+
+rel/main_rel/spline/fn_1_FA69C.c:
+	.text       start:0x000F78C0 end:0x000F78E4
+
+rel/main_rel/spline/fn_1_FA6C0.c:
+	.text       start:0x000F78E4 end:0x000F7980
+
+rel/main_rel/spline/fn_1_FA75C.c:
+	.text       start:0x000F7980 end:0x000F7A50
+
+rel/main_rel/spline/fn_1_FA89C.c:
+	.text       start:0x000F7AC0 end:0x000F7D64
+
+rel/main_rel/spline/fn_1_FB0B4.c:
+	.text       start:0x000F82D8 end:0x000F83A4
+
+rel/main_rel/spline/fn_1_FB18C.c:
+	.text       start:0x000F83B0 end:0x000F8994
+
+rel/main_rel/bg_cas/fn_1_FB798.c:
+	.text       start:0x000F89BC end:0x000F8A94
+
+rel/main_rel/bg_cas/fn_1_FB96C.c:
+	.text       start:0x000F8B90 end:0x000F8BE4
+
+rel/main_rel/bg_cas/fn_1_FB9C0.c:
+	.text       start:0x000F8BE4 end:0x000F8C00
+
+rel/main_rel/bg_cas/fn_1_FB9DC.c:
+	.text       start:0x000F8C00 end:0x000F8CAC
+
+rel/main_rel/bg_cas/fn_1_FBA88.c:
+	.text       start:0x000F8CAC end:0x000F8E80
+
+rel/main_rel/bg_cas/fn_1_FBC5C.c:
+	.text       start:0x000F8E80 end:0x000F90CC
+
+rel/main_rel/bg_cas/fn_1_FBEA8.c:
+	.text       start:0x000F90CC end:0x000F9208
+
+rel/main_rel/bg_cas/fn_1_FBFE4.c:
+	.text       start:0x000F9208 end:0x000F9630
+
+rel/main_rel/bg_cas/fn_1_FC4E0.c:
+	.text       start:0x000F9704 end:0x000F9740
+
+rel/main_rel/bg_cas/fn_1_FC51C.c:
+	.text       start:0x000F9740 end:0x000F9830
+
+rel/main_rel/bg_cas/fn_1_FC60C.c:
+	.text       start:0x000F9830 end:0x000F9984
+
+rel/main_rel/bg_cas/fn_1_FCF50.c:
+	.text       start:0x000FA174 end:0x000FA198
+
+rel/main_rel/bg_cas/fn_1_FD324.c:
+	.text       start:0x000FA548 end:0x000FA5AC
+
+rel/main_rel/bg_cas/fn_1_FD3A8.c:
+	.text       start:0x000FA5CC end:0x000FAA68
+
+rel/main_rel/bg_cas/fn_1_FD844.c:
+	.text       start:0x000FAA68 end:0x000FAD64
+
+rel/main_rel/bg_cas/fn_1_FDB40.c:
+	.text       start:0x000FAD64 end:0x000FAE24
+
+rel/main_rel/bg_cas/fn_1_FDC00.c:
+	.text       start:0x000FAE24 end:0x000FAFA0
+
+rel/main_rel/bg_cas/fn_1_FDEC8.c:
+	.text       start:0x000FB0EC end:0x000FB218
+
+rel/main_rel/bg_cas/fn_1_FE014.c:
+	.text       start:0x000FB238 end:0x000FB7E8
+
+rel/main_rel/bg_cas/fn_1_FE5C4.c:
+	.text       start:0x000FB7E8 end:0x000FB804
+
+rel/main_rel/bg_cas/fn_1_FE5E4.c:
+	.text       start:0x000FB808 end:0x000FB864
+
+rel/main_rel/bg_cas/fn_1_FE784.c:
+	.text       start:0x000FB9A8 end:0x000FB9F8
+
+rel/main_rel/bg_cas/fn_1_FEC7C.c:
+	.text       start:0x000FBEA0 end:0x000FBF58
+
+rel/main_rel/bg_cas/fn_1_1011CC.c:
+	.text       start:0x000FE3F0 end:0x000FE56C
+
+rel/main_rel/bg_cas/fn_1_1013A0.c:
+	.text       start:0x000FE5C4 end:0x000FE5E4
+
+rel/main_rel/bg_cas/fn_1_1013C4.c:
+	.text       start:0x000FE5E8 end:0x000FE624
+
+rel/main_rel/bg_cas/fn_1_101454.c:
+	.text       start:0x000FE678 end:0x000FE6D8
+
+rel/main_rel/bg_cas/fn_1_10161C.c:
+	.text       start:0x000FE840 end:0x000FEAE0
+
+rel/main_rel/cloth/fn_1_101AE8.c:
+	.text       start:0x000FED0C end:0x000FEDE8
+
+rel/main_rel/cloth/fn_1_101BC4.c:
+	.text       start:0x000FEDE8 end:0x000FF630
+
+rel/main_rel/cloth/fn_1_10240C.c:
+	.text       start:0x000FF630 end:0x000FF6E8
+
+rel/main_rel/cloth/fn_1_1024F8.c:
+	.text       start:0x000FF71C end:0x000FF974
+
+rel/main_rel/cloth/fn_1_102750.c:
+	.text       start:0x000FF974 end:0x000FFE2C
+
+rel/main_rel/cloth/fn_1_102FD0.c:
+	.text       start:0x001001F4 end:0x00100250
+
+rel/main_rel/cloth/fn_1_103058.c:
+	.text       start:0x0010027C end:0x001002B4
+
+rel/main_rel/cloth/fn_1_103090.c:
+	.text       start:0x001002B4 end:0x001002C8
+
+rel/main_rel/cloth/fn_1_1030A4.c:
+	.text       start:0x001002C8 end:0x001002F8
+
+rel/main_rel/cloth/fn_1_1030D4.c:
+	.text       start:0x001002F8 end:0x00100488
+
+rel/main_rel/bg_common/fn_1_103AA8.c:
+	.text       start:0x00100CCC end:0x00100CF8
+
+rel/main_rel/bg_common/fn_1_103AD4.c:
+	.text       start:0x00100CF8 end:0x00100D24
+
+rel/main_rel/bg_common/fn_1_103F10.c:
+	.text       start:0x00101134 end:0x0010117C
+
+rel/main_rel/bg_common/fn_1_103F58.c:
+	.text       start:0x0010117C end:0x001011F0
+
+rel/main_rel/bg_common/fn_1_104730.c:
+	.text       start:0x00101954 end:0x00101C04
+
+rel/main_rel/bg_common/fn_1_105744.c:
+	.text       start:0x00102968 end:0x0010298C
+
+rel/main_rel/bg_common/fn_1_105AB8.c:
+	.text       start:0x00102CCC end:0x00102DEC
+
+rel/main_rel/bg_common/fn_1_105BD8.c:
+	.text       start:0x00102DEC end:0x00102EDC
+
+rel/main_rel/bg_common/fn_1_105CC8.c:
+	.text       start:0x00102EDC end:0x00103298
+
+rel/main_rel/bg_common/fn_1_106084.c:
+	.text       start:0x00103298 end:0x001039BC
+
+rel/main_rel/bg_common/fn_1_1067A8.c:
+	.text       start:0x001039BC end:0x00103AA0
+
+rel/main_rel/bg_common/fn_1_106CAC.c:
+	.text       start:0x00103EC0 end:0x00103F44
+
+rel/main_rel/bg_common/fn_1_106DB4.c:
+	.text       start:0x00103FC8 end:0x001040B8
+
+rel/main_rel/bg_common/fn_1_1071C0.c:
+	.text       start:0x001043D4 end:0x001043FC
+
+rel/main_rel/bg_common/fn_1_10780C.c:
+	.text       start:0x00104A20 end:0x00104B14
+
+rel/main_rel/bg_common/fn_1_107930.c:
+	.text       start:0x00104B44 end:0x00104E60
+
+rel/main_rel/bg_common/fn_1_107E90.c:
+	.text       start:0x001050A4 end:0x00105140
+
+rel/main_rel/bg_common/fn_1_108128.c:
+	.text       start:0x0010533C end:0x00105680
+
+rel/main_rel/accessory/fn_1_10846C.c:
+	.text       start:0x00105680 end:0x00105A84
+
+rel/main_rel/accessory/fn_1_108870.c:
+	.text       start:0x00105A84 end:0x00105ACC
+
+rel/main_rel/accessory/fn_1_1088B8.c:
+	.text       start:0x00105ACC end:0x00105B34
+
+rel/main_rel/accessory/fn_1_108920.c:
+	.text       start:0x00105B34 end:0x00105CA4
+
+rel/main_rel/accessory/fn_1_108A90.c:
+	.text       start:0x00105CA4 end:0x00105DE4
+
+rel/main_rel/accessory/fn_1_108BD0.c:
+	.text       start:0x00105DE4 end:0x00106100
+
+rel/main_rel/accessory/fn_1_108EEC.c:
+	.text       start:0x00106100 end:0x00106328
+
+rel/main_rel/accessory/fn_1_109114.c:
+	.text       start:0x00106328 end:0x001063E8
+
+rel/main_rel/accessory/fn_1_1091D4.c:
+	.text       start:0x001063E8 end:0x00106980
+
+rel/main_rel/accessory/fn_1_10976C.c:
+	.text       start:0x00106980 end:0x00107650
+
+rel/main_rel/accessory/fn_1_10A8D0.c:
+	.text       start:0x00107AE4 end:0x00107F2C
+
+rel/main_rel/accessory/fn_1_10AD18.c:
+	.text       start:0x00107F2C end:0x00108558
+
+rel/main_rel/accessory/fn_1_10B800.c:
+	.text       start:0x00108A14 end:0x00108C14
+
+rel/main_rel/accessory/fn_1_10BA00.c:
+	.text       start:0x00108C14 end:0x00109050
+
+rel/main_rel/accessory/fn_1_10BE3C.c:
+	.text       start:0x00109050 end:0x001096F8
+
+rel/main_rel/accessory/fn_1_10C4E4.c:
+	.text       start:0x001096F8 end:0x001099C8
+
+rel/main_rel/accessory/fn_1_10C7B4.c:
+	.text       start:0x001099C8 end:0x00109BC4
+
+rel/main_rel/accessory/fn_1_10C9B0.c:
+	.text       start:0x00109BC4 end:0x00109E4C
+
+rel/main_rel/accessory/fn_1_10CC38.c:
+	.text       start:0x00109E4C end:0x0010A504
+
+rel/main_rel/accessory/fn_1_10D2F0.c:
+	.text       start:0x0010A504 end:0x0010A9E8
+
+rel/main_rel/accessory/fn_1_10D7D4.c:
+	.text       start:0x0010A9E8 end:0x0010AFF8
+
+rel/main_rel/accessory/fn_1_10DDE4.c:
+	.text       start:0x0010AFF8 end:0x0010B5C8
+
+rel/main_rel/accessory/fn_1_110478.c:
+	.text       start:0x0010D68C end:0x0010E724
+
+rel/main_rel/accessory/fn_1_111980.c:
+	.text       start:0x0010EB94 end:0x00110154
+
+rel/main_rel/accessory/fn_1_112F40.c:
+	.text       start:0x00110154 end:0x001104F8
+
+rel/main_rel/accessory/fn_1_1132E4.c:
+	.text       start:0x001104F8 end:0x001109F8
+
+rel/main_rel/accessory/fn_1_1137E4.c:
+	.text       start:0x001109F8 end:0x00110E6C
+
+rel/main_rel/accessory/fn_1_113C58.c:
+	.text       start:0x00110E6C end:0x001117DC
+
+rel/main_rel/accessory/fn_1_1145C8.c:
+	.text       start:0x001117DC end:0x00111B40
+
+rel/main_rel/accessory/fn_1_11492C.c:
+	.text       start:0x00111B40 end:0x001126E4
+
+rel/main_rel/accessory/fn_1_1171B8.c:
+	.text       start:0x001143CC end:0x00114638
+
+rel/main_rel/accessory/fn_1_117424.c:
+	.text       start:0x00114638 end:0x001149D8
+
+rel/main_rel/accessory/fn_1_117D5C.c:
+	.text       start:0x00114F70 end:0x001157C8
+
+rel/main_rel/accessory/fn_1_1185B4.c:
+	.text       start:0x001157C8 end:0x00115AE0
+
+rel/main_rel/accessory/fn_1_1188CC.c:
+	.text       start:0x00115AE0 end:0x00115FA4
+
+rel/main_rel/accessory/fn_1_118D90.c:
+	.text       start:0x00115FA4 end:0x001164E4
+
+rel/main_rel/accessory/fn_1_1192D0.c:
+	.text       start:0x001164E4 end:0x0011736C
+
+rel/main_rel/accessory/fn_1_11A774.c:
+	.text       start:0x00117988 end:0x001186F8
+
+rel/main_rel/accessory/fn_1_11CAB4.c:
+	.text       start:0x00119CC8 end:0x00119F50
+
+rel/main_rel/accessory/fn_1_11CD3C.c:
+	.text       start:0x00119F50 end:0x0011A410
+
+rel/main_rel/accessory/fn_1_11DE2C.c:
+	.text       start:0x0011B040 end:0x0011BF20
+
+rel/main_rel/accessory/fn_1_11ED0C.c:
+	.text       start:0x0011BF20 end:0x0011C464
+
+rel/main_rel/accessory/fn_1_11F250.c:
+	.text       start:0x0011C464 end:0x0011D3F8
+
+rel/main_rel/accessory/fn_1_1201E4.c:
+	.text       start:0x0011D3F8 end:0x0011DA18
+
+rel/main_rel/accessory/fn_1_120804.c:
+	.text       start:0x0011DA18 end:0x0011F55C
+
+rel/main_rel/accessory/fn_1_122348.c:
+	.text       start:0x0011F55C end:0x0011F990
+
+rel/main_rel/accessory/fn_1_12277C.c:
+	.text       start:0x0011F990 end:0x0011FB70
+
+rel/main_rel/accessory/fn_1_12295C.c:
+	.text       start:0x0011FB70 end:0x00120264
+
+rel/main_rel/accessory/fn_1_123050.c:
+	.text       start:0x00120264 end:0x00121704
+
+rel/main_rel/accessory/fn_1_1244F0.c:
+	.text       start:0x00121704 end:0x00121CE8
+
+rel/main_rel/accessory/fn_1_125CE8.c:
+	.text       start:0x00122EFC end:0x00123004
+
+rel/main_rel/accessory/fn_1_125DF0.c:
+	.text       start:0x00123004 end:0x001234B8
+
+rel/main_rel/accessory/fn_1_1262A4.c:
+	.text       start:0x001234B8 end:0x00123988
+
+rel/main_rel/accessory/fn_1_126DE8.c:
+	.text       start:0x00123FFC end:0x00124660
+
+rel/main_rel/accessory/fn_1_12744C.c:
+	.text       start:0x00124660 end:0x001251CC
+
+rel/main_rel/accessory/fn_1_127FB8.c:
+	.text       start:0x001251CC end:0x0012524C
+
+rel/main_rel/accessory/fn_1_128038.c:
+	.text       start:0x0012524C end:0x00125908
+
+rel/main_rel/accessory/fn_1_1286F4.c:
+	.text       start:0x00125908 end:0x00125A98
+
+rel/main_rel/accessory/fn_1_128884.c:
+	.text       start:0x00125A98 end:0x00125BD0
+
+rel/main_rel/accessory/fn_1_1289F0.c:
+	.text       start:0x00125C04 end:0x00125CC0
+
+rel/main_rel/accessory/fn_1_128AAC.c:
+	.text       start:0x00125CC0 end:0x00125D14
+
+rel/main_rel/accessory/fn_1_128B00.c:
+	.text       start:0x00125D14 end:0x00125D74
+
+rel/main_rel/accessory/fn_1_128B60.c:
+	.text       start:0x00125D74 end:0x00125FEC
+
+rel/main_rel/accessory/fn_1_128DD8.c:
+	.text       start:0x00125FEC end:0x00126024
+
+rel/main_rel/accessory/fn_1_128E10.c:
+	.text       start:0x00126024 end:0x001260A0
+
+rel/main_rel/accessory/fn_1_128E8C.c:
+	.text       start:0x001260A0 end:0x00126124
+
+rel/main_rel/accessory/fn_1_128F54.c:
+	.text       start:0x00126168 end:0x00126290
+
+rel/main_rel/accessory/fn_1_12999C.c:
+	.text       start:0x00126BB0 end:0x00126FB0
+
+rel/main_rel/accessory/fn_1_12A080.c:
+	.text       start:0x00127294 end:0x001272F4
+
+rel/main_rel/accessory/fn_1_12A0E0.c:
+	.text       start:0x001272F4 end:0x00127460
+
+rel/main_rel/accessory/fn_1_12A24C.c:
+	.text       start:0x00127460 end:0x001274A4
+
+rel/main_rel/accessory/fn_1_12A290.c:
+	.text       start:0x001274A4 end:0x001274CC
+
+rel/main_rel/archive/fn_1_12A2D0.c:
+	.text       start:0x001274E4 end:0x00127540
+
+rel/main_rel/archive/fn_1_12A350.c:
+	.text       start:0x00127564 end:0x001276C4
+
+rel/main_rel/archive/fn_1_12A6D8.c:
+	.text       start:0x001278EC end:0x00127948
+
+rel/main_rel/archive/fn_1_12A734.c:
+	.text       start:0x00127948 end:0x001279D8
+
+rel/main_rel/archive/fn_1_12A8A4.c:
+	.text       start:0x00127AB8 end:0x00127BD0
+
+rel/main_rel/archive/fn_1_12A9BC.c:
+	.text       start:0x00127BD0 end:0x00127CDC
+
+rel/main_rel/archive/fn_1_12AAC8.c:
+	.text       start:0x00127CDC end:0x00127D4C
+
+rel/main_rel/archive/fn_1_12AB38.c:
+	.text       start:0x00127D4C end:0x00127DC8
+
+rel/main_rel/archive/fn_1_12ABB4.c:
+	.text       start:0x00127DC8 end:0x00127E14
+
+rel/main_rel/archive/fn_1_12ADA0.c:
+	.text       start:0x00127FB4 end:0x00127FDC
+
+rel/main_rel/archive/fn_1_12AF64.c:
+	.text       start:0x00128178 end:0x00128190
+
+rel/main_rel/archive/fn_1_12AF7C.c:
+	.text       start:0x00128190 end:0x00128334
+
+rel/main_rel/archive/fn_1_12B120.c:
+	.text       start:0x00128334 end:0x001285D0
+
+rel/main_rel/archive/fn_1_12B3BC.c:
+	.text       start:0x001285D0 end:0x0012860C
+
+rel/main_rel/archive/fn_1_12B3F8.c:
+	.text       start:0x0012860C end:0x00128700
+
+rel/main_rel/archive/fn_1_12B4EC.c:
+	.text       start:0x00128700 end:0x001287C8
+
+rel/main_rel/archive/fn_1_12B5B4.c:
+	.text       start:0x001287C8 end:0x00128878
+
+rel/main_rel/archive/fn_1_12BB18.c:
+	.text       start:0x00128D2C end:0x00129190
+
+rel/main_rel/archive/fn_1_12BF7C.c:
+	.text       start:0x00129190 end:0x00129214
+
+rel/main_rel/archive/fn_1_12C000.c:
+	.text       start:0x00129214 end:0x00129274
+
+rel/main_rel/archive/fn_1_12C060.c:
+	.text       start:0x00129274 end:0x00129300
+
+rel/main_rel/archive/fn_1_12C0EC.c:
+	.text       start:0x00129300 end:0x00129324
+
+rel/main_rel/archive/fn_1_12C110.c:
+	.text       start:0x00129324 end:0x00129690
+
+rel/main_rel/archive/fn_1_12C47C.c:
+	.text       start:0x00129690 end:0x00129738
+
+rel/main_rel/archive/fn_1_12C524.c:
+	.text       start:0x00129738 end:0x001297F8
+
+rel/main_rel/archive/fn_1_12C5E4.c:
+	.text       start:0x001297F8 end:0x001298D0
+
+rel/main_rel/archive/fn_1_12C6BC.c:
+	.text       start:0x001298D0 end:0x00129924
+
+rel/main_rel/archive/fn_1_12C710.c:
+	.text       start:0x00129924 end:0x001299CC
+
+rel/main_rel/archive/fn_1_12C7B8.c:
+	.text       start:0x001299CC end:0x00129B44
+
+rel/main_rel/archive/fn_1_12C930.c:
+	.text       start:0x00129B44 end:0x00129D18
+
+rel/main_rel/archive/fn_1_12CB04.c:
+	.text       start:0x00129D18 end:0x00129EC4
+
+rel/main_rel/archive/fn_1_12CCB0.c:
+	.text       start:0x00129EC4 end:0x0012A0BC
+
+rel/main_rel/archive/fn_1_12CEA8.c:
+	.text       start:0x0012A0BC end:0x0012A468
+
+rel/main_rel/archive/fn_1_12D254.c:
+	.text       start:0x0012A468 end:0x0012A568
+
+rel/main_rel/archive/fn_1_12D354.c:
+	.text       start:0x0012A568 end:0x0012A618
+
+rel/main_rel/archive/fn_1_12D404.c:
+	.text       start:0x0012A618 end:0x0012AD00
+
+rel/main_rel/archive/fn_1_12DAEC.c:
+	.text       start:0x0012AD00 end:0x0012B2CC
+
+rel/main_rel/archive/fn_1_12E0B8.c:
+	.text       start:0x0012B2CC end:0x0012B638
+
+rel/main_rel/archive/fn_1_12E424.c:
+	.text       start:0x0012B638 end:0x0012B67C
+
+rel/main_rel/archive/fn_1_12E468.c:
+	.text       start:0x0012B67C end:0x0012BEBC
+
+rel/main_rel/archive/fn_1_12ECA8.c:
+	.text       start:0x0012BEBC end:0x0012C138
+
+rel/main_rel/archive/fn_1_12EF24.c:
+	.text       start:0x0012C138 end:0x0012C194
+
+rel/main_rel/archive/fn_1_12EF80.c:
+	.text       start:0x0012C194 end:0x0012C23C
+
+rel/main_rel/archive/fn_1_12F028.c:
+	.text       start:0x0012C23C end:0x0012C320
+
+rel/main_rel/archive/fn_1_12F128.c:
+	.text       start:0x0012C33C end:0x0012C364
+
+rel/main_rel/archive/fn_1_12F150.c:
+	.text       start:0x0012C364 end:0x0012C390
+
+rel/main_rel/archive/fn_1_12F17C.c:
+	.text       start:0x0012C390 end:0x0012C3A8
+
+rel/main_rel/archive/fn_1_12F194.c:
+	.text       start:0x0012C3A8 end:0x0012C3FC
+
+rel/main_rel/archive/fn_1_12F1E8.c:
+	.text       start:0x0012C3FC end:0x0012C43C
+
+rel/main_rel/archive/fn_1_12F228.c:
+	.text       start:0x0012C43C end:0x0012C46C
+
+rel/main_rel/archive/fn_1_12F258.c:
+	.text       start:0x0012C46C end:0x0012C4A0
+
+rel/main_rel/archive/fn_1_12F28C.c:
+	.text       start:0x0012C4A0 end:0x0012C51C
+
+rel/main_rel/archive/fn_1_12F30C.c:
+	.text       start:0x0012C520 end:0x0012C56C
+
+rel/main_rel/archive/fn_1_130EE8.c:
+	.text       start:0x0012E0FC end:0x0012E1AC
+
+rel/main_rel/archive/fn_1_130F98.c:
+	.text       start:0x0012E1AC end:0x0012E214
+
+rel/main_rel/archive/fn_1_131004.c:
+	.text       start:0x0012E218 end:0x0012E264
+
+rel/main_rel/archive/fn_1_1310B8.c:
+	.text       start:0x0012E2CC end:0x0012E2F4
+
+rel/main_rel/archive/fn_1_1310E0.c:
+	.text       start:0x0012E2F4 end:0x0012E310
+
+rel/main_rel/archive/fn_1_1310FC.c:
+	.text       start:0x0012E310 end:0x0012E368
+
+rel/main_rel/archive/fn_1_131154.c:
+	.text       start:0x0012E368 end:0x0012E3A8
+
+rel/main_rel/archive/fn_1_131194.c:
+	.text       start:0x0012E3A8 end:0x0012E504
+
+rel/main_rel/custom_memcard/fn_1_1312F0.c:
+	.text       start:0x0012E504 end:0x0012E5A4
+
+rel/main_rel/custom_memcard/fn_1_131390.c:
+	.text       start:0x0012E5A4 end:0x0012E6B8
+
+rel/main_rel/custom_memcard/fn_1_1314A4.c:
+	.text       start:0x0012E6B8 end:0x0012E76C
+
+rel/main_rel/custom_memcard/fn_1_131558.c:
+	.text       start:0x0012E76C end:0x0012E834
+
+rel/main_rel/custom_memcard/fn_1_1317C4.c:
+	.text       start:0x0012E9D8 end:0x0012EACC
+
+rel/main_rel/custom_memcard/fn_1_1318B8.c:
+	.text       start:0x0012EACC end:0x0012EAE8
+
+rel/main_rel/custom_memcard/fn_1_1318D4.c:
+	.text       start:0x0012EAE8 end:0x0012EBA0
+
+rel/main_rel/custom_memcard/fn_1_131B90.c:
+	.text       start:0x0012EDA4 end:0x0012EE1C
+
+rel/main_rel/custom_memcard/fn_1_132488.c:
+	.text       start:0x0012F69C end:0x0012F6D8
+
+rel/main_rel/custom_memcard/fn_1_1324C4.c:
+	.text       start:0x0012F6D8 end:0x0012F988
+
+rel/main_rel/sel_static_disp/fn_1_1332FC.c:
+	.text       start:0x00130510 end:0x00130760
+
+rel/main_rel/sel_static_disp/fn_1_13354C.c:
+	.text       start:0x00130760 end:0x0013095C
+
+rel/main_rel/sel_static_disp/fn_1_133748.c:
+	.text       start:0x0013095C end:0x00130B7C
+
+rel/main_rel/sel_static_disp/fn_1_133968.c:
+	.text       start:0x00130B7C end:0x00130CA0
+
+rel/main_rel/sel_static_disp/fn_1_133A8C.c:
+	.text       start:0x00130CA0 end:0x00130DEC
+
+rel/main_rel/sel_static_disp/fn_1_133BD8.c:
+	.text       start:0x00130DEC end:0x00130FD0
+
+rel/main_rel/sel_static_disp/fn_1_134A4C.c:
+	.text       start:0x00131C60 end:0x00131CE8
+
+rel/main_rel/sel_static_disp/fn_1_134AD4.c:
+	.text       start:0x00131CE8 end:0x001320F8
+
+rel/main_rel/sel_static_disp/fn_1_134EE4.c:
+	.text       start:0x001320F8 end:0x00132AA8
+
+rel/main_rel/sel_static_disp/fn_1_135894.c:
+	.text       start:0x00132AA8 end:0x00132AD0
+
+rel/main_rel/sel_static_disp/fn_1_1358BC.c:
+	.text       start:0x00132AD0 end:0x00132D94
+
+rel/main_rel/sel_static_disp/fn_1_135B80.c:
+	.text       start:0x00132D94 end:0x00132F90
+
+rel/main_rel/sel_static_disp/fn_1_135D7C.c:
+	.text       start:0x00132F90 end:0x00133388
+
+rel/main_rel/sel_static_disp/fn_1_136174.c:
+	.text       start:0x00133388 end:0x00133604
+
+rel/main_rel/sel_static_disp/fn_1_1363F0.c:
+	.text       start:0x00133604 end:0x00133928
+
+rel/main_rel/sel_static_disp/fn_1_136714.c:
+	.text       start:0x00133928 end:0x00133AB4
+
+rel/main_rel/sel_static_disp/fn_1_1368A0.c:
+	.text       start:0x00133AB4 end:0x00133ED8
+
+rel/main_rel/sel_static_disp/fn_1_136CC4.c:
+	.text       start:0x00133ED8 end:0x0013449C
+
+rel/main_rel/sel_static_disp/fn_1_137288.c:
+	.text       start:0x0013449C end:0x00134578
+
+rel/main_rel/sel_static_disp/fn_1_137364.c:
+	.text       start:0x00134578 end:0x001345C4
+
+rel/main_rel/sel_static_disp/fn_1_1373B0.c:
+	.text       start:0x001345C4 end:0x00134720
+
+rel/main_rel/sel_static_disp/fn_1_1375C0.c:
+	.text       start:0x001347D4 end:0x00135304
+
+rel/main_rel/sel_static_disp/fn_1_1380F0.c:
+	.text       start:0x00135304 end:0x00135334
+
+rel/main_rel/sel_static_disp/fn_1_138144.c:
+	.text       start:0x00135358 end:0x00135C18
+
+rel/main_rel/sel_static_disp/fn_1_1392E0.c:
+	.text       start:0x001364F4 end:0x00136654
+
+rel/main_rel/sel_static_disp/fn_1_139A3C.c:
+	.text       start:0x00136D1C end:0x00136DCC
+
+rel/main_rel/sel_static_disp/fn_1_139D60.c:
+	.text       start:0x00137040 end:0x001371F8
+
+rel/main_rel/sel_static_disp/fn_1_139F18.c:
+	.text       start:0x001371F8 end:0x00137318
+
+rel/main_rel/sel_static_disp/fn_1_13A038.c:
+	.text       start:0x00137318 end:0x001374FC
+
+rel/main_rel/sel_static_disp/fn_1_13A21C.c:
+	.text       start:0x001374FC end:0x00137740
+
+rel/main_rel/sel_static_disp/fn_1_13A460.c:
+	.text       start:0x00137740 end:0x00137934
+
+rel/main_rel/sel_static_disp/fn_1_13A654.c:
+	.text       start:0x00137934 end:0x00137B28
+
+rel/main_rel/sel_static_disp/fn_1_13A848.c:
+	.text       start:0x00137B28 end:0x00137C74
+
+rel/main_rel/sel_static_disp/fn_1_13A994.c:
+	.text       start:0x00137C74 end:0x00137C98
+
+rel/main_rel/sel_static_disp/fn_1_13A9B8.c:
+	.text       start:0x00137C98 end:0x00137E88
+
+rel/main_rel/sel_static_disp/fn_1_13B24C.c:
+	.text       start:0x00138484 end:0x00138560
+
+rel/main_rel/sel_static_disp/fn_1_13B328.c:
+	.text       start:0x00138560 end:0x00138780
+
+rel/main_rel/sel_static_disp/fn_1_13B548.c:
+	.text       start:0x00138780 end:0x0013936C
+
+rel/main_rel/sel_static_disp/fn_1_13C134.c:
+	.text       start:0x0013936C end:0x001393A4
+
+rel/main_rel/sel_static_disp/fn_1_13C16C.c:
+	.text       start:0x001393A4 end:0x001393D8
+
+rel/main_rel/sel_static_disp/fn_1_13D02C.c:
+	.text       start:0x0013A268 end:0x0013A69C
+
+rel/main_rel/sel_static_disp/fn_1_13D460.c:
+	.text       start:0x0013A69C end:0x0013AC48
+
+rel/main_rel/sel_static_disp/fn_1_13DA0C.c:
+	.text       start:0x0013AC48 end:0x0013AE90
+
+rel/main_rel/sel_static_disp/fn_1_13DC54.c:
+	.text       start:0x0013AE90 end:0x0013AFF4
+
+rel/main_rel/sel_static_disp/fn_1_13DDB8.c:
+	.text       start:0x0013AFF4 end:0x0013B290
+
+rel/main_rel/sel_static_disp/fn_1_13E054.c:
+	.text       start:0x0013B290 end:0x0013B2BC
+
+rel/main_rel/sel_static_disp/fn_1_13E080.c:
+	.text       start:0x0013B2BC end:0x0013BCD8
+
+rel/main_rel/sel_static_disp/fn_1_13EA9C.c:
+	.text       start:0x0013BCD8 end:0x0013C018
+
+rel/main_rel/sel_static_disp/fn_1_13EDDC.c:
+	.text       start:0x0013C018 end:0x0013C09C
+
+rel/main_rel/sel_static_disp/fn_1_13EE60.c:
+	.text       start:0x0013C09C end:0x0013C1A0
+
+rel/main_rel/sel_static_disp/fn_1_13EF64.c:
+	.text       start:0x0013C1A0 end:0x0013C968
+
+rel/main_rel/sel_static_disp/fn_1_13F72C.c:
+	.text       start:0x0013C968 end:0x0013CA34
+
+rel/main_rel/sel_static_disp/fn_1_13F7F8.c:
+	.text       start:0x0013CA34 end:0x0013CA58
+
+rel/main_rel/sel_static_disp/fn_1_13FA88.c:
+	.text       start:0x0013CCC4 end:0x0013CD60
+
+rel/main_rel/sel_static_disp/fn_1_13FB24.c:
+	.text       start:0x0013CD60 end:0x0013CDC8
+
+rel/main_rel/sel_static_disp/fn_1_14083C.c:
+	.text       start:0x0013DA54 end:0x0013E100
+
+rel/main_rel/sel_static_disp/fn_1_140EE8.c:
+	.text       start:0x0013E100 end:0x0013E2A4
+
+rel/main_rel/sel_static_disp/fn_1_14108C.c:
+	.text       start:0x0013E2A4 end:0x0013E550
+
+rel/main_rel/sel_static_disp/fn_1_141338.c:
+	.text       start:0x0013E550 end:0x0013E578
+
+rel/main_rel/sel_static_disp/fn_1_141614.c:
+	.text       start:0x0013E82C end:0x0013E96C
+
+rel/main_rel/sel_static_disp/fn_1_141754.c:
+	.text       start:0x0013E96C end:0x0013EB04
+
+rel/main_rel/sel_static_disp/fn_1_1418EC.c:
+	.text       start:0x0013EB04 end:0x0013EC98
+
+rel/main_rel/sel_static_disp/fn_1_141C10.c:
+	.text       start:0x0013EE1C end:0x0013F1A0
+
+rel/main_rel/sel_static_disp/fn_1_141F94.c:
+	.text       start:0x0013F1A0 end:0x0013F210
+
+rel/main_rel/sel_static_disp/fn_1_142004.c:
+	.text       start:0x0013F210 end:0x0013F2B0
+
+rel/main_rel/sel_static_disp/fn_1_1420A4.c:
+	.text       start:0x0013F2B0 end:0x0013F2EC
+
+rel/main_rel/sel_static_disp/fn_1_1421D8.c:
+	.text       start:0x0013F3E4 end:0x0013F6F4
+
+rel/main_rel/sel_static_disp/fn_1_1424E8.c:
+	.text       start:0x0013F6F4 end:0x0013F888
+
+rel/main_rel/sel_static_disp/fn_1_143780.c:
+	.text       start:0x0014098C end:0x00141088
+
+rel/main_rel/sel_static_disp/fn_1_143E7C.c:
+	.text       start:0x00141088 end:0x00141168
+
+rel/main_rel/sel_static_disp/fn_1_143F5C.c:
+	.text       start:0x00141168 end:0x00141460
+
+rel/main_rel/sel_static_disp/fn_1_145B58.c:
+	.text       start:0x00142D64 end:0x00142E78
+
+rel/main_rel/sel_static_disp/fn_1_148444.c:
+	.text       start:0x00145524 end:0x00145818
+
+rel/main_rel/sel_static_disp/fn_1_149B24.c:
+	.text       start:0x00146C04 end:0x00146C44
+
+rel/main_rel/sel_static_disp/fn_1_149B64.c:
+	.text       start:0x00146C44 end:0x00146CD4
+
+rel/main_rel/sel_static_disp/fn_1_149C64.c:
+	.text       start:0x00146D44 end:0x00146D84
+
+rel/main_rel/sel_static_disp/fn_1_149CA4.c:
+	.text       start:0x00146D84 end:0x00146E84
+
+rel/main_rel/sel_static_disp/fn_1_149E2C.c:
+	.text       start:0x00146F0C end:0x00146FE4
+
+rel/main_rel/sel_static_disp/fn_1_149FB4.c:
+	.text       start:0x00147094 end:0x001470E0
+
+rel/main_rel/sel_static_disp/fn_1_14A00C.c:
+	.text       start:0x001470EC end:0x00147108
+
+rel/main_rel/sel_static_disp/fn_1_14A028.c:
+	.text       start:0x00147108 end:0x0014725C
+
+rel/main_rel/sel_static_disp/fn_1_14A17C.c:
+	.text       start:0x0014725C end:0x0014728C
+
+rel/main_rel/sel_static_disp/fn_1_14A1AC.c:
+	.text       start:0x0014728C end:0x00147358
+
+rel/main_rel/sel_static_disp/fn_1_14A284.c:
+	.text       start:0x00147364 end:0x00147408
+
+rel/main_rel/sel_static_disp/fn_1_14B500.c:
+	.text       start:0x001485E0 end:0x0014870C
+
+rel/main_rel/sel_static_disp/fn_1_14BC40.c:
+	.text       start:0x00148D20 end:0x00148D9C
+
+rel/main_rel/sel_static_disp/fn_1_14BCBC.c:
+	.text       start:0x00148D9C end:0x00148E24
+
+rel/main_rel/sel_static_disp/fn_1_14BD44.c:
+	.text       start:0x00148E24 end:0x00148E54
+
+rel/main_rel/sel_static_disp/fn_1_14BD94.c:
+	.text       start:0x00148E74 end:0x00148F10
+
+rel/main_rel/sel_static_disp/fn_1_14BE30.c:
+	.text       start:0x00148F10 end:0x00148FB0
+
+rel/main_rel/sel_static_disp/fn_1_14BED0.c:
+	.text       start:0x00148FB0 end:0x00149098
+
+rel/main_rel/sel_static_disp/fn_1_14BFB8.c:
+	.text       start:0x00149098 end:0x001490B8
+
+rel/main_rel/sel_static_disp/fn_1_14BFD8.c:
+	.text       start:0x001490B8 end:0x0014943C
+
+rel/main_rel/sel_static_disp/fn_1_14C6F8.c:
+	.text       start:0x00149624 end:0x00149720
+
+rel/main_rel/sel_static_disp/fn_1_14C7F8.c:
+	.text       start:0x00149724 end:0x00149790
+
+rel/main_rel/sel_static_disp/fn_1_14C864.c:
+	.text       start:0x00149790 end:0x00149890
+
+rel/main_rel/sel_static_disp/fn_1_14C968.c:
+	.text       start:0x00149894 end:0x001498CC
+
+rel/main_rel/sel_static_disp/fn_1_14C9A0.c:
+	.text       start:0x001498CC end:0x00149968
+
+rel/main_rel/sel_static_disp/fn_1_14CA4C.c:
+	.text       start:0x00149978 end:0x001499F4
+
+rel/main_rel/sel_static_disp/fn_1_14D5CC.c:
+	.text       start:0x0014A4A8 end:0x0014A54C
+
+rel/main_rel/sel_static_disp/fn_1_14D670.c:
+	.text       start:0x0014A54C end:0x0014A5B4
+
+rel/main_rel/sel_static_disp/fn_1_14D728.c:
+	.text       start:0x0014A604 end:0x0014A7B8
+
+rel/main_rel/sel_static_disp/fn_1_14D8DC.c:
+	.text       start:0x0014A7B8 end:0x0014A870
+
+rel/main_rel/sel_static_disp/fn_1_14D994.c:
+	.text       start:0x0014A870 end:0x0014AA24
+
+rel/main_rel/sel_static_disp/fn_1_14DB48.c:
+	.text       start:0x0014AA24 end:0x0014AAA8
+
+rel/main_rel/sel_static_disp/fn_1_14DBCC.c:
+	.text       start:0x0014AAA8 end:0x0014AB44
+
+rel/main_rel/sel_static_disp/fn_1_14DC68.c:
+	.text       start:0x0014AB44 end:0x0014AC44
+
+rel/main_rel/sel_static_disp/fn_1_14DEC8.c:
+	.text       start:0x0014ADA4 end:0x0014AF30
+
+rel/main_rel/sel_static_disp/fn_1_14E09C.c:
+	.text       start:0x0014AF78 end:0x0014B074
+
+rel/main_rel/sel_static_disp/fn_1_14E1E0.c:
+	.text       start:0x0014B0BC end:0x0014B1B8
+
+rel/main_rel/sel_static_disp/fn_1_14E2DC.c:
+	.text       start:0x0014B1B8 end:0x0014B4C0
+
+rel/main_rel/sel_static_disp/fn_1_14E5E4.c:
+	.text       start:0x0014B4C0 end:0x0014B780
+
+rel/main_rel/sel_static_disp/fn_1_14E96C.c:
+	.text       start:0x0014B848 end:0x0014B884
+
+rel/main_rel/sel_static_disp/fn_1_14E9A8.c:
+	.text       start:0x0014B884 end:0x0014B8C0
+
+rel/main_rel/sel_static_disp/fn_1_14E9E4.c:
+	.text       start:0x0014B8C0 end:0x0014B950
+
+rel/main_rel/sel_static_disp/fn_1_14EA74.c:
+	.text       start:0x0014B950 end:0x0014BAD4
+
+rel/main_rel/sel_static_disp/fn_1_14EBF8.c:
+	.text       start:0x0014BAD4 end:0x0014BBDC
+
+rel/main_rel/sel_static_disp/fn_1_14ED00.c:
+	.text       start:0x0014BBDC end:0x0014BCDC
+
+rel/main_rel/sel_static_disp/fn_1_14EE00.c:
+	.text       start:0x0014BCDC end:0x0014BDA0
+
+rel/main_rel/sel_static_disp/fn_1_14EEC4.c:
+	.text       start:0x0014BDA0 end:0x0014BE1C
+
+rel/main_rel/sel_static_disp/fn_1_14EF40.c:
+	.text       start:0x0014BE1C end:0x0014BEF0
+
+rel/main_rel/sel_static_disp/fn_1_14F01C.c:
+	.text       start:0x0014BEF8 end:0x0014BF6C
+
+rel/main_rel/sel_static_disp/fn_1_14F090.c:
+	.text       start:0x0014BF6C end:0x0014BFF4
+
+rel/main_rel/sel_static_disp/fn_1_14F118.c:
+	.text       start:0x0014BFF4 end:0x0014C078
+
+rel/main_rel/sel_static_disp/fn_1_14F19C.c:
+	.text       start:0x0014C078 end:0x0014C14C
+
+rel/main_rel/sel_static_disp/fn_1_14F270.c:
+	.text       start:0x0014C14C end:0x0014C220
+
+rel/main_rel/sel_static_disp/fn_1_14F344.c:
+	.text       start:0x0014C220 end:0x0014C268
+
+rel/main_rel/sel_static_disp/fn_1_14F38C.c:
+	.text       start:0x0014C268 end:0x0014C348
+
+rel/main_rel/sel_static_disp/fn_1_14F46C.c:
+	.text       start:0x0014C348 end:0x0014C4E4
+
+rel/main_rel/sel_static_disp/fn_1_14F608.c:
+	.text       start:0x0014C4E4 end:0x0014C5D4
+
+rel/main_rel/sel_static_disp/fn_1_14F6F8.c:
+	.text       start:0x0014C5D4 end:0x0014CB5C
+
+rel/main_rel/sel_static_disp/fn_1_14FC80.c:
+	.text       start:0x0014CB5C end:0x0014CBC0
+
+rel/main_rel/sel_static_disp/fn_1_14FCE4.c:
+	.text       start:0x0014CBC0 end:0x0014CC48
+
+rel/main_rel/sel_static_disp/fn_1_14FD6C.c:
+	.text       start:0x0014CC48 end:0x0014CC58
+
+rel/main_rel/sel_static_disp/fn_1_14FD7C.c:
+	.text       start:0x0014CC58 end:0x0014CC88
+
+rel/main_rel/sel_static_disp/fn_1_14FDAC.c:
+	.text       start:0x0014CC88 end:0x0014CD24
+
+rel/main_rel/sel_static_disp/fn_1_14FE48.c:
+	.text       start:0x0014CD24 end:0x0014CD88
+
+rel/main_rel/sel_static_disp/fn_1_1502BC.c:
+	.text       start:0x0014D198 end:0x0014D340
+
+rel/main_rel/sel_static_disp/fn_1_150464.c:
+	.text       start:0x0014D340 end:0x0014D3DC
+
+rel/main_rel/sel_static_disp/fn_1_150500.c:
+	.text       start:0x0014D3DC end:0x0014D3F4
+
+rel/main_rel/sel_static_disp/fn_1_150518.c:
+	.text       start:0x0014D3F4 end:0x0014D44C
+
+rel/main_rel/sel_static_disp/fn_1_150574.c:
+	.text       start:0x0014D450 end:0x0014D490
+
+rel/main_rel/sel_static_disp/fn_1_1505B4.c:
+	.text       start:0x0014D490 end:0x0014D4E4
+
+rel/main_rel/sel_static_disp/fn_1_150608.c:
+	.text       start:0x0014D4E4 end:0x0014D52C
+
+rel/main_rel/sel_static_disp/fn_1_150F30.c:
+	.text       start:0x0014DE0C end:0x0014DE50
+
+rel/main_rel/sel_static_disp/fn_1_150F74.c:
+	.text       start:0x0014DE50 end:0x0014DF30
+
+rel/main_rel/sel_static_disp/fn_1_151054.c:
+	.text       start:0x0014DF30 end:0x0014E544
+
+rel/main_rel/sel_static_disp/fn_1_151668.c:
+	.text       start:0x0014E544 end:0x0014E640
+
+rel/main_rel/bg_aur/fn_1_151AF0.c:
+	.text       start:0x0014E9CC end:0x0014EAB8
+
+rel/main_rel/bg_aur/fn_1_151BE8.c:
+	.text       start:0x0014EAC4 end:0x0014EB18
+
+rel/main_rel/bg_aur/fn_1_151C3C.c:
+	.text       start:0x0014EB18 end:0x0014EB54
+
+rel/main_rel/bg_aur/fn_1_151C9C.c:
+	.text       start:0x0014EB78 end:0x0014ECFC
+
+rel/main_rel/bg_aur/fn_1_151E20.c:
+	.text       start:0x0014ECFC end:0x0014ED50
+
+rel/main_rel/bg_aur/fn_1_151E74.c:
+	.text       start:0x0014ED50 end:0x0014EDD4
+
+rel/main_rel/bg_aur/fn_1_151EF8.c:
+	.text       start:0x0014EDD4 end:0x0014F0E4
+
+rel/main_rel/bg_aur/fn_1_152208.c:
+	.text       start:0x0014F0E4 end:0x0014F3EC
+
+rel/main_rel/bg_aur/fn_1_152510.c:
+	.text       start:0x0014F3EC end:0x0014F71C
+
+rel/main_rel/bg_aur/fn_1_152840.c:
+	.text       start:0x0014F71C end:0x0014F7AC
+
+rel/main_rel/bg_aur/fn_1_1528D0.c:
+	.text       start:0x0014F7AC end:0x0014F84C
+
+rel/main_rel/bg_aur/fn_1_152970.c:
+	.text       start:0x0014F84C end:0x0014F904
+
+rel/main_rel/bg_aur/fn_1_152A28.c:
+	.text       start:0x0014F904 end:0x0014FB90
+
+rel/main_rel/bg_aur/fn_1_152CB4.c:
+	.text       start:0x0014FB90 end:0x0014FE88
+
+rel/main_rel/bg_aur/fn_1_152FAC.c:
+	.text       start:0x0014FE88 end:0x00150864
+
+rel/main_rel/bg_aur/fn_1_1539D0.c:
+	.text       start:0x001508AC end:0x00150904
+
+rel/main_rel/bg_aur/fn_1_153A28.c:
+	.text       start:0x00150904 end:0x00150988
+
+rel/main_rel/bg_aur/fn_1_153AF8.c:
+	.text       start:0x001509D4 end:0x00150A00
+
+rel/main_rel/bg_aur/fn_1_153B24.c:
+	.text       start:0x00150A00 end:0x00150B3C
+
+rel/main_rel/bg_aur/fn_1_153D74.c:
+	.text       start:0x00150C50 end:0x00150F8C
+
+rel/main_rel/bg_aur/fn_1_1540B0.c:
+	.text       start:0x00150F8C end:0x00151040
+
+rel/main_rel/bg_tow/fn_1_154708.c:
+	.text       start:0x001515E4 end:0x00151674
+
+rel/main_rel/bg_tow/fn_1_1547FC.c:
+	.text       start:0x001516D8 end:0x00151784
+
+rel/main_rel/bg_tow/fn_1_1548A8.c:
+	.text       start:0x00151784 end:0x0015180C
+
+rel/main_rel/bg_tow/fn_1_154930.c:
+	.text       start:0x0015180C end:0x00151894
+
+rel/main_rel/bg_tow/fn_1_1549B8.c:
+	.text       start:0x00151894 end:0x001518E4
+
+rel/main_rel/rep_memcard/fn_1_154C84.c:
+	.text       start:0x00151B60 end:0x00151BA0
+
+rel/main_rel/rep_memcard/fn_1_154CD0.c:
+	.text       start:0x00151BAC end:0x00151C60
+
+rel/main_rel/rep_memcard/fn_1_154D84.c:
+	.text       start:0x00151C60 end:0x00151D00
+
+rel/main_rel/rep_memcard/fn_1_154E34.c:
+	.text       start:0x00151D10 end:0x00151D28
+
+rel/main_rel/rep_memcard/fn_1_154ED0.c:
+	.text       start:0x00151D9C end:0x00151DE8
+
+rel/main_rel/rep_memcard/fn_1_154F74.c:
+	.text       start:0x00151E40 end:0x00151E54
+
+rel/main_rel/ranking/fn_1_1554D0.c:
+	.text       start:0x00152344 end:0x001523D0
+
+rel/main_rel/ranking/fn_1_1555B0.c:
+	.text       start:0x00152424 end:0x00152528
+
+rel/main_rel/ranking/fn_1_156198.c:
+	.text       start:0x0015300C end:0x0015308C
+
+rel/main_rel/ranking/fn_1_156218.c:
+	.text       start:0x0015308C end:0x0015325C
+
+rel/main_rel/ranking/fn_1_1563E8.c:
+	.text       start:0x0015325C end:0x00153344
+
+rel/main_rel/ranking/fn_1_1564D0.c:
+	.text       start:0x00153344 end:0x00153384
+
+rel/main_rel/ranking/fn_1_15659C.c:
+	.text       start:0x00153410 end:0x001534D0
+
+rel/main_rel/ranking/fn_1_15665C.c:
+	.text       start:0x001534D0 end:0x0015356C
+
+rel/main_rel/ranking/fn_1_1566F8.c:
+	.text       start:0x0015356C end:0x001535A4
+
+rel/main_rel/ranking/fn_1_156730.c:
+	.text       start:0x001535A4 end:0x001535C8
+
+rel/main_rel/ranking/fn_1_156754.c:
+	.text       start:0x001535C8 end:0x0015361C
+
+rel/main_rel/ranking/fn_1_1567A8.c:
+	.text       start:0x0015361C end:0x001536F8
+
+rel/main_rel/ranking/fn_1_156884.c:
+	.text       start:0x001536F8 end:0x00153738
+
+rel/main_rel/ranking/fn_1_1568C4.c:
+	.text       start:0x00153738 end:0x00153814
+
+rel/main_rel/ranking/fn_1_1569A0.c:
+	.text       start:0x00153814 end:0x0015385C
+
+rel/main_rel/ranking/fn_1_1569E8.c:
+	.text       start:0x0015385C end:0x0015398C
+
+rel/main_rel/ranking/fn_1_156B18.c:
+	.text       start:0x0015398C end:0x00153A7C
+
+rel/main_rel/ranking/fn_1_156F54.c:
+	.text       start:0x00153DC8 end:0x00153EE4
+
+rel/main_rel/ranking/fn_1_157070.c:
+	.text       start:0x00153EE4 end:0x00154074
+
+rel/main_rel/ranking/fn_1_1574E0.c:
+	.text       start:0x00154318 end:0x001543D0
+
+rel/main_rel/ranking/fn_1_157598.c:
+	.text       start:0x001543D0 end:0x001544EC
+
+rel/main_rel/ranking/fn_1_1576B4.c:
+	.text       start:0x001544EC end:0x00154608
+
+rel/main_rel/ranking/fn_1_1577D0.c:
+	.text       start:0x00154608 end:0x00154658
+
+rel/main_rel/ranking/fn_1_157820.c:
+	.text       start:0x00154658 end:0x001546FC
+
+rel/main_rel/ranking/fn_1_1578C4.c:
+	.text       start:0x001546FC end:0x00154758
+
+rel/main_rel/ranking/fn_1_1586AC.c:
+	.text       start:0x001554E4 end:0x001557B8
+
+rel/main_rel/ranking/fn_1_159440.c:
+	.text       start:0x00156278 end:0x001562B0
+
+rel/main_rel/ranking/fn_1_159478.c:
+	.text       start:0x001562B0 end:0x001562E4
+
+rel/main_rel/ranking/fn_1_1594AC.c:
+	.text       start:0x001562E4 end:0x001563C0
+
+rel/main_rel/ranking/fn_1_159588.c:
+	.text       start:0x001563C0 end:0x00156514
+
+rel/main_rel/ranking/fn_1_1596DC.c:
+	.text       start:0x00156514 end:0x0015663C
+
+rel/main_rel/ranking/fn_1_159804.c:
+	.text       start:0x0015663C end:0x001566FC
+
+rel/main_rel/ranking/fn_1_1598C4.c:
+	.text       start:0x001566FC end:0x00156918
+
+rel/main_rel/ranking/fn_1_159AE0.c:
+	.text       start:0x00156918 end:0x00157A38
+
+rel/main_rel/ranking/fn_1_15AC10.c:
+	.text       start:0x00157A48 end:0x00158220
+
+rel/main_rel/ranking/fn_1_15B42C.c:
+	.text       start:0x00158264 end:0x00158330
+
+rel/main_rel/ranking/fn_1_15B544.c:
+	.text       start:0x0015837C end:0x001583C0
+
+rel/main_rel/ranking/fn_1_15B698.c:
+	.text       start:0x001584D0 end:0x00158544
+
+rel/main_rel/bg_win/fn_1_15B970.c:
+	.text       start:0x001587A8 end:0x001588B0
+
+rel/main_rel/bg_win/fn_1_15BCDC.c:
+	.text       start:0x00158B14 end:0x00158C70
+
+rel/main_rel/bg_win/fn_1_15BE38.c:
+	.text       start:0x00158C70 end:0x00158CF4
+
+rel/main_rel/bg_win/fn_1_15BEBC.c:
+	.text       start:0x00158CF4 end:0x00158EE4
+
+rel/main_rel/bg_win/fn_1_15C0AC.c:
+	.text       start:0x00158EE4 end:0x00159194
+
+rel/main_rel/bg_win/fn_1_15C35C.c:
+	.text       start:0x00159194 end:0x001591A4
+
+rel/main_rel/bg_win/fn_1_15C4EC.c:
+	.text       start:0x00159324 end:0x001593DC
+
+rel/main_rel/bg_win/fn_1_15C5A4.c:
+	.text       start:0x001593DC end:0x001594F8
+
+rel/main_rel/bg_win/fn_1_15E1D0.c:
+	.text       start:0x0015B008 end:0x0015B020
+
+rel/main_rel/bg_win/fn_1_15E1E8.c:
+	.text       start:0x0015B020 end:0x0015B058
+
+rel/main_rel/bg_win/fn_1_15E220.c:
+	.text       start:0x0015B058 end:0x0015B098
+
+rel/main_rel/bg_win/fn_1_15E260.c:
+	.text       start:0x0015B098 end:0x0015B0B4
+
+rel/main_rel/bg_win/fn_1_15E330.c:
+	.text       start:0x0015B168 end:0x0015B218
+
+rel/main_rel/bg_win/fn_1_15E3E0.c:
+	.text       start:0x0015B218 end:0x0015B26C
+
+rel/main_rel/bg_win/fn_1_15E434.c:
+	.text       start:0x0015B26C end:0x0015B284
+
+rel/main_rel/bg_win/fn_1_15E540.c:
+	.text       start:0x0015B378 end:0x0015B41C
+
+rel/main_rel/bg_win/fn_1_15E5E4.c:
+	.text       start:0x0015B41C end:0x0015B4C0
+
+rel/main_rel/bg_win/fn_1_15E688.c:
+	.text       start:0x0015B4C0 end:0x0015B59C
+
+rel/main_rel/bg_win/fn_1_15E764.c:
+	.text       start:0x0015B59C end:0x0015B62C
+
+rel/main_rel/bg_win/fn_1_15F618.c:
+	.text       start:0x0015C428 end:0x0015C43C

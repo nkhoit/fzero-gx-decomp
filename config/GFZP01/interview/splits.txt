@@ -1,0 +1,76 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:8
+	.rodata     type:rodata align:32
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+rel/interview/interview/fn_17_23C.c:
+	.text       start:0x0000023C end:0x000002B4
+
+rel/interview/interview/fn_17_2B4.c:
+	.text       start:0x000002B4 end:0x00000394
+
+rel/interview/interview/fn_17_9F8.c:
+	.text       start:0x00000A18 end:0x00000CBC
+
+rel/interview/interview/fn_17_2B9C.c:
+	.text       start:0x00002BFC end:0x00002D84
+
+rel/interview/interview/fn_17_2D24.c:
+	.text       start:0x00002D84 end:0x00002DBC
+
+rel/interview/interview/fn_17_334C.c:
+	.text       start:0x000033AC end:0x00003470
+
+rel/interview/interview/fn_17_3E08.c:
+	.text       start:0x00003E68 end:0x000041CC
+
+rel/interview/interview/fn_17_4214.c:
+	.text       start:0x00004274 end:0x000042AC
+
+rel/interview/interview/fn_17_4540.c:
+	.text       start:0x000045A0 end:0x000045CC
+
+rel/interview/interview/fn_17_49BC.c:
+	.text       start:0x00004A1C end:0x00004A3C
+
+rel/interview/interview/fn_17_5FA8.c:
+	.text       start:0x00006008 end:0x0000608C
+
+rel/interview/interview/fn_17_6078.c:
+	.text       start:0x000060D8 end:0x00006114
+
+rel/interview/interview/fn_17_60B4.c:
+	.text       start:0x00006114 end:0x0000619C
+
+rel/interview/interview/fn_17_67C4.c:
+	.text       start:0x00006824 end:0x000068A8
+
+rel/interview/interview/fn_17_6848.c:
+	.text       start:0x000068A8 end:0x00006A4C
+
+rel/interview/interview/fn_17_69EC.c:
+	.text       start:0x00006A4C end:0x00006B8C
+
+rel/interview/interview/fn_17_7020.c:
+	.text       start:0x00007080 end:0x000070F8
+
+rel/interview/interview/fn_17_71C0.c:
+	.text       start:0x00007220 end:0x0000723C
+
+rel/interview/interview/fn_17_71DC.c:
+	.text       start:0x0000723C end:0x0000731C
+
+rel/interview/interview/fn_17_74C0.c:
+	.text       start:0x00007678 end:0x000076C4
+
+rel/interview/interview/fn_17_7F94.c:
+	.text       start:0x0000815C end:0x000081F4
+
+rel/interview/interview/fn_17_86C4.c:
+	.text       start:0x00008BEC end:0x00008CE8
+
+rel/interview/interview/fn_17_87C0.c:
+	.text       start:0x00008CE8 end:0x00008D98

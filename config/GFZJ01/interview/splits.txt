@@ -1,0 +1,55 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:16
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+rel/interview/interview/fn_17_23C.c:
+	.text       start:0x0000022C end:0x000002A4
+
+rel/interview/interview/fn_17_2B4.c:
+	.text       start:0x000002A4 end:0x00000384
+
+rel/interview/interview/fn_17_394.c:
+	.text       start:0x00000384 end:0x000003E0
+
+rel/interview/interview/fn_17_2D24.c:
+	.text       start:0x00002338 end:0x00002370
+
+rel/interview/interview/fn_17_4214.c:
+	.text       start:0x000037B8 end:0x000037F0
+
+rel/interview/interview/fn_17_4540.c:
+	.text       start:0x00003AE4 end:0x00003B10
+
+rel/interview/interview/fn_17_49BC.c:
+	.text       start:0x00003F60 end:0x00003F80
+
+rel/interview/interview/fn_17_5FA8.c:
+	.text       start:0x0000554C end:0x000055D0
+
+rel/interview/interview/fn_17_6078.c:
+	.text       start:0x0000561C end:0x00005658
+
+rel/interview/interview/fn_17_60B4.c:
+	.text       start:0x00005658 end:0x000056E0
+
+rel/interview/interview/fn_17_6848.c:
+	.text       start:0x00005DEC end:0x00005F90
+
+rel/interview/interview/fn_17_69EC.c:
+	.text       start:0x00005F90 end:0x000060D0
+
+rel/interview/interview/fn_17_7020.c:
+	.text       start:0x000065C4 end:0x0000663C
+
+rel/interview/interview/fn_17_71C0.c:
+	.text       start:0x00006764 end:0x00006780
+
+rel/interview/interview/fn_17_71DC.c:
+	.text       start:0x00006780 end:0x00006860
+
+rel/interview/interview/fn_17_74C0.c:
+	.text       start:0x000069C0 end:0x00006A0C

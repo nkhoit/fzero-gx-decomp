@@ -1,0 +1,3933 @@
+Sections:
+	.init       type:code align:32
+	.text       type:code align:32
+	.ctors      type:rodata align:32
+	.dtors      type:rodata align:32
+	.rodata     type:rodata align:32
+	.data       type:data align:32
+	.bss        type:bss align:32
+	.sdata      type:data align:32
+	.sbss       type:bss align:32
+	.sdata2     type:rodata align:32
+	.sbss2      type:bss align:32
+
+dol/fn_80005660.c:
+	.text       start:0x80005678 end:0x80005750
+
+dol/fn_80005738.c:
+	.text       start:0x80005750 end:0x800057E4
+
+dol/fn_800057CC.c:
+	.text       start:0x800057E4 end:0x80005810
+
+dol/fn_800057F8.c:
+	.text       start:0x80005810 end:0x80005870
+
+dol/fn_80005858.c:
+	.text       start:0x80005870 end:0x800058F0
+
+dol/fn_800058D8.c:
+	.text       start:0x800058F0 end:0x80005934
+
+dol/fn_8000591C.c:
+	.text       start:0x80005934 end:0x80005A20
+
+dol/fn_80005A08.c:
+	.text       start:0x80005A20 end:0x80005AE8
+
+dol/fn_80005AD0.c:
+	.text       start:0x80005AE8 end:0x80005B28
+
+dol/fn_80005B10.c:
+	.text       start:0x80005B28 end:0x80005E24
+
+dol/fn_80005EDC.c:
+	.text       start:0x80005EF4 end:0x800060F0
+
+dol/fn_800060D8.c:
+	.text       start:0x800060F0 end:0x8000634C
+
+dol/fn_80006340.c:
+	.text       start:0x80006358 end:0x8000636C
+
+dol/fn_80006354.c:
+	.text       start:0x8000636C end:0x800063C4
+
+dol/fn_80006AFC.c:
+	.text       start:0x80006AFC end:0x80006B30
+
+dol/fn_80006B30.c:
+	.text       start:0x80006B30 end:0x80006B4C
+
+dol/fn_80006B70.c:
+	.text       start:0x80006B70 end:0x80006BDC
+
+dol/fn_80006C4C.c:
+	.text       start:0x80006C4C end:0x80006CE4
+
+dol/fn_80006CE4.c:
+	.text       start:0x80006CE4 end:0x80006D1C
+
+dol/fn_80006D1C.c:
+	.text       start:0x80006D1C end:0x80006DAC
+
+dol/fn_80006DAC.c:
+	.text       start:0x80006DAC end:0x80006DE8
+
+dol/fn_80006E10.c:
+	.text       start:0x80006E10 end:0x80006FE0
+
+dol/fn_80006FE0.c:
+	.text       start:0x80006FE0 end:0x8000700C
+
+dol/fn_8000700C.c:
+	.text       start:0x8000700C end:0x800071B8
+
+dol/fn_8000740C.c:
+	.text       start:0x8000740C end:0x800074C4
+
+dol/fn_800074C4.c:
+	.text       start:0x800074C4 end:0x800075AC
+
+dol/fn_800075AC.c:
+	.text       start:0x800075AC end:0x80007654
+
+dol/fn_80007730.c:
+	.text       start:0x80007730 end:0x800077E0
+
+dol/fn_800077E0.c:
+	.text       start:0x800077E0 end:0x800079A0
+
+dol/fn_800079C4.c:
+	.text       start:0x800079C4 end:0x80007A00
+
+dol/fn_80007A00.c:
+	.text       start:0x80007A00 end:0x80007A44
+
+dol/fn_80007A44.c:
+	.text       start:0x80007A44 end:0x80007AB4
+
+dol/fn_80007AB4.c:
+	.text       start:0x80007AB4 end:0x80007B68
+
+dol/fn_80007B68.c:
+	.text       start:0x80007B68 end:0x80007C2C
+
+dol/fn_80007C2C.c:
+	.text       start:0x80007C2C end:0x80007C60
+
+dol/fn_80007C60.c:
+	.text       start:0x80007C60 end:0x80007CDC
+
+dol/fn_80007CDC.c:
+	.text       start:0x80007CDC end:0x80007D58
+
+dol/fn_80007D58.c:
+	.text       start:0x80007D58 end:0x80007F70
+
+dol/fn_80007F70.c:
+	.text       start:0x80007F70 end:0x800081C8
+
+dol/fn_800081C8.c:
+	.text       start:0x800081C8 end:0x80008204
+
+dol/fn_80008204.c:
+	.text       start:0x80008204 end:0x800084E8
+
+dol/fn_800084E8.c:
+	.text       start:0x800084E8 end:0x800087F4
+
+dol/fn_800087F4.c:
+	.text       start:0x800087F4 end:0x80008A4C
+
+dol/fn_80008A4C.c:
+	.text       start:0x80008A4C end:0x80008BA8
+
+dol/fn_80008BA8.c:
+	.text       start:0x80008BA8 end:0x80008BEC
+
+dol/fn_80008BEC.c:
+	.text       start:0x80008BEC end:0x80008C20
+
+dol/fn_80008C20.c:
+	.text       start:0x80008C20 end:0x80008DB4
+
+dol/fn_80008DB4.c:
+	.text       start:0x80008DB4 end:0x80008E30
+
+dol/fn_80008E84.c:
+	.text       start:0x80008E80 end:0x80008EC4
+
+dol/fn_80008EC8.c:
+	.text       start:0x80008EC4 end:0x80008F5C
+
+dol/fn_80008FB0.c:
+	.text       start:0x80008FAC end:0x80009060
+
+dol/fn_80009064.c:
+	.text       start:0x80009060 end:0x800090A0
+
+dol/fn_80009468.c:
+	.text       start:0x80009464 end:0x80009518
+
+dol/fn_8000951C.c:
+	.text       start:0x80009518 end:0x800095A0
+
+dol/fn_800095A4.c:
+	.text       start:0x800095A0 end:0x80009618
+
+dol/fn_8000961C.c:
+	.text       start:0x80009618 end:0x8000982C
+
+dol/fn_80009830.c:
+	.text       start:0x8000982C end:0x80009AA4
+
+dol/fn_80009AA8.c:
+	.text       start:0x80009AA4 end:0x80009CA8
+
+dol/fn_80009CD4.c:
+	.text       start:0x80009CD0 end:0x80009FA0
+
+dol/fn_80009FA4.c:
+	.text       start:0x80009FA0 end:0x80009FB0
+
+dol/PPCDisableSpeculation.c:
+	.text       start:0x8000A0C8 end:0x8000A0F0
+
+dol/OSGetConsoleType.c:
+	.text       start:0x8000A220 end:0x8000A248
+
+dol/ClearArena.c:
+	.text       start:0x8000A248 end:0x8000A370
+
+dol/InquiryCallback.c:
+	.text       start:0x8000A370 end:0x8000A3AC
+
+dol/__OSSetExceptionHandler.c:
+	.text       start:0x8000AA2C end:0x8000AA48
+
+dol/__OSGetExceptionHandler.c:
+	.text       start:0x8000AA48 end:0x8000AA5C
+
+dol/OSRegisterVersion.c:
+	.text       start:0x8000ABB8 end:0x8000ABE4
+
+dol/InsertAlarm.c:
+	.text       start:0x8000AC40 end:0x8000AE90
+
+dol/OSSetAlarm.c:
+	.text       start:0x8000AE90 end:0x8000AEF8
+
+dol/OSSetPeriodicAlarm.c:
+	.text       start:0x8000AEF8 end:0x8000AF74
+
+dol/OSCancelAlarm.c:
+	.text       start:0x8000AF74 end:0x8000B090
+
+dol/DecrementerExceptionCallback.c:
+	.text       start:0x8000B090 end:0x8000B2C0
+
+dol/OSAllocFromArenaLo.c:
+	.text       start:0x8000B330 end:0x8000B35C
+
+dol/OSAllocFromArenaHi.c:
+	.text       start:0x8000B35C end:0x8000B37C
+
+dol/LCEnable.c:
+	.text       start:0x8000B800 end:0x8000B838
+
+dol/OSClearContext.c:
+	.text       start:0x8000BFC4 end:0x8000BFE8
+
+dol/OSDumpContext.c:
+	.text       start:0x8000C0A4 end:0x8000C34C
+
+dol/OSReport.c:
+	.text       start:0x8000C418 end:0x8000C498
+
+dol/OSSetErrorHandler.c:
+	.text       start:0x8000C5C4 end:0x8000C7DC
+
+dol/GetFontCode.c:
+	.text       start:0x8000CAC4 end:0x8000CC60
+
+dol/Decode.c:
+	.text       start:0x8000CC60 end:0x8000CDD4
+
+dol/OSFont.c:
+	.text       start:0x8000CDD4 end:0x8000CE2C
+
+dol/fn_8000CE30.c:
+	.text       start:0x8000CE2C end:0x8000CEB8
+
+dol/fn_8000CEBC.c:
+	.text       start:0x8000CEB8 end:0x8000D1EC
+
+dol/fn_8000D1F0.c:
+	.text       start:0x8000D1EC end:0x8000D4F0
+
+dol/__OSSetInterruptHandler.c:
+	.text       start:0x8000D53C end:0x8000D558
+
+dol/__OSGetInterruptHandler.c:
+	.text       start:0x8000D558 end:0x8000D56C
+
+dol/SetInterruptMask.c:
+	.text       start:0x8000D5E0 end:0x8000D8B8
+
+dol/__OSMaskInterrupts.c:
+	.text       start:0x8000D8B8 end:0x8000D940
+
+dol/__OSUnmaskInterrupts.c:
+	.text       start:0x8000D940 end:0x8000D9C8
+
+dol/__OSDispatchInterrupt.c:
+	.text       start:0x8000D9C8 end:0x8000DD0C
+
+dol/Relocate.c:
+	.text       start:0x8000DD70 end:0x8000E02C
+
+dol/Link.c:
+	.text       start:0x8000E02C end:0x8000E30C
+
+dol/OSLink.c:
+	.text       start:0x8000E30C end:0x8000E330
+
+dol/OSLinkFixed.c:
+	.text       start:0x8000E330 end:0x8000E36C
+
+dol/Undo.c:
+	.text       start:0x8000E36C end:0x8000E5A4
+
+dol/OSUnlink.c:
+	.text       start:0x8000E5A4 end:0x8000E778
+
+dol/__OSModuleInit.c:
+	.text       start:0x8000E778 end:0x8000E790
+
+dol/OnReset.c:
+	.text       start:0x8000E7A8 end:0x8000E7E4
+
+dol/MEMIntrruptHandler.c:
+	.text       start:0x8000E7E4 end:0x8000E850
+
+dol/__OSUnlockAllMutex.c:
+	.text       start:0x8000EA80 end:0x8000EAF0
+
+dol/__OSReboot.c:
+	.text       start:0x8000EB0C end:0x8000EE4C
+
+dol/fn_8000EE5C.c:
+	.text       start:0x8000EE58 end:0x8000EE6C
+
+dol/OSRegisterResetFunction.c:
+	.text       start:0x8000EE6C end:0x8000EEF0
+
+dol/OSGetResetCode.c:
+	.text       start:0x8000F230 end:0x8000F260
+
+dol/__OSResetSWInterruptHandler.c:
+	.text       start:0x8000F260 end:0x8000F354
+
+dol/WriteSramCallback.c:
+	.text       start:0x8000F60C end:0x8000F66C
+
+dol/WriteSram.c:
+	.text       start:0x8000F66C end:0x8000F784
+
+dol/__OSLockSram.c:
+	.text       start:0x8000F8B8 end:0x8000F914
+
+dol/__OSLockSramEx.c:
+	.text       start:0x8000F914 end:0x8000F970
+
+dol/UnlockSram.c:
+	.text       start:0x8000F970 end:0x8000FC78
+
+dol/__OSReadROM.c:
+	.text       start:0x8000FCD0 end:0x8000FDF4
+
+dol/OSGetSoundMode.c:
+	.text       start:0x8000FDF4 end:0x8000FE74
+
+dol/OSGetProgressiveMode.c:
+	.text       start:0x8000FE74 end:0x8000FEE4
+
+dol/OSSetProgressiveMode.c:
+	.text       start:0x8000FEE4 end:0x8000FF88
+
+dol/OSGetWirelessID.c:
+	.text       start:0x8000FF88 end:0x8001000C
+
+dol/OSSetWirelessID.c:
+	.text       start:0x8001000C end:0x800100B8
+
+dol/__OSInitSystemCall.c:
+	.text       start:0x800100D8 end:0x8001013C
+
+dol/OSIsThreadTerminated.c:
+	.text       start:0x800102B4 end:0x800102E8
+
+dol/UnsetRun.c:
+	.text       start:0x80010368 end:0x800103D0
+
+dol/__OSGetEffectivePriority.c:
+	.text       start:0x800103D0 end:0x8001040C
+
+dol/SetEffectivePriority.c:
+	.text       start:0x8001040C end:0x800105CC
+
+dol/SelectThread.c:
+	.text       start:0x800105CC end:0x800107F4
+
+dol/__OSReschedule.c:
+	.text       start:0x800107F4 end:0x80010824
+
+dol/OSCreateThread.c:
+	.text       start:0x80010824 end:0x80010A0C
+
+dol/OSExitThread.c:
+	.text       start:0x80010A0C end:0x80010AF0
+
+dol/OSCancelThread.c:
+	.text       start:0x80010AF0 end:0x80010CAC
+
+dol/OSResumeThread.c:
+	.text       start:0x80010CAC end:0x80010F34
+
+dol/OSSuspendThread.c:
+	.text       start:0x80010F34 end:0x800110A4
+
+dol/OSSleepThread.c:
+	.text       start:0x800110A4 end:0x80011190
+
+dol/OSWakeupThread.c:
+	.text       start:0x80011190 end:0x80011294
+
+dol/OSSetThreadPriority.c:
+	.text       start:0x80011294 end:0x80011354
+
+dol/OSClearStack.c:
+	.text       start:0x8001135C end:0x80011408
+
+dol/__OSGetSystemTime.c:
+	.text       start:0x80011428 end:0x8001148C
+
+dol/__OSTimeToSystemTime.c:
+	.text       start:0x8001148C end:0x800114E4
+
+dol/GetDates.c:
+	.text       start:0x800114E4 end:0x80011680
+
+dol/OSTicksToCalendarTime.c:
+	.text       start:0x80011680 end:0x80011884
+
+dol/SIBusy.c:
+	.text       start:0x80011918 end:0x80011938
+
+dol/SIIsChanBusy.c:
+	.text       start:0x80011938 end:0x80011974
+
+dol/CompleteTransfer.c:
+	.text       start:0x80011974 end:0x80011C70
+
+dol/SIEnablePollingInterrupt.c:
+	.text       start:0x80011FB4 end:0x8001204C
+
+dol/SIRegisterPollingHandler.c:
+	.text       start:0x8001204C end:0x80012118
+
+dol/SIUnregisterPollingHandler.c:
+	.text       start:0x80012118 end:0x8001220C
+
+dol/SIInit.c:
+	.text       start:0x8001220C end:0x800122C0
+
+dol/__SITransfer.c:
+	.text       start:0x800122C0 end:0x800124CC
+
+dol/SIGetStatus.c:
+	.text       start:0x800124CC end:0x80012548
+
+dol/SITransferCommands.c:
+	.text       start:0x8001255C end:0x8001256C
+
+dol/SISetXY.c:
+	.text       start:0x8001256C end:0x800125D8
+
+dol/SIEnablePolling.c:
+	.text       start:0x800125D8 end:0x80012674
+
+dol/SIDisablePolling.c:
+	.text       start:0x80012674 end:0x800126E0
+
+dol/SIGetResponseRaw.c:
+	.text       start:0x800126E0 end:0x800127B4
+
+dol/SIGetResponse.c:
+	.text       start:0x800127B4 end:0x80012878
+
+dol/AlarmHandler_SIBios.c:
+	.text       start:0x80012878 end:0x80012904
+
+dol/SITransfer.c:
+	.text       start:0x80012904 end:0x80012A70
+
+dol/SIGetTypeAsync.c:
+	.text       start:0x80012ECC end:0x80013008
+
+dol/SIDecodeType.c:
+	.text       start:0x80013008 end:0x80013154
+
+dol/SIProbe.c:
+	.text       start:0x80013154 end:0x80013178
+
+dol/fn_8001317C.c:
+	.text       start:0x80013178 end:0x800132D0
+
+dol/SISetSamplingRate.c:
+	.text       start:0x800132D0 end:0x800133B4
+
+dol/SIRefreshSamplingRate.c:
+	.text       start:0x800133B4 end:0x800133D8
+
+dol/fn_800133E0.c:
+	.text       start:0x800133DC end:0x80013424
+
+dol/fn_80013428.c:
+	.text       start:0x80013424 end:0x800134D8
+
+dol/fn_800134DC.c:
+	.text       start:0x800134D8 end:0x800135C8
+
+dol/fn_800135CC.c:
+	.text       start:0x800135C8 end:0x800136E4
+
+dol/fn_800136E8.c:
+	.text       start:0x800136E4 end:0x80013758
+
+dol/fn_8001375C.c:
+	.text       start:0x80013758 end:0x800137C0
+
+dol/fn_800137C4.c:
+	.text       start:0x800137C0 end:0x80013930
+
+dol/fn_800139E8.c:
+	.text       start:0x800139E4 end:0x80013A84
+
+dol/SetExiInterruptMask.c:
+	.text       start:0x80013A84 end:0x80013B78
+
+dol/EXIImm.c:
+	.text       start:0x80013B78 end:0x80013DD4
+
+dol/EXIImmEx.c:
+	.text       start:0x80013DD4 end:0x80013E74
+
+dol/EXIDma.c:
+	.text       start:0x80013E74 end:0x80013F60
+
+dol/EXISync.c:
+	.text       start:0x80013F60 end:0x800141AC
+
+dol/EXIClearInterrupts.c:
+	.text       start:0x800141AC end:0x800141F4
+
+dol/EXISetExiCallback.c:
+	.text       start:0x800141F4 end:0x80014270
+
+dol/__EXIProbe.c:
+	.text       start:0x80014270 end:0x800143E4
+
+dol/EXIProbe.c:
+	.text       start:0x800143E4 end:0x80014464
+
+dol/EXIProbeEx.c:
+	.text       start:0x80014464 end:0x80014518
+
+dol/EXIAttach.c:
+	.text       start:0x80014518 end:0x80014624
+
+dol/EXIDetach.c:
+	.text       start:0x80014624 end:0x800146E0
+
+dol/EXISelect.c:
+	.text       start:0x800146E0 end:0x8001480C
+
+dol/EXIDeselect.c:
+	.text       start:0x8001480C end:0x8001491C
+
+dol/EXIIntrruptHandler.c:
+	.text       start:0x8001491C end:0x800149E4
+
+dol/TCIntrruptHandler.c:
+	.text       start:0x800149E4 end:0x80014BFC
+
+dol/EXTIntrruptHandler.c:
+	.text       start:0x80014BFC end:0x80014CCC
+
+dol/EXIInit.c:
+	.text       start:0x80014CCC end:0x80014EA0
+
+dol/EXILock.c:
+	.text       start:0x80014EA0 end:0x80014F94
+
+dol/EXIUnlock.c:
+	.text       start:0x80014F94 end:0x80015070
+
+dol/EXIGetState.c:
+	.text       start:0x80015070 end:0x80015088
+
+dol/UnlockedHandler.c:
+	.text       start:0x80015088 end:0x800150B0
+
+dol/EXIGetID.c:
+	.text       start:0x800150B0 end:0x80015460
+
+dol/ProbeBarnacle.c:
+	.text       start:0x80015460 end:0x800155EC
+
+dol/__OSEnableBarnacle.c:
+	.text       start:0x800155EC end:0x800157A8
+
+dol/InitializeUART.c:
+	.text       start:0x800157A8 end:0x80015818
+
+dol/WriteUARTN.c:
+	.text       start:0x80015818 end:0x80015A34
+
+dol/DBInit.c:
+	.text       start:0x80015A34 end:0x80015A5C
+
+dol/__DBExceptionDestinationAux.c:
+	.text       start:0x80015A5C end:0x80015AA4
+
+dol/__DBIsExceptionMarked.c:
+	.text       start:0x80015AB4 end:0x80015AD0
+
+dol/fn_80015C1C.c:
+	.text       start:0x80015C18 end:0x80015CAC
+
+dol/C_MTXLightPerspective.c:
+	.text       start:0x80015CAC end:0x80015D78
+
+dol/C_MTXFrustum.c:
+	.text       start:0x80015D78 end:0x80015E14
+
+dol/C_MTXPerspective.c:
+	.text       start:0x80015E14 end:0x80015EE4
+
+dol/C_MTXOrtho.c:
+	.text       start:0x80015EE4 end:0x80015F7C
+
+dol/__DVDInitWA.c:
+	.text       start:0x80015F7C end:0x80015FBC
+
+dol/AlarmHandlerForTimeout.c:
+	.text       start:0x80016320 end:0x80016390
+
+dol/SeekTwiceBeforeRead.c:
+	.text       start:0x800164A0 end:0x80016520
+
+dol/DVDLowSeek.c:
+	.text       start:0x800167B8 end:0x8001684C
+
+dol/DVDLowWaitCoverClose.c:
+	.text       start:0x8001684C end:0x80016878
+
+dol/DVDLowReadDiskID.c:
+	.text       start:0x80016878 end:0x8001691C
+
+dol/DVDLowInquiry.c:
+	.text       start:0x80016A34 end:0x80016AD0
+
+dol/DVDLowAudioStream.c:
+	.text       start:0x80016AD0 end:0x80016B68
+
+dol/DVDLowRequestAudioStatus.c:
+	.text       start:0x80016B68 end:0x80016BF4
+
+dol/DVDLowAudioBufferConfig.c:
+	.text       start:0x80016BF4 end:0x80016C90
+
+dol/DVDLowBreak.c:
+	.text       start:0x80016D4C end:0x80016D60
+
+dol/DVDLowClearCallback.c:
+	.text       start:0x80016D60 end:0x80016D78
+
+dol/__DVDLowSetWAType.c:
+	.text       start:0x80016D78 end:0x80016DBC
+
+dol/__DVDFSInit.c:
+	.text       start:0x80016DBC end:0x80016DF4
+
+dol/DVDConvertPathToEntrynum.c:
+	.text       start:0x80016DF4 end:0x800170E8
+
+dol/DVDFastOpen.c:
+	.text       start:0x800170E8 end:0x8001715C
+
+dol/DVDOpen.c:
+	.text       start:0x8001715C end:0x80017224
+
+dol/DVDClose.c:
+	.text       start:0x80017224 end:0x80017248
+
+dol/entryToPath.c:
+	.text       start:0x80017248 end:0x800173A8
+
+dol/DVDGetCurrentDir.c:
+	.text       start:0x800173A8 end:0x8001746C
+
+dol/DVDChangeDir.c:
+	.text       start:0x8001746C end:0x800174CC
+
+dol/DVDReadAsyncPrio.c:
+	.text       start:0x800174CC end:0x8001758C
+
+dol/fn_80017590.c:
+	.text       start:0x8001758C end:0x800175BC
+
+dol/DVDReadPrio.c:
+	.text       start:0x800175BC end:0x800176D4
+
+dol/DVDGetTransferredSize.c:
+	.text       start:0x800176F8 end:0x80017764
+
+dol/fn_80017838.c:
+	.text       start:0x80017834 end:0x800178C8
+
+dol/cbForStateReadingFST.c:
+	.text       start:0x800178C8 end:0x80017954
+
+dol/cbForStateError.c:
+	.text       start:0x80017954 end:0x80017A00
+
+dol/stateTimeout.c:
+	.text       start:0x80017A00 end:0x80017A34
+
+dol/CategorizeError.c:
+	.text       start:0x80017A5C end:0x80017B10
+
+dol/cbForStateGettingError.c:
+	.text       start:0x80017B10 end:0x80017DA4
+
+dol/cbForUnrecoveredError.c:
+	.text       start:0x80017DA4 end:0x80017E0C
+
+dol/cbForStateGoToRetry.c:
+	.text       start:0x80017ECC end:0x80018024
+
+dol/stateCheckID.c:
+	.text       start:0x80018024 end:0x80018104
+
+dol/cbForStateCheckID2a.c:
+	.text       start:0x8001816C end:0x800181E0
+
+dol/stateCheckID2.c:
+	.text       start:0x800181E0 end:0x80018218
+
+dol/cbForStateCheckID1.c:
+	.text       start:0x80018218 end:0x8001832C
+
+dol/fn_80018330.c:
+	.text       start:0x8001832C end:0x80018410
+
+dol/cbForStateCheckID3.c:
+	.text       start:0x80018410 end:0x8001850C
+
+dol/AlarmHandler.c:
+	.text       start:0x8001850C end:0x80018550
+
+dol/stateCoverClosed.c:
+	.text       start:0x80018550 end:0x8001861C
+
+dol/stateCoverClosed_CMD.c:
+	.text       start:0x8001861C end:0x8001864C
+
+dol/cbForStateCoverClosed.c:
+	.text       start:0x8001864C end:0x800186BC
+
+dol/cbForStateMotorStopped.c:
+	.text       start:0x800186E4 end:0x800187C8
+
+dol/stateReady.c:
+	.text       start:0x800187C8 end:0x800189F8
+
+dol/stateBusy.c:
+	.text       start:0x800189F8 end:0x80018D18
+
+dol/DVDReadAbsAsyncPrio.c:
+	.text       start:0x80019350 end:0x8001942C
+
+dol/DVDReadAbsAsyncForBS.c:
+	.text       start:0x8001942C end:0x800194FC
+
+dol/DVDReadDiskID.c:
+	.text       start:0x800194FC end:0x800195D0
+
+dol/DVDCancelStreamAsync.c:
+	.text       start:0x800195D0 end:0x8001968C
+
+dol/DVDInquiryAsync.c:
+	.text       start:0x8001968C end:0x8001975C
+
+dol/DVDReset.c:
+	.text       start:0x8001975C end:0x800197A0
+
+dol/DVDGetCommandBlockStatus.c:
+	.text       start:0x800197A0 end:0x800197EC
+
+dol/DVDGetDriveStatus.c:
+	.text       start:0x800197EC end:0x80019898
+
+dol/DVDResume.c:
+	.text       start:0x800198A8 end:0x800198F8
+
+dol/DVDCancelAsync.c:
+	.text       start:0x800198F8 end:0x80019B74
+
+dol/DVDCancel.c:
+	.text       start:0x80019B74 end:0x80019C20
+
+dol/DVDCheckDisk.c:
+	.text       start:0x80019C4C end:0x80019D44
+
+dol/__DVDPrepareResetAsync.c:
+	.text       start:0x80019D44 end:0x80019E60
+
+dol/__DVDClearWaitingQueue.c:
+	.text       start:0x80019E60 end:0x80019E98
+
+dol/__DVDPushWaitingQueue.c:
+	.text       start:0x80019E98 end:0x80019F00
+
+dol/__DVDPopWaitingQueue.c:
+	.text       start:0x80019F00 end:0x80019FA0
+
+dol/__DVDCheckWaitingQueue.c:
+	.text       start:0x80019FA0 end:0x80019FF8
+
+dol/__DVDDequeueWaitingQueue.c:
+	.text       start:0x80019FF8 end:0x8001A058
+
+dol/ErrorCode2Num.c:
+	.text       start:0x8001A058 end:0x8001A174
+
+dol/__DVDStoreErrorCode.c:
+	.text       start:0x8001A174 end:0x8001A1F0
+
+dol/dvdidutils.c:
+	.text       start:0x8001A1F0 end:0x8001A2E8
+
+dol/__DVDPrintFatalMessage.c:
+	.text       start:0x8001A2E8 end:0x8001A318
+
+dol/getTiming.c:
+	.text       start:0x8001A810 end:0x8001A8B0
+
+dol/__VIInit.c:
+	.text       start:0x8001A8B0 end:0x8001AAB0
+
+dol/VIWaitForRetrace.c:
+	.text       start:0x8001AF60 end:0x8001AFB4
+
+dol/VISetNextFrameBuffer.c:
+	.text       start:0x8001BD80 end:0x8001BDEC
+
+dol/VISetBlack.c:
+	.text       start:0x8001BDEC end:0x8001BE68
+
+dol/getCurrentFieldEvenOdd.c:
+	.text       start:0x8001BE70 end:0x8001BED8
+
+dol/VIGetNextField.c:
+	.text       start:0x8001BED8 end:0x8001BF80
+
+dol/VIGetCurrentLine.c:
+	.text       start:0x8001BF80 end:0x8001C018
+
+dol/VIGetDTVStatus.c:
+	.text       start:0x8001C080 end:0x8001C0BC
+
+dol/ClampStick.c:
+	.text       start:0x8001C0BC end:0x8001C1EC
+
+dol/PADClamp.c:
+	.text       start:0x8001C1EC end:0x8001C300
+
+dol/UpdateOrigin.c:
+	.text       start:0x8001C300 end:0x8001C4A4
+
+dol/PADOriginUpdateCallback.c:
+	.text       start:0x8001C568 end:0x8001C628
+
+dol/PADReceiveCheckCallback.c:
+	.text       start:0x8001CA2C end:0x8001CB60
+
+dol/fn_8001D32C.c:
+	.text       start:0x8001D328 end:0x8001D3E0
+
+dol/PADControlMotor.c:
+	.text       start:0x8001D3E0 end:0x8001D484
+
+dol/PADSetSpec.c:
+	.text       start:0x8001D484 end:0x8001D4E4
+
+dol/SPEC0_MakeStatus.c:
+	.text       start:0x8001D4E4 end:0x8001D658
+
+dol/SPEC1_MakeStatus.c:
+	.text       start:0x8001D658 end:0x8001D7CC
+
+dol/SPEC2_MakeStatus.c:
+	.text       start:0x8001D7CC end:0x8001DBC4
+
+dol/PADSetAnalogMode.c:
+	.text       start:0x8001DBC4 end:0x8001DC38
+
+dol/__PADDisableRecalibration.c:
+	.text       start:0x8001DE80 end:0x8001DEFC
+
+dol/AIInitDMA.c:
+	.text       start:0x8001DF40 end:0x8001DFC8
+
+dol/AIStopDMA.c:
+	.text       start:0x8001DFE0 end:0x8001DFF8
+
+dol/AISetStreamPlayState.c:
+	.text       start:0x8001DFF8 end:0x8001E0D0
+
+dol/AIGetStreamPlayState.c:
+	.text       start:0x8001E0D0 end:0x8001E0E0
+
+dol/AISetDSPSampleRate.c:
+	.text       start:0x8001E0E0 end:0x8001E1C0
+
+dol/AIGetDSPSampleRate.c:
+	.text       start:0x8001E1C0 end:0x8001E1D4
+
+dol/__AI_set_stream_sample_rate.c:
+	.text       start:0x8001E1D4 end:0x8001E2A8
+
+dol/AIGetStreamSampleRate.c:
+	.text       start:0x8001E2A8 end:0x8001E2B8
+
+dol/AISetStreamVolLeft.c:
+	.text       start:0x8001E2B8 end:0x8001E2D4
+
+dol/AIGetStreamVolLeft.c:
+	.text       start:0x8001E2D4 end:0x8001E2E4
+
+dol/AISetStreamVolRight.c:
+	.text       start:0x8001E2E4 end:0x8001E300
+
+dol/AIGetStreamVolRight.c:
+	.text       start:0x8001E300 end:0x8001E310
+
+dol/AIInit.c:
+	.text       start:0x8001E310 end:0x8001E47C
+
+dol/__AISHandler.c:
+	.text       start:0x8001E47C end:0x8001E4F8
+
+dol/__AIDHandler.c:
+	.text       start:0x8001E4F8 end:0x8001E5A4
+
+dol/__AI_SRC_INIT.c:
+	.text       start:0x8001E5FC end:0x8001E7E0
+
+dol/ARGetDMAStatus.c:
+	.text       start:0x8001E824 end:0x8001E860
+
+dol/ARStartDMA.c:
+	.text       start:0x8001E860 end:0x8001E950
+
+dol/ARAlloc.c:
+	.text       start:0x8001E950 end:0x8001E9B8
+
+dol/ARFree.c:
+	.text       start:0x8001E9B8 end:0x8001EA2C
+
+dol/ARInit.c:
+	.text       start:0x8001EA2C end:0x8001EAF0
+
+dol/__ARHandler.c:
+	.text       start:0x8001EAF0 end:0x8001EB68
+
+dol/__ARChecksize.c:
+	.text       start:0x8001EB68 end:0x8002035C
+
+dol/__ARQServiceQueueLo.c:
+	.text       start:0x8002035C end:0x8002045C
+
+dol/__ARQInterruptServiceRoutine.c:
+	.text       start:0x80020460 end:0x8002052C
+
+dol/ARQInit.c:
+	.text       start:0x8002052C end:0x8002059C
+
+dol/ARQPostRequest.c:
+	.text       start:0x8002059C end:0x800206F8
+
+dol/fn_800206FC.c:
+	.text       start:0x800206F8 end:0x80020718
+
+dol/fn_80020724.c:
+	.text       start:0x80020720 end:0x80020774
+
+dol/fn_80020778.c:
+	.text       start:0x80020774 end:0x800207B0
+
+dol/fn_800207B4.c:
+	.text       start:0x800207B0 end:0x800207E4
+
+dol/fn_800207E8.c:
+	.text       start:0x800207E4 end:0x800207FC
+
+dol/fn_80020800.c:
+	.text       start:0x800207FC end:0x80020870
+
+dol/fn_800209DC.c:
+	.text       start:0x800209D8 end:0x800209F8
+
+dol/fn_80020A0C.c:
+	.text       start:0x80020A08 end:0x80020A24
+
+dol/fn_80020A28.c:
+	.text       start:0x80020A24 end:0x80020AB8
+
+dol/fn_80020ABC.c:
+	.text       start:0x80020AB8 end:0x80020B38
+
+dol/fn_80020B3C.c:
+	.text       start:0x80020B38 end:0x80020CAC
+
+dol/fn_80020CB0.c:
+	.text       start:0x80020CAC end:0x80020D54
+
+dol/fn_80020D58.c:
+	.text       start:0x80020D54 end:0x80020E38
+
+dol/fn_80021200.c:
+	.text       start:0x800211FC end:0x80021238
+
+dol/fn_8002123C.c:
+	.text       start:0x80021238 end:0x800218E8
+
+dol/fn_800218EC.c:
+	.text       start:0x800218E8 end:0x8002190C
+
+dol/fn_80021914.c:
+	.text       start:0x80021910 end:0x80021924
+
+dol/fn_80021930.c:
+	.text       start:0x8002192C end:0x80021AB4
+
+dol/fn_80021AB8.c:
+	.text       start:0x80021AB4 end:0x80021B1C
+
+dol/fn_80021B2C.c:
+	.text       start:0x80021B28 end:0x80021B80
+
+dol/cbForCancelAllSync.c:
+	.text       start:0x80021B80 end:0x80021BAC
+
+dol/fn_80021BB0.c:
+	.text       start:0x80021BAC end:0x80021C78
+
+dol/fn_80021FBC.c:
+	.text       start:0x80021FB8 end:0x80022010
+
+dol/fn_80022028.c:
+	.text       start:0x80022024 end:0x8002241C
+
+dol/fn_80022420.c:
+	.text       start:0x8002241C end:0x80022448
+
+dol/fn_80022450.c:
+	.text       start:0x8002244C end:0x800224E0
+
+dol/fn_800224EC.c:
+	.text       start:0x800224E8 end:0x80022BF0
+
+dol/fn_80022BF4.c:
+	.text       start:0x80022BF0 end:0x80022E58
+
+dol/fn_80022E68.c:
+	.text       start:0x80022E64 end:0x80022EA0
+
+dol/fn_800230A4.c:
+	.text       start:0x800230A0 end:0x80023164
+
+dol/fn_80023168.c:
+	.text       start:0x80023164 end:0x800231C0
+
+dol/fn_800231C4.c:
+	.text       start:0x800231C0 end:0x80023224
+
+dol/fn_80023228.c:
+	.text       start:0x80023224 end:0x80023280
+
+dol/fn_80023284.c:
+	.text       start:0x80023280 end:0x80023390
+
+dol/fn_80023394.c:
+	.text       start:0x80023390 end:0x80023434
+
+dol/fn_80023438.c:
+	.text       start:0x80023434 end:0x800234CC
+
+dol/fn_800234D0.c:
+	.text       start:0x800234CC end:0x80023564
+
+dol/fn_80023568.c:
+	.text       start:0x80023564 end:0x800235D0
+
+dol/fn_800235D4.c:
+	.text       start:0x800235D0 end:0x80023618
+
+dol/fn_8002361C.c:
+	.text       start:0x80023618 end:0x80023634
+
+dol/fn_80023638.c:
+	.text       start:0x80023634 end:0x80023680
+
+dol/fn_80023684.c:
+	.text       start:0x80023680 end:0x80023B6C
+
+dol/fn_8002420C.c:
+	.text       start:0x80024208 end:0x80024304
+
+dol/fn_80024308.c:
+	.text       start:0x80024304 end:0x80024374
+
+dol/fn_800243C4.c:
+	.text       start:0x800243C0 end:0x800244C4
+
+dol/fn_800244C8.c:
+	.text       start:0x800244C4 end:0x800248D0
+
+dol/fn_80024C88.c:
+	.text       start:0x80024C84 end:0x80024D80
+
+dol/fn_80024D84.c:
+	.text       start:0x80024D80 end:0x80024DEC
+
+dol/fn_80024E3C.c:
+	.text       start:0x80024E38 end:0x80024E68
+
+dol/fn_800251F0.c:
+	.text       start:0x800251EC end:0x800253EC
+
+dol/fn_800253F0.c:
+	.text       start:0x800253EC end:0x8002543C
+
+dol/fn_80025440.c:
+	.text       start:0x8002543C end:0x80025500
+
+dol/fn_80025504.c:
+	.text       start:0x80025500 end:0x80025850
+
+dol/fn_80025854.c:
+	.text       start:0x80025850 end:0x80025A20
+
+dol/fn_80025A24.c:
+	.text       start:0x80025A20 end:0x80025C24
+
+dol/fn_80025C28.c:
+	.text       start:0x80025C24 end:0x80025C6C
+
+dol/fn_80025C70.c:
+	.text       start:0x80025C6C end:0x80025CFC
+
+dol/fn_80025D5C.c:
+	.text       start:0x80025D58 end:0x80025E14
+
+dol/fn_80025E18.c:
+	.text       start:0x80025E14 end:0x80025EDC
+
+dol/fn_80025EF4.c:
+	.text       start:0x80025EF0 end:0x80026D6C
+
+dol/fn_80026D70.c:
+	.text       start:0x80026D6C end:0x80026D8C
+
+dol/fn_80026DB8.c:
+	.text       start:0x80026DB4 end:0x80026DD0
+
+dol/fn_80026DD4.c:
+	.text       start:0x80026DD0 end:0x80026E00
+
+dol/fn_80026E54.c:
+	.text       start:0x80026E50 end:0x80026E80
+
+dol/fn_80026EAC.c:
+	.text       start:0x80026EA8 end:0x80026EDC
+
+dol/fn_80026FE0.c:
+	.text       start:0x80026FDC end:0x80028058
+
+dol/fn_8002805C.c:
+	.text       start:0x80028058 end:0x8002808C
+
+dol/fn_80028090.c:
+	.text       start:0x8002808C end:0x800280EC
+
+dol/fn_800280F0.c:
+	.text       start:0x800280EC end:0x8002812C
+
+dol/fn_80028130.c:
+	.text       start:0x8002812C end:0x80028160
+
+dol/fn_80028164.c:
+	.text       start:0x80028160 end:0x80028420
+
+dol/fn_80028424.c:
+	.text       start:0x80028420 end:0x8002849C
+
+dol/fn_800284A0.c:
+	.text       start:0x8002849C end:0x800284C8
+
+dol/fn_800284CC.c:
+	.text       start:0x800284C8 end:0x800284E4
+
+dol/fn_8002857C.c:
+	.text       start:0x80028578 end:0x80028594
+
+dol/fn_800285DC.c:
+	.text       start:0x800285D8 end:0x800288B0
+
+dol/fn_800288B4.c:
+	.text       start:0x800288B0 end:0x800288C0
+
+dol/fn_800288C4.c:
+	.text       start:0x800288C0 end:0x800289BC
+
+dol/fn_80028A78.c:
+	.text       start:0x80028A74 end:0x80028B28
+
+dol/fn_80028B3C.c:
+	.text       start:0x80028B38 end:0x80028CBC
+
+dol/DSPReadMailFromDSP.c:
+	.text       start:0x80028CDC end:0x80028CF4
+
+dol/DSPSendMailToDSP.c:
+	.text       start:0x80028CF4 end:0x80028D08
+
+dol/DSPInit.c:
+	.text       start:0x80028D08 end:0x80028DCC
+
+dol/DSPAddTask.c:
+	.text       start:0x80028DD4 end:0x80028E44
+
+dol/fn_80028E48.c:
+	.text       start:0x80028E44 end:0x80028E84
+
+dol/fn_80028E88.c:
+	.text       start:0x80028E84 end:0x80028F4C
+
+dol/__DSPHandler.c:
+	.text       start:0x80028F9C end:0x800293C0
+
+dol/__DSP_exec_task.c:
+	.text       start:0x800293C0 end:0x80029560
+
+dol/__DSP_boot_task.c:
+	.text       start:0x80029560 end:0x800296EC
+
+dol/__DSP_insert_task.c:
+	.text       start:0x800296EC end:0x8002978C
+
+dol/__DSP_remove_task.c:
+	.text       start:0x8002978C end:0x80029820
+
+dol/__CARDSyncCallback.c:
+	.text       start:0x80029824 end:0x80029858
+
+dol/__CARDExtHandler.c:
+	.text       start:0x80029858 end:0x80029930
+
+dol/__CARDExiHandler.c:
+	.text       start:0x80029930 end:0x80029A48
+
+dol/__CARDTxHandler.c:
+	.text       start:0x80029A48 end:0x80029AF0
+
+dol/__CARDUnlockedHandler.c:
+	.text       start:0x80029AF0 end:0x80029B74
+
+dol/__CARDEnableInterrupt.c:
+	.text       start:0x80029B74 end:0x80029C34
+
+dol/__CARDReadStatus.c:
+	.text       start:0x80029C34 end:0x80029D24
+
+dol/__CARDClearStatus.c:
+	.text       start:0x80029D24 end:0x80029DD0
+
+dol/TimeoutHandler.c:
+	.text       start:0x80029DD0 end:0x80029E74
+
+dol/Retry.c:
+	.text       start:0x80029E74 end:0x8002A0A0
+
+dol/UnlockedCallback.c:
+	.text       start:0x8002A0A0 end:0x8002A1B0
+
+dol/__CARDStart.c:
+	.text       start:0x8002A1B0 end:0x8002A364
+
+dol/__CARDReadSegment.c:
+	.text       start:0x8002A364 end:0x8002A498
+
+dol/__CARDWritePage.c:
+	.text       start:0x8002A498 end:0x8002A5B4
+
+dol/__CARDEraseSector.c:
+	.text       start:0x8002A5B4 end:0x8002A694
+
+dol/CARDInit.c:
+	.text       start:0x8002A694 end:0x8002A740
+
+dol/fn_8002A74C.c:
+	.text       start:0x8002A748 end:0x8002A770
+
+dol/__CARDSetDiskID.c:
+	.text       start:0x8002A770 end:0x8002A7A8
+
+dol/fn_8002A7C4.c:
+	.text       start:0x8002A7C0 end:0x8002A838
+
+dol/__CARDGetControlBlock.c:
+	.text       start:0x8002A838 end:0x8002A8F0
+
+dol/__CARDPutControlBlock.c:
+	.text       start:0x8002A8F0 end:0x8002A954
+
+dol/CARDGetResultCode.c:
+	.text       start:0x8002A954 end:0x8002A984
+
+dol/CARDFreeBlocks.c:
+	.text       start:0x8002A984 end:0x8002AAD4
+
+dol/__CARDSync.c:
+	.text       start:0x8002AAD4 end:0x8002AB6C
+
+dol/OnReset_CARDBios.c:
+	.text       start:0x8002AB6C end:0x8002ABBC
+
+dol/bitrev.c:
+	.text       start:0x8002ABBC end:0x8002AD28
+
+dol/ReadArrayUnlock.c:
+	.text       start:0x8002AD28 end:0x8002AE6C
+
+dol/DummyLen.c:
+	.text       start:0x8002AE6C end:0x8002AF30
+
+dol/__CARDUnlock.c:
+	.text       start:0x8002AF30 end:0x8002BA88
+
+dol/InitCallback.c:
+	.text       start:0x8002BA88 end:0x8002BAF8
+
+dol/DoneCallback.c:
+	.text       start:0x8002BAF8 end:0x8002BE1C
+
+dol/WriteCallback.c:
+	.text       start:0x8002C0BC end:0x8002C190
+
+dol/__CARDAllocBlock.c:
+	.text       start:0x8002C258 end:0x8002C370
+
+dol/__CARDFreeBlock.c:
+	.text       start:0x8002C370 end:0x8002C40C
+
+dol/__CARDUpdateFatBlock.c:
+	.text       start:0x8002C40C end:0x8002C4B8
+
+dol/WriteCallback_CARDDir.c:
+	.text       start:0x8002C4C0 end:0x8002C590
+
+dol/__CARDUpdateDir.c:
+	.text       start:0x8002C658 end:0x8002C71C
+
+dol/IsCard.c:
+	.text       start:0x8002D6AC end:0x8002D778
+
+dol/CARDProbeEx.c:
+	.text       start:0x8002D778 end:0x8002D8F4
+
+dol/DoMount.c:
+	.text       start:0x8002D8F4 end:0x8002DD04
+
+dol/__CARDMountCallback.c:
+	.text       start:0x8002DD04 end:0x8002DE3C
+
+dol/CARDMountAsync.c:
+	.text       start:0x8002DE3C end:0x8002DFDC
+
+dol/DoUnmount.c:
+	.text       start:0x8002E024 end:0x8002E0C0
+
+dol/CARDUnmount.c:
+	.text       start:0x8002E0C0 end:0x8002E16C
+
+dol/FormatCallback.c:
+	.text       start:0x8002E16C end:0x8002E2B0
+
+dol/__CARDFormatRegionAsync.c:
+	.text       start:0x8002E2B0 end:0x8002E908
+
+dol/CARDFormatAsync.c:
+	.text       start:0x8002E908 end:0x8002E950
+
+dol/__CARDSeek.c:
+	.text       start:0x8002F13C end:0x8002F2F4
+
+dol/ReadCallback.c:
+	.text       start:0x8002F2F4 end:0x8002F424
+
+dol/CARDReadAsync.c:
+	.text       start:0x8002F424 end:0x8002F56C
+
+dol/WriteCallback_CARDWrite.c:
+	.text       start:0x8002F5B4 end:0x8002F724
+
+dol/EraseCallback_CARDWrite.c:
+	.text       start:0x8002F724 end:0x8002F7D4
+
+dol/CARDWriteAsync.c:
+	.text       start:0x8002F7D4 end:0x8002F8E8
+
+dol/DeleteCallback.c:
+	.text       start:0x8002F930 end:0x8002F9D4
+
+dol/CARDFastDeleteAsync.c:
+	.text       start:0x8002F9D4 end:0x8002FB00
+
+dol/CARDDeleteAsync.c:
+	.text       start:0x8002FB00 end:0x8002FC10
+
+dol/fn_8002FC14.c:
+	.text       start:0x8002FC10 end:0x8002FC58
+
+dol/UpdateIconOffsets.c:
+	.text       start:0x8002FC58 end:0x8002FE50
+
+dol/CARDGetStatus.c:
+	.text       start:0x8002FE50 end:0x8002FF7C
+
+dol/CARDSetStatusAsync.c:
+	.text       start:0x8002FF7C end:0x800300F0
+
+dol/CARDRenameAsync.c:
+	.text       start:0x80030138 end:0x80030334
+
+dol/fn_80030380.c:
+	.text       start:0x8003037C end:0x80030438
+
+dol/fn_8003043C.c:
+	.text       start:0x80030438 end:0x8003068C
+
+dol/CARDNet.c:
+	.text       start:0x8003068C end:0x80030750
+
+dol/fn_80030754.c:
+	.text       start:0x80030750 end:0x800307C8
+
+dol/__GXDefaultTexRegionCallback.c:
+	.text       start:0x800307C8 end:0x80030844
+
+dol/fn_80030848.c:
+	.text       start:0x80030844 end:0x80030868
+
+dol/fn_8003086C.c:
+	.text       start:0x80030868 end:0x800309F8
+
+dol/__GXInitGX.c:
+	.text       start:0x80031288 end:0x80031B4C
+
+dol/GXCPInterruptHandler.c:
+	.text       start:0x80031B4C end:0x80031C80
+
+dol/GXInitFifoBase.c:
+	.text       start:0x80031C80 end:0x80031CEC
+
+dol/GXInitFifoPtrs.c:
+	.text       start:0x80031CEC end:0x80031D5C
+
+dol/GXSetCPUFifo.c:
+	.text       start:0x80031D68 end:0x80031E78
+
+dol/GXSetGPFifo.c:
+	.text       start:0x80031E78 end:0x80031FF0
+
+dol/__GXSaveCPUFifoAux.c:
+	.text       start:0x80032010 end:0x800320EC
+
+dol/GXGetGPStatus.c:
+	.text       start:0x800320EC end:0x8003213C
+
+dol/GXGetFifoPtrs.c:
+	.text       start:0x8003213C end:0x800321D4
+
+dol/__GXFifoInit.c:
+	.text       start:0x80032218 end:0x80032264
+
+dol/__GXFifoReadEnable.c:
+	.text       start:0x80032264 end:0x80032288
+
+dol/__GXFifoReadDisable.c:
+	.text       start:0x80032288 end:0x800322A8
+
+dol/__GXFifoLink.c:
+	.text       start:0x800322A8 end:0x800322E4
+
+dol/__GXWriteFifoIntEnable.c:
+	.text       start:0x800322E4 end:0x80032320
+
+dol/__GXWriteFifoIntReset.c:
+	.text       start:0x80032320 end:0x8003235C
+
+dol/__GXXfVtxSpecs.c:
+	.text       start:0x8003236C end:0x800324C4
+
+dol/GXSetVtxDesc.c:
+	.text       start:0x800324C4 end:0x80032814
+
+dol/GXSetVtxDescv.c:
+	.text       start:0x80032814 end:0x80032B88
+
+dol/__GXSetVCD.c:
+	.text       start:0x80032B88 end:0x80032BDC
+
+dol/__GXCalculateVLim.c:
+	.text       start:0x80032BDC end:0x80032D00
+
+dol/GXGetVtxDesc.c:
+	.text       start:0x80032D00 end:0x80032EB4
+
+dol/fn_80032EB8.c:
+	.text       start:0x80032EB4 end:0x80032F44
+
+dol/GXClearVtxDesc.c:
+	.text       start:0x80032F44 end:0x80032F7C
+
+dol/GXSetVtxAttrFmt.c:
+	.text       start:0x80032F7C end:0x800332D4
+
+dol/GXSetVtxAttrFmtv.c:
+	.text       start:0x800332D4 end:0x8003364C
+
+dol/fn_80033650.c:
+	.text       start:0x8003364C end:0x800336E8
+
+dol/GXGetVtxAttrFmt.c:
+	.text       start:0x800336E8 end:0x80033968
+
+dol/GXGetVtxAttrFmtv.c:
+	.text       start:0x80033968 end:0x800339DC
+
+dol/GXSetArray.c:
+	.text       start:0x800339DC end:0x80033A68
+
+dol/GXInvalidateVtxCache.c:
+	.text       start:0x80033A68 end:0x80033A78
+
+dol/GXSetTexCoordGen2.c:
+	.text       start:0x80033A78 end:0x80033D48
+
+dol/GXSetNumTexGens.c:
+	.text       start:0x80033D48 end:0x80033D88
+
+dol/GXSetMisc.c:
+	.text       start:0x80033D88 end:0x80033E1C
+
+dol/GXFlush.c:
+	.text       start:0x80033E1C end:0x80033E78
+
+dol/fn_80033E7C.c:
+	.text       start:0x80033E78 end:0x80033EAC
+
+dol/fn_80033EB0.c:
+	.text       start:0x80033EAC end:0x80034018
+
+dol/fn_8003401C.c:
+	.text       start:0x80034018 end:0x800340D0
+
+dol/GXSetDrawDone.c:
+	.text       start:0x800340D0 end:0x80034168
+
+dol/GXDrawDone.c:
+	.text       start:0x80034168 end:0x800341E8
+
+dol/GXPokeAlphaMode.c:
+	.text       start:0x800341E8 end:0x800341FC
+
+dol/GXPokeAlphaRead.c:
+	.text       start:0x800341FC end:0x80034210
+
+dol/GXPokeAlphaUpdate.c:
+	.text       start:0x80034210 end:0x8003422C
+
+dol/GXPokeBlendMode.c:
+	.text       start:0x8003422C end:0x800342B4
+
+dol/GXPokeColorUpdate.c:
+	.text       start:0x800342B4 end:0x800342D0
+
+dol/GXPokeDstAlpha.c:
+	.text       start:0x800342D0 end:0x800342E4
+
+dol/GXPokeDither.c:
+	.text       start:0x800342E4 end:0x80034300
+
+dol/GXPokeZMode.c:
+	.text       start:0x80034300 end:0x80034328
+
+dol/fn_8003432C.c:
+	.text       start:0x80034328 end:0x8003434C
+
+dol/GXPeekZ.c:
+	.text       start:0x8003434C end:0x80034374
+
+dol/GXTokenInterruptHandler.c:
+	.text       start:0x800343B8 end:0x80034440
+
+dol/GXFinishInterruptHandler.c:
+	.text       start:0x80034484 end:0x80034508
+
+dol/__GXPEInit.c:
+	.text       start:0x80034508 end:0x80034588
+
+dol/fn_8003458C.c:
+	.text       start:0x80034588 end:0x80034628
+
+dol/fn_8003462C.c:
+	.text       start:0x80034628 end:0x80034718
+
+dol/__GXSendFlushPrim.c:
+	.text       start:0x80034718 end:0x800347A0
+
+dol/GXSetLineWidth.c:
+	.text       start:0x800347A0 end:0x800347E8
+
+dol/GXSetPointSize.c:
+	.text       start:0x800347E8 end:0x80034830
+
+dol/fn_80034834.c:
+	.text       start:0x80034830 end:0x8003488C
+
+dol/fn_80034890.c:
+	.text       start:0x8003488C end:0x800348D8
+
+dol/GXSetCoPlanar.c:
+	.text       start:0x800348D8 end:0x80034914
+
+dol/GXAdjustForOverscan.c:
+	.text       start:0x80034938 end:0x80034A58
+
+dol/fn_80034B7C.c:
+	.text       start:0x80034B78 end:0x80034BB4
+
+dol/fn_80034BB8.c:
+	.text       start:0x80034BB4 end:0x80034D08
+
+dol/GXSetDispCopyFrame2Field.c:
+	.text       start:0x80034D08 end:0x80034D30
+
+dol/fn_80034D34.c:
+	.text       start:0x80034D30 end:0x80034D98
+
+dol/GXSetDispCopyYScale.c:
+	.text       start:0x80034D98 end:0x80034E60
+
+dol/GXSetCopyClear.c:
+	.text       start:0x80034E60 end:0x80034EC8
+
+dol/fn_80034ECC.c:
+	.text       start:0x80034EC8 end:0x800350F0
+
+dol/GXSetDispCopyGamma.c:
+	.text       start:0x800350F0 end:0x8003510C
+
+dol/fn_80035110.c:
+	.text       start:0x8003510C end:0x80035268
+
+dol/fn_8003526C.c:
+	.text       start:0x80035268 end:0x800353E4
+
+dol/GXClearBoundingBox.c:
+	.text       start:0x800353E4 end:0x8003541C
+
+dol/fn_80035420.c:
+	.text       start:0x8003541C end:0x800355AC
+
+dol/GXInitLightDistAttn.c:
+	.text       start:0x800355AC end:0x8003567C
+
+dol/fn_80035690.c:
+	.text       start:0x8003568C end:0x800356A8
+
+dol/fn_800356B8.c:
+	.text       start:0x800356B4 end:0x80035730
+
+dol/fn_8003591C.c:
+	.text       start:0x80035918 end:0x8003595C
+
+dol/fn_80035960.c:
+	.text       start:0x8003595C end:0x80035A28
+
+dol/GXGetTexBufferSize.c:
+	.text       start:0x80035A28 end:0x80035B84
+
+dol/__GetImageTileCount.c:
+	.text       start:0x80035B84 end:0x80035C4C
+
+dol/GXInitTexObj.c:
+	.text       start:0x80035C4C end:0x80035EC0
+
+dol/GXInitTexObjLOD.c:
+	.text       start:0x80035EC0 end:0x80036054
+
+dol/fn_80036058.c:
+	.text       start:0x80036054 end:0x8003606C
+
+dol/fn_80036070.c:
+	.text       start:0x8003606C end:0x800360D4
+
+dol/GXGetTexObjWidth.c:
+	.text       start:0x800360E0 end:0x800360F0
+
+dol/GXGetTexObjHeight.c:
+	.text       start:0x800360F0 end:0x80036100
+
+dol/fn_8003610C.c:
+	.text       start:0x80036108 end:0x800361EC
+
+dol/fn_800361F0.c:
+	.text       start:0x800361EC end:0x80036384
+
+dol/GXLoadTexObj.c:
+	.text       start:0x80036384 end:0x800363D8
+
+dol/GXInitTexCacheRegion.c:
+	.text       start:0x800363D8 end:0x800364F8
+
+dol/GXInitTlutRegion.c:
+	.text       start:0x800364F8 end:0x80036540
+
+dol/GXInvalidateTexAll.c:
+	.text       start:0x80036540 end:0x80036588
+
+dol/fn_800365B4.c:
+	.text       start:0x800365B0 end:0x80036668
+
+dol/__GXSetSUTexRegs.c:
+	.text       start:0x80036668 end:0x800367E4
+
+dol/__GXSetTmemConfig.c:
+	.text       start:0x800367E4 end:0x80036A24
+
+dol/GXSetTevIndirect.c:
+	.text       start:0x80036A24 end:0x80036AC0
+
+dol/fn_80036AC4.c:
+	.text       start:0x80036AC0 end:0x80036C20
+
+dol/GXSetIndTexCoordScale.c:
+	.text       start:0x80036C20 end:0x80036D9C
+
+dol/GXSetIndTexOrder.c:
+	.text       start:0x80036D9C end:0x80036EB0
+
+dol/GXSetNumIndStages.c:
+	.text       start:0x80036EB0 end:0x80036ED8
+
+dol/fn_80036EDC.c:
+	.text       start:0x80036ED8 end:0x80036F20
+
+dol/fn_80036F24.c:
+	.text       start:0x80036F20 end:0x80036FEC
+
+dol/GXSetTevOp.c:
+	.text       start:0x80037010 end:0x8003709C
+
+dol/fn_800370A0.c:
+	.text       start:0x8003709C end:0x800370E0
+
+dol/fn_800370E4.c:
+	.text       start:0x800370E0 end:0x80037124
+
+dol/fn_800371F8.c:
+	.text       start:0x800371F4 end:0x80037268
+
+dol/fn_8003726C.c:
+	.text       start:0x80037268 end:0x800372DC
+
+dol/fn_800372E0.c:
+	.text       start:0x800372DC end:0x80037350
+
+dol/GXSetTevKColorSel.c:
+	.text       start:0x80037350 end:0x800373BC
+
+dol/GXSetTevKAlphaSel.c:
+	.text       start:0x800373BC end:0x80037428
+
+dol/GXSetTevSwapMode.c:
+	.text       start:0x80037428 end:0x8003747C
+
+dol/GXSetTevSwapModeTable.c:
+	.text       start:0x8003747C end:0x80037514
+
+dol/GXSetAlphaCompare.c:
+	.text       start:0x80037514 end:0x80037568
+
+dol/GXSetZTexture.c:
+	.text       start:0x80037568 end:0x800375EC
+
+dol/GXSetTevOrder.c:
+	.text       start:0x800375EC end:0x800377C4
+
+dol/GXSetNumTevStages.c:
+	.text       start:0x800377C4 end:0x800377F4
+
+dol/fn_800377F8.c:
+	.text       start:0x800377F4 end:0x80037A10
+
+dol/GXSetFogRangeAdj.c:
+	.text       start:0x80037A10 end:0x80037B10
+
+dol/fn_80037B14.c:
+	.text       start:0x80037B10 end:0x80037B64
+
+dol/fn_80037B68.c:
+	.text       start:0x80037B64 end:0x80037B90
+
+dol/fn_80037B94.c:
+	.text       start:0x80037B90 end:0x80037BBC
+
+dol/fn_80037BC0.c:
+	.text       start:0x80037BBC end:0x80037BF0
+
+dol/GXSetZCompLoc.c:
+	.text       start:0x80037BF0 end:0x80037C28
+
+dol/fn_80037C2C.c:
+	.text       start:0x80037C28 end:0x80037D10
+
+dol/fn_80037D14.c:
+	.text       start:0x80037D10 end:0x80037D3C
+
+dol/fn_80037D40.c:
+	.text       start:0x80037D3C end:0x80037D78
+
+dol/GXSetFieldMask.c:
+	.text       start:0x80037D78 end:0x80037DB0
+
+dol/GXSetFieldMode.c:
+	.text       start:0x80037DB0 end:0x80037E2C
+
+dol/fn_8003887C.c:
+	.text       start:0x80038878 end:0x80038940
+
+dol/fn_80038944.c:
+	.text       start:0x80038940 end:0x80038A14
+
+dol/GXDisplayList.c:
+	.text       start:0x80038A14 end:0x80038A84
+
+dol/GXSetProjection.c:
+	.text       start:0x80038A84 end:0x80038B38
+
+dol/GXSetProjectionv.c:
+	.text       start:0x80038B38 end:0x80038BF8
+
+dol/GXGetProjectionv.c:
+	.text       start:0x80038BF8 end:0x80038C58
+
+dol/GXLoadPosMtxImm.c:
+	.text       start:0x80038C58 end:0x80038CA8
+
+dol/GXLoadNrmMtxImm.c:
+	.text       start:0x80038CA8 end:0x80038CF8
+
+dol/GXSetCurrentMtx.c:
+	.text       start:0x80038CF8 end:0x80038D30
+
+dol/GXLoadTexMtxImm.c:
+	.text       start:0x80038D30 end:0x80038DE4
+
+dol/fn_80038DE8.c:
+	.text       start:0x80038DE4 end:0x80038EE8
+
+dol/fn_80038EEC.c:
+	.text       start:0x80038EE8 end:0x80038F0C
+
+dol/fn_80038F10.c:
+	.text       start:0x80038F0C end:0x80038F44
+
+dol/GXSetScissor.c:
+	.text       start:0x80038F44 end:0x80038FD4
+
+dol/GXGetScissor.c:
+	.text       start:0x80038FD4 end:0x8003901C
+
+dol/GXSetScissorBoxOffset.c:
+	.text       start:0x8003901C end:0x8003905C
+
+dol/GXSetClipMode.c:
+	.text       start:0x8003905C end:0x80039084
+
+dol/__GXSetMatrixIndex.c:
+	.text       start:0x80039084 end:0x80039108
+
+dol/GXSetGPMetric.c:
+	.text       start:0x80039108 end:0x80039950
+
+dol/fn_80039954.c:
+	.text       start:0x80039950 end:0x80039AF8
+
+dol/GXClearGPMetric.c:
+	.text       start:0x80039AF8 end:0x80039B08
+
+dol/fn_80039B0C.c:
+	.text       start:0x80039B08 end:0x80039B34
+
+dol/fn_80039B38.c:
+	.text       start:0x80039B34 end:0x80039B78
+
+dol/GXReadXfRasMetric.c:
+	.text       start:0x80039B78 end:0x80039C3C
+
+dol/fn_80039C40.c:
+	.text       start:0x80039C3C end:0x80039E44
+
+dol/fn_8003A1CC.c:
+	.text       start:0x8003A1C8 end:0x8003A3D0
+
+dol/fn_8003A3D4.c:
+	.text       start:0x8003A3D0 end:0x8003A4E4
+
+dol/fn_8003A4E8.c:
+	.text       start:0x8003A4E4 end:0x8003A67C
+
+dol/fn_8003A680.c:
+	.text       start:0x8003A67C end:0x8003A75C
+
+dol/fn_8003A760.c:
+	.text       start:0x8003A75C end:0x8003A918
+
+dol/fn_8003A91C.c:
+	.text       start:0x8003A918 end:0x8003AB04
+
+dol/fn_8003B63C.c:
+	.text       start:0x8003B638 end:0x8003B794
+
+dol/fn_8003B798.c:
+	.text       start:0x8003B794 end:0x8003B8A4
+
+dol/fn_8003B8A8.c:
+	.text       start:0x8003B8A4 end:0x8003B92C
+
+dol/fn_8003B930.c:
+	.text       start:0x8003B92C end:0x8003B9A8
+
+dol/fn_8003B9AC.c:
+	.text       start:0x8003B9A8 end:0x8003BB2C
+
+dol/fn_8003BB30.c:
+	.text       start:0x8003BB2C end:0x8003BCE0
+
+dol/fn_8003BE1C.c:
+	.text       start:0x8003BE18 end:0x8003C1A0
+
+dol/fn_8003C1A4.c:
+	.text       start:0x8003C1A0 end:0x8003C6CC
+
+dol/fn_8003C6D0.c:
+	.text       start:0x8003C6CC end:0x8003CBAC
+
+dol/fn_8003CBB0.c:
+	.text       start:0x8003CBAC end:0x8003CE70
+
+dol/fn_8003CE74.c:
+	.text       start:0x8003CE70 end:0x8003D428
+
+dol/fn_8003D42C.c:
+	.text       start:0x8003D428 end:0x8003D4BC
+
+dol/fn_8003D4E0.c:
+	.text       start:0x8003D4DC end:0x8003D584
+
+dol/fn_8003D588.c:
+	.text       start:0x8003D584 end:0x8003D68C
+
+dol/fn_8003D698.c:
+	.text       start:0x8003D694 end:0x8003D914
+
+dol/fn_8003D918.c:
+	.text       start:0x8003D914 end:0x8003DB50
+
+dol/fn_8003DB54.c:
+	.text       start:0x8003DB50 end:0x8003DB9C
+
+dol/fn_8003DBA0.c:
+	.text       start:0x8003DB9C end:0x8003DC4C
+
+dol/fn_8003DC50.c:
+	.text       start:0x8003DC4C end:0x8003DD44
+
+dol/fn_8003DFF8.c:
+	.text       start:0x8003DFF4 end:0x8003E138
+
+dol/fn_8003E13C.c:
+	.text       start:0x8003E138 end:0x8003E280
+
+dol/fn_8003E284.c:
+	.text       start:0x8003E280 end:0x8003E340
+
+dol/fn_8003E344.c:
+	.text       start:0x8003E340 end:0x8003E8C8
+
+dol/fn_8003E8CC.c:
+	.text       start:0x8003E8C8 end:0x8003E954
+
+dol/fn_8003E958.c:
+	.text       start:0x8003E954 end:0x8003E9E8
+
+dol/fn_8003E9EC.c:
+	.text       start:0x8003E9E8 end:0x8003EAE0
+
+dol/fn_8003EAE4.c:
+	.text       start:0x8003EAE0 end:0x8003EC40
+
+dol/fn_8003EC44.c:
+	.text       start:0x8003EC40 end:0x8003F830
+
+dol/fn_8003F834.c:
+	.text       start:0x8003F830 end:0x8003FF84
+
+dol/fn_8003FF88.c:
+	.text       start:0x8003FF84 end:0x800410A0
+
+dol/fn_800410A4.c:
+	.text       start:0x800410A0 end:0x80041158
+
+dol/ADXT_Finish.c:
+	.text       start:0x80041160 end:0x800411F0
+
+dol/fn_800411F4.c:
+	.text       start:0x800411F0 end:0x8004132C
+
+dol/fn_80041378.c:
+	.text       start:0x80041374 end:0x800413A0
+
+dol/fn_80041460.c:
+	.text       start:0x8004145C end:0x800414CC
+
+dol/fn_800414D0.c:
+	.text       start:0x800414CC end:0x8004152C
+
+dol/fn_80041578.c:
+	.text       start:0x80041574 end:0x800415A8
+
+dol/fn_80041700.c:
+	.text       start:0x800416FC end:0x8004198C
+
+dol/fn_80041990.c:
+	.text       start:0x8004198C end:0x80041BF4
+
+dol/fn_80041BF8.c:
+	.text       start:0x80041BF4 end:0x80041DFC
+
+dol/adxsjd_get_wr.c:
+	.text       start:0x80041DFC end:0x80041EF4
+
+dol/fn_80041EF8.c:
+	.text       start:0x80041EF4 end:0x800420F0
+
+dol/fn_8004212C.c:
+	.text       start:0x80042128 end:0x80042168
+
+dol/fn_800421CC.c:
+	.text       start:0x800421C8 end:0x80042224
+
+dol/fn_80042228.c:
+	.text       start:0x80042224 end:0x800424B4
+
+dol/fn_800424E8.c:
+	.text       start:0x800424E4 end:0x80042518
+
+dol/fn_8004251C.c:
+	.text       start:0x80042518 end:0x80042564
+
+dol/ADXB_ExecOneWav4.c:
+	.text       start:0x800425CC end:0x8004297C
+
+dol/ADXB_ExecOneWav8.c:
+	.text       start:0x8004297C end:0x80042D20
+
+dol/fn_80042D24.c:
+	.text       start:0x80042D20 end:0x8004304C
+
+dol/fn_8004313C.c:
+	.text       start:0x80043138 end:0x800433A0
+
+dol/fn_800433A4.c:
+	.text       start:0x800433A0 end:0x800433CC
+
+dol/fn_800433D0.c:
+	.text       start:0x800433CC end:0x800433F0
+
+dol/fn_800433F4.c:
+	.text       start:0x800433F0 end:0x80043428
+
+dol/fn_8004342C.c:
+	.text       start:0x80043428 end:0x8004345C
+
+dol/fn_80043B48.c:
+	.text       start:0x80043B44 end:0x80043CC8
+
+dol/fn_80043D34.c:
+	.text       start:0x80043D30 end:0x80043FA0
+
+dol/fn_80043FA4.c:
+	.text       start:0x80043FA0 end:0x80043FE4
+
+dol/ADXB_ExecOneAuUlaw.c:
+	.text       start:0x80043FE4 end:0x800443A8
+
+dol/fn_80044A94.c:
+	.text       start:0x80044A90 end:0x80044C08
+
+dol/fn_80044C0C.c:
+	.text       start:0x80044C08 end:0x80044C70
+
+dol/fn_80044C74.c:
+	.text       start:0x80044C70 end:0x80044E78
+
+dol/fn_80044E7C.c:
+	.text       start:0x80044E78 end:0x80044EF4
+
+dol/fn_80044EF8.c:
+	.text       start:0x80044EF4 end:0x800452F8
+
+dol/fn_8004530C.c:
+	.text       start:0x80045308 end:0x80045350
+
+dol/fn_80045354.c:
+	.text       start:0x80045350 end:0x80045388
+
+dol/fn_8004538C.c:
+	.text       start:0x80045388 end:0x800453A0
+
+dol/fn_800453A4.c:
+	.text       start:0x800453A0 end:0x80045410
+
+dol/fn_8004541C.c:
+	.text       start:0x80045418 end:0x80045464
+
+dol/fn_80045468.c:
+	.text       start:0x80045464 end:0x800454B0
+
+dol/fn_800454B4.c:
+	.text       start:0x800454B0 end:0x800454C0
+
+dol/fn_8004551C.c:
+	.text       start:0x80045518 end:0x80045584
+
+dol/fn_800455B8.c:
+	.text       start:0x800455B4 end:0x8004569C
+
+dol/fn_80045D3C.c:
+	.text       start:0x80045D38 end:0x80045D8C
+
+dol/ADXB_Create.c:
+	.text       start:0x80045D8C end:0x80045F54
+
+dol/fn_80045F58.c:
+	.text       start:0x80045F54 end:0x80045F70
+
+dol/fn_80045F74.c:
+	.text       start:0x80045F70 end:0x80045FA0
+
+dol/fn_80045FA4.c:
+	.text       start:0x80045FA0 end:0x80045FE8
+
+dol/fn_80045FEC.c:
+	.text       start:0x80045FE8 end:0x8004601C
+
+dol/fn_80046020.c:
+	.text       start:0x8004601C end:0x800462F4
+
+dol/fn_800463E4.c:
+	.text       start:0x800463E0 end:0x80046504
+
+dol/ADXAMP_Start.c:
+	.text       start:0x80046518 end:0x800466D0
+
+dol/fn_800466D4.c:
+	.text       start:0x800466D0 end:0x80046714
+
+dol/fn_80046758.c:
+	.text       start:0x80046754 end:0x80046764
+
+dol/fn_80046768.c:
+	.text       start:0x80046764 end:0x80046800
+
+dol/fn_80046804.c:
+	.text       start:0x80046800 end:0x80046838
+
+dol/fn_8004683C.c:
+	.text       start:0x80046838 end:0x800469A0
+
+dol/ADX_DecodeInfoExLoop.c:
+	.text       start:0x800469A0 end:0x80046ABC
+
+dol/fn_80046AC0.c:
+	.text       start:0x80046ABC end:0x80046B8C
+
+dol/fn_80046B90.c:
+	.text       start:0x80046B8C end:0x80046BDC
+
+dol/fn_80046BE0.c:
+	.text       start:0x80046BDC end:0x80046C24
+
+dol/fn_80046C28.c:
+	.text       start:0x80046C24 end:0x80046D14
+
+dol/ADX_ScanInfoCode.c:
+	.text       start:0x80046D14 end:0x80046D90
+
+dol/fn_80046D94.c:
+	.text       start:0x80046D90 end:0x80046F78
+
+dol/fn_80046F88.c:
+	.text       start:0x80046F84 end:0x80047460
+
+dol/fn_80047464.c:
+	.text       start:0x80047460 end:0x800474E0
+
+dol/fn_800474E4.c:
+	.text       start:0x800474E0 end:0x80047544
+
+dol/fn_80047548.c:
+	.text       start:0x80047544 end:0x80047574
+
+dol/fn_80047608.c:
+	.text       start:0x80047604 end:0x80047688
+
+dol/ADXT_InsertHdrSfa.c:
+	.text       start:0x80047688 end:0x80047830
+
+dol/ADXSJE_ExecServer.c:
+	.text       start:0x80047860 end:0x800478BC
+
+dol/fn_800478C0.c:
+	.text       start:0x800478BC end:0x80047A4C
+
+dol/fn_80047A50.c:
+	.text       start:0x80047A4C end:0x80047AD8
+
+dol/fn_80047ADC.c:
+	.text       start:0x80047AD8 end:0x80047AF4
+
+dol/ADXSJE_Start.c:
+	.text       start:0x80047B00 end:0x80047C04
+
+dol/fn_80047C08.c:
+	.text       start:0x80047C04 end:0x80047C90
+
+dol/fn_80048340.c:
+	.text       start:0x8004833C end:0x80049724
+
+dol/fn_80049728.c:
+	.text       start:0x80049724 end:0x80049954
+
+dol/fn_80049958.c:
+	.text       start:0x80049954 end:0x80049BF0
+
+dol/fn_80049BF4.c:
+	.text       start:0x80049BF0 end:0x80049E30
+
+dol/fn_80049E34.c:
+	.text       start:0x80049E30 end:0x8004A064
+
+dol/fn_8004A068.c:
+	.text       start:0x8004A064 end:0x8004A52C
+
+dol/fn_8004A550.c:
+	.text       start:0x8004A54C end:0x8004A55C
+
+dol/fn_8004A560.c:
+	.text       start:0x8004A55C end:0x8004A574
+
+dol/ADXSTM_ExecServer.c:
+	.text       start:0x8004A574 end:0x8004A5F0
+
+dol/fn_8004A5F4.c:
+	.text       start:0x8004A5F0 end:0x8004A808
+
+dol/fn_8004A80C.c:
+	.text       start:0x8004A808 end:0x8004AC00
+
+dol/fn_8004AC04.c:
+	.text       start:0x8004AC00 end:0x8004AC48
+
+dol/fn_8004AC58.c:
+	.text       start:0x8004AC54 end:0x8004AD80
+
+dol/fn_8004AD84.c:
+	.text       start:0x8004AD80 end:0x8004ADF0
+
+dol/fn_8004ADF4.c:
+	.text       start:0x8004ADF0 end:0x8004AE74
+
+dol/fn_8004AE78.c:
+	.text       start:0x8004AE74 end:0x8004AE90
+
+dol/fn_8004AE94.c:
+	.text       start:0x8004AE90 end:0x8004AEE0
+
+dol/fn_8004AEF0.c:
+	.text       start:0x8004AEEC end:0x8004B0E8
+
+dol/fn_8004B0EC.c:
+	.text       start:0x8004B0E8 end:0x8004B17C
+
+dol/fn_8004B180.c:
+	.text       start:0x8004B17C end:0x8004B1D8
+
+dol/fn_8004B1DC.c:
+	.text       start:0x8004B1D8 end:0x8004B4DC
+
+dol/fn_8004B4E0.c:
+	.text       start:0x8004B4DC end:0x8004B798
+
+dol/fn_8004B7A0.c:
+	.text       start:0x8004B79C end:0x8004B7D0
+
+dol/fn_8004B7F4.c:
+	.text       start:0x8004B7F0 end:0x8004B970
+
+dol/fn_8004B974.c:
+	.text       start:0x8004B970 end:0x8004B9A0
+
+dol/fn_8004B9A4.c:
+	.text       start:0x8004B9A0 end:0x8004BA34
+
+dol/fn_8004BA40.c:
+	.text       start:0x8004BA3C end:0x8004BBA0
+
+dol/ADXT_Pause.c:
+	.text       start:0x8004BC08 end:0x8004BD58
+
+dol/fn_8004BDD8.c:
+	.text       start:0x8004BDD4 end:0x8004BE8C
+
+dol/fn_8004BE98.c:
+	.text       start:0x8004BE94 end:0x8004BECC
+
+dol/fn_8004BF0C.c:
+	.text       start:0x8004BF08 end:0x8004BF64
+
+dol/fn_8004BF68.c:
+	.text       start:0x8004BF64 end:0x8004BFA8
+
+dol/ADXT_SetOutPan.c:
+	.text       start:0x8004BFA8 end:0x8004C058
+
+dol/ADXT_Stop.c:
+	.text       start:0x8004C694 end:0x8004C790
+
+dol/fn_8004C794.c:
+	.text       start:0x8004C790 end:0x8004C97C
+
+dol/fn_8004C980.c:
+	.text       start:0x8004C97C end:0x8004CAC4
+
+dol/fn_8004CAC8.c:
+	.text       start:0x8004CAC4 end:0x8004CD6C
+
+dol/fn_8004CD70.c:
+	.text       start:0x8004CD6C end:0x8004D188
+
+dol/fn_8004D18C.c:
+	.text       start:0x8004D188 end:0x8004D21C
+
+dol/fn_8004D220.c:
+	.text       start:0x8004D21C end:0x8004D524
+
+dol/fn_8004D528.c:
+	.text       start:0x8004D524 end:0x8004D8D8
+
+dol/fn_8004D8DC.c:
+	.text       start:0x8004D8D8 end:0x8004DBB8
+
+dol/adxt_set_outpan.c:
+	.text       start:0x8004DBB8 end:0x8004DDE0
+
+dol/adxt_eos_entry.c:
+	.text       start:0x8004DDE0 end:0x8004DE6C
+
+dol/fn_8004DE70.c:
+	.text       start:0x8004DE6C end:0x8004DFEC
+
+dol/fn_8004DFF0.c:
+	.text       start:0x8004DFEC end:0x8004E094
+
+dol/ADXPD_ExecHndl.c:
+	.text       start:0x8004E094 end:0x8004E18C
+
+dol/fn_8004E198.c:
+	.text       start:0x8004E194 end:0x8004E1AC
+
+dol/fn_8004E1B0.c:
+	.text       start:0x8004E1AC end:0x8004E1E0
+
+dol/fn_8004E1E4.c:
+	.text       start:0x8004E1E0 end:0x8004E200
+
+dol/fn_8004E204.c:
+	.text       start:0x8004E200 end:0x8004E234
+
+dol/fn_8004E238.c:
+	.text       start:0x8004E234 end:0x8004E26C
+
+dol/fn_8004E278.c:
+	.text       start:0x8004E274 end:0x8004E2AC
+
+dol/fn_8004E2B0.c:
+	.text       start:0x8004E2AC end:0x8004E2C8
+
+dol/fn_8004E2CC.c:
+	.text       start:0x8004E2C8 end:0x8004E2D8
+
+dol/fn_8004E2DC.c:
+	.text       start:0x8004E2D8 end:0x8004E2FC
+
+dol/fn_8004E300.c:
+	.text       start:0x8004E2FC end:0x8004E320
+
+dol/fn_8004E324.c:
+	.text       start:0x8004E320 end:0x8004E350
+
+dol/ADXPD_Create.c:
+	.text       start:0x8004E350 end:0x8004E4A8
+
+dol/fn_8004E4DC.c:
+	.text       start:0x8004E4D8 end:0x8004E57C
+
+dol/fn_8004E580.c:
+	.text       start:0x8004E57C end:0x8004E598
+
+dol/fn_8004E7D4.c:
+	.text       start:0x8004E7D0 end:0x8004E89C
+
+dol/fn_8004E8A0.c:
+	.text       start:0x8004E89C end:0x8004E8F4
+
+dol/fn_8004E8F8.c:
+	.text       start:0x8004E8F4 end:0x8004E9A4
+
+dol/fn_8004E9A8.c:
+	.text       start:0x8004E9A4 end:0x8004E9D4
+
+dol/fn_8004E9D8.c:
+	.text       start:0x8004E9D4 end:0x8004EA90
+
+dol/fn_8004EA94.c:
+	.text       start:0x8004EA90 end:0x8004EAFC
+
+dol/fn_8004EB00.c:
+	.text       start:0x8004EAFC end:0x8004EBB0
+
+dol/fn_8004EEE4.c:
+	.text       start:0x8004EEE0 end:0x8004EF24
+
+dol/fn_8004EFA8.c:
+	.text       start:0x8004EFA4 end:0x8004F008
+
+dol/fn_8004F00C.c:
+	.text       start:0x8004F008 end:0x8004F268
+
+dol/fn_8004F26C.c:
+	.text       start:0x8004F268 end:0x8004F558
+
+dol/fn_8004F55C.c:
+	.text       start:0x8004F558 end:0x8004F6AC
+
+dol/fn_8004F6B0.c:
+	.text       start:0x8004F6AC end:0x8004F748
+
+dol/fn_8004F74C.c:
+	.text       start:0x8004F748 end:0x8004F7F4
+
+dol/fn_8004F818.c:
+	.text       start:0x8004F814 end:0x8004FAA4
+
+dol/ADXF_ExecServer.c:
+	.text       start:0x8004FAA4 end:0x8004FC34
+
+dol/ADXT_DestroyAll.c:
+	.text       start:0x8004FC34 end:0x8004FC90
+
+dol/fn_8004FC94.c:
+	.text       start:0x8004FC90 end:0x8004FF64
+
+dol/fn_8004FF68.c:
+	.text       start:0x8004FF64 end:0x8005017C
+
+dol/fn_80050180.c:
+	.text       start:0x8005017C end:0x800501E8
+
+dol/fn_800501F4.c:
+	.text       start:0x800501F0 end:0x8005029C
+
+dol/fn_800502A0.c:
+	.text       start:0x8005029C end:0x800504B8
+
+dol/fn_800504BC.c:
+	.text       start:0x800504B8 end:0x800504E8
+
+dol/fn_800504EC.c:
+	.text       start:0x800504E8 end:0x8005066C
+
+dol/fn_80050670.c:
+	.text       start:0x8005066C end:0x80050694
+
+dol/fn_80050698.c:
+	.text       start:0x80050694 end:0x80050BD0
+
+dol/fn_80050BD4.c:
+	.text       start:0x80050BD0 end:0x80050F60
+
+dol/fn_80050F74.c:
+	.text       start:0x80050F70 end:0x80050F8C
+
+dol/fn_80050F90.c:
+	.text       start:0x80050F8C end:0x800510C0
+
+dol/fn_800510C4.c:
+	.text       start:0x800510C0 end:0x800510D4
+
+dol/fn_800510D8.c:
+	.text       start:0x800510D4 end:0x80051444
+
+dol/fn_80051448.c:
+	.text       start:0x80051444 end:0x80051590
+
+dol/fn_80051594.c:
+	.text       start:0x80051590 end:0x80051674
+
+dol/fn_80051678.c:
+	.text       start:0x80051674 end:0x80051748
+
+dol/fn_8005174C.c:
+	.text       start:0x80051748 end:0x800517BC
+
+dol/fn_800517C0.c:
+	.text       start:0x800517BC end:0x80051908
+
+dol/fn_8005190C.c:
+	.text       start:0x80051908 end:0x80051954
+
+dol/fn_80051958.c:
+	.text       start:0x80051954 end:0x800519AC
+
+dol/fn_800519B0.c:
+	.text       start:0x800519AC end:0x80051CBC
+
+dol/fn_80051CC0.c:
+	.text       start:0x80051CBC end:0x80051DC0
+
+dol/fn_80051DC4.c:
+	.text       start:0x80051DC0 end:0x80051E2C
+
+dol/fn_80051E30.c:
+	.text       start:0x80051E2C end:0x80051E60
+
+dol/fn_80051E64.c:
+	.text       start:0x80051E60 end:0x80051F34
+
+dol/fn_80051F38.c:
+	.text       start:0x80051F34 end:0x8005242C
+
+dol/fn_80053A38.c:
+	.text       start:0x80053A34 end:0x80053A80
+
+dol/fn_80053A84.c:
+	.text       start:0x80053A80 end:0x80053BB0
+
+dol/fn_80053BFC.c:
+	.text       start:0x80053BF8 end:0x80053DB0
+
+dol/fn_80053DB4.c:
+	.text       start:0x80053DB0 end:0x80053E9C
+
+dol/fn_80053EB0.c:
+	.text       start:0x80053EAC end:0x80053F34
+
+dol/fn_80053F38.c:
+	.text       start:0x80053F34 end:0x800541E8
+
+dol/fn_80054224.c:
+	.text       start:0x80054220 end:0x800542B0
+
+dol/fn_800542C8.c:
+	.text       start:0x800542C4 end:0x80054350
+
+dol/fn_80054354.c:
+	.text       start:0x80054350 end:0x800545AC
+
+dol/fn_800545B0.c:
+	.text       start:0x800545AC end:0x80054604
+
+dol/fn_80054608.c:
+	.text       start:0x80054604 end:0x80054668
+
+dol/fn_800546A0.c:
+	.text       start:0x8005469C end:0x8005475C
+
+dol/cvFsExecServer.c:
+	.text       start:0x8005475C end:0x800547C4
+
+dol/fn_800547C8.c:
+	.text       start:0x800547C4 end:0x8005486C
+
+dol/fn_800549F0.c:
+	.text       start:0x800549EC end:0x80054AAC
+
+dol/fn_80054AB0.c:
+	.text       start:0x80054AAC end:0x80054B68
+
+dol/fn_800551D0.c:
+	.text       start:0x800551CC end:0x80055300
+
+dol/fn_80055580.c:
+	.text       start:0x8005557C end:0x800555BC
+
+dol/fn_80055624.c:
+	.text       start:0x80055620 end:0x80055704
+
+dol/fn_80055DF4.c:
+	.text       start:0x80055DF0 end:0x80055EBC
+
+dol/fn_80056294.c:
+	.text       start:0x80056290 end:0x800563F4
+
+dol/fn_8005640C.c:
+	.text       start:0x80056408 end:0x80056580
+
+dol/fn_800565FC.c:
+	.text       start:0x800565F8 end:0x800566B8
+
+dol/fn_80056730.c:
+	.text       start:0x8005672C end:0x80056768
+
+dol/fn_8005676C.c:
+	.text       start:0x80056768 end:0x800567A8
+
+dol/fn_800567EC.c:
+	.text       start:0x800567E8 end:0x8005684C
+
+dol/fn_80056B50.c:
+	.text       start:0x80056B4C end:0x80056BDC
+
+dol/fn_80056C20.c:
+	.text       start:0x80056C1C end:0x80056C60
+
+dol/fn_80056C64.c:
+	.text       start:0x80056C60 end:0x80056CCC
+
+dol/fn_80056CD0.c:
+	.text       start:0x80056CCC end:0x80056D88
+
+dol/LSC_Start.c:
+	.text       start:0x80056D88 end:0x80056E98
+
+dol/fn_80056E9C.c:
+	.text       start:0x80056E98 end:0x800570D8
+
+dol/fn_800570DC.c:
+	.text       start:0x800570D8 end:0x80057108
+
+dol/fn_80057114.c:
+	.text       start:0x80057110 end:0x800571E8
+
+dol/fn_800571EC.c:
+	.text       start:0x800571E8 end:0x80057374
+
+dol/fn_80057378.c:
+	.text       start:0x80057374 end:0x80057418
+
+dol/fn_8005741C.c:
+	.text       start:0x80057418 end:0x80057490
+
+dol/fn_80057494.c:
+	.text       start:0x80057490 end:0x800576D8
+
+dol/fn_800576DC.c:
+	.text       start:0x800576D8 end:0x80057724
+
+dol/fn_80057728.c:
+	.text       start:0x80057724 end:0x80057770
+
+dol/fn_80057774.c:
+	.text       start:0x80057770 end:0x80057828
+
+dol/fn_8005782C.c:
+	.text       start:0x80057828 end:0x80057958
+
+dol/fn_8005795C.c:
+	.text       start:0x80057958 end:0x800579EC
+
+dol/fn_800579F0.c:
+	.text       start:0x800579EC end:0x80057AD4
+
+dol/fn_80057AD8.c:
+	.text       start:0x80057AD4 end:0x80057B30
+
+dol/fn_80057B34.c:
+	.text       start:0x80057B30 end:0x80057B44
+
+dol/fn_80057B5C.c:
+	.text       start:0x80057B58 end:0x80057B98
+
+dol/fn_80057B9C.c:
+	.text       start:0x80057B98 end:0x80057CC0
+
+dol/fn_80057D88.c:
+	.text       start:0x80057D84 end:0x80057D9C
+
+dol/fn_80057DB8.c:
+	.text       start:0x80057DB4 end:0x80057EC0
+
+dol/fn_80057EC4.c:
+	.text       start:0x80057EC0 end:0x8005806C
+
+dol/fn_80058070.c:
+	.text       start:0x8005806C end:0x800581C8
+
+dol/fn_800581CC.c:
+	.text       start:0x800581C8 end:0x8005837C
+
+dol/fn_80058380.c:
+	.text       start:0x8005837C end:0x800583D8
+
+dol/fn_800583DC.c:
+	.text       start:0x800583D8 end:0x80058430
+
+dol/fn_80058448.c:
+	.text       start:0x80058444 end:0x80058494
+
+dol/fn_80058498.c:
+	.text       start:0x80058494 end:0x8005862C
+
+dol/fn_80058630.c:
+	.text       start:0x8005862C end:0x8005867C
+
+dol/fn_80058680.c:
+	.text       start:0x8005867C end:0x800586E0
+
+dol/SJ_SearchTag.c:
+	.text       start:0x800587A4 end:0x800589B8
+
+dol/fn_800589BC.c:
+	.text       start:0x800589B8 end:0x80058A1C
+
+dol/fn_80058FE4.c:
+	.text       start:0x80058FE0 end:0x80059024
+
+dol/fn_800595A4.c:
+	.text       start:0x800595A0 end:0x800595F8
+
+dol/SVM_CallErr.c:
+	.text       start:0x800595F8 end:0x800596D0
+
+dol/fn_80059C0C.c:
+	.text       start:0x80059C08 end:0x80059CA0
+
+dol/fn_80059D68.c:
+	.text       start:0x80059D64 end:0x80059DD4
+
+dol/fn_8005A0C0.c:
+	.text       start:0x8005A0BC end:0x8005A1B0
+
+dol/mfCiClose.c:
+	.text       start:0x8005A1B0 end:0x8005A248
+
+dol/mfCiGetFileSize.c:
+	.text       start:0x8005A478 end:0x8005A584
+
+dol/fn_8005A5A8.c:
+	.text       start:0x8005A5A4 end:0x8005A5B8
+
+dol/fn_8005A5BC.c:
+	.text       start:0x8005A5B8 end:0x8005A610
+
+dol/fn_8005A668.c:
+	.text       start:0x8005A664 end:0x8005A674
+
+dol/fn_8005A688.c:
+	.text       start:0x8005A684 end:0x8005A694
+
+dol/AXRNA_SetOutPan.c:
+	.text       start:0x8005A694 end:0x8005A748
+
+dol/fn_8005A74C.c:
+	.text       start:0x8005A748 end:0x8005A7F4
+
+dol/fn_8005A7F8.c:
+	.text       start:0x8005A7F4 end:0x8005A948
+
+dol/fn_8005A94C.c:
+	.text       start:0x8005A948 end:0x8005A958
+
+dol/AXRNA_ExecServer.c:
+	.text       start:0x8005A958 end:0x8005A9B4
+
+dol/fn_8005A9B8.c:
+	.text       start:0x8005A9B4 end:0x8005ACEC
+
+dol/fn_8005ACF0.c:
+	.text       start:0x8005ACEC end:0x8005ADB8
+
+dol/fn_8005ADBC.c:
+	.text       start:0x8005ADB8 end:0x8005AE94
+
+dol/axrna_update_play.c:
+	.text       start:0x8005AE94 end:0x8005B00C
+
+dol/fn_8005B010.c:
+	.text       start:0x8005B00C end:0x8005B064
+
+dol/fn_8005B068.c:
+	.text       start:0x8005B064 end:0x8005B0C0
+
+dol/fn_8005B0C4.c:
+	.text       start:0x8005B0C0 end:0x8005B260
+
+dol/fn_8005B464.c:
+	.text       start:0x8005B460 end:0x8005B530
+
+dol/axrna_voice_drop.c:
+	.text       start:0x8005BC1C end:0x8005BCB0
+
+dol/AXRNA_Finish.c:
+	.text       start:0x8005BCB0 end:0x8005BDD0
+
+dol/fn_8005BE98.c:
+	.text       start:0x8005BE94 end:0x8005BEA8
+
+dol/RNARES_Create.c:
+	.text       start:0x8005BEA8 end:0x8005BFB0
+
+dol/fn_8005BFB4.c:
+	.text       start:0x8005BFB0 end:0x8005C11C
+
+dol/fn_8005C120.c:
+	.text       start:0x8005C11C end:0x8005C294
+
+dol/fn_8005C298.c:
+	.text       start:0x8005C294 end:0x8005C474
+
+dol/fn_8005C478.c:
+	.text       start:0x8005C474 end:0x8005C5C4
+
+dol/fn_8005C5C8.c:
+	.text       start:0x8005C5C4 end:0x8005C7BC
+
+dol/fn_8005CBF4.c:
+	.text       start:0x8005CBF0 end:0x8005D254
+
+dol/fn_8005D258.c:
+	.text       start:0x8005D254 end:0x8005D5A0
+
+dol/fn_8005D5A4.c:
+	.text       start:0x8005D5A0 end:0x8005DB64
+
+dol/fn_8005DB68.c:
+	.text       start:0x8005DB64 end:0x8005DCE8
+
+dol/fn_8005FBDC.c:
+	.text       start:0x8005FBD8 end:0x8005FCD4
+
+dol/fn_8005FCD8.c:
+	.text       start:0x8005FCD4 end:0x8005FDDC
+
+dol/fn_8005FDE0.c:
+	.text       start:0x8005FDDC end:0x80060608
+
+dol/fn_8006060C.c:
+	.text       start:0x80060608 end:0x80060720
+
+dol/fn_80060724.c:
+	.text       start:0x80060720 end:0x8006094C
+
+dol/fn_80060950.c:
+	.text       start:0x8006094C end:0x80060BD8
+
+dol/fn_80060BDC.c:
+	.text       start:0x80060BD8 end:0x80060C50
+
+dol/fn_80060C54.c:
+	.text       start:0x80060C50 end:0x800622AC
+
+dol/fn_800622B0.c:
+	.text       start:0x800622AC end:0x8006235C
+
+dol/fn_80062360.c:
+	.text       start:0x8006235C end:0x80062650
+
+dol/fn_80062654.c:
+	.text       start:0x80062650 end:0x80063090
+
+dol/fn_80063094.c:
+	.text       start:0x80063090 end:0x800631E8
+
+dol/fn_800631EC.c:
+	.text       start:0x800631E8 end:0x80063318
+
+dol/fn_8006331C.c:
+	.text       start:0x80063318 end:0x80063EF0
+
+dol/fn_80063EF4.c:
+	.text       start:0x80063EF0 end:0x80063F34
+
+dol/fn_80063F38.c:
+	.text       start:0x80063F34 end:0x80064138
+
+dol/fn_8006413C.c:
+	.text       start:0x80064138 end:0x800641A4
+
+dol/fn_800641A8.c:
+	.text       start:0x800641A4 end:0x8006422C
+
+dol/fn_80064230.c:
+	.text       start:0x8006422C end:0x800643F0
+
+dol/fn_800643F4.c:
+	.text       start:0x800643F0 end:0x800647B4
+
+dol/fn_800647B8.c:
+	.text       start:0x800647B4 end:0x800647EC
+
+dol/fn_800647F0.c:
+	.text       start:0x800647EC end:0x80064968
+
+dol/fn_8006496C.c:
+	.text       start:0x80064968 end:0x80064A2C
+
+dol/fn_80064A30.c:
+	.text       start:0x80064A2C end:0x80064D48
+
+dol/fn_80064D4C.c:
+	.text       start:0x80064D48 end:0x80064E80
+
+dol/fn_80064E84.c:
+	.text       start:0x80064E80 end:0x80064FD8
+
+dol/fn_80064FDC.c:
+	.text       start:0x80064FD8 end:0x8006538C
+
+dol/fn_80065390.c:
+	.text       start:0x8006538C end:0x80065524
+
+dol/fn_80065528.c:
+	.text       start:0x80065524 end:0x800657F0
+
+dol/fn_800657F4.c:
+	.text       start:0x800657F0 end:0x8006588C
+
+dol/fn_800658B4.c:
+	.text       start:0x800658B0 end:0x80065A78
+
+dol/fn_80065A7C.c:
+	.text       start:0x80065A78 end:0x80065AC0
+
+dol/fn_80065AD0.c:
+	.text       start:0x80065ACC end:0x80065B04
+
+dol/fn_80065B08.c:
+	.text       start:0x80065B04 end:0x80065D6C
+
+dol/fn_80065D70.c:
+	.text       start:0x80065D6C end:0x80065F30
+
+dol/fn_80065F34.c:
+	.text       start:0x80065F30 end:0x80066C10
+
+dol/fn_80066C14.c:
+	.text       start:0x80066C10 end:0x800672E0
+
+dol/fn_800672E4.c:
+	.text       start:0x800672E0 end:0x80067340
+
+dol/fn_80067344.c:
+	.text       start:0x80067340 end:0x800674F8
+
+dol/fn_800674FC.c:
+	.text       start:0x800674F8 end:0x80067894
+
+dol/fn_80067898.c:
+	.text       start:0x80067894 end:0x80067970
+
+dol/fn_80067974.c:
+	.text       start:0x80067970 end:0x80067DE0
+
+dol/fn_80067F68.c:
+	.text       start:0x80067F64 end:0x80068BF8
+
+dol/fn_80068BFC.c:
+	.text       start:0x80068BF8 end:0x80068EB0
+
+dol/fn_80068EB4.c:
+	.text       start:0x80068EB0 end:0x800692A0
+
+dol/fn_800692A4.c:
+	.text       start:0x800692A0 end:0x80069538
+
+dol/fn_8006953C.c:
+	.text       start:0x80069538 end:0x80069ADC
+
+dol/fn_80069AE0.c:
+	.text       start:0x80069ADC end:0x80069B0C
+
+dol/fn_80069B10.c:
+	.text       start:0x80069B0C end:0x80069CE0
+
+dol/fn_80069CE4.c:
+	.text       start:0x80069CE0 end:0x80069FC8
+
+dol/fn_80069FCC.c:
+	.text       start:0x80069FC8 end:0x8006A1F4
+
+dol/fn_8006A1F8.c:
+	.text       start:0x8006A1F4 end:0x8006A3D8
+
+dol/fn_8006A3DC.c:
+	.text       start:0x8006A3D8 end:0x8006A47C
+
+dol/fn_8006A480.c:
+	.text       start:0x8006A47C end:0x8006A550
+
+dol/fn_8006A554.c:
+	.text       start:0x8006A550 end:0x8006A764
+
+dol/fn_8006A768.c:
+	.text       start:0x8006A764 end:0x8006A8C8
+
+dol/fn_8006A8CC.c:
+	.text       start:0x8006A8C8 end:0x8006A994
+
+dol/fn_8006A998.c:
+	.text       start:0x8006A994 end:0x8006A9A8
+
+dol/fn_8006A9B4.c:
+	.text       start:0x8006A9B0 end:0x8006AA1C
+
+dol/fn_8006AA20.c:
+	.text       start:0x8006AA1C end:0x8006AA40
+
+dol/fn_8006AA44.c:
+	.text       start:0x8006AA40 end:0x8006AC40
+
+dol/fn_8006AC44.c:
+	.text       start:0x8006AC40 end:0x8006AE8C
+
+dol/fn_8006AE90.c:
+	.text       start:0x8006AE8C end:0x8006AF90
+
+dol/fn_8006AF94.c:
+	.text       start:0x8006AF90 end:0x8006B044
+
+dol/fn_8006B048.c:
+	.text       start:0x8006B044 end:0x8006B184
+
+dol/fn_8006B188.c:
+	.text       start:0x8006B184 end:0x8006B220
+
+dol/fn_8006B224.c:
+	.text       start:0x8006B220 end:0x8006B290
+
+dol/fn_8006B294.c:
+	.text       start:0x8006B290 end:0x8006B3EC
+
+dol/fn_8006B3F0.c:
+	.text       start:0x8006B3EC end:0x8006B46C
+
+dol/fn_8006B470.c:
+	.text       start:0x8006B46C end:0x8006B558
+
+dol/fn_8006B55C.c:
+	.text       start:0x8006B558 end:0x8006B624
+
+dol/fn_8006B628.c:
+	.text       start:0x8006B624 end:0x8006B6F4
+
+dol/fn_8006B92C.c:
+	.text       start:0x8006B928 end:0x8006B998
+
+dol/fn_8006B99C.c:
+	.text       start:0x8006B998 end:0x8006BA70
+
+dol/fn_8006BA74.c:
+	.text       start:0x8006BA70 end:0x8006BB2C
+
+dol/fn_8006BB30.c:
+	.text       start:0x8006BB2C end:0x8006BB70
+
+dol/fn_8006BB74.c:
+	.text       start:0x8006BB70 end:0x8006BB98
+
+dol/fn_8006BC1C.c:
+	.text       start:0x8006BC18 end:0x8006BC4C
+
+dol/fn_8006BC50.c:
+	.text       start:0x8006BC4C end:0x8006BC80
+
+dol/fn_8006BC84.c:
+	.text       start:0x8006BC80 end:0x8006BCF4
+
+dol/fn_8006BCF8.c:
+	.text       start:0x8006BCF4 end:0x8006BE08
+
+dol/fn_8006BE0C.c:
+	.text       start:0x8006BE08 end:0x8006C130
+
+dol/fn_8006C134.c:
+	.text       start:0x8006C130 end:0x8006C178
+
+dol/fn_8006C17C.c:
+	.text       start:0x8006C178 end:0x8006C18C
+
+dol/fn_8006C190.c:
+	.text       start:0x8006C18C end:0x8006C56C
+
+dol/fn_8006C570.c:
+	.text       start:0x8006C56C end:0x8006C630
+
+dol/fn_8006C634.c:
+	.text       start:0x8006C630 end:0x8006C6E4
+
+dol/fn_8006C6E8.c:
+	.text       start:0x8006C6E4 end:0x8006C784
+
+dol/fn_8006C788.c:
+	.text       start:0x8006C784 end:0x8006C7E4
+
+dol/fn_8006C7E8.c:
+	.text       start:0x8006C7E4 end:0x8006C928
+
+dol/fn_8006C92C.c:
+	.text       start:0x8006C928 end:0x8006CCC4
+
+dol/fn_8006CCC8.c:
+	.text       start:0x8006CCC4 end:0x8006CD1C
+
+dol/fn_8006CD2C.c:
+	.text       start:0x8006CD28 end:0x8006CD3C
+
+dol/fn_8006CD40.c:
+	.text       start:0x8006CD3C end:0x8006CD4C
+
+dol/fn_8006CD50.c:
+	.text       start:0x8006CD4C end:0x8006CDA4
+
+dol/fn_8006CDA8.c:
+	.text       start:0x8006CDA4 end:0x8006CDF8
+
+dol/fn_8006CDFC.c:
+	.text       start:0x8006CDF8 end:0x8006CE18
+
+dol/fn_8006CE1C.c:
+	.text       start:0x8006CE18 end:0x8006CE40
+
+dol/fn_8006CE44.c:
+	.text       start:0x8006CE40 end:0x8006CFF4
+
+dol/lbl_8006D5A4.c:
+	.text       start:0x8006D5A0 end:0x8006D5EC
+
+dol/fn_8006E5FC.c:
+	.text       start:0x8006E5F8 end:0x8006E7E0
+
+dol/fn_8006E7E4.c:
+	.text       start:0x8006E7E0 end:0x8006E8D8
+
+dol/fn_8006E8DC.c:
+	.text       start:0x8006E8D8 end:0x8006E974
+
+dol/fn_8006E978.c:
+	.text       start:0x8006E974 end:0x8006EB48
+
+dol/fn_8006EB4C.c:
+	.text       start:0x8006EB48 end:0x8006ED08
+
+dol/fn_8006ED0C.c:
+	.text       start:0x8006ED08 end:0x8006EDB8
+
+dol/fn_8006EDBC.c:
+	.text       start:0x8006EDB8 end:0x8006EE6C
+
+dol/fn_8006EE70.c:
+	.text       start:0x8006EE6C end:0x8006EF0C
+
+dol/fn_8006EF10.c:
+	.text       start:0x8006EF0C end:0x8006EFB0
+
+dol/fn_8006EFB4.c:
+	.text       start:0x8006EFB0 end:0x8006F034
+
+dol/fn_8006F1F0.c:
+	.text       start:0x8006F1EC end:0x8006F390
+
+dol/fn_8006F394.c:
+	.text       start:0x8006F390 end:0x8006F3E0
+
+dol/fn_8006F774.c:
+	.text       start:0x8006F770 end:0x8006F788
+
+dol/fn_8006F78C.c:
+	.text       start:0x8006F788 end:0x8006F824
+
+dol/fn_8006F828.c:
+	.text       start:0x8006F824 end:0x8006F8FC
+
+dol/fn_8006F900.c:
+	.text       start:0x8006F8FC end:0x8006F9A0
+
+dol/fn_8006F9A4.c:
+	.text       start:0x8006F9A0 end:0x8006FA20
+
+dol/fn_8006FA24.c:
+	.text       start:0x8006FA20 end:0x8006FB1C
+
+dol/fn_8006FB20.c:
+	.text       start:0x8006FB1C end:0x8006FC18
+
+dol/fn_8006FCB4.c:
+	.text       start:0x8006FCB0 end:0x8006FD18
+
+dol/fn_8006FD1C.c:
+	.text       start:0x8006FD18 end:0x8006FDE8
+
+dol/fn_8006FDEC.c:
+	.text       start:0x8006FDE8 end:0x8006FEF8
+
+dol/fn_8006FEFC.c:
+	.text       start:0x8006FEF8 end:0x8006FF88
+
+dol/fn_8006FF8C.c:
+	.text       start:0x8006FF88 end:0x8006FFB8
+
+dol/fn_8006FFDC.c:
+	.text       start:0x8006FFD8 end:0x80070018
+
+dol/fn_8007001C.c:
+	.text       start:0x80070018 end:0x80070064
+
+dol/fn_80070068.c:
+	.text       start:0x80070064 end:0x800700B0
+
+dol/fn_800700B4.c:
+	.text       start:0x800700B0 end:0x800700F0
+
+dol/fn_80070100.c:
+	.text       start:0x800700FC end:0x80070154
+
+dol/fn_80070158.c:
+	.text       start:0x80070154 end:0x800702E0
+
+dol/fn_800702E4.c:
+	.text       start:0x800702E0 end:0x80070488
+
+dol/fn_8007048C.c:
+	.text       start:0x80070488 end:0x80070534
+
+dol/fn_80070538.c:
+	.text       start:0x80070534 end:0x8007061C
+
+dol/fn_80070620.c:
+	.text       start:0x8007061C end:0x80070700
+
+dol/fn_80070704.c:
+	.text       start:0x80070700 end:0x80070758
+
+dol/fn_8007075C.c:
+	.text       start:0x80070758 end:0x80070770
+
+dol/fn_80070774.c:
+	.text       start:0x80070770 end:0x80070A54
+
+dol/fn_80070A58.c:
+	.text       start:0x80070A54 end:0x80070ABC
+
+dol/fn_80070CF8.c:
+	.text       start:0x80070CF4 end:0x80070D5C
+
+dol/fn_80070D60.c:
+	.text       start:0x80070D5C end:0x80070D90
+
+dol/fn_80070D94.c:
+	.text       start:0x80070D90 end:0x80070DDC
+
+dol/fn_80070E00.c:
+	.text       start:0x80070DFC end:0x80070E18
+
+dol/fn_80070F44.c:
+	.text       start:0x80070F40 end:0x80071040
+
+dol/fn_80071044.c:
+	.text       start:0x80071040 end:0x800710FC
+
+dol/fn_80071100.c:
+	.text       start:0x800710FC end:0x800711A4
+
+dol/fn_800711A8.c:
+	.text       start:0x800711A4 end:0x80071264
+
+dol/fn_80071268.c:
+	.text       start:0x80071264 end:0x800712E0
+
+dol/fn_800712E4.c:
+	.text       start:0x800712E0 end:0x800713DC
+
+dol/fn_800713E0.c:
+	.text       start:0x800713DC end:0x8007146C
+
+dol/fn_80071470.c:
+	.text       start:0x8007146C end:0x80071480
+
+dol/fn_80071484.c:
+	.text       start:0x80071480 end:0x8007159C
+
+dol/fn_800715A0.c:
+	.text       start:0x8007159C end:0x80071674
+
+dol/fn_80071678.c:
+	.text       start:0x80071674 end:0x80071714
+
+dol/fn_80071718.c:
+	.text       start:0x80071714 end:0x80071748
+
+dol/fn_8007174C.c:
+	.text       start:0x80071748 end:0x80071790
+
+dol/fn_80071794.c:
+	.text       start:0x80071790 end:0x800717B8
+
+dol/fn_800717BC.c:
+	.text       start:0x800717B8 end:0x800718B8
+
+dol/fn_800718BC.c:
+	.text       start:0x800718B8 end:0x80071C00
+
+dol/fn_80071C04.c:
+	.text       start:0x80071C00 end:0x80071C60
+
+dol/fn_80071ED4.c:
+	.text       start:0x80071ED0 end:0x80072010
+
+dol/fn_80072014.c:
+	.text       start:0x80072010 end:0x800720AC
+
+dol/fn_800720B0.c:
+	.text       start:0x800720AC end:0x80072164
+
+dol/fn_80072168.c:
+	.text       start:0x80072164 end:0x800721F8
+
+dol/fn_800721FC.c:
+	.text       start:0x800721F8 end:0x8007226C
+
+dol/fn_80072270.c:
+	.text       start:0x8007226C end:0x80072340
+
+dol/fn_80072344.c:
+	.text       start:0x80072340 end:0x80072374
+
+dol/fn_80072378.c:
+	.text       start:0x80072374 end:0x800723B4
+
+dol/fn_80072404.c:
+	.text       start:0x80072400 end:0x80072458
+
+dol/fn_8007245C.c:
+	.text       start:0x80072458 end:0x800724C4
+
+dol/fn_8007264C.c:
+	.text       start:0x80072648 end:0x800726BC
+
+dol/fn_800726C0.c:
+	.text       start:0x800726BC end:0x80072774
+
+dol/fn_80072778.c:
+	.text       start:0x80072774 end:0x80072804
+
+dol/fn_80072808.c:
+	.text       start:0x80072804 end:0x80072860
+
+dol/fn_80072864.c:
+	.text       start:0x80072860 end:0x800728A4
+
+dol/fn_800728A8.c:
+	.text       start:0x800728A4 end:0x800729AC
+
+dol/fn_80072A50.c:
+	.text       start:0x80072A4C end:0x80072AAC
+
+dol/fn_80072EDC.c:
+	.text       start:0x80072ED8 end:0x800734A4
+
+dol/fn_800734A8.c:
+	.text       start:0x800734A4 end:0x800735C4
+
+dol/fn_800736C0.c:
+	.text       start:0x800736BC end:0x80073774
+
+dol/fn_80073778.c:
+	.text       start:0x80073774 end:0x800737E0
+
+dol/fn_800737E4.c:
+	.text       start:0x800737E0 end:0x80073894
+
+dol/fn_800738E0.c:
+	.text       start:0x800738DC end:0x800739DC
+
+dol/fn_80073A58.c:
+	.text       start:0x80073A54 end:0x80073B4C
+
+dol/fn_80073B50.c:
+	.text       start:0x80073B4C end:0x80073C68
+
+dol/fn_80073C6C.c:
+	.text       start:0x80073C68 end:0x80073D5C
+
+dol/fn_80073D60.c:
+	.text       start:0x80073D5C end:0x80073E88
+
+dol/fn_80073E8C.c:
+	.text       start:0x80073E88 end:0x80074184
+
+dol/fn_80074188.c:
+	.text       start:0x80074184 end:0x80074238
+
+dol/fn_800743C4.c:
+	.text       start:0x800743C0 end:0x80074434
+
+dol/fn_80074438.c:
+	.text       start:0x80074434 end:0x800744F4
+
+dol/fn_800744F8.c:
+	.text       start:0x800744F4 end:0x800745A0
+
+dol/fn_800745A4.c:
+	.text       start:0x800745A0 end:0x8007465C
+
+dol/fn_800747D0.c:
+	.text       start:0x800747CC end:0x80074914
+
+dol/fn_80074918.c:
+	.text       start:0x80074914 end:0x800749AC
+
+dol/fn_80074A8C.c:
+	.text       start:0x80074A88 end:0x80074B3C
+
+dol/fn_80074B40.c:
+	.text       start:0x80074B3C end:0x80074BC0
+
+dol/fn_80074BC4.c:
+	.text       start:0x80074BC0 end:0x80074C70
+
+dol/fn_80074C74.c:
+	.text       start:0x80074C70 end:0x80074CF0
+
+dol/fn_80074CF4.c:
+	.text       start:0x80074CF0 end:0x80074D04
+
+dol/fn_80074D28.c:
+	.text       start:0x80074D24 end:0x80074D64
+
+dol/fn_80074D68.c:
+	.text       start:0x80074D64 end:0x80074D74
+
+dol/fn_80074D88.c:
+	.text       start:0x80074D84 end:0x8007507C
+
+dol/fn_80075080.c:
+	.text       start:0x8007507C end:0x8007523C
+
+dol/fn_80075908.c:
+	.text       start:0x80075904 end:0x80075C74
+
+dol/fn_80075C78.c:
+	.text       start:0x80075C74 end:0x80075D44
+
+dol/fn_80075D48.c:
+	.text       start:0x80075D44 end:0x80076130
+
+dol/fn_8007698C.c:
+	.text       start:0x80076988 end:0x80076CD0
+
+dol/fn_80076CD4.c:
+	.text       start:0x80076CD0 end:0x8007723C
+
+dol/fn_80077240.c:
+	.text       start:0x8007723C end:0x80077380
+
+dol/fn_80077384.c:
+	.text       start:0x80077380 end:0x80077484
+
+dol/fn_80077488.c:
+	.text       start:0x80077484 end:0x800775E8
+
+dol/fn_800775EC.c:
+	.text       start:0x800775E8 end:0x80077650
+
+dol/fn_800777D4.c:
+	.text       start:0x800777D0 end:0x80077844
+
+dol/fn_80077848.c:
+	.text       start:0x80077844 end:0x80077858
+
+dol/fn_8007785C.c:
+	.text       start:0x80077858 end:0x80077A14
+
+dol/fn_80077A20.c:
+	.text       start:0x80077A1C end:0x80077ACC
+
+dol/fn_80077AD0.c:
+	.text       start:0x80077ACC end:0x80077B00
+
+dol/fn_80077B04.c:
+	.text       start:0x80077B00 end:0x80077B10
+
+dol/fn_80077B14.c:
+	.text       start:0x80077B10 end:0x80077B60
+
+dol/fn_80077B64.c:
+	.text       start:0x80077B60 end:0x80077BA8
+
+dol/fn_80077BBC.c:
+	.text       start:0x80077BB8 end:0x80077BD0
+
+dol/fn_80077BD4.c:
+	.text       start:0x80077BD0 end:0x80077D3C
+
+dol/fn_80077D40.c:
+	.text       start:0x80077D3C end:0x80077E08
+
+dol/fn_80077E0C.c:
+	.text       start:0x80077E08 end:0x80077E78
+
+dol/fn_80077E7C.c:
+	.text       start:0x80077E78 end:0x80077F88
+
+dol/fn_80077F8C.c:
+	.text       start:0x80077F88 end:0x800780A0
+
+dol/fn_800780A4.c:
+	.text       start:0x800780A0 end:0x800781B4
+
+dol/fn_800781B8.c:
+	.text       start:0x800781B4 end:0x80078340
+
+dol/fn_80078344.c:
+	.text       start:0x80078340 end:0x8007835C
+
+dol/fn_80078360.c:
+	.text       start:0x8007835C end:0x80078534
+
+dol/fn_800786B0.c:
+	.text       start:0x800786AC end:0x80078764
+
+dol/fn_80078768.c:
+	.text       start:0x80078764 end:0x80078880
+
+dol/fn_800789D8.c:
+	.text       start:0x800789D4 end:0x80078BC0
+
+dol/fn_80078BC4.c:
+	.text       start:0x80078BC0 end:0x80078C24
+
+dol/fn_80078CDC.c:
+	.text       start:0x80078CD8 end:0x80078D44
+
+dol/func_8008D6BC.c:
+	.text       start:0x80078D44 end:0x80078D5C
+
+dol/fn_80078D60.c:
+	.text       start:0x80078D5C end:0x80078DA4
+
+dol/fn_80078DA8.c:
+	.text       start:0x80078DA4 end:0x80078F08
+
+dol/fn_80078F0C.c:
+	.text       start:0x80078F08 end:0x800791A0
+
+dol/fn_800791A4.c:
+	.text       start:0x800791A0 end:0x800791E4
+
+dol/fn_800791E8.c:
+	.text       start:0x800791E4 end:0x800793D0
+
+dol/fn_800793D4.c:
+	.text       start:0x800793D0 end:0x800794EC
+
+dol/fn_800794F0.c:
+	.text       start:0x800794EC end:0x80079650
+
+dol/__va_arg.c:
+	.text       start:0x80079650 end:0x80079718
+
+dol/__destroy_global_chain.c:
+	.text       start:0x80079718 end:0x80079760
+
+dol/__prep_buffer.c:
+	.text       start:0x8007D444 end:0x8007D478
+
+dol/misc_io.c:
+	.text       start:0x8007EEE4 end:0x8007EEF4
+
+dol/__ieee754_log.c:
+	.text       start:0x80085004 end:0x80085280
+
+dol/__ieee754_log10.c:
+	.text       start:0x80085280 end:0x80085390
+
+dol/__ieee754_rem_pio2.c:
+	.text       start:0x80085BC0 end:0x80085F60
+
+dol/__kernel_cos.c:
+	.text       start:0x80085F60 end:0x80086054
+
+dol/__kernel_rem_pio2.c:
+	.text       start:0x80086054 end:0x80086EA8
+
+dol/fn_80087BA4.c:
+	.text       start:0x80086EA8 end:0x80086F48
+
+dol/fn_80087C44.c:
+	.text       start:0x80086F48 end:0x8008715C
+
+dol/fn_80087E58.c:
+	.text       start:0x8008715C end:0x80087184
+
+dol/fn_80087E80.c:
+	.text       start:0x80087184 end:0x80087258
+
+dol/floor.c:
+	.text       start:0x80087258 end:0x800873A0
+
+dol/frexp.c:
+	.text       start:0x800873A0 end:0x8008742C
+
+dol/ldexp.c:
+	.text       start:0x8008742C end:0x800875F0
+
+dol/modf.c:
+	.text       start:0x800875F0 end:0x800876EC
+
+dol/fn_800883E8.c:
+	.text       start:0x800876EC end:0x800877C4
+
+dol/fn_800884C0.c:
+	.text       start:0x800877C4 end:0x8008783C
+
+dol/TRKNubMainLoop.c:
+	.text       start:0x80087C10 end:0x80087D08
+
+dol/fn_80088764.c:
+	.text       start:0x80087D2C end:0x80087D44
+
+dol/TRKPostEvent.c:
+	.text       start:0x80087D44 end:0x80087E24
+
+dol/TRKGetNextEvent.c:
+	.text       start:0x80087E24 end:0x80087ED8
+
+dol/TRKInitializeEventQueue.c:
+	.text       start:0x80087ED8 end:0x80087F30
+
+dol/fn_80088B00.c:
+	.text       start:0x800880C8 end:0x8008810C
+
+dol/TRKReadBuffer_ui32.c:
+	.text       start:0x8008810C end:0x800881FC
+
+dol/TRKReadBuffer_ui8.c:
+	.text       start:0x800881FC end:0x80088294
+
+dol/TRKReadBuffer1_ui64.c:
+	.text       start:0x80088294 end:0x8008837C
+
+dol/TRKAppendBuffer_ui32.c:
+	.text       start:0x8008837C end:0x80088478
+
+dol/TRKAppendBuffer_ui8.c:
+	.text       start:0x80088478 end:0x800884E0
+
+dol/TRKAppendBuffer1_ui64.c:
+	.text       start:0x800884E0 end:0x800885DC
+
+dol/TRKReadBuffer.c:
+	.text       start:0x800885DC end:0x80088668
+
+dol/TRKAppendBuffer.c:
+	.text       start:0x80088668 end:0x8008870C
+
+dol/fn_80089144.c:
+	.text       start:0x8008870C end:0x8008873C
+
+dol/fn_80089174.c:
+	.text       start:0x8008873C end:0x8008877C
+
+dol/fn_800891B4.c:
+	.text       start:0x8008877C end:0x800887E0
+
+dol/TRKGetBuffer.c:
+	.text       start:0x800887E0 end:0x8008880C
+
+dol/fn_80089244.c:
+	.text       start:0x8008880C end:0x800888D4
+
+dol/TRKInitializeMessageBuffers.c:
+	.text       start:0x800888D4 end:0x80088948
+
+dol/TRKInitializeSerialHandler.c:
+	.text       start:0x80088950 end:0x80088A14
+
+dol/fn_8008944C.c:
+	.text       start:0x80088A14 end:0x80088A64
+
+dol/TRKGetInput.c:
+	.text       start:0x80088A64 end:0x80088AC4
+
+dol/fn_800894FC.c:
+	.text       start:0x80088AC4 end:0x80088C00
+
+dol/fn_8008963C.c:
+	.text       start:0x80088C04 end:0x80088C8C
+
+dol/TRKDispatchMessage.c:
+	.text       start:0x80088C8C end:0x80088DFC
+
+dol/fn_800898E4.c:
+	.text       start:0x80088EAC end:0x80088F54
+
+dol/fn_8008998C.c:
+	.text       start:0x80088F54 end:0x80089174
+
+dol/fn_80089BAC.c:
+	.text       start:0x80089174 end:0x80089224
+
+dol/fn_80089C5C.c:
+	.text       start:0x80089224 end:0x800894B4
+
+dol/fn_80089EEC.c:
+	.text       start:0x800894B4 end:0x80089794
+
+dol/fn_8008A1CC.c:
+	.text       start:0x80089794 end:0x80089988
+
+dol/fn_8008A3C0.c:
+	.text       start:0x80089988 end:0x80089B74
+
+dol/fn_8008A66C.c:
+	.text       start:0x80089C34 end:0x80089CAC
+
+dol/fn_8008A6E4.c:
+	.text       start:0x80089CAC end:0x80089D10
+
+dol/fn_8008A764.c:
+	.text       start:0x80089D2C end:0x80089DD4
+
+dol/fn_8008A80C.c:
+	.text       start:0x80089DD4 end:0x80089EE4
+
+dol/fn_8008A91C.c:
+	.text       start:0x80089EE4 end:0x80089FCC
+
+dol/fn_8008AA04.c:
+	.text       start:0x80089FCC end:0x8008A0E8
+
+dol/fn_8008AB20.c:
+	.text       start:0x8008A0E8 end:0x8008A2C8
+
+dol/fn_8008AD00.c:
+	.text       start:0x8008A2C8 end:0x8008A508
+
+dol/fn_8008AF58.c:
+	.text       start:0x8008A520 end:0x8008A5B8
+
+dol/TRK_fill_mem.c:
+	.text       start:0x8008A5F0 end:0x8008A6A8
+
+dol/fn_8008B484.c:
+	.text       start:0x8008AA94 end:0x8008AAAC
+
+dol/TRKTargetSupportRequest.c:
+	.text       start:0x8008AACC end:0x8008ACCC
+
+dol/fn_8008B6CC.c:
+	.text       start:0x8008ACDC end:0x8008AD94
+
+dol/fn_8008B784.c:
+	.text       start:0x8008AD94 end:0x8008AE40
+
+dol/fn_8008B830.c:
+	.text       start:0x8008AE40 end:0x8008AEC4
+
+dol/fn_8008B8B4.c:
+	.text       start:0x8008AEC4 end:0x8008AF50
+
+dol/TRKTargetInterrupt.c:
+	.text       start:0x8008AF50 end:0x8008B0E0
+
+dol/TRKPostInterruptEvent.c:
+	.text       start:0x8008B0E0 end:0x8008B18C
+
+dol/fn_8008BB7C.c:
+	.text       start:0x8008B18C end:0x8008B5C4
+
+dol/fn_8008BFB4.c:
+	.text       start:0x8008B5C4 end:0x8008B734
+
+dol/TRKTargetAccessDefault.c:
+	.text       start:0x8008BC40 end:0x8008BD34
+
+dol/fn_8008C6E4.c:
+	.text       start:0x8008BD34 end:0x8008BD80
+
+dol/fn_8008C730.c:
+	.text       start:0x8008BD80 end:0x8008BECC
+
+dol/fn_8008C87C.c:
+	.text       start:0x8008BECC end:0x8008C170
+
+dol/TRKInitializeTarget.c:
+	.text       start:0x8008C62C end:0x8008C678
+
+dol/fn_8008D028.c:
+	.text       start:0x8008C678 end:0x8008C7A4
+
+dol/fn_8008D154.c:
+	.text       start:0x8008C7A4 end:0x8008C7FC
+
+dol/TRK_board_display.c:
+	.text       start:0x8008C958 end:0x8008C988
+
+dol/fn_8008D440.c:
+	.text       start:0x8008CA90 end:0x8008CAD8
+
+dol/TRKInitializeIntDrivenUART.c:
+	.text       start:0x8008CAD8 end:0x8008CB28
+
+dol/TRKEXICallBack.c:
+	.text       start:0x8008CD94 end:0x8008CDCC
+
+dol/TRKTargetContinue.c:
+	.text       start:0x8008CDCC end:0x8008CE00
+
+dol/fn_8008D7B0.c:
+	.text       start:0x8008CE00 end:0x8008CE10
+
+dol/fn_8008D7CC.c:
+	.text       start:0x8008CE1C end:0x8008CEF8
+
+dol/fn_8008D8A8.c:
+	.text       start:0x8008CEF8 end:0x8008CF7C
+
+dol/fn_8008D92C.c:
+	.text       start:0x8008CF7C end:0x8008D0F8
+
+dol/ddh_cc_read.c:
+	.text       start:0x8008D5BC end:0x8008D6A8
+
+dol/fn_8008E114.c:
+	.text       start:0x8008D764 end:0x8008D86C
+
+dol/fn_8008E21C.c:
+	.text       start:0x8008D86C end:0x8008D974
+
+dol/fn_8008E324.c:
+	.text       start:0x8008D974 end:0x8008D9C4
+
+dol/gdev_cc_read.c:
+	.text       start:0x8008DB68 end:0x8008DC5C
+
+dol/fn_8008E73C.c:
+	.text       start:0x8008DD8C end:0x8008DDBC
+
+dol/fn_8008E770.c:
+	.text       start:0x8008DDC0 end:0x8008E004
+
+dol/fn_8008EB8C.c:
+	.text       start:0x8008E1DC end:0x8008E248
+
+dol/fn_8008EBF8.c:
+	.text       start:0x8008E248 end:0x8008E2C8
+
+dol/fn_8008ECE0.c:
+	.text       start:0x8008E330 end:0x8008E380
+
+dol/fn_8008ED30.c:
+	.text       start:0x8008E380 end:0x8008E3C0
+
+dol/fn_8008ED70.c:
+	.text       start:0x8008E3C0 end:0x8008E400
+
+dol/fn_8008EDB0.c:
+	.text       start:0x8008E400 end:0x8008E440
+
+dol/fn_8008EDF0.c:
+	.text       start:0x8008E440 end:0x8008E4FC
+
+dol/fn_8008EEAC.c:
+	.text       start:0x8008E4FC end:0x8008E528
+
+dol/fn_8008EED8.c:
+	.text       start:0x8008E528 end:0x8008E630
+
+dol/fn_8008EFE0.c:
+	.text       start:0x8008E630 end:0x8008E8EC
+
+dol/fn_8008F29C.c:
+	.text       start:0x8008E8EC end:0x8008EA9C
+
+dol/fn_8008F45C.c:
+	.text       start:0x8008EAAC end:0x8008ED0C
+
+dol/fn_8008F6BC.c:
+	.text       start:0x8008ED0C end:0x8008ED98
+
+dol/fn_8008F748.c:
+	.text       start:0x8008ED98 end:0x8008EE34
+
+dol/fn_8008F7E4.c:
+	.text       start:0x8008EE34 end:0x8008EE88
+
+dol/fn_8008F838.c:
+	.text       start:0x8008EE88 end:0x8008EF00
+
+dol/fn_8008F8B0.c:
+	.text       start:0x8008EF00 end:0x8008EF40
+
+dol/fn_8008F8F0.c:
+	.text       start:0x8008EF40 end:0x8008EF7C
+
+dol/fn_8008F9D8.c:
+	.text       start:0x8008F028 end:0x8008F104
+
+dol/fn_8008FAB4.c:
+	.text       start:0x8008F104 end:0x8008F1E0
+
+dol/fn_8008FC3C.c:
+	.text       start:0x8008F28C end:0x8008F524

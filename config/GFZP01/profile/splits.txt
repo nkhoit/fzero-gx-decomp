@@ -1,0 +1,43 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:32
+	.rodata     type:rodata align:8
+	.data       type:data align:16
+	.bss        type:bss align:32
+
+rel/profile/fn_16_96C.c:
+	.text       start:0x00000980 end:0x00000A00
+
+rel/profile/fn_16_9EC.c:
+	.text       start:0x00000A00 end:0x00000A48
+
+rel/profile/fn_16_A38.c:
+	.text       start:0x00000A4C end:0x00000ABC
+
+rel/profile/fn_16_AA8.c:
+	.text       start:0x00000ABC end:0x00000B24
+
+rel/profile/fn_16_B10.c:
+	.text       start:0x00000B24 end:0x00000B38
+
+rel/profile/fn_16_E20.c:
+	.text       start:0x00000E24 end:0x0000103C
+
+rel/profile/fn_16_1A24.c:
+	.text       start:0x00001A38 end:0x00001D2C
+
+rel/profile/fn_16_2054.c:
+	.text       start:0x00002068 end:0x00002108
+
+rel/profile/fn_16_20F4.c:
+	.text       start:0x00002108 end:0x0000233C
+
+rel/profile/fn_16_2328.c:
+	.text       start:0x0000233C end:0x000023BC
+
+rel/profile/fn_16_24FC.c:
+	.text       start:0x00002510 end:0x0000253C
+
+rel/profile/fn_16_2528.c:
+	.text       start:0x0000253C end:0x00002574

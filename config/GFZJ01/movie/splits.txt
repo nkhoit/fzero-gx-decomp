@@ -1,0 +1,40 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:8
+	.rodata     type:rodata align:16
+	.data       type:data align:32
+	.bss        type:bss align:8
+
+rel/movie/_prolog/fn_5_200.c:
+	.text       start:0x00000200 end:0x00000220
+
+rel/movie/_prolog/fn_5_220.c:
+	.text       start:0x00000220 end:0x00000280
+
+rel/movie/_prolog/fn_5_320.c:
+	.text       start:0x00000320 end:0x0000037C
+
+rel/movie/_prolog/fn_5_684.c:
+	.text       start:0x00000638 end:0x0000069C
+
+rel/movie/_prolog/fn_5_13B0.c:
+	.text       start:0x00001358 end:0x000013AC
+
+rel/movie/_prolog/fn_5_2C54.c:
+	.text       start:0x00002BF0 end:0x00002D9C
+
+rel/movie/_prolog/fn_5_3BF8.c:
+	.text       start:0x00003B74 end:0x00003BC0
+
+rel/movie/movie/fn_5_3E54.c:
+	.text       start:0x00003DD0 end:0x00003DF0
+
+rel/movie/movie/fn_5_3E74.c:
+	.text       start:0x00003DF0 end:0x00003F10
+
+rel/movie/movie/fn_5_3F94.c:
+	.text       start:0x00003F10 end:0x00003F6C
+
+rel/movie/movie/fn_5_3FF0.c:
+	.text       start:0x00003F6C end:0x00003FD0

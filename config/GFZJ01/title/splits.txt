@@ -1,0 +1,118 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:32
+	.rodata     type:rodata align:8
+	.data       type:data align:8
+	.bss        type:bss align:32
+
+rel/title/fn_8_704.c:
+	.text       start:0x00000704 end:0x00000754
+
+rel/title/_prolog/fn_8_754.c:
+	.text       start:0x00000754 end:0x00000784
+
+rel/title/title/fn_8_AA8.c:
+	.text       start:0x00000AA0 end:0x00000AE8
+
+rel/title/title/fn_8_B7C.c:
+	.text       start:0x00000B74 end:0x00000BD0
+
+rel/title/title/fn_8_BE4.c:
+	.text       start:0x00000BDC end:0x00000EBC
+
+rel/title/title/fn_8_1304.c:
+	.text       start:0x000012FC end:0x0000133C
+
+rel/title/title/fn_8_1344.c:
+	.text       start:0x0000133C end:0x0000138C
+
+rel/title/title/fn_8_1C18.c:
+	.text       start:0x00001B5C end:0x00001BD4
+
+rel/title/title/fn_8_1F74.c:
+	.text       start:0x00001EAC end:0x00001EE8
+
+rel/title/title/fn_8_25F8.c:
+	.text       start:0x00002050 end:0x000020B8
+
+rel/title/title/fn_8_55CC.c:
+	.text       start:0x00005518 end:0x00005554
+
+rel/title/title/fn_8_5810.c:
+	.text       start:0x00005750 end:0x00005780
+
+rel/title/title/fn_8_5C54.c:
+	.text       start:0x00005B58 end:0x00005ED8
+
+rel/title/title/fn_8_5FD4.c:
+	.text       start:0x00005ED8 end:0x0000645C
+
+rel/title/title/fn_8_6594.c:
+	.text       start:0x00006498 end:0x00006540
+
+rel/title/title/fn_8_663C.c:
+	.text       start:0x00006540 end:0x000066B4
+
+rel/title/title/fn_8_67B0.c:
+	.text       start:0x000066B4 end:0x000066FC
+
+rel/title/operation/fn_8_67F8.c:
+	.text       start:0x000066FC end:0x000067DC
+
+rel/title/operation/fn_8_68D8.c:
+	.text       start:0x000067DC end:0x000067F8
+
+rel/title/operation/fn_8_68F4.c:
+	.text       start:0x000067F8 end:0x000068DC
+
+rel/title/operation/fn_8_69D8.c:
+	.text       start:0x000068DC end:0x00006954
+
+rel/title/operation/fn_8_6A50.c:
+	.text       start:0x00006954 end:0x00006974
+
+rel/title/operation/fn_8_6A70.c:
+	.text       start:0x00006974 end:0x00006B54
+
+rel/title/operation/fn_8_6C50.c:
+	.text       start:0x00006B54 end:0x00006B94
+
+rel/title/operation/fn_8_8C48.c:
+	.text       start:0x00008B4C end:0x00008B84
+
+rel/title/operation/fn_8_8C80.c:
+	.text       start:0x00008B84 end:0x00008D04
+
+rel/title/operation/fn_8_988C.c:
+	.text       start:0x00009790 end:0x00009A08
+
+rel/title/operation/fn_8_9B04.c:
+	.text       start:0x00009A08 end:0x00009A44
+
+rel/title/operation/fn_8_BAEC.c:
+	.text       start:0x0000B9F0 end:0x0000BB08
+
+rel/title/operation/fn_8_BC04.c:
+	.text       start:0x0000BB08 end:0x0000BC0C
+
+rel/title/operation/fn_8_C7B0.c:
+	.text       start:0x0000C6B4 end:0x0000C8AC
+
+rel/title/operation/fn_8_C9A8.c:
+	.text       start:0x0000C8AC end:0x0000CB30
+
+rel/title/operation/fn_8_CC2C.c:
+	.text       start:0x0000CB30 end:0x0000CB50
+
+rel/title/operation/fn_8_CF94.c:
+	.text       start:0x0000CE98 end:0x0000CF24
+
+rel/title/operation/fn_8_D024.c:
+	.text       start:0x0000CF28 end:0x0000CF38
+
+rel/title/operation/fn_8_D5F4.c:
+	.text       start:0x0000D4F8 end:0x0000D534
+
+rel/title/operation/fn_8_FC5C.c:
+	.text       start:0x0000FB58 end:0x0000FE98

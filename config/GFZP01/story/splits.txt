@@ -1,0 +1,91 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:8
+	.dtors      type:rodata align:4
+	.rodata     type:rodata align:32
+	.data       type:data align:8
+	.bss        type:bss align:8
+
+rel/story/story_mode/fn_7_244.c:
+	.text       start:0x00000244 end:0x0000025C
+
+rel/story/story_mode/fn_7_25C.c:
+	.text       start:0x0000025C end:0x00000318
+
+rel/story/story_mode/fn_7_388.c:
+	.text       start:0x00000388 end:0x000003E4
+
+rel/story/story_mode/fn_7_3E4.c:
+	.text       start:0x000003E4 end:0x0000050C
+
+rel/story/story_mode/fn_7_D20.c:
+	.text       start:0x00000D30 end:0x00000E60
+
+rel/story/story_mode/fn_7_E50.c:
+	.text       start:0x00000E60 end:0x00000E94
+
+rel/story/story_mode/fn_7_E84.c:
+	.text       start:0x00000E94 end:0x00000FC0
+
+rel/story/story_mode/fn_7_1134.c:
+	.text       start:0x00001144 end:0x0000130C
+
+rel/story/story_mode/fn_7_12FC.c:
+	.text       start:0x0000130C end:0x000013A8
+
+rel/story/story_mode/fn_7_1398.c:
+	.text       start:0x000013A8 end:0x000013DC
+
+rel/story/story_mode/fn_7_13CC.c:
+	.text       start:0x000013DC end:0x0000140C
+
+rel/story/story_mode/fn_7_1544.c:
+	.text       start:0x00001554 end:0x000015C8
+
+rel/story/story_mode/fn_7_15BC.c:
+	.text       start:0x000015CC end:0x0000170C
+
+rel/story/story_mode/fn_7_1BA8.c:
+	.text       start:0x00001BC8 end:0x00001C2C
+
+rel/story/story_mode/fn_7_1C0C.c:
+	.text       start:0x00001C2C end:0x00001C50
+
+rel/story/story_mode/fn_7_1C30.c:
+	.text       start:0x00001C50 end:0x00001DD4
+
+rel/story/story_mode/fn_7_2170.c:
+	.text       start:0x00002190 end:0x000021E8
+
+rel/story/story_mode/fn_7_235C.c:
+	.text       start:0x0000237C end:0x000023A4
+
+rel/story/story_mode/fn_7_2384.c:
+	.text       start:0x000023A4 end:0x000023C8
+
+rel/story/story_mode/fn_7_23A8.c:
+	.text       start:0x000023C8 end:0x000024F8
+
+rel/story/story_mode/fn_7_24D8.c:
+	.text       start:0x000024F8 end:0x00002534
+
+rel/story/story_mode/fn_7_2514.c:
+	.text       start:0x00002534 end:0x00002558
+
+rel/story/story_mode/fn_7_3FCC.c:
+	.text       start:0x00004244 end:0x000042C8
+
+rel/story/story_mode/fn_7_4050.c:
+	.text       start:0x000042C8 end:0x0000430C
+
+rel/story/story_mode/fn_7_41FC.c:
+	.text       start:0x00004474 end:0x00004754
+
+rel/story/story_mode/fn_7_4648.c:
+	.text       start:0x000048C0 end:0x000050A0
+
+rel/story/story_mode/fn_7_4E28.c:
+	.text       start:0x000050A0 end:0x00005170
+
+rel/story/story_mode/fn_7_4EF8.c:
+	.text       start:0x00005170 end:0x00005248

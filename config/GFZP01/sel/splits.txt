@@ -1,0 +1,304 @@
+Sections:
+	.text       type:code align:4
+	.ctors      type:rodata align:4
+	.dtors      type:rodata align:16
+	.rodata     type:rodata align:8
+	.data       type:data align:16
+	.bss        type:bss align:32
+
+rel/sel/_prolog/fn_10_0.c:
+	.text       start:0x00000000 end:0x00000044
+
+rel/sel/_prolog/fn_10_834.c:
+	.text       start:0x00000834 end:0x00000AB8
+
+rel/sel/_prolog/fn_10_AB8.c:
+	.text       start:0x00000AB8 end:0x00000B00
+
+rel/sel/sel/fn_10_D2C.c:
+	.text       start:0x00000D2C end:0x000012D8
+
+rel/sel/sel/fn_10_1544.c:
+	.text       start:0x00001544 end:0x00001F28
+
+rel/sel/sel/fn_10_1F28.c:
+	.text       start:0x00001F28 end:0x00001F9C
+
+rel/sel/sel/fn_10_21EC.c:
+	.text       start:0x000021EC end:0x00003268
+
+rel/sel/sel/fn_10_3268.c:
+	.text       start:0x00003268 end:0x00003350
+
+rel/sel/sel/fn_10_3954.c:
+	.text       start:0x00003954 end:0x00003A98
+
+rel/sel/sel/fn_10_3A98.c:
+	.text       start:0x00003A98 end:0x00003B44
+
+rel/sel/sel/fn_10_3D64.c:
+	.text       start:0x00003D64 end:0x00003DE0
+
+rel/sel/sel/fn_10_3DE0.c:
+	.text       start:0x00003DE0 end:0x00003F54
+
+rel/sel/sel/fn_10_436C.c:
+	.text       start:0x0000436C end:0x00004568
+
+rel/sel/sel/fn_10_4600.c:
+	.text       start:0x00004600 end:0x0000472C
+
+rel/sel/sel/fn_10_472C.c:
+	.text       start:0x0000472C end:0x00004790
+
+rel/sel/sel/fn_10_4838.c:
+	.text       start:0x00004838 end:0x00004A84
+
+rel/sel/sel/fn_10_4A84.c:
+	.text       start:0x00004A84 end:0x00004AE0
+
+rel/sel/sel/fn_10_51CC.c:
+	.text       start:0x000051EC end:0x00005250
+
+rel/sel/sel/fn_10_578C.c:
+	.text       start:0x000057AC end:0x00005EB4
+
+rel/sel/sel/fn_10_5E94.c:
+	.text       start:0x00005EB4 end:0x00006538
+
+rel/sel/sel/fn_10_73AC.c:
+	.text       start:0x000073CC end:0x0000759C
+
+rel/sel/sel/fn_10_7E84.c:
+	.text       start:0x00007EA4 end:0x00007FE0
+
+rel/sel/sel/fn_10_83C0.c:
+	.text       start:0x000083E0 end:0x000084FC
+
+rel/sel/sel/fn_10_84DC.c:
+	.text       start:0x000084FC end:0x00008558
+
+rel/sel/sel/fn_10_8538.c:
+	.text       start:0x00008558 end:0x00008620
+
+rel/sel/sel/fn_10_8800.c:
+	.text       start:0x00008820 end:0x00008890
+
+rel/sel/sel/fn_10_8930.c:
+	.text       start:0x00008950 end:0x00008ACC
+
+rel/sel/sel/fn_10_8AAC.c:
+	.text       start:0x00008ACC end:0x00008B2C
+
+rel/sel/sel/fn_10_8BB8.c:
+	.text       start:0x00008BD8 end:0x00008DB0
+
+rel/sel/sel/fn_10_8D90.c:
+	.text       start:0x00008DB0 end:0x00008E1C
+
+rel/sel/sel/fn_10_8F0C.c:
+	.text       start:0x00008F2C end:0x00009174
+
+rel/sel/sel/fn_10_9154.c:
+	.text       start:0x00009174 end:0x00009208
+
+rel/sel/sel/fn_10_91E8.c:
+	.text       start:0x00009208 end:0x0000926C
+
+rel/sel/sel/fn_10_924C.c:
+	.text       start:0x0000926C end:0x000094AC
+
+rel/sel/sel/fn_10_948C.c:
+	.text       start:0x000094AC end:0x000095C0
+
+rel/sel/sel/fn_10_95A0.c:
+	.text       start:0x000095C0 end:0x00009718
+
+rel/sel/sel/fn_10_96F8.c:
+	.text       start:0x00009718 end:0x000097A8
+
+rel/sel/sel/fn_10_9788.c:
+	.text       start:0x000097A8 end:0x0000A108
+
+rel/sel/sel/fn_10_A0E8.c:
+	.text       start:0x0000A108 end:0x0000A27C
+
+rel/sel/sel/fn_10_A25C.c:
+	.text       start:0x0000A27C end:0x0000A4A0
+
+rel/sel/sel/fn_10_A480.c:
+	.text       start:0x0000A4A0 end:0x0000A654
+
+rel/sel/sel/fn_10_A634.c:
+	.text       start:0x0000A654 end:0x0000A7FC
+
+rel/sel/sel/fn_10_A7DC.c:
+	.text       start:0x0000A7FC end:0x0000A92C
+
+rel/sel/sel/fn_10_A90C.c:
+	.text       start:0x0000A92C end:0x0000ABB8
+
+rel/sel/sel/fn_10_AB98.c:
+	.text       start:0x0000ABB8 end:0x0000AE34
+
+rel/sel/sel/fn_10_AE14.c:
+	.text       start:0x0000AE34 end:0x0000B2E8
+
+rel/sel/sel/fn_10_C210.c:
+	.text       start:0x0000C230 end:0x0000C278
+
+rel/sel/sel/fn_10_C258.c:
+	.text       start:0x0000C278 end:0x0000C294
+
+rel/sel/sel/fn_10_C2BC.c:
+	.text       start:0x0000C2DC end:0x0000C348
+
+rel/sel/sel/fn_10_C49C.c:
+	.text       start:0x0000C4BC end:0x0000C5B4
+
+rel/sel/sel/fn_10_C594.c:
+	.text       start:0x0000C5B4 end:0x0000C600
+
+rel/sel/sel/fn_10_C5E0.c:
+	.text       start:0x0000C600 end:0x0000C674
+
+rel/sel/sel/fn_10_C654.c:
+	.text       start:0x0000C674 end:0x0000C6A4
+
+rel/sel/sel/fn_10_C684.c:
+	.text       start:0x0000C6A4 end:0x0000C6B4
+
+rel/sel/sel/fn_10_C694.c:
+	.text       start:0x0000C6B4 end:0x0000C6C4
+
+rel/sel/sel/fn_10_C6A4.c:
+	.text       start:0x0000C6C4 end:0x0000C8C8
+
+rel/sel/sel/fn_10_C8A8.c:
+	.text       start:0x0000C8C8 end:0x0000C904
+
+rel/sel/sel/fn_10_C8E4.c:
+	.text       start:0x0000C904 end:0x0000C974
+
+rel/sel/sel/fn_10_C958.c:
+	.text       start:0x0000C978 end:0x0000C9D0
+
+rel/sel/sel/fn_10_C9B0.c:
+	.text       start:0x0000C9D0 end:0x0000CA14
+
+rel/sel/sel/fn_10_C9F8.c:
+	.text       start:0x0000CA18 end:0x0000CA78
+
+rel/sel/sel/fn_10_CA58.c:
+	.text       start:0x0000CA78 end:0x0000CAB0
+
+rel/sel/sel/fn_10_CEC4.c:
+	.text       start:0x0000CEE4 end:0x0000CF50
+
+rel/sel/sel/fn_10_CF30.c:
+	.text       start:0x0000CF50 end:0x0000CF70
+
+rel/sel/sel/fn_10_CF50.c:
+	.text       start:0x0000CF70 end:0x0000CFCC
+
+rel/sel/sel/fn_10_CFAC.c:
+	.text       start:0x0000CFCC end:0x0000CFFC
+
+rel/sel/sel/fn_10_CFDC.c:
+	.text       start:0x0000CFFC end:0x0000D064
+
+rel/sel/sel/fn_10_E034.c:
+	.text       start:0x0000E054 end:0x0000E2B4
+
+rel/sel/sel/fn_10_E294.c:
+	.text       start:0x0000E2B4 end:0x0000E47C
+
+rel/sel/sel/fn_10_FF08.c:
+	.text       start:0x0000FF28 end:0x0000FF74
+
+rel/sel/sel/fn_10_FF54.c:
+	.text       start:0x0000FF74 end:0x00010188
+
+rel/sel/sel/fn_10_107D4.c:
+	.text       start:0x000107F4 end:0x00010C44
+
+rel/sel/sel/fn_10_139E4.c:
+	.text       start:0x00013A04 end:0x00013B44
+
+rel/sel/sel/fn_10_14C84.c:
+	.text       start:0x00014CA4 end:0x00014FFC
+
+rel/sel/sel/fn_10_160BC.c:
+	.text       start:0x000160DC end:0x0001617C
+
+rel/sel/sel/fn_10_18A50.c:
+	.text       start:0x00018A70 end:0x00018C74
+
+rel/sel/sel/fn_10_18DD0.c:
+	.text       start:0x00018DF0 end:0x00019060
+
+rel/sel/sel/fn_10_19290.c:
+	.text       start:0x000192B0 end:0x00019328
+
+rel/sel/sel/fn_10_19308.c:
+	.text       start:0x00019328 end:0x0001975C
+
+rel/sel/sel/fn_10_1973C.c:
+	.text       start:0x0001975C end:0x00019944
+
+rel/sel/sel/fn_10_19924.c:
+	.text       start:0x00019944 end:0x00019CB0
+
+rel/sel/sel/fn_10_19C90.c:
+	.text       start:0x00019CB0 end:0x00019EE8
+
+rel/sel/sel/fn_10_1A458.c:
+	.text       start:0x0001A478 end:0x0001A780
+
+rel/sel/sel/fn_10_1A760.c:
+	.text       start:0x0001A780 end:0x0001A8D0
+
+rel/sel/sel/fn_10_1AD5C.c:
+	.text       start:0x0001AD7C end:0x0001B314
+
+rel/sel/sel/fn_10_1B664.c:
+	.text       start:0x0001B684 end:0x0001B6A4
+
+rel/sel/sel/fn_10_1BCD0.c:
+	.text       start:0x0001BCF0 end:0x0001BFE4
+
+rel/sel/sel/fn_10_1E57C.c:
+	.text       start:0x0001E59C end:0x0001E69C
+
+rel/sel/sel/fn_10_1E6F4.c:
+	.text       start:0x0001E714 end:0x0001E9EC
+
+rel/sel/sel/fn_10_21C20.c:
+	.text       start:0x00021C40 end:0x00021C64
+
+rel/sel/sel/fn_10_21C44.c:
+	.text       start:0x00021C64 end:0x00021DC8
+
+rel/sel/sel/fn_10_21DA8.c:
+	.text       start:0x00021DC8 end:0x00021E50
+
+rel/sel/sel/fn_10_2228C.c:
+	.text       start:0x000222B4 end:0x00022358
+
+rel/sel/sel/fn_10_22760.c:
+	.text       start:0x00022788 end:0x000228A4
+
+rel/sel/sel/fn_10_2287C.c:
+	.text       start:0x000228A4 end:0x000229C0
+
+rel/sel/name_entry/fn_10_25E1C.c:
+	.text       start:0x00025E68 end:0x0002604C
+
+rel/sel/name_entry/fn_10_26000.c:
+	.text       start:0x0002604C end:0x00026120
+
+rel/sel/name_entry/fn_10_260D4.c:
+	.text       start:0x00026120 end:0x00026230
+
+rel/sel/name_entry/fn_10_26434.c:
+	.text       start:0x00026480 end:0x000265A0
