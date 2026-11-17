@@ -91,7 +91,9 @@ class Project:
         self.version = version
         self.config_dir = ROOT / "config" / version
         self.build_dir = ROOT / "build" / version
-        self.units_path = self.config_dir / "units.json"
+        # one unit list for every version; other versions read `versions[<VERSION>]` as status
+        self.units_path = ROOT / "config" / DEFAULT_VERSION / "units.json"
+        self.is_canonical = version == DEFAULT_VERSION
         self._modules: Optional[List[str]] = None
         self._symbols: Dict[str, Dict[str, Symbol]] = {}
         self._asm_index: Dict[str, Dict[str, Function]] = {}
@@ -604,16 +606,30 @@ class Project:
 
     # -------------------------------------------------------------------- units
     def load_units(self) -> List[dict]:
-        """units.json, parsed once per file version (every check used to re-read it)."""
+        """units.json, parsed once per file version (every check used to re-read it).
+
+        For a version other than GFZE01: only units with `versions[<VERSION>]`, with that
+        value as `status`."""
         if not self.units_path.exists():
             return []
         stamp = self.units_path.stat().st_mtime_ns
         cache = self.__dict__.setdefault("_units_cache", None)
         if cache and cache[0] == stamp:
-            return json.loads(cache[1])  # a fresh copy: callers mutate and save the list
+            return self._for_version(json.loads(cache[1]))  # a fresh copy: callers mutate and save the list
         text = self.units_path.read_text()
         self.__dict__["_units_cache"] = (stamp, text)
-        return json.loads(text)
+        return self._for_version(json.loads(text))
+
+    def _for_version(self, units: List[dict]) -> List[dict]:
+        if self.is_canonical:
+            return units
+        out = []
+        for u in units:
+            status = (u.get("versions") or {}).get(self.version)
+            if status:
+                u["status"] = status
+                out.append(u)
+        return out
 
     def unit_record(self, unit_source: str) -> Optional[dict]:
         """units.json entry for a split unit name (the `source` field), if configured."""
@@ -647,16 +663,30 @@ class Project:
         return STATE_DIR / "work" / (key.replace(":", "__") + ".c")
 
     def load_units(self) -> List[dict]:
-        """units.json, parsed once per file version (every check used to re-read it)."""
+        """units.json, parsed once per file version (every check used to re-read it).
+
+        For a version other than GFZE01: only units with `versions[<VERSION>]`, with that
+        value as `status`."""
         if not self.units_path.exists():
             return []
         stamp = self.units_path.stat().st_mtime_ns
         cache = self.__dict__.setdefault("_units_cache", None)
         if cache and cache[0] == stamp:
-            return json.loads(cache[1])  # a fresh copy: callers mutate and save the list
+            return self._for_version(json.loads(cache[1]))  # a fresh copy: callers mutate and save the list
         text = self.units_path.read_text()
         self.__dict__["_units_cache"] = (stamp, text)
-        return json.loads(text)
+        return self._for_version(json.loads(text))
+
+    def _for_version(self, units: List[dict]) -> List[dict]:
+        if self.is_canonical:
+            return units
+        out = []
+        for u in units:
+            status = (u.get("versions") or {}).get(self.version)
+            if status:
+                u["status"] = status
+                out.append(u)
+        return out
 
     def unit_record(self, unit_source: str) -> Optional[dict]:
         """units.json entry for a split unit name (the `source` field), if configured."""
@@ -668,6 +698,9 @@ class Project:
         return idx[1].get(unit_source)
 
     def save_units(self, units: List[dict]) -> None:
+        if not self.is_canonical:
+            raise RuntimeError(f"{self.version}: units are edited through `versions` in "
+                               f"config/{DEFAULT_VERSION}/units.json")
         units.sort(key=lambda u: (u["module"], u["source"]))
         tmp = self.units_path.with_suffix(".json.tmp")
         tmp.write_text(json.dumps(units, indent=2) + "\n")

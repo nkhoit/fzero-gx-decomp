@@ -44,7 +44,11 @@
     "status": "matching",
     "mw_version": "GC/1.3.2",
     "extra_cflags": [],
-    "tu": "rel/car_colchg/car_colchg.c"
+    "tu": "rel/car_colchg/car_colchg.c",
+    "versions": {
+      "GFZJ01": "matching",
+      "GFZP01": "matching"
+    }
   },
   {
     "module": "customize",
